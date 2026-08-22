@@ -2,6 +2,14 @@
 
 > 这是供外部深度分析使用的公开源码快照。仓库不包含游戏本体、Easy 二进制、存档、构建产物或未脱敏的本机日志。建议按 [OPEN-ISSUES.md](OPEN-ISSUES.md) → [STATE.md](STATE.md) → [docs/PRD.md](docs/PRD.md) → `diagnostics/` 的顺序阅读。
 
+仓库导航：
+
+- 当前生产路径：`src/San9AutoDomestic.UI`、`src/San9AutoDomestic.Adapter.San9Pk101`、`src/San9AutoDomestic.Core`、`native/San9BridgeP1EasyPingM2b`。
+- 冻结依赖：`native/San9BridgeP1Wire`、`native/San9BridgeP1EasyPing`、`native/San9BridgeP1EasyPingM2`。
+- 历史/废弃路线：`native/San9BridgeV*`、`prototypes/`、`src/San9AutoDomestic.Input.Win32`，仅用于追溯，不代表当前产品设计。
+- `docs/archive/` 已作废且可能与当前状态冲突，只能作为历史证据；当前事实以 `STATE.md` 为准。
+- `config/default.json` 中的旧 `cityScope=direct_cities` 不代表当前执行边界；当前只支持用户在游戏中原生绑定的当前城市。
+
 `San9AutoDomestic` is an external helper for the exact 32-bit San9 PK 1.01 build described in [docs/PRD.md](docs/PRD.md). The resident UI currently provides exact-target diagnostics and config-driven **read-only** previews. Its `基础内政` and `有钱内政` profile buttons are permanently disabled and labelled `无感执行开发中·未开放`; they cannot authorize or reach mouse, keyboard, memory-write, injection, or game-command submission code.
 
 The former visible-row Win32 input prototype has been retired from the product route. Its source may remain as historical/offline research, but the production UI has no project or assembly reference to it, the root build does not compile or test it, and the strict staging allowlist rejects its DLL, runner, or any unexpected artifact. The target execution architecture is an Easy-compatible, in-process native main-thread bridge with no foreground input; that capability is not yet open.
