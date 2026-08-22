@@ -49,12 +49,41 @@ jobs:
           @'
           import base64
           import gzip
+          import hashlib
+          import zlib
           from pathlib import Path
 
           source = Path('.github/scripts/apply_s8_fix.py.gz.b64')
           target = Path('.github/scripts/apply_s8_fix.decoded.py')
-          encoded = ''.join(source.read_text(encoding='ascii').split())
-          target.write_bytes(gzip.decompress(base64.b64decode(encoded, validate=True)))
+          raw = source.read_bytes()
+          print(f'source_size={len(raw)} source_sha256={hashlib.sha256(raw).hexdigest()}')
+
+          text = raw.decode('utf-8-sig')
+          encoded = ''.join(text.split())
+          encoded += '=' * (-len(encoded) % 4)
+          payload = base64.b64decode(encoded, validate=False)
+          print(
+              f'payload_size={len(payload)} '
+              f'payload_magic={payload[:16].hex()} '
+              f'payload_sha256={hashlib.sha256(payload).hexdigest()}'
+          )
+
+          if payload.startswith(b'\x1f\x8b'):
+              decoded = gzip.decompress(payload)
+              codec = 'gzip'
+          elif payload.startswith((b'\x78\x01', b'\x78\x5e', b'\x78\x9c', b'\x78\xda')):
+              decoded = zlib.decompress(payload)
+              codec = 'zlib'
+          else:
+              decoded = payload
+              codec = 'raw'
+
+          print(
+              f'codec={codec} decoded_size={len(decoded)} '
+              f'decoded_magic={decoded[:16].hex()} '
+              f'decoded_sha256={hashlib.sha256(decoded).hexdigest()}'
+          )
+          target.write_bytes(decoded)
           '@ | python -
           python -m py_compile .github/scripts/apply_s8_fix.decoded.py
 
