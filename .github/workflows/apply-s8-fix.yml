@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - fix/s8-cross-step-bound-city
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -22,6 +25,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: fix/s8-cross-step-bound-city
 
       - name: Install pinned Python
         uses: actions/setup-python@v5
@@ -120,6 +124,7 @@ jobs:
           git status --short
 
       - name: Commit verified repair
+        if: github.event_name == 'push'
         shell: pwsh
         run: |
           git config user.name 'github-actions[bot]'
