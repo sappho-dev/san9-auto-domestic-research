@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{39282BC8-1D33-4C51-A06F-D339F76D5B04}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>San9AutoDomestic.Input.Win32</RootNamespace>
+    <AssemblyName>San9AutoDomestic.Input.Win32</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>5</LangVersion>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\San9AutoDomestic.Adapter.San9Pk101\San9AutoDomestic.Adapter.San9Pk101.csproj">
+      <Project>{1299B9A5-99F2-4828-94B8-FE9ED41BD2C7}</Project>
+      <Name>San9AutoDomestic.Adapter.San9Pk101</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TargetedHoverModels.cs" />
+    <Compile Include="DomesticExecutionModels.cs" />
+    <Compile Include="DomesticPlanExecutionModels.cs" />
+    <Compile Include="AllDirectCitiesDomesticPlanModels.cs" />
+    <Compile Include="DomesticExecutionBatchLease.cs" />
+    <Compile Include="DomesticExecutionObservationSource.cs" />
+    <Compile Include="SingleCityDomesticExecutor.cs" />
+    <Compile Include="SingleCityDomesticPlanExecutor.cs" />
+    <Compile Include="AllDirectCitiesDomesticPlanExecutor.cs" />
+    <Compile Include="Win32DomesticActionTransport.cs" />
+    <Compile Include="ManualInputTraceRecorder.cs" />
+    <Compile Include="ManualInputTraceEvidence.cs" />
+    <Compile Include="San9Pk101TargetedInputHand.cs" />
+    <Compile Include="Win32TargetedWindowTransport.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

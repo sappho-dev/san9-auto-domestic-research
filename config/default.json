@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "id": "basic",
+      "displayName": "基础内政",
+      "enabled": true,
+      "tasks": [
+        {
+          "command": "commerce",
+          "enabled": true,
+          "minOfficers": 5,
+          "maxOfficers": 5,
+          "requireExactCount": true,
+          "selectionPolicy": "native_best"
+        },
+        {
+          "command": "cultivate",
+          "enabled": true,
+          "minOfficers": 5,
+          "maxOfficers": 5,
+          "requireExactCount": true,
+          "selectionPolicy": "native_best"
+        }
+      ]
+    },
+    {
+      "id": "wealthy",
+      "displayName": "有钱内政",
+      "enabled": true,
+      "tasks": [
+        {
+          "command": "patrol",
+          "enabled": true,
+          "minOfficers": 5,
+          "maxOfficers": 5,
+          "requireExactCount": true,
+          "selectionPolicy": "native_best"
+        },
+        {
+          "command": "commerce",
+          "enabled": true,
+          "minOfficers": 5,
+          "maxOfficers": 5,
+          "requireExactCount": true,
+          "selectionPolicy": "native_best"
+        },
+        {
+          "command": "cultivate",
+          "enabled": true,
+          "minOfficers": 5,
+          "maxOfficers": 5,
+          "requireExactCount": true,
+          "selectionPolicy": "native_best"
+        },
+        {
+          "command": "train",
+          "enabled": true,
+          "minOfficers": 5,
+          "maxOfficers": 5,
+          "requireExactCount": true,
+          "selectionPolicy": "native_best"
+        },
+        {
+          "command": "repair",
+          "enabled": true,
+          "minOfficers": 5,
+          "maxOfficers": 5,
+          "requireExactCount": true,
+          "selectionPolicy": "native_best"
+        }
+      ]
+    }
+  ],
+  "cityScope": "direct_cities",
+  "cityOrder": "game_id_asc",
+  "reserveMoney": 0,
+  "dryRunByDefault": true
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB3942DF-C8DB-45B5-AFDD-C7E2B1866FDD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>San9AutoDomestic.V8Transaction.SelfTest</RootNamespace>
+    <AssemblyName>San9AutoDomestic.V8Transaction.SelfTest</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>5</LangVersion>
+    <Deterministic>true</Deterministic>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;V8_SELF_TEST</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;V8_SELF_TEST</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="SyntheticTransactionTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\src\AbortCleanup.cs"><Link>Source\AbortCleanup.cs</Link></Compile>
+    <Compile Include="..\src\ActionIntent.cs"><Link>Source\ActionIntent.cs</Link></Compile>
+    <Compile Include="..\src\CleanupProtocol.cs"><Link>Source\CleanupProtocol.cs</Link></Compile>
+    <Compile Include="..\src\CommandDescriptorRegistry.cs"><Link>Source\CommandDescriptorRegistry.cs</Link></Compile>
+    <Compile Include="..\src\FixedDigest.cs"><Link>Source\FixedDigest.cs</Link></Compile>
+    <Compile Include="..\src\InMemoryFakeTransport.cs"><Link>Source\InMemoryFakeTransport.cs</Link></Compile>
+    <Compile Include="..\src\NativeCallbackContracts.cs"><Link>Source\NativeCallbackContracts.cs</Link></Compile>
+    <Compile Include="..\src\ProcessGenerationCoordinator.cs"><Link>Source\ProcessGenerationCoordinator.cs</Link></Compile>
+    <Compile Include="..\src\ProtocolModels.cs"><Link>Source\ProtocolModels.cs</Link></Compile>
+    <Compile Include="..\src\SingleCommandRequest.cs"><Link>Source\SingleCommandRequest.cs</Link></Compile>
+    <Compile Include="..\src\SyntheticEvidence.cs"><Link>Source\SyntheticEvidence.cs</Link></Compile>
+    <Compile Include="..\src\SyntheticSingleCommandStateMachine.cs"><Link>Source\SyntheticSingleCommandStateMachine.cs</Link></Compile>
+    <Compile Include="..\src\TrustedClock.cs"><Link>Source\TrustedClock.cs</Link></Compile>
+    <Compile Include="..\src\TrustedPostSnapshot.cs"><Link>Source\TrustedPostSnapshot.cs</Link></Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

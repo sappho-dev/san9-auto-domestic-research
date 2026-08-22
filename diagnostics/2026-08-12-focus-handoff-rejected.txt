@@ -1,0 +1,8 @@
+2026-08-11T23:12:48.9321089+00:00	SESSION_START	ui_pid=29772 profile=Wealthy
+2026-08-11T23:12:48.9362405+00:00	UI_FRESH_V2_REQUESTED	profile=Wealthy; same_pid_save_state_not_reused=true
+2026-08-11T23:12:49.2354878+00:00	UI_FRESH_V2_ACCEPTED	profile=Wealthy
+2026-08-11T23:12:49.2389994+00:00	UI_WRITE_CONFIRM_SHOWN	profile=Wealthy
+2026-08-11T23:12:50.8911009+00:00	UI_WRITE_CONFIRM_APPROVED	controller_may_start=true
+2026-08-11T23:12:50.8947088+00:00	UI_FRESH_INSPECT_REQUIRED	previous_v2_not_authoritative=true; fresh_inspect_before_batch=true
+2026-08-11T23:12:50.9067834+00:00	GAME_FOCUS_HANDOFF_BEGIN	user_initiated=true; controller_started=false
+2026-08-11T23:12:50.9140400+00:00	GAME_FOCUS_HANDOFF_REJECTED	controller_started=false; error=Windows 未允许把精确游戏窗口切到前台。

@@ -1,0 +1,8 @@
+LIBRARY San9BridgeV51
+EXPORTS
+    San9Bridge_GetMsgProc=San9Bridge_GetMsgProc@12
+    San9Bridge_ForegroundIdleProc=San9Bridge_ForegroundIdleProc@12
+    San9Bridge_IdleBridge=@San9Bridge_IdleBridge@12
+    San9Bridge_Bootstrap=San9Bridge_Bootstrap
+    San9Bridge_GetContract=San9Bridge_GetContract
+    San9Bridge_OfflineSelfTest=San9Bridge_OfflineSelfTest

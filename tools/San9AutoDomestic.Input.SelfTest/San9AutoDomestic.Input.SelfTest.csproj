@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0594DC76-EBC1-4FC4-9E41-F9CFF882F335}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>San9AutoDomestic.Input.SelfTest</RootNamespace>
+    <AssemblyName>San9AutoDomestic.Input.SelfTest</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>5</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\San9AutoDomestic.Adapter.San9Pk101\San9AutoDomestic.Adapter.San9Pk101.csproj">
+      <Project>{1299B9A5-99F2-4828-94B8-FE9ED41BD2C7}</Project>
+      <Name>San9AutoDomestic.Adapter.San9Pk101</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\San9AutoDomestic.Input.Win32\San9AutoDomestic.Input.Win32.csproj">
+      <Project>{39282BC8-1D33-4C51-A06F-D339F76D5B04}</Project>
+      <Name>San9AutoDomestic.Input.Win32</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="ManualInputTraceSyntheticTests.cs" />
+    <Compile Include="DomesticExecutorSyntheticTests.cs" />
+    <Compile Include="DomesticPlanExecutorSyntheticTests.cs" />
+    <Compile Include="AllDirectCitiesDomesticPlanSyntheticTests.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

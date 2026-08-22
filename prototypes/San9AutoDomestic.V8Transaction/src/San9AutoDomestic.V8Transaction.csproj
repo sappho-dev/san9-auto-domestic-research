@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C2BF913-3C65-4FFB-BD7C-BAB91DD34492}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>San9AutoDomestic.V8Transaction</RootNamespace>
+    <AssemblyName>San9AutoDomestic.V8Transaction</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>5</LangVersion>
+    <Deterministic>true</Deterministic>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbortCleanup.cs" />
+    <Compile Include="ActionIntent.cs" />
+    <Compile Include="CommandDescriptorRegistry.cs" />
+    <Compile Include="CleanupProtocol.cs" />
+    <Compile Include="FixedDigest.cs" />
+    <Compile Include="InMemoryFakeTransport.cs" />
+    <Compile Include="NativeCallbackContracts.cs" />
+    <Compile Include="ProtocolModels.cs" />
+    <Compile Include="SingleCommandRequest.cs" />
+    <Compile Include="ProcessGenerationCoordinator.cs" />
+    <Compile Include="SyntheticEvidence.cs" />
+    <Compile Include="SyntheticSingleCommandStateMachine.cs" />
+    <Compile Include="TrustedClock.cs" />
+    <Compile Include="TrustedPostSnapshot.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

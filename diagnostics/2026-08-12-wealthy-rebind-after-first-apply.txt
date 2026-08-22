@@ -1,0 +1,37 @@
+2026-08-11T23:13:00.0610358+00:00	SESSION_START	ui_pid=29772 profile=Wealthy
+2026-08-11T23:13:00.0640692+00:00	UI_FRESH_V2_REQUESTED	profile=Wealthy; same_pid_save_state_not_reused=true
+2026-08-11T23:13:00.3600321+00:00	UI_FRESH_V2_ACCEPTED	profile=Wealthy
+2026-08-11T23:13:00.3620316+00:00	UI_WRITE_CONFIRM_SHOWN	profile=Wealthy
+2026-08-11T23:13:03.8584946+00:00	UI_WRITE_CONFIRM_APPROVED	controller_may_start=true
+2026-08-11T23:13:03.8614111+00:00	UI_FRESH_INSPECT_REQUIRED	previous_v2_not_authoritative=true; fresh_inspect_before_batch=true
+2026-08-11T23:13:03.8693633+00:00	GAME_FOCUS_HANDOFF_BEGIN	user_initiated=true; controller_started=false
+2026-08-11T23:13:03.8766187+00:00	GAME_FOCUS_HANDOFF_COMPLETE	pid=33720; hwnd=0xAF0FB2; exact_generation=true
+2026-08-11T23:13:03.9436511+00:00	UI_WINDOW_MINIMIZE_REQUESTED	state=Minimized; reason=exact_game_focus_handoff_complete
+2026-08-11T23:13:03.9839214+00:00	INSPECT_BEGIN	正在检查原生运行环境和目标游戏。面板日志：<REPO>\tools\artifacts\bin\logs\native-batch-session.log
+2026-08-11T23:13:03.9961013+00:00	INSPECT_PROCESS_STARTING	正在启动隐藏的只读 inspect 进程。没有加载批次 Bridge。
+2026-08-11T23:13:04.0398405+00:00	INSPECT_PROCESS_STARTED	只读 inspect 已启动，controller_pid=38416
+2026-08-11T23:13:04.1543185+00:00	INSPECT_STDOUT	{"mode":"inspect","ready":true,"status":"OK","game_pid":33720,"main_tid":42024,"game_hwnd":11472818,"loader_pid":35124,"game_generation":134309635449108290,"loader_generation":134309635437934036,"easy_base":150470656,"easy_state":9,"stable_snapshot":1,"installed_redirects":32,"original_redirects":0,"unknown_redirects":0,"detail_flags":0,"first_failure_point":4294967295,"page_base":6406144,"page_size":192512,"page_state":4096,"page_protection":4,"page_allocation_base":4194304,"page_allocation_protection":128,"page_type":16777216,"live_authorized":false,"snapshot_sha256":"E67C473416CA8F2B8E66113A2EA319EB2A2522E1A72B36FC0506765407C8BD57"}
+2026-08-11T23:13:04.1709997+00:00	INSPECT_EXIT	exit=0
+2026-08-11T23:13:04.1733252+00:00	INSPECT_READY	原生 inspect 已通过，准备启动所选批次。
+2026-08-11T23:13:04.1773258+00:00	BATCH_BEGIN	正在启动 Wealthy 原生批次。日志：<REPO>\tools\artifacts\bin\logs\native-batch-session.log
+2026-08-11T23:13:04.1848353+00:00	BATCH_PROCESS_STARTING	正在启动隐藏的批次 controller。
+2026-08-11T23:13:04.2006611+00:00	BATCH_PROCESS_STARTED	批次 controller 已启动，controller_pid=38428
+2026-08-11T23:13:04.4375966+00:00	CONTROLLER_STDOUT	{"mode":"s8-wealthy-batch","phase":"WAITING_FOR_USER_MENU_SIGNAL","game_pid":33720}
+2026-08-11T23:13:04.4405982+00:00	WAITING_FOR_USER_MENU_SIGNAL	controller 正在等待：请打开当前城市菜单并完成第二次确认。
+2026-08-11T23:13:04.4425990+00:00	MENU_CONFIRM_CALLBACK_BEGIN	waiting=true
+2026-08-11T23:13:04.4457229+00:00	UI_MENU_CONFIRM_REQUESTED	invoke_pending=true
+2026-08-11T23:13:04.4507244+00:00	UI_MENU_CONFIRM_SHOWN	waiting_for_user=true
+2026-08-11T23:13:04.5445163+00:00	UI_WINDOW_RESTORED_FOR_MENU	window_state=Normal; was_minimized=True
+2026-08-11T23:13:11.9237279+00:00	UI_MENU_CONFIRM_APPROVED	approved=True
+2026-08-11T23:13:11.9258490+00:00	MENU_CONFIRM_APPROVED	approved=True
+2026-08-11T23:13:11.9281849+00:00	MENU_SIGNAL_WRITE_BEGIN	OPEN_CURRENT_CITY_MENU
+2026-08-11T23:13:11.9309007+00:00	MENU_SIGNAL_SENT	唯一菜单继续信号已写入并 Flush；等待原生批次结果。
+2026-08-11T23:13:11.9330644+00:00	CONTROLLER_STDOUT	{"mode":"s8-wealthy-batch","phase":"STEP_REQUEST_PUBLISHED","native_id":0,"trigger":"menu","city":46,"corps":1,"top5":[278,213,463,621,129]}
+2026-08-11T23:13:13.5408441+00:00	CONTROLLER_STDOUT	{"mode":"s8-wealthy-batch","phase":"BATCH_REBIND_REQUIRED","executed":1,"skipped":0}
+2026-08-11T23:13:13.5416211+00:00	CONTROLLER_STDERR	{"mode":"s5-no-apply","phase":"FAILURE_SHARED_SNAPSHOT","stage":"cleanup_pre_unhook","now_ms":247347296,"deadline_ms":247350687,"bootstrap_state":6,"bootstrap_result":0,"terminal_state":6,"machine_state":8,"first_fault":0,"machine_event":1,"machine_shadow":1,"machine_execute":1,"machine_restore":1,"machine_apply":1,"evidence_restart":0,"evidence_event":1,"evidence_shadow":1,"evidence_execute":1,"evidence_restore":1,"evidence_apply":1,"evidence_menu_wake":1,"evidence_menu_restore":1,"evidence_ack":1,"menu_state":8,"menu_wake_post":1,"menu_hook_entry":1,"menu_exact_wake":1,"menu_duplicate":0,"menu_shadow_arm":1,"menu_entry_claim":1,"menu_restore":1,"menu_original_return":1,"menu_start":1,"menu_restart":0}
+2026-08-11T23:13:13.5436392+00:00	CONTROLLER_STDOUT	{"mode":"s8-wealthy-batch","result":23,"game_pid":33720,"state":8,"restart_required":0,"event":1,"shadow":1,"execute":1,"restore":1,"menu_wake":1,"menu_restore":1,"apply":1,"controller_ack":1,"probe_start":0,"probe_end":3,"probe_original":3,"probe_outer":3,"probe_nested":0,"probe_rejects":0}
+2026-08-11T23:13:13.5701828+00:00	BATCH_PROCESS_EXIT	exit=23
+2026-08-11T23:13:13.5722172+00:00	BATCH_FINAL	state=RebindRequired exit=23 executed=0 skipped=0 rebind=True restart=True error=
+2026-08-11T23:13:13.6322320+00:00	UI_WINDOW_RESTORED_ON_COMPLETION	window_state=Normal; was_minimized=False
+2026-08-11T23:13:13.6999188+00:00	GAME_RESTART_REQUIRED_LATCHED	pid=33720; reason=批次 controller 已启动，Bridge 可能仍驻留；本次失败后必须完全重启游戏。
+2026-08-11T23:13:13.7533397+00:00	UI_FINAL_FAILURE	批次 controller 已启动，Bridge 可能仍驻留；本次失败后必须完全重启游戏。

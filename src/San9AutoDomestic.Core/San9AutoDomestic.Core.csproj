@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F1B0BE71-24D1-45FC-9430-5E16913CCAD4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>San9AutoDomestic.Core</RootNamespace>
+    <AssemblyName>San9AutoDomestic.Core</AssemblyName>
+    <!-- .NET Framework 4.8 is an in-place CLR 4 update on the target machine. -->
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>5</LangVersion>
+    <FileAlignment>512</FileAlignment>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collections\ReadOnlyMap.cs" />
+    <Compile Include="Configuration\ConfigurationEnums.cs" />
+    <Compile Include="Configuration\ConfigurationFingerprint.cs" />
+    <Compile Include="Configuration\ConfigurationLoader.cs" />
+    <Compile Include="Configuration\ConfigurationModels.cs" />
+    <Compile Include="Configuration\ConfigurationValidation.cs" />
+    <Compile Include="Configuration\ExecutionPlan.cs" />
+    <Compile Include="Domain\GameRules.cs" />
+    <Compile Include="Domain\GameSnapshot.cs" />
+    <Compile Include="Domain\GameSnapshotContext.cs" />
+    <Compile Include="Domain\TrustedSnapshotFactory.cs" />
+    <Compile Include="Execution\BatchRunGate.cs" />
+    <Compile Include="Planning\BatchContext.cs" />
+    <Compile Include="Planning\CityQueueSnapshot.cs" />
+    <Compile Include="Planning\CommandObservationRequest.cs" />
+    <Compile Include="Planning\DomesticPlanner.cs" />
+    <Compile Include="Planning\PlanningResults.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

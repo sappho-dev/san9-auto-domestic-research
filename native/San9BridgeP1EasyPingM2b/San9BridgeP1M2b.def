@@ -1,0 +1,5 @@
+LIBRARY San9BridgeP1M2b
+EXPORTS
+    San9BridgeP1M2b_GetMsgProc=San9BridgeP1M2b_GetMsgProc@12
+    San9BridgeP1M2b_IdleBridge=@San9BridgeP1M2b_IdleBridge@12
+    San9BridgeP1M2b_Contract=San9BridgeP1M2b_Contract

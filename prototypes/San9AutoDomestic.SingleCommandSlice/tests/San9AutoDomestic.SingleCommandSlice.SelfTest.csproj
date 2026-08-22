@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0BBEAF6B-8E48-4329-83E2-71D7685E1D65}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>San9AutoDomestic.SingleCommandSlice.SelfTest</RootNamespace>
+    <AssemblyName>San9AutoDomestic.SingleCommandSlice.SelfTest</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>5</LangVersion>
+    <Deterministic>true</Deterministic>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <StartupObject>San9AutoDomestic.SingleCommandSlice.SelfTest.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\src\San9AutoDomestic.SingleCommandSlice.csproj">
+      <Project>{E3917C7E-37F5-4CE9-9C6B-4A216EB9B9B8}</Project>
+      <Name>San9AutoDomestic.SingleCommandSlice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\San9AutoDomestic.Core\San9AutoDomestic.Core.csproj">
+      <Project>{F1B0BE71-24D1-45FC-9430-5E16913CCAD4}</Project>
+      <Name>San9AutoDomestic.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\San9AutoDomestic.V8Transaction\src\San9AutoDomestic.V8Transaction.csproj">
+      <Project>{8C2BF913-3C65-4FFB-BD7C-BAB91DD34492}</Project>
+      <Name>San9AutoDomestic.V8Transaction</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssertEx.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ShadowSliceTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,9 @@
+LIBRARY San9BridgeV10
+EXPORTS
+    San9BridgeV10_GetContract=San9BridgeV10_GetContract
+    San9BridgeV10_GetCommandDescriptor=San9BridgeV10_GetCommandDescriptor
+    San9BridgeV10_GetStageRoute=San9BridgeV10_GetStageRoute
+    San9BridgeV10_GetCleanupRoute=San9BridgeV10_GetCleanupRoute
+    San9BridgeV10_ValidateRequest=San9BridgeV10_ValidateRequest
+    San9BridgeV10_ComputeRequestFingerprint=San9BridgeV10_ComputeRequestFingerprint
+    San9BridgeV10_OfflineSelfTest=San9BridgeV10_OfflineSelfTest

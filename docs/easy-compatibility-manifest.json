@@ -1,0 +1,1516 @@
+{
+  "schema": "san9-easy-ownership-manifest/v1",
+  "tool_version": "1.0.0",
+  "generated_offline_only": true,
+  "dependencies": {
+    "pefile": "2024.8.26",
+    "capstone": "5.0.7"
+  },
+  "binaries": {
+    "San9PK.exe": {
+      "path_evidence": "D:\\三国志9\\10101749\\San9PK.exe",
+      "size": 2636800,
+      "sha256": "D20794AEFF67301EC2BF8C3BECB1E9944C68C6C0588FBFD4BF04E8597F0E5028",
+      "machine": "IMAGE_FILE_MACHINE_I386",
+      "pe_kind": "PE32",
+      "preferred_image_base": "0x00400000",
+      "size_of_image": "0x01759000"
+    },
+    "San9PKEasy.exe": {
+      "path_evidence": "D:\\三国志9\\10101749\\San9PKEasy.exe",
+      "size": 24576,
+      "sha256": "CDACA1477EDB5A3BD79BDA8540E19837FC3F9170965D972E8E48FB24CAE21C07",
+      "machine": "IMAGE_FILE_MACHINE_I386",
+      "pe_kind": "PE32",
+      "preferred_image_base": "0x00400000",
+      "size_of_image": "0x00006000"
+    },
+    "Easy.dll": {
+      "path_evidence": "D:\\三国志9\\10101749\\Easy.dll",
+      "size": 32768,
+      "sha256": "E8BA3A603F6B0E7AF8A246DA0FE5CBDBA86AD9B77C5A507DD86159EF6C74A3F0",
+      "machine": "IMAGE_FILE_MACHINE_I386",
+      "pe_kind": "PE32",
+      "preferred_image_base": "0x10000000",
+      "size_of_image": "0x00009000"
+    }
+  },
+  "summary": {
+    "redirect_count": 32,
+    "redirect_instruction_counts": {
+      "jmp_rel32": 1,
+      "call_rel32": 29,
+      "call_rel32_nop": 2
+    },
+    "auxiliary_physical_write_count": 6,
+    "unique_physical_write_count": 38,
+    "virtual_protect_transition_count": 1
+  },
+  "easy_hook_table": {
+    "table_rva": "0x00006390",
+    "sentinel": "0x12345678",
+    "pointer_entries": [
+      {
+        "initializer_rva": "0x0000100A",
+        "table_offset": "0x04",
+        "target_rva": "0x00001110"
+      },
+      {
+        "initializer_rva": "0x00001014",
+        "table_offset": "0x08",
+        "target_rva": "0x00001120"
+      },
+      {
+        "initializer_rva": "0x0000101E",
+        "table_offset": "0x0C",
+        "target_rva": "0x000011C0"
+      },
+      {
+        "initializer_rva": "0x00001028",
+        "table_offset": "0x10",
+        "target_rva": "0x000011F0"
+      },
+      {
+        "initializer_rva": "0x00001032",
+        "table_offset": "0x14",
+        "target_rva": "0x00001220"
+      },
+      {
+        "initializer_rva": "0x0000103C",
+        "table_offset": "0x18",
+        "target_rva": "0x00001250"
+      },
+      {
+        "initializer_rva": "0x00001046",
+        "table_offset": "0x1C",
+        "target_rva": "0x00001280"
+      },
+      {
+        "initializer_rva": "0x00001050",
+        "table_offset": "0x20",
+        "target_rva": "0x000012B0"
+      },
+      {
+        "initializer_rva": "0x0000105A",
+        "table_offset": "0x24",
+        "target_rva": "0x000012E0"
+      },
+      {
+        "initializer_rva": "0x00001064",
+        "table_offset": "0x28",
+        "target_rva": "0x00001310"
+      },
+      {
+        "initializer_rva": "0x0000106E",
+        "table_offset": "0x2C",
+        "target_rva": "0x000013E0"
+      },
+      {
+        "initializer_rva": "0x00001078",
+        "table_offset": "0x30",
+        "target_rva": "0x000013F0"
+      },
+      {
+        "initializer_rva": "0x00001082",
+        "table_offset": "0x34",
+        "target_rva": "0x00001410"
+      },
+      {
+        "initializer_rva": "0x0000108C",
+        "table_offset": "0x38",
+        "target_rva": "0x00001430"
+      },
+      {
+        "initializer_rva": "0x00001096",
+        "table_offset": "0x3C",
+        "target_rva": "0x00001450"
+      },
+      {
+        "initializer_rva": "0x000010A0",
+        "table_offset": "0x40",
+        "target_rva": "0x00001470"
+      },
+      {
+        "initializer_rva": "0x000010AA",
+        "table_offset": "0x44",
+        "target_rva": "0x00001490"
+      },
+      {
+        "initializer_rva": "0x000010B4",
+        "table_offset": "0x48",
+        "target_rva": "0x000014B0"
+      },
+      {
+        "initializer_rva": "0x000010BE",
+        "table_offset": "0x4C",
+        "target_rva": "0x000014D0"
+      },
+      {
+        "initializer_rva": "0x000010C8",
+        "table_offset": "0x50",
+        "target_rva": "0x00001580"
+      },
+      {
+        "initializer_rva": "0x000010D2",
+        "table_offset": "0x54",
+        "target_rva": "0x00001620"
+      },
+      {
+        "initializer_rva": "0x000010DC",
+        "table_offset": "0x58",
+        "target_rva": "0x00001640"
+      },
+      {
+        "initializer_rva": "0x000010E6",
+        "table_offset": "0x5C",
+        "target_rva": "0x000016B0"
+      },
+      {
+        "initializer_rva": "0x000010F0",
+        "table_offset": "0x60",
+        "target_rva": "0x000016A0"
+      },
+      {
+        "initializer_rva": "0x000010FA",
+        "table_offset": "0x64",
+        "target_rva": "0x000016D0"
+      }
+    ]
+  },
+  "loader_write_closure": {
+    "write_process_memory": {
+      "import_module": "KERNEL32.dll",
+      "iat_va": "0x0040301C",
+      "iat_rva": "0x0000301C",
+      "iat_reference_sites": [
+        "0x00401787",
+        "0x00401B47",
+        "0x00401CE3",
+        "0x00402351",
+        "0x00402438"
+      ],
+      "groups": {
+        "bootstrap_remote_dll_path": {
+          "count": 1,
+          "call_sites": [
+            "0x00401787"
+          ]
+        },
+        "install_auxiliary": {
+          "count": 4,
+          "call_sites": [
+            "0x00401B5D",
+            "0x00401B76",
+            "0x00401B90",
+            "0x00401BAA"
+          ]
+        },
+        "install_redirects": {
+          "count": 32,
+          "call_sites": [
+            "0x00401D02",
+            "0x00401D2E",
+            "0x00401D5A",
+            "0x00401D86",
+            "0x00401DB2",
+            "0x00401DDE",
+            "0x00401E0A",
+            "0x00401E36",
+            "0x00401E62",
+            "0x00401E8E",
+            "0x00401EBA",
+            "0x00401EE6",
+            "0x00401F12",
+            "0x00401F3E",
+            "0x00401F6A",
+            "0x00401F96",
+            "0x00401FC2",
+            "0x00401FEE",
+            "0x0040201A",
+            "0x00402046",
+            "0x00402072",
+            "0x0040209E",
+            "0x004020CA",
+            "0x004020F6",
+            "0x00402122",
+            "0x0040214E",
+            "0x0040217A",
+            "0x004021A6",
+            "0x004021D2",
+            "0x004021FA",
+            "0x00402222",
+            "0x0040224A"
+          ]
+        },
+        "runtime_training_pair": {
+          "count": 2,
+          "call_sites": [
+            "0x00402362",
+            "0x004023A7"
+          ]
+        },
+        "restore_redirects": {
+          "count": 32,
+          "call_sites": [
+            "0x0040244E",
+            "0x00402464",
+            "0x0040247A",
+            "0x0040248F",
+            "0x004024A5",
+            "0x004024BB",
+            "0x004024D0",
+            "0x004024E6",
+            "0x004024FC",
+            "0x00402511",
+            "0x00402527",
+            "0x0040253D",
+            "0x00402552",
+            "0x00402568",
+            "0x0040257E",
+            "0x00402593",
+            "0x004025A9",
+            "0x004025BF",
+            "0x004025D4",
+            "0x004025EA",
+            "0x00402600",
+            "0x00402615",
+            "0x0040262B",
+            "0x00402641",
+            "0x00402656",
+            "0x0040266C",
+            "0x00402682",
+            "0x00402697",
+            "0x004026AD",
+            "0x004026C3",
+            "0x004026D8",
+            "0x004026EE"
+          ]
+        },
+        "restore_auxiliary": {
+          "count": 5,
+          "call_sites": [
+            "0x00402704",
+            "0x00402719",
+            "0x0040272F",
+            "0x00402745",
+            "0x0040275A"
+          ]
+        }
+      },
+      "static_call_site_count": 76,
+      "ephemeral_non_ownership_calls": 1,
+      "unique_owned_physical_points": 38,
+      "redirect_source_checks": {
+        "install_source_blocks_verified": 32,
+        "restore_source_blocks_verified": 32
+      }
+    },
+    "virtual_protect_ex": {
+      "import_module": "KERNEL32.dll",
+      "iat_va": "0x0040302C",
+      "iat_rva": "0x0000302C",
+      "iat_reference_sites": [
+        "0x00401B34",
+        "0x00402772"
+      ]
+    }
+  },
+  "redirect_writes": [
+    {
+      "id": "redirect-00",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004E6270",
+      "target_rva": "0x000E6270",
+      "instruction_type": "jmp_rel32",
+      "length": 5,
+      "original_hex": "E92B52FEFF",
+      "installed_preferred_base_hex": "E99BAEB10F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E9",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001110",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "multiplayer_exploration.reset_selection",
+      "source": {
+        "loader_descriptor_rva": "0x00004054",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x04",
+        "install_wpm_call_va": "0x00401D02",
+        "restore_wpm_call_va": "0x0040244E"
+      }
+    },
+    {
+      "id": "redirect-01",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x00485DB6",
+      "target_rva": "0x00085DB6",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E845FCFFFF",
+      "installed_preferred_base_hex": "E865B3B70F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001120",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "multiplayer_exploration.apply_each_selected_person",
+      "source": {
+        "loader_descriptor_rva": "0x00004060",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x08",
+        "install_wpm_call_va": "0x00401D2E",
+        "restore_wpm_call_va": "0x00402464"
+      }
+    },
+    {
+      "id": "redirect-02",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x0049575D",
+      "target_rva": "0x0009575D",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E89E02FFFF",
+      "installed_preferred_base_hex": "E8BEB9B60F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001120",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "multiplayer_exploration.apply_each_selected_person",
+      "source": {
+        "loader_descriptor_rva": "0x0000406C",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x08",
+        "install_wpm_call_va": "0x00401D5A",
+        "restore_wpm_call_va": "0x0040247A"
+      }
+    },
+    {
+      "id": "redirect-03",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004EC414",
+      "target_rva": "0x000EC414",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8673F0800",
+      "installed_preferred_base_hex": "E8A74DB10F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000011C0",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.selector_wrapper",
+      "source": {
+        "loader_descriptor_rva": "0x00004078",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x0C",
+        "install_wpm_call_va": "0x00401D86",
+        "restore_wpm_call_va": "0x0040248F"
+      }
+    },
+    {
+      "id": "redirect-04",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004ED0AE",
+      "target_rva": "0x000ED0AE",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8CD320800",
+      "installed_preferred_base_hex": "E83D41B10F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000011F0",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.selector_wrapper",
+      "source": {
+        "loader_descriptor_rva": "0x00004084",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x10",
+        "install_wpm_call_va": "0x00401DB2",
+        "restore_wpm_call_va": "0x004024A5"
+      }
+    },
+    {
+      "id": "redirect-05",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004CF7BB",
+      "target_rva": "0x000CF7BB",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8C00B0A00",
+      "installed_preferred_base_hex": "E8601AB30F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001220",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.selector_wrapper",
+      "source": {
+        "loader_descriptor_rva": "0x00004090",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x14",
+        "install_wpm_call_va": "0x00401DDE",
+        "restore_wpm_call_va": "0x004024BB"
+      }
+    },
+    {
+      "id": "redirect-06",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004EDFAB",
+      "target_rva": "0x000EDFAB",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8D0230800",
+      "installed_preferred_base_hex": "E8A032B10F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001250",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.selector_wrapper",
+      "source": {
+        "loader_descriptor_rva": "0x0000409C",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x18",
+        "install_wpm_call_va": "0x00401E0A",
+        "restore_wpm_call_va": "0x004024D0"
+      }
+    },
+    {
+      "id": "redirect-07",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004E122B",
+      "target_rva": "0x000E122B",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E850F10800",
+      "installed_preferred_base_hex": "E85000B20F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001280",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.selector_wrapper",
+      "source": {
+        "loader_descriptor_rva": "0x000040A8",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x1C",
+        "install_wpm_call_va": "0x00401E36",
+        "restore_wpm_call_va": "0x004024E6"
+      }
+    },
+    {
+      "id": "redirect-08",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004D134B",
+      "target_rva": "0x000D134B",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E830F00900",
+      "installed_preferred_base_hex": "E860FFB20F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000012B0",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.selector_wrapper",
+      "source": {
+        "loader_descriptor_rva": "0x000040B4",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x20",
+        "install_wpm_call_va": "0x00401E62",
+        "restore_wpm_call_va": "0x004024FC"
+      }
+    },
+    {
+      "id": "redirect-09",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004DB3EB",
+      "target_rva": "0x000DB3EB",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8904F0900",
+      "installed_preferred_base_hex": "E8F05EB20F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000012E0",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.selector_wrapper",
+      "source": {
+        "loader_descriptor_rva": "0x000040C0",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x24",
+        "install_wpm_call_va": "0x00401E8E",
+        "restore_wpm_call_va": "0x00402511"
+      }
+    },
+    {
+      "id": "redirect-10",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004DFCAB",
+      "target_rva": "0x000DFCAB",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8D0060900",
+      "installed_preferred_base_hex": "E86016B20F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001310",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.selector_wrapper",
+      "source": {
+        "loader_descriptor_rva": "0x000040CC",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x28",
+        "install_wpm_call_va": "0x00401EBA",
+        "restore_wpm_call_va": "0x00402527"
+      }
+    },
+    {
+      "id": "redirect-11",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004EC3D8",
+      "target_rva": "0x000EC3D8",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8C37AFAFF",
+      "installed_preferred_base_hex": "E80350B10F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000013E0",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x000040D8",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x2C",
+        "install_wpm_call_va": "0x00401EE6",
+        "restore_wpm_call_va": "0x0040253D"
+      }
+    },
+    {
+      "id": "redirect-12",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004ED075",
+      "target_rva": "0x000ED075",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8967EFAFF",
+      "installed_preferred_base_hex": "E87643B10F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000013F0",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x000040E4",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x30",
+        "install_wpm_call_va": "0x00401F12",
+        "restore_wpm_call_va": "0x00402552"
+      }
+    },
+    {
+      "id": "redirect-13",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004D1EA7",
+      "target_rva": "0x000D1EA7",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E804CBFBFF",
+      "installed_preferred_base_hex": "E864F5B20F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001410",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x000040F0",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x34",
+        "install_wpm_call_va": "0x00401F3E",
+        "restore_wpm_call_va": "0x00402568"
+      }
+    },
+    {
+      "id": "redirect-14",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004D16DD",
+      "target_rva": "0x000D16DD",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8CED2FBFF",
+      "installed_preferred_base_hex": "E82EFDB20F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001410",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x000040FC",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x34",
+        "install_wpm_call_va": "0x00401F6A",
+        "restore_wpm_call_va": "0x0040257E"
+      }
+    },
+    {
+      "id": "redirect-15",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004DBE67",
+      "target_rva": "0x000DBE67",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E88449FBFF",
+      "installed_preferred_base_hex": "E8C455B20F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001430",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x00004108",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x38",
+        "install_wpm_call_va": "0x00401F96",
+        "restore_wpm_call_va": "0x00402593"
+      }
+    },
+    {
+      "id": "redirect-16",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004DB77D",
+      "target_rva": "0x000DB77D",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E86E50FBFF",
+      "installed_preferred_base_hex": "E8AE5CB20F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001430",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x00004114",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x38",
+        "install_wpm_call_va": "0x00401FC2",
+        "restore_wpm_call_va": "0x004025A9"
+      }
+    },
+    {
+      "id": "redirect-17",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004E06EA",
+      "target_rva": "0x000E06EA",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8D11FFBFF",
+      "installed_preferred_base_hex": "E8610DB20F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001450",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x00004120",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x3C",
+        "install_wpm_call_va": "0x00401FEE",
+        "restore_wpm_call_va": "0x004025BF"
+      }
+    },
+    {
+      "id": "redirect-18",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004E003D",
+      "target_rva": "0x000E003D",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E87E26FBFF",
+      "installed_preferred_base_hex": "E80E14B20F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001450",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x0000412C",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x3C",
+        "install_wpm_call_va": "0x0040201A",
+        "restore_wpm_call_va": "0x004025D4"
+      }
+    },
+    {
+      "id": "redirect-19",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004D0DFA",
+      "target_rva": "0x000D0DFA",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E821D6FBFF",
+      "installed_preferred_base_hex": "E87106B30F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001470",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x00004138",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x40",
+        "install_wpm_call_va": "0x00402046",
+        "restore_wpm_call_va": "0x004025EA"
+      }
+    },
+    {
+      "id": "redirect-20",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004D068D",
+      "target_rva": "0x000D068D",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E88EDDFBFF",
+      "installed_preferred_base_hex": "E8DE0DB30F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001470",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x00004144",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x40",
+        "install_wpm_call_va": "0x00402072",
+        "restore_wpm_call_va": "0x00402600"
+      }
+    },
+    {
+      "id": "redirect-21",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004D016D",
+      "target_rva": "0x000D016D",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E83ED4FBFF",
+      "installed_preferred_base_hex": "E81E13B30F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001490",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x00004150",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x44",
+        "install_wpm_call_va": "0x0040209E",
+        "restore_wpm_call_va": "0x00402615"
+      }
+    },
+    {
+      "id": "redirect-22",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004CFB0D",
+      "target_rva": "0x000CFB0D",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E89EDAFBFF",
+      "installed_preferred_base_hex": "E87E19B30F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001490",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x0000415C",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x44",
+        "install_wpm_call_va": "0x004020CA",
+        "restore_wpm_call_va": "0x0040262B"
+      }
+    },
+    {
+      "id": "redirect-23",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004EE94D",
+      "target_rva": "0x000EE94D",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8FE78FAFF",
+      "installed_preferred_base_hex": "E85E2BB10F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000014B0",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x00004168",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x48",
+        "install_wpm_call_va": "0x004020F6",
+        "restore_wpm_call_va": "0x00402641"
+      }
+    },
+    {
+      "id": "redirect-24",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004EE34D",
+      "target_rva": "0x000EE34D",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8FE7EFAFF",
+      "installed_preferred_base_hex": "E85E31B10F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000014B0",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x00004174",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x48",
+        "install_wpm_call_va": "0x00402122",
+        "restore_wpm_call_va": "0x00402656"
+      }
+    },
+    {
+      "id": "redirect-25",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004E11F2",
+      "target_rva": "0x000E11F2",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8D91FFBFF",
+      "installed_preferred_base_hex": "E8D902B20F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000014D0",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "advisor_recommendation.candidate_collector",
+      "source": {
+        "loader_descriptor_rva": "0x00004180",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x4C",
+        "install_wpm_call_va": "0x0040214E",
+        "restore_wpm_call_va": "0x0040266C"
+      }
+    },
+    {
+      "id": "redirect-26",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x005CAE0E",
+      "target_rva": "0x001CAE0E",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E8DDFEFFFF",
+      "installed_preferred_base_hex": "E86D67A30F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001580",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "keyboard_shortcuts.window_message_filter",
+      "source": {
+        "loader_descriptor_rva": "0x0000418C",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x50",
+        "install_wpm_call_va": "0x0040217A",
+        "restore_wpm_call_va": "0x00402682"
+      }
+    },
+    {
+      "id": "redirect-27",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x0043308C",
+      "target_rva": "0x0003308C",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E86FCAFEFF",
+      "installed_preferred_base_hex": "E88FE5BC0F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001620",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "keyboard_shortcuts.modal_result_override",
+      "source": {
+        "loader_descriptor_rva": "0x00004198",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x54",
+        "install_wpm_call_va": "0x004021A6",
+        "restore_wpm_call_va": "0x00402697"
+      }
+    },
+    {
+      "id": "redirect-28",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x00510579",
+      "target_rva": "0x00110579",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E882F5F0FF",
+      "installed_preferred_base_hex": "E8C210AF0F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x00001640",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "keyboard_shortcuts.modal_result_override",
+      "source": {
+        "loader_descriptor_rva": "0x000041A4",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x58",
+        "install_wpm_call_va": "0x004021D2",
+        "restore_wpm_call_va": "0x004026AD"
+      }
+    },
+    {
+      "id": "redirect-29",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x0052FA45",
+      "target_rva": "0x0012FA45",
+      "instruction_type": "call_rel32",
+      "length": 5,
+      "original_hex": "E896E5F2FF",
+      "installed_preferred_base_hex": "E8661CAD0F",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000016B0",
+        "trailing_hex": ""
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "unit_formation_appearance.index_remap",
+      "source": {
+        "loader_descriptor_rva": "0x000041B0",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x5C",
+        "install_wpm_call_va": "0x004021FA",
+        "restore_wpm_call_va": "0x004026C3"
+      }
+    },
+    {
+      "id": "redirect-30",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x0043DA3D",
+      "target_rva": "0x0003DA3D",
+      "instruction_type": "call_rel32_nop",
+      "length": 6,
+      "original_hex": "FF150CF35F00",
+      "installed_preferred_base_hex": "E85E3CBC0F90",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000016A0",
+        "trailing_hex": "90"
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "max_corps_food.call_replacement",
+      "source": {
+        "loader_descriptor_rva": "0x000041CC",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x60",
+        "install_wpm_call_va": "0x00402222",
+        "restore_wpm_call_va": "0x004026D8"
+      }
+    },
+    {
+      "id": "redirect-31",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x0045DDA1",
+      "target_rva": "0x0005DDA1",
+      "instruction_type": "call_rel32_nop",
+      "length": 6,
+      "original_hex": "FF150CF35F00",
+      "installed_preferred_base_hex": "E82A39BA0F90",
+      "installed_template": {
+        "encoding": "x86_rel32",
+        "opcode_hex": "E8",
+        "target_module": "Easy.dll",
+        "target_rva": "0x000016D0",
+        "trailing_hex": "90"
+      },
+      "accepted_runtime_states": [
+        "original",
+        "installed_for_exact_easy_base"
+      ],
+      "known_purpose": "max_facility_wounded.call_replacement",
+      "source": {
+        "loader_descriptor_rva": "0x000041D8",
+        "easy_table_rva": "0x00006390",
+        "easy_table_offset": "0x64",
+        "install_wpm_call_va": "0x0040224A",
+        "restore_wpm_call_va": "0x004026EE"
+      }
+    }
+  ],
+  "auxiliary_writes": [
+    {
+      "id": "aux-child-training-a",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x0040CAEF",
+      "target_rva": "0x0000CAEF",
+      "write_type": "immediate_u8",
+      "length": 1,
+      "original_hex": "32",
+      "installed_hex_states": [
+        "32",
+        "00"
+      ],
+      "dynamic_two_state": {
+        "kind": "paired_checkbox_state",
+        "pair_id": "allow_child_training",
+        "allowed_pairs": [
+          "32/32",
+          "00/00"
+        ],
+        "split_pair_is_invalid": true
+      },
+      "accepted_runtime_states": [
+        "32",
+        "00"
+      ],
+      "known_purpose": "allow_child_training.threshold",
+      "source": {
+        "loader_address_rva": "0x000041E8",
+        "loader_original_rva": "0x000041F0",
+        "runtime_wpm_call_va": "0x00402362",
+        "restore_wpm_call_va": "0x00402704"
+      }
+    },
+    {
+      "id": "aux-child-training-b",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x0040BF25",
+      "target_rva": "0x0000BF25",
+      "write_type": "immediate_u8",
+      "length": 1,
+      "original_hex": "32",
+      "installed_hex_states": [
+        "32",
+        "00"
+      ],
+      "dynamic_two_state": {
+        "kind": "paired_checkbox_state",
+        "pair_id": "allow_child_training",
+        "allowed_pairs": [
+          "32/32",
+          "00/00"
+        ],
+        "split_pair_is_invalid": true
+      },
+      "accepted_runtime_states": [
+        "32",
+        "00"
+      ],
+      "known_purpose": "allow_child_training.threshold",
+      "source": {
+        "loader_address_rva": "0x000041EC",
+        "loader_original_rva": "0x000041F0",
+        "runtime_wpm_call_va": "0x004023A7",
+        "restore_wpm_call_va": "0x00402719"
+      }
+    },
+    {
+      "id": "aux-max-corps-food-a",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x0043DA06",
+      "target_rva": "0x0003DA06",
+      "write_type": "immediate_u32_le",
+      "length": 4,
+      "original_hex": "40420F00",
+      "installed_hex": "80969800",
+      "accepted_runtime_states": [
+        "40420F00",
+        "80969800"
+      ],
+      "known_purpose": "max_corps_food.literal_1000000_to_10000000",
+      "source": {
+        "loader_address_rva": "0x000041BC",
+        "loader_original_rva": "0x000041C4",
+        "loader_installed_rva": "0x000041C8",
+        "install_wpm_call_va": "0x00401B90",
+        "restore_wpm_call_va": "0x0040272F"
+      }
+    },
+    {
+      "id": "aux-max-corps-food-b",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x0045AC96",
+      "target_rva": "0x0005AC96",
+      "write_type": "immediate_u32_le",
+      "length": 4,
+      "original_hex": "40420F00",
+      "installed_hex": "80969800",
+      "accepted_runtime_states": [
+        "40420F00",
+        "80969800"
+      ],
+      "known_purpose": "max_corps_food.literal_1000000_to_10000000",
+      "source": {
+        "loader_address_rva": "0x000041C0",
+        "loader_original_rva": "0x000041C4",
+        "loader_installed_rva": "0x000041C8",
+        "install_wpm_call_va": "0x00401BAA",
+        "restore_wpm_call_va": "0x00402745"
+      }
+    },
+    {
+      "id": "aux-ai-counter-barbarians",
+      "owner": "Easy.dll",
+      "target_module": "San9PK.exe",
+      "target_va": "0x004B06B1",
+      "target_rva": "0x000B06B1",
+      "write_type": "short_branch_displacement_u8",
+      "length": 1,
+      "original_hex": "E4",
+      "installed_hex": "00",
+      "accepted_runtime_states": [
+        "E4",
+        "00"
+      ],
+      "known_purpose": "computer_can_counter_barbarian_forces",
+      "source": {
+        "loader_address_rva": "0x000041F4",
+        "loader_original_rva": "0x000041F8",
+        "loader_installed_zero_rva": "0x00004480",
+        "install_wpm_call_va": "0x00401B76",
+        "restore_wpm_call_va": "0x0040275A"
+      }
+    },
+    {
+      "id": "aux-easy-game-hwnd-slot",
+      "owner": "Easy.dll",
+      "target_module": "Easy.dll",
+      "target_rva": "0x00006450",
+      "write_type": "runtime_hwnd_u32_le",
+      "length": 4,
+      "original_hex": "00000000",
+      "installed_template": "exact_bound_game_hwnd_u32_le",
+      "accepted_runtime_states": [
+        "zero_before_install",
+        "exact_bound_game_hwnd"
+      ],
+      "known_purpose": "keyboard_shortcuts.game_window_handle",
+      "source": {
+        "easy_table_rva": "0x00006390",
+        "loader_addend": "0x000000C0",
+        "install_wpm_call_va": "0x00401B5D",
+        "restore_wpm_call_va": null
+      }
+    }
+  ],
+  "page_protection_transitions": [
+    {
+      "id": "page-protection-easy-global-strings",
+      "target_module": "San9PK.exe",
+      "target_va": "0x0061C000",
+      "target_rva": "0x0021C000",
+      "length": 4096,
+      "install_protection": {
+        "name": "PAGE_READWRITE",
+        "value": "0x04"
+      },
+      "restore_protection": {
+        "name": "PAGE_READONLY",
+        "value": "0x02"
+      },
+      "physical_write_point": false,
+      "install_call_va": "0x00401B34",
+      "restore_call_va": "0x00402772",
+      "invariant": "A new bridge must not depend on the page remaining writable."
+    }
+  ],
+  "cross_point_invariants": [
+    {
+      "id": "child-training-pair",
+      "members": [
+        "aux-child-training-a",
+        "aux-child-training-b"
+      ],
+      "allowed_hex_tuples": [
+        [
+          "32",
+          "32"
+        ],
+        [
+          "00",
+          "00"
+        ]
+      ],
+      "other_combinations": "reject"
+    },
+    {
+      "id": "redirect-base-binding",
+      "rule": "Every installed rel32 must resolve into the one exact loaded Easy.dll at its declared target RVA."
+    },
+    {
+      "id": "whole-manifest-atomicity",
+      "rule": "A partial, mixed, unknown, or changed state rejects execution before any bridge write."
+    }
+  ],
+  "conflict_graph": {
+    "scope_warning": "No direct address overlap is not a live coexistence proof.",
+    "idle_candidate_rows": [
+      {
+        "name": "app_idle_slot",
+        "va": "0x00604DF4",
+        "length_used_for_overlap_check": 4,
+        "direct_overlap_with_easy_owned_write": false,
+        "overlaps": []
+      },
+      {
+        "name": "original_idle_function",
+        "va": "0x00434100",
+        "length_used_for_overlap_check": 1,
+        "direct_overlap_with_easy_owned_write": false,
+        "overlaps": []
+      },
+      {
+        "name": "idle_caller_return",
+        "va": "0x005C5D11",
+        "length_used_for_overlap_check": 1,
+        "direct_overlap_with_easy_owned_write": false,
+        "overlaps": []
+      }
+    ],
+    "easy_writable_page_overlap_with_idle_candidates": []
+  }
+}
