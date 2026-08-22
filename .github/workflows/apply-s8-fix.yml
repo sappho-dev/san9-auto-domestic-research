@@ -1,0 +1,138 @@
+name: Apply and verify S8 cross-step binding fix
+
+on:
+  push:
+    branches:
+      - fix/s8-cross-step-bound-city
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-s8-cross-step-bound-city
+  cancel-in-progress: false
+
+jobs:
+  patch-build-test:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: windows-2025
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repair branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install pinned Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.0'
+          architecture: x64
+
+      - name: Install pinned Zig
+        uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+
+      - name: Install exact Python dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --disable-pip-version-check pefile==2024.8.26 capstone==5.0.7
+          $python = (Get-Command python.exe -ErrorAction Stop).Source
+          $zig = (Get-Command zig.exe -ErrorAction Stop).Source
+          Write-Host "python=$python sha=$((Get-FileHash -Algorithm SHA256 -LiteralPath $python).Hash)"
+          Write-Host "zig=$zig sha=$((Get-FileHash -Algorithm SHA256 -LiteralPath $zig).Hash)"
+
+      - name: Decode and apply source patch
+        shell: pwsh
+        run: |
+          $encoded = [IO.File]::ReadAllText('.github/scripts/apply_s8_fix.py.gz.b64')
+          $bytes = [Convert]::FromBase64String(($encoded -replace '\s',''))
+          $input = New-Object IO.MemoryStream(,$bytes)
+          $gzip = New-Object IO.Compression.GZipStream($input, [IO.Compression.CompressionMode]::Decompress)
+          $output = New-Object IO.MemoryStream
+          $gzip.CopyTo($output)
+          $gzip.Dispose()
+          $input.Dispose()
+          [IO.File]::WriteAllBytes((Join-Path $env:RUNNER_TEMP 'apply_s8_fix.py'), $output.ToArray())
+          $output.Dispose()
+          python (Join-Path $env:RUNNER_TEMP 'apply_s8_fix.py') source
+          git diff --check
+
+      - name: Bootstrap deterministic native hashes
+        shell: pwsh
+        run: |
+          $env:NATIVE_OUT = Join-Path $env:RUNNER_TEMP 'san9-native'
+          $env:NATIVE_BOOTSTRAP_LOG = Join-Path $env:RUNNER_TEMP 'native-bootstrap.log'
+          $caught = $null
+          try {
+            & .\native\San9BridgeP1EasyPingM2b\build.ps1 -ArtifactRoot $env:NATIVE_OUT *>&1 |
+              Tee-Object -FilePath $env:NATIVE_BOOTSTRAP_LOG
+          }
+          catch {
+            $caught = $_
+            $_ | Out-String | Tee-Object -FilePath $env:NATIVE_BOOTSTRAP_LOG -Append
+          }
+          $required = @(
+            'offline.exe', 'controller.exe', 'bridge.dll', 'bridge_apply_once.dll',
+            'bridge_s6_cultivate_apply_once.dll', 'bridge_s6_patrol_apply_once.dll',
+            'bridge_s6_train_apply_once.dll', 'bridge_s6_repair_apply_once.dll',
+            'bridge_s8_basic_batch.dll', 'bridge_s8_wealthy_batch.dll')
+          $missing = @($required | Where-Object { -not (Test-Path -LiteralPath (Join-Path $env:NATIVE_OUT $_) -PathType Leaf) })
+          $log = if (Test-Path -LiteralPath $env:NATIVE_BOOTSTRAP_LOG) {
+            [IO.File]::ReadAllText($env:NATIVE_BOOTSTRAP_LOG)
+          } else { '' }
+          if ($missing.Count -ne 0 -or $log -notmatch 'deterministic whole image rejected') {
+            if ($null -ne $caught) { throw $caught }
+            throw "Native bootstrap did not reach the expected deterministic hash gate. Missing=$($missing -join ', ')"
+          }
+          python (Join-Path $env:RUNNER_TEMP 'apply_s8_fix.py') outputs --artifact-root $env:NATIVE_OUT
+          git diff --check
+
+      - name: Run deterministic native build and offline audit
+        shell: pwsh
+        run: |
+          $env:NATIVE_OUT = Join-Path $env:RUNNER_TEMP 'san9-native'
+          $env:NATIVE_FINAL_LOG = Join-Path $env:RUNNER_TEMP 'native-final.log'
+          & .\native\San9BridgeP1EasyPingM2b\build.ps1 -ArtifactRoot $env:NATIVE_OUT *>&1 |
+            Tee-Object -FilePath $env:NATIVE_FINAL_LOG
+          if ($LASTEXITCODE -ne 0) {
+            throw "Native build exited with $LASTEXITCODE"
+          }
+
+      - name: Run full product build and regression suite
+        shell: pwsh
+        run: |
+          $env:ROOT_BUILD_LOG = Join-Path $env:RUNNER_TEMP 'root-build.log'
+          & .\build.ps1 *>&1 | Tee-Object -FilePath $env:ROOT_BUILD_LOG
+          if ($LASTEXITCODE -ne 0) {
+            throw "Root build exited with $LASTEXITCODE"
+          }
+
+      - name: Update state truth and verify clean patch
+        shell: pwsh
+        run: |
+          python (Join-Path $env:RUNNER_TEMP 'apply_s8_fix.py') state `
+            --artifact-root (Join-Path $env:RUNNER_TEMP 'san9-native') `
+            --native-log (Join-Path $env:RUNNER_TEMP 'native-final.log') `
+            --root-log (Join-Path $env:RUNNER_TEMP 'root-build.log')
+          git diff --check
+          git status --short
+
+      - name: Commit verified repair
+        shell: pwsh
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- build.ps1 STATE.md `
+            native/San9BridgeP1EasyPingM2b/include/s5_current_context.h `
+            native/San9BridgeP1EasyPingM2b/src/s5_current_context.c `
+            native/San9BridgeP1EasyPingM2b/src/controller.c `
+            native/San9BridgeP1EasyPingM2b/src/bridge_dll.c `
+            native/San9BridgeP1EasyPingM2b/src/offline_selftest.c `
+            native/San9BridgeP1EasyPingM2b/build.ps1 `
+            src/San9AutoDomestic.UI/NativeControllerClient.cs `
+            tests/San9AutoDomestic.UI.StateTests/UiStateTests.cs
+          git diff --cached --check
+          git commit -m 'Fix S8 cross-step frozen city binding [skip ci]'
+          git push origin HEAD:fix/s8-cross-step-bound-city
