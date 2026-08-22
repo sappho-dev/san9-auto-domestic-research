@@ -1,9 +1,6 @@
 name: Apply and verify S8 cross-step binding fix
 
 on:
-  push:
-    branches:
-      - fix/s8-cross-step-bound-city
   pull_request:
     branches:
       - main
@@ -12,12 +9,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: apply-s8-cross-step-bound-city
-  cancel-in-progress: false
+  group: apply-s8-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   patch-build-test:
-    if: github.actor != 'github-actions[bot]'
     runs-on: windows-2025
     timeout-minutes: 60
     steps:
@@ -124,7 +120,6 @@ jobs:
           git status --short
 
       - name: Commit verified repair
-        if: github.event_name == 'push'
         shell: pwsh
         run: |
           git config user.name 'github-actions[bot]'
