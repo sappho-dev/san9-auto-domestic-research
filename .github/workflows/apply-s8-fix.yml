@@ -43,7 +43,7 @@ jobs:
           Write-Host "python=$python sha=$((Get-FileHash -Algorithm SHA256 -LiteralPath $python).Hash)"
           Write-Host "zig=$zig sha=$((Get-FileHash -Algorithm SHA256 -LiteralPath $zig).Hash)"
 
-      - name: Decode and apply source patch
+      - name: Decode patcher to reviewable source
         shell: pwsh
         run: |
           $encoded = [IO.File]::ReadAllText('.github/scripts/apply_s8_fix.py.gz.b64')
@@ -54,9 +54,25 @@ jobs:
           $gzip.CopyTo($output)
           $gzip.Dispose()
           $input.Dispose()
-          [IO.File]::WriteAllBytes((Join-Path $env:RUNNER_TEMP 'apply_s8_fix.py'), $output.ToArray())
+          [IO.File]::WriteAllBytes('.github/scripts/apply_s8_fix.decoded.py', $output.ToArray())
           $output.Dispose()
-          python (Join-Path $env:RUNNER_TEMP 'apply_s8_fix.py') source
+          python -m py_compile .github/scripts/apply_s8_fix.decoded.py
+
+      - name: Commit decoded patcher for audit
+        shell: pwsh
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- .github/scripts/apply_s8_fix.decoded.py
+          if (-not (git diff --cached --quiet)) {
+            git commit -m 'chore: expose S8 patcher for audit [skip ci]'
+            git push origin HEAD:fix/s8-cross-step-bound-city
+          }
+
+      - name: Apply source patch
+        shell: pwsh
+        run: |
+          python .github/scripts/apply_s8_fix.decoded.py source
           git diff --check
 
       - name: Bootstrap deterministic native hashes
@@ -86,7 +102,7 @@ jobs:
             if ($null -ne $caught) { throw $caught }
             throw "Native bootstrap did not reach the expected deterministic hash gate. Missing=$($missing -join ', ')"
           }
-          python (Join-Path $env:RUNNER_TEMP 'apply_s8_fix.py') outputs --artifact-root $env:NATIVE_OUT
+          python .github/scripts/apply_s8_fix.decoded.py outputs --artifact-root $env:NATIVE_OUT
           git diff --check
 
       - name: Run deterministic native build and offline audit
@@ -112,7 +128,7 @@ jobs:
       - name: Update state truth and verify clean patch
         shell: pwsh
         run: |
-          python (Join-Path $env:RUNNER_TEMP 'apply_s8_fix.py') state `
+          python .github/scripts/apply_s8_fix.decoded.py state `
             --artifact-root (Join-Path $env:RUNNER_TEMP 'san9-native') `
             --native-log (Join-Path $env:RUNNER_TEMP 'native-final.log') `
             --root-log (Join-Path $env:RUNNER_TEMP 'root-build.log')
