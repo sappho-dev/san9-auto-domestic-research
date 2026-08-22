@@ -46,16 +46,16 @@ jobs:
       - name: Decode patcher to reviewable source
         shell: pwsh
         run: |
-          $encoded = [IO.File]::ReadAllText('.github/scripts/apply_s8_fix.py.gz.b64')
-          $bytes = [Convert]::FromBase64String(($encoded -replace '\s',''))
-          $input = New-Object IO.MemoryStream(,$bytes)
-          $gzip = New-Object IO.Compression.GZipStream($input, [IO.Compression.CompressionMode]::Decompress)
-          $output = New-Object IO.MemoryStream
-          $gzip.CopyTo($output)
-          $gzip.Dispose()
-          $input.Dispose()
-          [IO.File]::WriteAllBytes('.github/scripts/apply_s8_fix.decoded.py', $output.ToArray())
-          $output.Dispose()
+          @'
+          import base64
+          import gzip
+          from pathlib import Path
+
+          source = Path('.github/scripts/apply_s8_fix.py.gz.b64')
+          target = Path('.github/scripts/apply_s8_fix.decoded.py')
+          encoded = ''.join(source.read_text(encoding='ascii').split())
+          target.write_bytes(gzip.decompress(base64.b64decode(encoded, validate=True)))
+          '@ | python -
           python -m py_compile .github/scripts/apply_s8_fix.decoded.py
 
       - name: Commit decoded patcher for audit
