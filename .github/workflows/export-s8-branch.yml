@@ -1,9 +1,9 @@
 name: Export S8 repair branch snapshot
 
 on:
-  push:
+  pull_request:
     branches:
-      - fix/s8-cross-step-bound-city
+      - main
     paths:
       - .github/workflows/export-s8-branch.yml
 
