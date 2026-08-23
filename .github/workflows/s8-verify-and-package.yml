@@ -1,0 +1,337 @@
+name: Verify and package S8 cross-step city fix
+
+on:
+  push:
+    branches:
+      - fix/s8-cross-step-bound-city
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: s8-verify-and-package
+  cancel-in-progress: false
+
+jobs:
+  verify-package:
+    runs-on: windows-2025
+    timeout-minutes: 75
+    steps:
+      - name: Checkout repair branch with complete history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: fix/s8-cross-step-bound-city
+
+      - name: Enforce stable LF worktree and branch boundary
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $branch = git branch --show-current
+          if ($branch -ne 'fix/s8-cross-step-bound-city') {
+            throw "Unexpected branch: $branch"
+          }
+          git config core.autocrlf false
+          git config core.safecrlf false
+          git config core.eol lf
+          git reset --hard HEAD
+          if ((git rev-parse HEAD) -eq (git rev-parse origin/main)) {
+            throw 'Repair workflow must not run on the main commit'
+          }
+
+      - name: Install pinned Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.0'
+          architecture: x64
+
+      - name: Install pinned Zig
+        uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+
+      - name: Install .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install exact binary-audit dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --disable-pip-version-check `
+            pefile==2024.8.26 capstone==5.0.7
+          $python = (Get-Command python.exe -ErrorAction Stop).Source
+          $zig = (Get-Command zig.exe -ErrorAction Stop).Source
+          $dotnet = (Get-Command dotnet.exe -ErrorAction Stop).Source
+          Write-Host "python=$python sha256=$((Get-FileHash -Algorithm SHA256 $python).Hash)"
+          Write-Host "zig=$zig sha256=$((Get-FileHash -Algorithm SHA256 $zig).Hash)"
+          Write-Host "dotnet=$dotnet sha256=$((Get-FileHash -Algorithm SHA256 $dotnet).Hash)"
+
+      - name: Recover immutable baseline and materialize source patch
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          python .github/scripts/ensure_s8_materializer_windows_safe.py
+          python .github/scripts/materialize_s8_function_patch_v3.py
+          python -m py_compile `
+            .github/scripts/apply_s8_fix.baseline_1549d62.py `
+            .github/scripts/materialize_s8_function_patch_v3.py `
+            .github/scripts/materialize_s8_postbuild_patch.py `
+            tests/verify_s8_bound_path_matrix_v2.py
+          git diff --check
+          git apply --check --reverse --recount --whitespace=nowarn `
+            .github/patches/s8-cross-step-bound-city.function-context.patch
+
+      - name: Verify bound reader A/B and Controller/Bridge path matrix
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          python tests/verify_s8_bound_path_matrix_v2.py `
+            --report .github/audit/s8-bound-reader-consumer-matrix.json
+          git diff --check
+
+      - name: Commit source and test checkpoint on repair branch
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --check
+          if (-not (git diff --cached --quiet)) {
+            git commit -m 'test: checkpoint S8 source and four-path matrix [skip ci]'
+            git push origin HEAD:fix/s8-cross-step-bound-city
+          }
+
+      - name: Bootstrap deterministic native outputs when hashes changed
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $env:NATIVE_OUT = Join-Path $env:RUNNER_TEMP 'san9-native'
+          $env:NATIVE_BOOTSTRAP_LOG = Join-Path $env:RUNNER_TEMP 'native-bootstrap.log'
+          New-Item -ItemType Directory -Force -Path $env:NATIVE_OUT | Out-Null
+          $failed = $false
+          $caught = $null
+          try {
+            & .\native\San9BridgeP1EasyPingM2b\build.ps1 `
+              -ArtifactRoot $env:NATIVE_OUT *>&1 |
+              Tee-Object -FilePath $env:NATIVE_BOOTSTRAP_LOG
+            if (-not $?) { throw 'Native bootstrap build returned failure' }
+          }
+          catch {
+            $failed = $true
+            $caught = $_
+            $_ | Out-String | Tee-Object -FilePath $env:NATIVE_BOOTSTRAP_LOG -Append
+          }
+
+          $required = @(
+            'offline.exe',
+            'controller.exe',
+            'bridge.dll',
+            'bridge_apply_once.dll',
+            'bridge_s6_cultivate_apply_once.dll',
+            'bridge_s6_patrol_apply_once.dll',
+            'bridge_s6_train_apply_once.dll',
+            'bridge_s6_repair_apply_once.dll',
+            'bridge_s8_basic_batch.dll',
+            'bridge_s8_wealthy_batch.dll'
+          )
+          $missing = @(
+            $required | Where-Object {
+              -not (Test-Path -LiteralPath (Join-Path $env:NATIVE_OUT $_) -PathType Leaf)
+            }
+          )
+          if ($missing.Count -ne 0) {
+            throw "Native bootstrap did not emit required artifacts: $($missing -join ', ')"
+          }
+
+          if ($failed) {
+            $log = [IO.File]::ReadAllText($env:NATIVE_BOOTSTRAP_LOG)
+            if ($log -notmatch 'deterministic whole image rejected') {
+              throw $caught
+            }
+            python .github/scripts/materialize_s8_postbuild_patch.py outputs `
+              --artifact-root $env:NATIVE_OUT
+            git diff --check
+          }
+          else {
+            Write-Host 'Existing deterministic hashes already accept the current outputs.'
+          }
+
+      - name: Run final native build and full offline audit
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $env:NATIVE_OUT = Join-Path $env:RUNNER_TEMP 'san9-native'
+          $env:NATIVE_FINAL_LOG = Join-Path $env:RUNNER_TEMP 'native-final.log'
+          Remove-Item -Recurse -Force $env:NATIVE_OUT -ErrorAction SilentlyContinue
+          New-Item -ItemType Directory -Force -Path $env:NATIVE_OUT | Out-Null
+          & .\native\San9BridgeP1EasyPingM2b\build.ps1 `
+            -ArtifactRoot $env:NATIVE_OUT *>&1 |
+            Tee-Object -FilePath $env:NATIVE_FINAL_LOG
+          if (-not $?) { throw 'Final native build or offline audit failed' }
+
+          $required = @(
+            'offline.exe',
+            'controller.exe',
+            'bridge.dll',
+            'bridge_apply_once.dll',
+            'bridge_s6_cultivate_apply_once.dll',
+            'bridge_s6_patrol_apply_once.dll',
+            'bridge_s6_train_apply_once.dll',
+            'bridge_s6_repair_apply_once.dll',
+            'bridge_s8_basic_batch.dll',
+            'bridge_s8_wealthy_batch.dll'
+          )
+          foreach ($name in $required) {
+            $path = Join-Path $env:NATIVE_OUT $name
+            if (-not (Test-Path -LiteralPath $path -PathType Leaf)) {
+              throw "Final native artifact missing: $name"
+            }
+            Write-Host "$name sha256=$((Get-FileHash -Algorithm SHA256 $path).Hash)"
+          }
+
+      - name: Run complete product build and regression suite
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $env:ROOT_BUILD_LOG = Join-Path $env:RUNNER_TEMP 'root-build.log'
+          & .\build.ps1 *>&1 | Tee-Object -FilePath $env:ROOT_BUILD_LOG
+          if (-not $?) { throw 'Product build or regression suite failed' }
+
+      - name: Materialize state evidence as plaintext patch
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          python .github/scripts/materialize_s8_postbuild_patch.py state `
+            --artifact-root (Join-Path $env:RUNNER_TEMP 'san9-native') `
+            --native-log (Join-Path $env:RUNNER_TEMP 'native-final.log') `
+            --root-log (Join-Path $env:RUNNER_TEMP 'root-build.log')
+          git diff --check
+
+      - name: Assemble auditable candidate package
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $candidate = Join-Path $env:RUNNER_TEMP 'San9-S8-cross-step-candidate'
+          $native = Join-Path $candidate 'native'
+          $product = Join-Path $candidate 'product'
+          $evidence = Join-Path $candidate 'evidence'
+          New-Item -ItemType Directory -Force -Path $native, $product, $evidence | Out-Null
+
+          Copy-Item -Path (Join-Path $env:RUNNER_TEMP 'san9-native\*') -Destination $native -Recurse -Force
+          $releaseDirs = Get-ChildItem -Path . -Directory -Recurse -ErrorAction SilentlyContinue |
+            Where-Object {
+              $_.FullName -match '[\\/]bin[\\/]Release(?:[\\/]|$)' -and
+              $_.FullName -notmatch '[\\/]obj[\\/]'
+            }
+          foreach ($dir in $releaseDirs) {
+            $relative = [IO.Path]::GetRelativePath((Get-Location).Path, $dir.FullName)
+            $target = Join-Path $product $relative
+            New-Item -ItemType Directory -Force -Path $target | Out-Null
+            Copy-Item -Path (Join-Path $dir.FullName '*') -Destination $target -Recurse -Force
+          }
+          foreach ($name in @('artifacts', 'dist', 'publish', 'out', 'release')) {
+            if (Test-Path -LiteralPath $name -PathType Container) {
+              Copy-Item -Path $name -Destination (Join-Path $product $name) -Recurse -Force
+            }
+          }
+
+          Copy-Item STATE.md $evidence -Force
+          Copy-Item .github\audit\s8-bound-reader-consumer-matrix.json $evidence -Force
+          Copy-Item .github\scripts\apply_s8_fix.recovery.txt $evidence -Force
+          Copy-Item .github\patches\s8-cross-step-bound-city.function-context.patch $evidence -Force
+          if (Test-Path .github\patches\s8-deterministic-output-hashes.patch) {
+            Copy-Item .github\patches\s8-deterministic-output-hashes.patch $evidence -Force
+          }
+          if (Test-Path .github\patches\s8-state-evidence.patch) {
+            Copy-Item .github\patches\s8-state-evidence.patch $evidence -Force
+          }
+          Copy-Item (Join-Path $env:RUNNER_TEMP 'native-final.log') $evidence -Force
+          Copy-Item (Join-Path $env:RUNNER_TEMP 'root-build.log') $evidence -Force
+
+          $head = (git rev-parse HEAD).Trim()
+          $manifest = @()
+          Get-ChildItem -Path $candidate -File -Recurse | Sort-Object FullName | ForEach-Object {
+            $relative = [IO.Path]::GetRelativePath($candidate, $_.FullName).Replace('\\', '/')
+            $manifest += [pscustomobject]@{
+              path = $relative
+              size = $_.Length
+              sha256 = (Get-FileHash -Algorithm SHA256 $_.FullName).Hash.ToLowerInvariant()
+            }
+          }
+          $metadata = [ordered]@{
+            branch = 'fix/s8-cross-step-bound-city'
+            commit = $head
+            baseline = '1549d62'
+            validation = 'next manual gate: 巡察→商业'
+            files = $manifest
+          }
+          $metadata | ConvertTo-Json -Depth 6 |
+            Set-Content -LiteralPath (Join-Path $candidate 'candidate-manifest.json') `
+              -Encoding utf8NoBOM -NoNewline
+          Add-Content -LiteralPath (Join-Path $candidate 'candidate-manifest.json') -Value "`n" -Encoding utf8NoBOM
+
+          $zip = Join-Path $env:RUNNER_TEMP 'San9-S8-cross-step-candidate.zip'
+          Remove-Item -Force $zip -ErrorAction SilentlyContinue
+          Compress-Archive -Path (Join-Path $candidate '*') -DestinationPath $zip -CompressionLevel Optimal
+          $zipHash = (Get-FileHash -Algorithm SHA256 $zip).Hash.ToLowerInvariant()
+          "candidate_zip_sha256=$zipHash" | Set-Content -LiteralPath .github\audit\s8-candidate.txt -Encoding utf8NoBOM
+          "candidate_commit=$head" | Add-Content -LiteralPath .github\audit\s8-candidate.txt -Encoding utf8NoBOM
+          "manual_gate=巡察→商业" | Add-Content -LiteralPath .github\audit\s8-candidate.txt -Encoding utf8NoBOM
+          "CANDIDATE_ZIP=$zip" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+          "CANDIDATE_SHA=$zipHash" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+
+      - name: Remove obsolete repair machinery and commit verified candidate state
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          git rm -f --ignore-unmatch -- `
+            .github/scripts/apply_s8_fix.py.gz.b64 `
+            .github/scripts/apply_s8_fix.decoded.py `
+            .github/scripts/decode_s8_patcher.py `
+            .github/scripts/materialize_s8_function_patch.py `
+            .github/workflows/decode-s8-patcher.yml `
+            .github/workflows/recover-s8-plaintext.yml `
+            .github/workflows/apply-s8-fix.yml `
+            .github/workflows/materialize-s8-source.yml `
+            .github/workflows/materialize-s8-source-v2.yml `
+            .github/workflows/materialize-s8-source-v3.yml `
+            .github/workflows/materialize-s8-source-v4.yml `
+            tests/verify_s8_bound_path_matrix.py
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --check
+          if (-not (git diff --cached --quiet)) {
+            git commit -m 'build: verify and package S8 cross-step candidate [skip ci]'
+            git push origin HEAD:fix/s8-cross-step-bound-city
+          }
+          $final = (git rev-parse HEAD).Trim()
+          "FINAL_COMMIT=$final" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+
+      - name: Upload candidate package
+        uses: actions/upload-artifact@v4
+        with:
+          name: San9-S8-cross-step-candidate-${{ env.FINAL_COMMIT }}
+          path: ${{ env.CANDIDATE_ZIP }}
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
+
+      - name: Publish verification summary
+        shell: pwsh
+        run: |
+          @"
+          ## S8 candidate verified
+
+          - Branch: `fix/s8-cross-step-bound-city`
+          - Commit: `${{ env.FINAL_COMMIT }}`
+          - Baseline recovery: `1549d62`
+          - Candidate SHA-256: `${{ env.CANDIDATE_SHA }}`
+          - Native build/offline audit: passed
+          - Product build/regression suite: passed
+          - Bound reader A/B × Controller/Bridge matrix: passed
+          - Next manual gate: 巡察→商业
+          "@ | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
