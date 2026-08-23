@@ -1,0 +1,326 @@
+name: Finalize S8 cross-step candidate
+
+on:
+  push:
+    branches:
+      - fix/s8-cross-step-bound-city
+    paths:
+      - .github/workflows/finalize-s8-cross-step-candidate.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalize-s8-cross-step-candidate
+  cancel-in-progress: false
+
+jobs:
+  build-audit-package:
+    runs-on: windows-2025
+    timeout-minutes: 90
+    env:
+      REPAIR_BRANCH: fix/s8-cross-step-bound-city
+    steps:
+      - name: Disable Windows checkout newline rewriting
+        shell: pwsh
+        run: |
+          git config --global core.autocrlf false
+          git config --global core.eol lf
+
+      - name: Checkout repair branch with complete history
+        uses: actions/checkout@v4
+        with:
+          ref: fix/s8-cross-step-bound-city
+          fetch-depth: 0
+          clean: true
+
+      - name: Install pinned Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.0'
+          architecture: x64
+
+      - name: Install pinned Zig
+        uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+
+      - name: Install exact Python audit dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --disable-pip-version-check pefile==2024.8.26 capstone==5.0.7
+          $python = (Get-Command python.exe -ErrorAction Stop).Source
+          $zig = (Get-Command zig.exe -ErrorAction Stop).Source
+          Write-Host "python=$python sha256=$((Get-FileHash -Algorithm SHA256 -LiteralPath $python).Hash)"
+          Write-Host "zig=$zig sha256=$((Get-FileHash -Algorithm SHA256 -LiteralPath $zig).Hash)"
+
+      - name: Recover 1549d62 baseline and generate plaintext function-context patch
+        shell: pwsh
+        run: |
+          python .github/scripts/prepare_s8_function_patch.py
+          python -m py_compile `
+            .github/scripts/apply_s8_fix.py `
+            .github/scripts/apply_s8_fix_driver.py `
+            .github/scripts/apply_s8_fix_legacy_1549d62.py `
+            .github/scripts/prepare_s8_function_patch.py
+          git diff --check
+
+      - name: Apply audited source patch and prove idempotence
+        shell: pwsh
+        run: |
+          python .github/scripts/apply_s8_fix.py source
+          $first = git diff --binary -- . ':!.github/workflows/finalize-s8-cross-step-candidate.yml' | git hash-object --stdin
+          python .github/scripts/apply_s8_fix.py source
+          $second = git diff --binary -- . ':!.github/workflows/finalize-s8-cross-step-candidate.yml' | git hash-object --stdin
+          if ($first -ne $second) {
+            throw "Second S8 source application changed the worktree: first=$first second=$second"
+          }
+          git diff --check
+
+      - name: Prove CRLF-safe preimage and postimage hashing
+        shell: pwsh
+        run: |
+          $crlfRoot = Join-Path $env:RUNNER_TEMP 's8-crlf-replay'
+          git worktree remove --force $crlfRoot 2>$null
+          if (Test-Path -LiteralPath $crlfRoot) {
+            Remove-Item -LiteralPath $crlfRoot -Recurse -Force
+          }
+          git worktree add --detach $crlfRoot HEAD
+          try {
+            $copyFiles = @(
+              '.github/scripts/apply_s8_fix.py',
+              '.github/scripts/apply_s8_fix_legacy_1549d62.py',
+              '.github/patches/s8-cross-step-bound-city.patch',
+              '.github/patches/s8-cross-step-bound-city.manifest.json'
+            )
+            foreach ($relative in $copyFiles) {
+              $source = Join-Path $PWD $relative
+              $target = Join-Path $crlfRoot $relative
+              New-Item -ItemType Directory -Force -Path (Split-Path -Parent $target) | Out-Null
+              Copy-Item -LiteralPath $source -Destination $target -Force
+            }
+
+            @'
+            import json
+            from pathlib import Path
+
+            root = Path(r"__CRLF_ROOT__")
+            manifest = json.loads(
+                (root / '.github/patches/s8-cross-step-bound-city.manifest.json').read_text(encoding='utf-8')
+            )
+            for item in manifest['files']:
+                path = root / item['path']
+                data = path.read_bytes().replace(b'\r\n', b'\n').replace(b'\r', b'\n')
+                path.write_bytes(data.replace(b'\n', b'\r\n'))
+            '@.Replace('__CRLF_ROOT__', ($crlfRoot -replace '\\','\\')) | python -
+
+            Push-Location $crlfRoot
+            try {
+              python .github/scripts/apply_s8_fix.py source
+              $first = git diff --binary | git hash-object --stdin
+              python .github/scripts/apply_s8_fix.py source
+              $second = git diff --binary | git hash-object --stdin
+              if ($first -ne $second) {
+                throw "CRLF replay was not idempotent: first=$first second=$second"
+              }
+              git diff --check
+            }
+            finally {
+              Pop-Location
+            }
+          }
+          finally {
+            git worktree remove --force $crlfRoot
+            git worktree prune
+          }
+
+      - name: Bootstrap deterministic native image hashes
+        shell: pwsh
+        run: |
+          $env:NATIVE_OUT = Join-Path $env:RUNNER_TEMP 'san9-native'
+          $env:NATIVE_BOOTSTRAP_LOG = Join-Path $env:RUNNER_TEMP 'native-bootstrap.log'
+          $caught = $null
+          try {
+            & .\native\San9BridgeP1EasyPingM2b\build.ps1 -ArtifactRoot $env:NATIVE_OUT *>&1 |
+              Tee-Object -FilePath $env:NATIVE_BOOTSTRAP_LOG
+          }
+          catch {
+            $caught = $_
+            $_ | Out-String | Tee-Object -FilePath $env:NATIVE_BOOTSTRAP_LOG -Append
+          }
+
+          $required = @(
+            'offline.exe',
+            'controller.exe',
+            'bridge.dll',
+            'bridge_apply_once.dll',
+            'bridge_s6_cultivate_apply_once.dll',
+            'bridge_s6_patrol_apply_once.dll',
+            'bridge_s6_train_apply_once.dll',
+            'bridge_s6_repair_apply_once.dll',
+            'bridge_s8_basic_batch.dll',
+            'bridge_s8_wealthy_batch.dll'
+          )
+          $missing = @(
+            $required | Where-Object {
+              -not (Test-Path -LiteralPath (Join-Path $env:NATIVE_OUT $_) -PathType Leaf)
+            }
+          )
+          $log = if (Test-Path -LiteralPath $env:NATIVE_BOOTSTRAP_LOG) {
+            [IO.File]::ReadAllText($env:NATIVE_BOOTSTRAP_LOG)
+          }
+          else {
+            ''
+          }
+          if ($missing.Count -ne 0 -or $log -notmatch 'deterministic whole image rejected') {
+            if ($null -ne $caught) {
+              throw $caught
+            }
+            throw "Native bootstrap failed before the expected deterministic hash gate. Missing=$($missing -join ', ')"
+          }
+
+          python .github/scripts/apply_s8_fix.py outputs --artifact-root $env:NATIVE_OUT
+          git diff --check
+
+      - name: Run complete deterministic native build and offline suite
+        shell: pwsh
+        run: |
+          $env:NATIVE_OUT = Join-Path $env:RUNNER_TEMP 'san9-native'
+          $env:NATIVE_FINAL_LOG = Join-Path $env:RUNNER_TEMP 'native-final.log'
+          & .\native\San9BridgeP1EasyPingM2b\build.ps1 -ArtifactRoot $env:NATIVE_OUT *>&1 |
+            Tee-Object -FilePath $env:NATIVE_FINAL_LOG
+          if ($LASTEXITCODE -ne 0) {
+            throw "Native build exited with $LASTEXITCODE"
+          }
+          $offline = Join-Path $env:NATIVE_OUT 'offline.exe'
+          if (-not (Test-Path -LiteralPath $offline -PathType Leaf)) {
+            throw "Native offline test executable was not produced"
+          }
+          & $offline *>&1 | Tee-Object -FilePath (Join-Path $env:RUNNER_TEMP 'offline-explicit.log')
+          if ($LASTEXITCODE -ne 0) {
+            throw "Explicit native offline suite exited with $LASTEXITCODE"
+          }
+
+      - name: Run complete product build and managed regression suite
+        shell: pwsh
+        run: |
+          $env:ROOT_BUILD_LOG = Join-Path $env:RUNNER_TEMP 'root-build.log'
+          & .\build.ps1 *>&1 | Tee-Object -FilePath $env:ROOT_BUILD_LOG
+          if ($LASTEXITCODE -ne 0) {
+            throw "Product build exited with $LASTEXITCODE"
+          }
+
+      - name: Update audited state and verify final source postimage
+        shell: pwsh
+        run: |
+          python .github/scripts/apply_s8_fix.py state `
+            --artifact-root (Join-Path $env:RUNNER_TEMP 'san9-native') `
+            --native-log (Join-Path $env:RUNNER_TEMP 'native-final.log') `
+            --root-log (Join-Path $env:RUNNER_TEMP 'root-build.log')
+          python .github/scripts/apply_s8_fix.py source
+          git diff --check
+
+          @'
+          import hashlib
+          import json
+          from pathlib import Path
+
+          root = Path.cwd()
+          manifest = json.loads(
+              (root / '.github/patches/s8-cross-step-bound-city.manifest.json').read_text(encoding='utf-8')
+          )
+          failures = []
+          for item in manifest['files']:
+              data = (root / item['path']).read_bytes().replace(b'\r\n', b'\n').replace(b'\r', b'\n')
+              actual = hashlib.sha256(data).hexdigest()
+              if actual != item['after_sha256_canonical_lf']:
+                  failures.append(f"{item['path']}: {actual}")
+          if failures:
+              raise SystemExit('Final S8 source postimage mismatch:\n' + '\n'.join(failures))
+          print(f"Verified {len(manifest['files'])} canonical S8 postimages")
+          '@ | python -
+
+      - name: Assemble candidate package and hash manifest
+        shell: pwsh
+        run: |
+          $candidate = Join-Path $env:RUNNER_TEMP 'San9-S8-cross-step-candidate'
+          $zip = Join-Path $env:RUNNER_TEMP 'San9-S8-cross-step-candidate.zip'
+          Remove-Item -LiteralPath $candidate -Recurse -Force -ErrorAction SilentlyContinue
+          Remove-Item -LiteralPath $zip -Force -ErrorAction SilentlyContinue
+          New-Item -ItemType Directory -Force -Path $candidate | Out-Null
+
+          Copy-Item -LiteralPath (Join-Path $env:RUNNER_TEMP 'san9-native') `
+            -Destination (Join-Path $candidate 'native') -Recurse -Force
+
+          foreach ($relative in @('artifacts', 'dist', 'publish', 'out')) {
+            $source = Join-Path $PWD $relative
+            if (Test-Path -LiteralPath $source -PathType Container) {
+              Copy-Item -LiteralPath $source -Destination (Join-Path $candidate $relative) -Recurse -Force
+            }
+          }
+
+          $releaseRoots = Get-ChildItem -Path (Join-Path $PWD 'src') -Directory -Recurse -ErrorAction SilentlyContinue |
+            Where-Object { $_.FullName -match '[\\/]bin[\\/]Release($|[\\/])' }
+          foreach ($root in $releaseRoots) {
+            $safe = ($root.FullName.Substring($PWD.Path.Length).TrimStart('\\','/') -replace '[:\\/]', '_')
+            Copy-Item -LiteralPath $root.FullName -Destination (Join-Path $candidate "managed_$safe") -Recurse -Force
+          }
+
+          Copy-Item -LiteralPath '.github/patches/s8-cross-step-bound-city.audit.json' `
+            -Destination (Join-Path $candidate 's8-source-audit.json') -Force
+          Copy-Item -LiteralPath '.github/patches/s8-cross-step-bound-city.manifest.json' `
+            -Destination (Join-Path $candidate 's8-source-manifest.json') -Force
+
+          $manifest = Get-ChildItem -LiteralPath $candidate -File -Recurse |
+            Sort-Object FullName |
+            ForEach-Object {
+              $relative = $_.FullName.Substring($candidate.Length + 1)
+              $hash = (Get-FileHash -Algorithm SHA256 -LiteralPath $_.FullName).Hash.ToLowerInvariant()
+              "$hash  $relative"
+            }
+          [IO.File]::WriteAllLines((Join-Path $candidate 'SHA256SUMS.txt'), $manifest, [Text.UTF8Encoding]::new($false))
+          Compress-Archive -LiteralPath (Join-Path $candidate '*') -DestinationPath $zip -CompressionLevel Optimal
+          "CANDIDATE_ZIP=$zip" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Upload candidate package
+        uses: actions/upload-artifact@v4
+        with:
+          name: San9-S8-cross-step-candidate-${{ github.run_id }}
+          path: ${{ env.CANDIDATE_ZIP }}
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Commit verified repair to repair branch only
+        shell: pwsh
+        run: |
+          $ready = @"
+          # S8 cross-step candidate ready
+
+          - Historical plaintext baseline: `1549d62`
+          - Workflow run: `${{ github.run_id }}`
+          - Candidate artifact: `San9-S8-cross-step-candidate-${{ github.run_id }}`
+          - Source application: function-context plaintext patch with canonical-LF pre/post hashes
+          - Idempotence: clean LF worktree and synthetic Windows CRLF worktree both passed twice
+          - Native coverage: bound-reader core, controller path, Bridge path, and explicit offline executable passed
+          - Product coverage: complete root build and managed regression suite passed
+          - Main branch: unchanged
+          - Remaining gate: one real-machine `巡察→商业` transition
+          "@
+          [IO.File]::WriteAllText((Join-Path $PWD 'S8_CANDIDATE_READY.md'), $ready, [Text.UTF8Encoding]::new($false))
+
+          git rm -f --ignore-unmatch `
+            .github/scripts/apply_s8_fix.py.gz.b64 `
+            .github/scripts/apply_s8_fix.decoded.py `
+            .github/scripts/decode_s8_patcher.py `
+            .github/workflows/apply-s8-fix.yml `
+            .github/workflows/decode-s8-patcher.yml `
+            .github/workflows/recover-s8-plaintext-from-1549d62.yml `
+            .github/workflows/finalize-s8-cross-step-candidate.yml
+
+          git add -A
+          git diff --cached --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Fix S8 cross-step frozen city binding [skip ci]'
+          git push origin HEAD:$env:REPAIR_BRANCH
