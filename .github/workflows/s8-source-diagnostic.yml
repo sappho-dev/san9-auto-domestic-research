@@ -1,0 +1,85 @@
+name: Materialize S8 source and record path evidence
+
+on:
+  push:
+    branches:
+      - fix/s8-cross-step-bound-city
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: s8-source-diagnostic
+  cancel-in-progress: true
+
+jobs:
+  source-diagnostic:
+    runs-on: windows-2025
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repair branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: fix/s8-cross-step-bound-city
+
+      - name: Normalize checkout and install Python
+        shell: pwsh
+        run: |
+          git config core.autocrlf false
+          git config core.safecrlf false
+          git config core.eol lf
+          git reset --hard HEAD
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.0'
+          architecture: x64
+
+      - name: Apply source patch and extract function-boundary evidence
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          python .github/scripts/apply_s8_function_patch.py
+          python tests/extract_s8_bound_test_context.py `
+            --output .github/audit/s8-bound-function-context.txt
+          $saved = $PSNativeCommandUseErrorActionPreference
+          $PSNativeCommandUseErrorActionPreference = $false
+          try {
+            python tests/verify_s8_bound_path_matrix_v2.py `
+              --report .github/audit/s8-bound-reader-consumer-matrix.json
+            $matrixExit = $LASTEXITCODE
+          }
+          finally {
+            $PSNativeCommandUseErrorActionPreference = $saved
+          }
+          if ($matrixExit -eq 0) { 'passed' } else { 'failed' } |
+            Set-Content .github/audit/s8-source-matrix-result.txt -Encoding utf8NoBOM
+          git diff --check
+
+      - name: Commit source and evidence without triggering builds
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -u
+          git add -- `
+            .github/scripts/apply_s8_fix.baseline_1549d62.py `
+            .github/scripts/apply_s8_fix.recovery.txt `
+            .github/patches/s8-cross-step-bound-city.function-context.patch `
+            .github/audit/s8-bound-function-context.txt `
+            .github/audit/s8-bound-reader-consumer-matrix.json `
+            .github/audit/s8-source-matrix-result.txt
+          $PSNativeCommandUseErrorActionPreference = $false
+          git diff --cached --quiet
+          $hasDiff = $LASTEXITCODE -ne 0
+          $PSNativeCommandUseErrorActionPreference = $true
+          if ($hasDiff) {
+            git commit -m 'chore: record S8 source path evidence [skip ci]'
+            git pull --rebase origin fix/s8-cross-step-bound-city
+            git push origin HEAD:fix/s8-cross-step-bound-city
+          }
