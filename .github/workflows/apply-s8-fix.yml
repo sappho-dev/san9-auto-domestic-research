@@ -1,17 +1,309 @@
-name: Apply and verify S8 cross-step binding fix
+name: Apply, build, and package S8 cross-step binding fix
 
 on:
-  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - .github/workflows/apply-s8-fix.yml
 
 permissions:
   contents: write
 
+concurrency:
+  group: verify-s8-cross-step-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
 jobs:
-  recovery-gate:
-    runs-on: windows-latest
+  patch-build-test-package:
+    runs-on: windows-2025
+    timeout-minutes: 90
     steps:
-      - name: Recovery gate
+      - name: Checkout repair branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: fix/s8-cross-step-bound-city
+
+      - name: Materialize CRLF on patched source paths
         shell: pwsh
         run: |
-          Write-Host 'S8 plaintext patcher recovery/refactor is in progress.'
-          Write-Host 'No product source is modified by this gated workflow.'
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          git config core.autocrlf true
+          @'
+          from pathlib import Path
+
+          paths = (
+              'native/San9BridgeP1EasyPingM2b/include/s5_current_context.h',
+              'native/San9BridgeP1EasyPingM2b/src/s5_current_context.c',
+              'native/San9BridgeP1EasyPingM2b/src/controller.c',
+              'native/San9BridgeP1EasyPingM2b/src/bridge_dll.c',
+              'native/San9BridgeP1EasyPingM2b/src/offline_selftest.c',
+              'native/San9BridgeP1EasyPingM2b/build.ps1',
+              'src/San9AutoDomestic.UI/NativeControllerClient.cs',
+              'tests/San9AutoDomestic.UI.StateTests/UiStateTests.cs',
+          )
+          for name in paths:
+              path = Path(name)
+              raw = path.read_bytes().replace(b'\r\n', b'\n')
+              path.write_bytes(raw.replace(b'\n', b'\r\n'))
+          print(f'CRLF source paths materialized={len(paths)}')
+          '@ | python -
+          git status --short
+
+      - name: Install pinned Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.0'
+          architecture: x64
+
+      - name: Install pinned Zig
+        uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+
+      - name: Install exact Python dependencies and audit toolchain
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          python -m pip install --disable-pip-version-check pefile==2024.8.26 capstone==5.0.7
+          $python = (Get-Command python.exe -ErrorAction Stop).Source
+          $zig = (Get-Command zig.exe -ErrorAction Stop).Source
+          Write-Host "python=$python version=$((& $python --version 2>&1 | Out-String).Trim()) sha=$((Get-FileHash -Algorithm SHA256 -LiteralPath $python).Hash)"
+          Write-Host "zig=$zig version=$((& $zig version | Out-String).Trim()) sha=$((Get-FileHash -Algorithm SHA256 -LiteralPath $zig).Hash)"
+
+      - name: Self-test plaintext patcher
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          python -m py_compile .github/scripts/apply_s8_fix.py
+          python .github/scripts/apply_s8_fix.py selftest 2>&1 |
+            Tee-Object -FilePath (Join-Path $env:RUNNER_TEMP 's8-patcher-selftest.log')
+
+      - name: Apply source fix and prove idempotency
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          python .github/scripts/apply_s8_fix.py source
+          python .github/scripts/apply_s8_fix.py verify
+          git diff --check
+          $first = (git diff --no-ext-diff --binary | Out-String)
+          python .github/scripts/apply_s8_fix.py source
+          python .github/scripts/apply_s8_fix.py verify
+          git diff --check
+          $second = (git diff --no-ext-diff --binary | Out-String)
+          if (-not [string]::Equals($first, $second, [StringComparison]::Ordinal)) {
+            throw 'S8 source patch is not idempotent.'
+          }
+          Write-Host 'S8_SOURCE_PATCH IDEMPOTENT CRLF_SAFE FUNCTION_SCOPED'
+          git status --short
+
+      - name: Bootstrap new deterministic native output hashes
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          $nativeOut = Join-Path $env:RUNNER_TEMP 'san9-native'
+          $bootstrapLog = Join-Path $env:RUNNER_TEMP 'native-bootstrap.log'
+          if (Test-Path -LiteralPath $nativeOut) {
+            Remove-Item -LiteralPath $nativeOut -Recurse -Force
+          }
+          $caught = $null
+          try {
+            & .\native\San9BridgeP1EasyPingM2b\build.ps1 -ArtifactRoot $nativeOut *>&1 |
+              Tee-Object -FilePath $bootstrapLog
+          }
+          catch {
+            $caught = $_
+            $_ | Out-String | Tee-Object -FilePath $bootstrapLog -Append
+          }
+          $required = @(
+            'offline.exe', 'controller.exe', 'bridge.dll', 'bridge_apply_once.dll',
+            'bridge_s6_cultivate_apply_once.dll', 'bridge_s6_patrol_apply_once.dll',
+            'bridge_s6_train_apply_once.dll', 'bridge_s6_repair_apply_once.dll',
+            'bridge_s8_basic_batch.dll', 'bridge_s8_wealthy_batch.dll'
+          )
+          $missing = @($required | Where-Object {
+            -not (Test-Path -LiteralPath (Join-Path $nativeOut $_) -PathType Leaf)
+          })
+          if ($missing.Count -ne 0) {
+            throw "Native bootstrap did not produce all artifacts: $($missing -join ', ')"
+          }
+          $logText = [IO.File]::ReadAllText($bootstrapLog)
+          if ($null -ne $caught -and $logText -notmatch 'deterministic whole image rejected') {
+            throw $caught
+          }
+          python .github/scripts/apply_s8_fix.py outputs --artifact-root $nativeOut
+          python .github/scripts/apply_s8_fix.py verify
+          git diff --check
+          Write-Host 'S8_NATIVE_HASH_BOOTSTRAP COMPLETE'
+
+      - name: Run deterministic native build, PE audits, and offline tests
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          $nativeOut = Join-Path $env:RUNNER_TEMP 'san9-native'
+          $nativeLog = Join-Path $env:RUNNER_TEMP 'native-final.log'
+          if (Test-Path -LiteralPath $nativeOut) {
+            Remove-Item -LiteralPath $nativeOut -Recurse -Force
+          }
+          try {
+            & .\native\San9BridgeP1EasyPingM2b\build.ps1 -ArtifactRoot $nativeOut *>&1 |
+              Tee-Object -FilePath $nativeLog
+          }
+          catch {
+            $_ | Out-String | Tee-Object -FilePath $nativeLog -Append
+            throw
+          }
+          $nativeText = [IO.File]::ReadAllText($nativeLog)
+          if ($nativeText -notmatch 'P1_M2B_OFFLINE_SELFTEST passed=\d+ failed=0 live_runs=0'
+              -or $nativeText -notmatch 'P1_M2B_BUILD PASS .* live_loaded=0') {
+            throw 'Native success markers are incomplete.'
+          }
+
+      - name: Run full product build and all product tests
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          $rootLog = Join-Path $env:RUNNER_TEMP 'root-build.log'
+          try {
+            & .\build.ps1 *>&1 | Tee-Object -FilePath $rootLog
+          }
+          catch {
+            $_ | Out-String | Tee-Object -FilePath $rootLog -Append
+            throw
+          }
+          if (-not (Test-Path -LiteralPath .\tools\artifacts\bin\San9AutoDomestic.exe -PathType Leaf)) {
+            throw 'Verified product executable was not published.'
+          }
+          $rootText = [IO.File]::ReadAllText($rootLog)
+          if ($rootText -notmatch 'Built, tested, and transactionally published build') {
+            throw 'Product build success marker is missing.'
+          }
+
+      - name: Update state truth and perform final source audit
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          $nativeOut = Join-Path $env:RUNNER_TEMP 'san9-native'
+          python .github/scripts/apply_s8_fix.py state `
+            --artifact-root $nativeOut `
+            --native-log (Join-Path $env:RUNNER_TEMP 'native-final.log') `
+            --root-log (Join-Path $env:RUNNER_TEMP 'root-build.log')
+          python .github/scripts/apply_s8_fix.py source
+          python .github/scripts/apply_s8_fix.py verify
+          git diff --check
+          git status --short
+
+      - name: Commit verified repair without touching main
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- `
+            build.ps1 `
+            STATE.md `
+            native/San9BridgeP1EasyPingM2b/include/s5_current_context.h `
+            native/San9BridgeP1EasyPingM2b/src/s5_current_context.c `
+            native/San9BridgeP1EasyPingM2b/src/controller.c `
+            native/San9BridgeP1EasyPingM2b/src/bridge_dll.c `
+            native/San9BridgeP1EasyPingM2b/src/offline_selftest.c `
+            native/San9BridgeP1EasyPingM2b/build.ps1 `
+            src/San9AutoDomestic.UI/NativeControllerClient.cs `
+            tests/San9AutoDomestic.UI.StateTests/UiStateTests.cs
+          git rm -f -- .github/workflows/apply-s8-fix.yml
+          git diff --cached --check
+          $staged = @(git diff --cached --name-only)
+          if ($staged.Count -eq 0) {
+            throw 'Verified repair produced no staged changes.'
+          }
+          git commit -m 'Fix S8 cross-step frozen city binding [skip ci]'
+          git push origin HEAD:fix/s8-cross-step-bound-city
+          $verifiedCommit = (git rev-parse HEAD).Trim()
+          "VERIFIED_COMMIT=$verifiedCommit" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+          Write-Host "VERIFIED_COMMIT=$verifiedCommit"
+
+      - name: Build auditable candidate package
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          $candidateRoot = Join-Path $env:RUNNER_TEMP 's8-candidate'
+          $payloadRoot = Join-Path $candidateRoot 'San9AutoDomestic'
+          $auditRoot = Join-Path $candidateRoot 'audit'
+          $zip = Join-Path $env:RUNNER_TEMP 'San9AutoDomestic-S8-cross-step-candidate.zip'
+          $zipSha = Join-Path $env:RUNNER_TEMP 'San9AutoDomestic-S8-cross-step-candidate.zip.sha256'
+          if (Test-Path -LiteralPath $candidateRoot) {
+            Remove-Item -LiteralPath $candidateRoot -Recurse -Force
+          }
+          if (Test-Path -LiteralPath $zip) {
+            Remove-Item -LiteralPath $zip -Force
+          }
+          New-Item -ItemType Directory -Force -Path $payloadRoot, $auditRoot | Out-Null
+          Get-ChildItem -LiteralPath .\tools\artifacts\bin -Force |
+            Copy-Item -Destination $payloadRoot -Recurse -Force
+          foreach ($logName in @(
+              's8-patcher-selftest.log',
+              'native-bootstrap.log',
+              'native-final.log',
+              'root-build.log')) {
+            Copy-Item -LiteralPath (Join-Path $env:RUNNER_TEMP $logName) `
+              -Destination $auditRoot -Force
+          }
+
+          $nativeText = [IO.File]::ReadAllText((Join-Path $env:RUNNER_TEMP 'native-final.log'))
+          $rootText = [IO.File]::ReadAllText((Join-Path $env:RUNNER_TEMP 'root-build.log'))
+          $nativeSummary = [regex]::Match(
+            $nativeText, 'P1_M2B_OFFLINE_SELFTEST passed=\d+ failed=0 live_runs=0').Value
+          $testSummaries = @([regex]::Matches(
+            $rootText, 'Total:\s*\d+,\s*Passed:\s*\d+,\s*Failed:\s*0') |
+            ForEach-Object { $_.Value })
+          if ([string]::IsNullOrWhiteSpace($nativeSummary) -or $testSummaries.Count -eq 0) {
+            throw 'Candidate audit summaries are incomplete.'
+          }
+          @(
+            'S8 cross-step candidate',
+            "Commit=$env:VERIFIED_COMMIT",
+            'Branch=fix/s8-cross-step-bound-city',
+            'BaseBranch=main (unchanged)',
+            'LiveLoaded=0',
+            "NativeOffline=$nativeSummary",
+            'ProductTestSummaries=' + ($testSummaries -join ' | '),
+            'RequiredLiveSmoke=巡察→商业'
+          ) | Set-Content -LiteralPath (Join-Path $candidateRoot 'BUILD-INFO.txt') -Encoding utf8
+
+          $hashLines = Get-ChildItem -LiteralPath $candidateRoot -File -Recurse |
+            Sort-Object FullName |
+            ForEach-Object {
+              $relative = [IO.Path]::GetRelativePath($candidateRoot, $_.FullName).Replace([IO.Path]::DirectorySeparatorChar, [char]'/')
+              "$((Get-FileHash -Algorithm SHA256 -LiteralPath $_.FullName).Hash)  $relative"
+            }
+          $hashLines | Set-Content -LiteralPath (Join-Path $candidateRoot 'CANDIDATE-SHA256.txt') -Encoding ascii
+          Add-Type -AssemblyName System.IO.Compression.FileSystem
+          [IO.Compression.ZipFile]::CreateFromDirectory(
+            $candidateRoot, $zip, [IO.Compression.CompressionLevel]::Optimal, $false)
+          $digest = (Get-FileHash -Algorithm SHA256 -LiteralPath $zip).Hash
+          "$digest  $([IO.Path]::GetFileName($zip))" | Set-Content -LiteralPath $zipSha -Encoding ascii
+          Write-Host "CANDIDATE_ZIP=$zip SHA256=$digest"
+
+      - name: Upload verified candidate and audit logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: s8-cross-step-candidate
+          if-no-files-found: error
+          retention-days: 7
+          path: |
+            ${{ runner.temp }}/San9AutoDomestic-S8-cross-step-candidate.zip
+            ${{ runner.temp }}/San9AutoDomestic-S8-cross-step-candidate.zip.sha256
+            ${{ runner.temp }}/native-final.log
+            ${{ runner.temp }}/root-build.log
+            ${{ runner.temp }}/s8-patcher-selftest.log
