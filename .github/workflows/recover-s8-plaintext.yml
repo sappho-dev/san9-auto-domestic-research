@@ -1,0 +1,110 @@
+name: Recover S8 plaintext patcher from 1549d62
+
+on:
+  push:
+    branches:
+      - fix/s8-cross-step-bound-city
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recover-s8-plaintext
+  cancel-in-progress: true
+
+jobs:
+  recover:
+    runs-on: windows-2025
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repair branch with recovery commit
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: fix/s8-cross-step-bound-city
+
+      - name: Recover exact plaintext source from 1549d62
+        shell: pwsh
+        run: |
+          @'
+          from __future__ import annotations
+
+          import hashlib
+          import py_compile
+          import subprocess
+          from pathlib import Path
+
+          BASELINE = "1549d62"
+          TARGET = Path(".github/scripts/apply_s8_fix.py")
+          NOTE = Path(".github/scripts/apply_s8_fix.recovery.txt")
+          REQUIRED = (
+              b"BATCH_REBIND_REQUIRED",
+              b"s5_current_context",
+              b"controller.c",
+              b"bridge_dll.c",
+              b"offline_selftest.c",
+          )
+
+          tree = subprocess.check_output(
+              ["git", "ls-tree", "-r", "--name-only", "-z", BASELINE]
+          )
+          paths = [p.decode("utf-8") for p in tree.split(b"\0") if p]
+          candidates: list[tuple[str, bytes]] = []
+          for path in paths:
+              if not path.lower().endswith(".py"):
+                  continue
+              blob = subprocess.check_output(["git", "show", f"{BASELINE}:{path}"])
+              if all(marker in blob for marker in REQUIRED):
+                  compile(blob, f"{BASELINE}:{path}", "exec")
+                  candidates.append((path, blob))
+
+          if len(candidates) != 1:
+              detail = ", ".join(path for path, _ in candidates) or "<none>"
+              raise SystemExit(
+                  f"Expected exactly one complete plaintext S8 patcher at {BASELINE}; "
+                  f"found {len(candidates)}: {detail}"
+              )
+
+          source_path, blob = candidates[0]
+          TARGET.parent.mkdir(parents=True, exist_ok=True)
+          TARGET.write_bytes(blob)
+          py_compile.compile(str(TARGET), doraise=True)
+          digest = hashlib.sha256(blob).hexdigest()
+          NOTE.write_text(
+              "\n".join(
+                  (
+                      f"baseline={BASELINE}",
+                      f"source_path={source_path}",
+                      f"sha256={digest}",
+                      f"size={len(blob)}",
+                      "transport=git-cat-file-bytes; no Base64/GZip recovery",
+                      "",
+                  )
+              ),
+              encoding="utf-8",
+              newline="\n",
+          )
+          print(f"Recovered {source_path} -> {TARGET} sha256={digest} size={len(blob)}")
+          '@ | python -
+
+      - name: Remove abandoned damaged payload helpers
+        shell: pwsh
+        run: |
+          git rm -f --ignore-unmatch -- `
+            .github/scripts/apply_s8_fix.py.gz.b64 `
+            .github/scripts/apply_s8_fix.decoded.py `
+            .github/scripts/decode_s8_patcher.py `
+            .github/workflows/decode-s8-patcher.yml
+
+      - name: Commit exact recovered plaintext
+        shell: pwsh
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- .github/scripts/apply_s8_fix.py .github/scripts/apply_s8_fix.recovery.txt
+          git diff --cached --check
+          if (-not (git diff --cached --quiet)) {
+            git commit -m 'chore: recover complete S8 plaintext patcher from 1549d62'
+            git push origin HEAD:fix/s8-cross-step-bound-city
+          }
