@@ -1,0 +1,38 @@
+name: Export S8 repair branch snapshot
+
+on:
+  push:
+    branches:
+      - fix/s8-cross-step-bound-city
+    paths:
+      - .github/workflows/export-s8-branch.yml
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repair branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: fix/s8-cross-step-bound-city
+
+      - name: Upload complete source snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: s8-repair-branch-source
+          if-no-files-found: error
+          retention-days: 1
+          include-hidden-files: true
+          path: |
+            .github
+            native
+            src
+            tests
+            tools
+            build.ps1
+            STATE.md
