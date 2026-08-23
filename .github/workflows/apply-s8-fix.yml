@@ -1,145 +1,17 @@
 name: Apply and verify S8 cross-step binding fix
 
 on:
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
 
 permissions:
   contents: write
 
-concurrency:
-  group: apply-s8-pr-${{ github.event.pull_request.number }}
-  cancel-in-progress: true
-
 jobs:
-  patch-build-test:
-    runs-on: windows-2025
-    timeout-minutes: 60
+  recovery-gate:
+    runs-on: windows-latest
     steps:
-      - name: Checkout repair branch
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: fix/s8-cross-step-bound-city
-
-      - name: Install pinned Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13.0'
-          architecture: x64
-
-      - name: Install pinned Zig
-        uses: mlugg/setup-zig@v2
-        with:
-          version: 0.16.0
-
-      - name: Install exact Python dependencies
+      - name: Recovery gate
         shell: pwsh
         run: |
-          python -m pip install --disable-pip-version-check pefile==2024.8.26 capstone==5.0.7
-          $python = (Get-Command python.exe -ErrorAction Stop).Source
-          $zig = (Get-Command zig.exe -ErrorAction Stop).Source
-          Write-Host "python=$python sha=$((Get-FileHash -Algorithm SHA256 -LiteralPath $python).Hash)"
-          Write-Host "zig=$zig sha=$((Get-FileHash -Algorithm SHA256 -LiteralPath $zig).Hash)"
-
-      - name: Decode patcher to reviewable source
-        shell: pwsh
-        run: |
-          python .github/scripts/decode_s8_patcher.py
-          python -m py_compile .github/scripts/apply_s8_fix.decoded.py
-
-      - name: Commit decoded patcher for audit
-        shell: pwsh
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- .github/scripts/apply_s8_fix.decoded.py
-          if (-not (git diff --cached --quiet)) {
-            git commit -m 'chore: expose S8 patcher for audit [skip ci]'
-            git push origin HEAD:fix/s8-cross-step-bound-city
-          }
-
-      - name: Apply source patch
-        shell: pwsh
-        run: |
-          python .github/scripts/apply_s8_fix.decoded.py source
-          git diff --check
-
-      - name: Bootstrap deterministic native hashes
-        shell: pwsh
-        run: |
-          $env:NATIVE_OUT = Join-Path $env:RUNNER_TEMP 'san9-native'
-          $env:NATIVE_BOOTSTRAP_LOG = Join-Path $env:RUNNER_TEMP 'native-bootstrap.log'
-          $caught = $null
-          try {
-            & .\native\San9BridgeP1EasyPingM2b\build.ps1 -ArtifactRoot $env:NATIVE_OUT *>&1 |
-              Tee-Object -FilePath $env:NATIVE_BOOTSTRAP_LOG
-          }
-          catch {
-            $caught = $_
-            $_ | Out-String | Tee-Object -FilePath $env:NATIVE_BOOTSTRAP_LOG -Append
-          }
-          $required = @(
-            'offline.exe', 'controller.exe', 'bridge.dll', 'bridge_apply_once.dll',
-            'bridge_s6_cultivate_apply_once.dll', 'bridge_s6_patrol_apply_once.dll',
-            'bridge_s6_train_apply_once.dll', 'bridge_s6_repair_apply_once.dll',
-            'bridge_s8_basic_batch.dll', 'bridge_s8_wealthy_batch.dll')
-          $missing = @($required | Where-Object { -not (Test-Path -LiteralPath (Join-Path $env:NATIVE_OUT $_) -PathType Leaf) })
-          $log = if (Test-Path -LiteralPath $env:NATIVE_BOOTSTRAP_LOG) {
-            [IO.File]::ReadAllText($env:NATIVE_BOOTSTRAP_LOG)
-          } else { '' }
-          if ($missing.Count -ne 0 -or $log -notmatch 'deterministic whole image rejected') {
-            if ($null -ne $caught) { throw $caught }
-            throw "Native bootstrap did not reach the expected deterministic hash gate. Missing=$($missing -join ', ')"
-          }
-          python .github/scripts/apply_s8_fix.decoded.py outputs --artifact-root $env:NATIVE_OUT
-          git diff --check
-
-      - name: Run deterministic native build and offline audit
-        shell: pwsh
-        run: |
-          $env:NATIVE_OUT = Join-Path $env:RUNNER_TEMP 'san9-native'
-          $env:NATIVE_FINAL_LOG = Join-Path $env:RUNNER_TEMP 'native-final.log'
-          & .\native\San9BridgeP1EasyPingM2b\build.ps1 -ArtifactRoot $env:NATIVE_OUT *>&1 |
-            Tee-Object -FilePath $env:NATIVE_FINAL_LOG
-          if ($LASTEXITCODE -ne 0) {
-            throw "Native build exited with $LASTEXITCODE"
-          }
-
-      - name: Run full product build and regression suite
-        shell: pwsh
-        run: |
-          $env:ROOT_BUILD_LOG = Join-Path $env:RUNNER_TEMP 'root-build.log'
-          & .\build.ps1 *>&1 | Tee-Object -FilePath $env:ROOT_BUILD_LOG
-          if ($LASTEXITCODE -ne 0) {
-            throw "Root build exited with $LASTEXITCODE"
-          }
-
-      - name: Update state truth and verify clean patch
-        shell: pwsh
-        run: |
-          python .github/scripts/apply_s8_fix.decoded.py state `
-            --artifact-root (Join-Path $env:RUNNER_TEMP 'san9-native') `
-            --native-log (Join-Path $env:RUNNER_TEMP 'native-final.log') `
-            --root-log (Join-Path $env:RUNNER_TEMP 'root-build.log')
-          git diff --check
-          git status --short
-
-      - name: Commit verified repair
-        shell: pwsh
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- build.ps1 STATE.md `
-            native/San9BridgeP1EasyPingM2b/include/s5_current_context.h `
-            native/San9BridgeP1EasyPingM2b/src/s5_current_context.c `
-            native/San9BridgeP1EasyPingM2b/src/controller.c `
-            native/San9BridgeP1EasyPingM2b/src/bridge_dll.c `
-            native/San9BridgeP1EasyPingM2b/src/offline_selftest.c `
-            native/San9BridgeP1EasyPingM2b/build.ps1 `
-            src/San9AutoDomestic.UI/NativeControllerClient.cs `
-            tests/San9AutoDomestic.UI.StateTests/UiStateTests.cs
-          git diff --cached --check
-          git commit -m 'Fix S8 cross-step frozen city binding [skip ci]'
-          git push origin HEAD:fix/s8-cross-step-bound-city
+          Write-Host 'S8 plaintext patcher recovery/refactor is in progress.'
+          Write-Host 'No product source is modified by this gated workflow.'
