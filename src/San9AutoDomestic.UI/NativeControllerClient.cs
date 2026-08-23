@@ -794,7 +794,11 @@ namespace San9AutoDomestic.UI
 
             if (string.Equals(phase, "BATCH_REBIND_REQUIRED", StringComparison.Ordinal))
             {
-                return "当前城市绑定已变化；本次停止，不会重试。";
+                return string.Format(
+                    CultureInfo.InvariantCulture,
+                    "当前城市绑定已变化；停止前已执行 {0}，跳过 {1}，不会重试。",
+                    NativeJson.IntegerValue(json, "executed", 0),
+                    NativeJson.IntegerValue(json, "skipped", 0));
             }
 
             if (json.ContainsKey("result"))
@@ -1028,6 +1032,8 @@ namespace San9AutoDomestic.UI
             if (string.Equals(phase, "BATCH_REBIND_REQUIRED", StringComparison.Ordinal))
             {
                 rebindRequired = true;
+                executed = NativeJson.IntegerValue(json, "executed", executed);
+                skipped = NativeJson.IntegerValue(json, "skipped", skipped);
                 state = NativeControllerState.RebindRequired;
             }
             else if (string.Equals(phase, "BATCH_COMPLETE", StringComparison.Ordinal))

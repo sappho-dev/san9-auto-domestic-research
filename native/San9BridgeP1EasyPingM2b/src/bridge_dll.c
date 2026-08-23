@@ -217,6 +217,8 @@ typedef struct M2bRuntime {
     San9S5NoApplyRequest s8_request_latch;
     uint32_t s8_native_id_latch;
     uint32_t s8_request_latched;
+    San9S5BoundCurrentCity s8_bound_city;
+    uint32_t s8_bound_city_valid;
     San9S5NoApplyGate s8_step_gates[5];
 #endif
     uint8_t easy_snapshot_digest[SAN9_P1_DIGEST_SIZE];
@@ -2529,6 +2531,10 @@ static void handle_bootstrap_message(UINT message, WPARAM w_param, LPARAM l_para
     g_runtime.actions.context = &g_runtime;
     g_runtime.owner_token = shared->owner_token;
     g_runtime.main_thread_id = shared->target_thread_id;
+#if SAN9_COMBINED_BATCH_BUILD
+    memset(&g_runtime.s8_bound_city, 0, sizeof(g_runtime.s8_bound_city));
+    g_runtime.s8_bound_city_valid = 0u;
+#endif
     if (shared->operation_mode == SAN9_P1_M2B_OPERATION_OBSERVE) {
         s3_trace_initialize(&shared->operation.s3.trace);
     }
@@ -2761,6 +2767,11 @@ static San9S5CurrentContextStatus s5_capture_ab(
 #if SAN9_COMBINED_BATCH_BUILD
     if (g_runtime.shared != NULL && g_runtime.shared->operation_mode
             == SAN9_ACTIVE_APPLY_MODE) {
+        if (g_runtime.s8_bound_city_valid != 0u) {
+            return san9_s5_bound_current_context_capture_reader_ab(
+                &reader, &identity, &g_runtime.s8_bound_city,
+                s8_active_native_id(), first, second);
+        }
         switch (s8_active_native_id()) {
         case SAN9_P1_M2B_PATROL_NATIVE_ID:
             return san9_s6_patrol_current_context_capture_reader_ab(
@@ -2869,7 +2880,9 @@ static void s5_fill_pre_evidence(
     }
 }
 
-static int s5_reject_before_event(San9S5FaultCode fault)
+static int s5_reject_before_event_result(
+    San9S5FaultCode fault,
+    San9P1M2bResult terminal_code)
 {
     San9P1M2bShared *shared = g_runtime.shared;
     if (shared == NULL) {
@@ -2885,17 +2898,24 @@ static int s5_reject_before_event(San9S5FaultCode fault)
     }
     (void)san9_s5_no_apply_machine_fail(
         &shared->operation.s5.machine, fault);
-    shared->operation.s5.evidence.terminal_code =
-        shared->operation_mode == SAN9_ACTIVE_APPLY_MODE
-        ? SAN9_ACTIVE_FAILURE
-        : SAN9_P1_M2B_S5_NO_APPLY_FAILED;
+    shared->operation.s5.evidence.terminal_code = terminal_code;
     shared->operation.s5.evidence.machine_state =
         (uint32_t)san9_s5_no_apply_machine_state(
             &shared->operation.s5.machine);
     (void)san9_p1_s5_evidence_sign(&shared->operation.s5.evidence,
         shared->mailbox.hmac_key, sizeof(shared->mailbox.hmac_key));
-    reject_bootstrap(shared, shared->operation.s5.evidence.terminal_code, 0);
+    reject_bootstrap(shared, terminal_code, 0);
     return 1;
+}
+
+static int s5_reject_before_event(San9S5FaultCode fault)
+{
+    San9P1M2bShared *shared = g_runtime.shared;
+    San9P1M2bResult terminal_code = shared != NULL
+            && shared->operation_mode == SAN9_ACTIVE_APPLY_MODE
+        ? SAN9_ACTIVE_FAILURE
+        : SAN9_P1_M2B_S5_NO_APPLY_FAILED;
+    return s5_reject_before_event_result(fault, terminal_code);
 }
 
 static S5StartOutcome s5_start_no_apply(uint64_t now_ms)
@@ -3039,6 +3059,16 @@ static S5StartOutcome s5_start_no_apply(uint64_t now_ms)
             ? S5_START_REJECTED_PRE_EVENT : S5_START_RESTART_REQUIRED;
     }
     context_status = s5_capture_ab(&first, &second);
+#if SAN9_COMBINED_BATCH_BUILD
+    if (shared->operation_mode == SAN9_ACTIVE_APPLY_MODE
+        && g_runtime.s8_bound_city_valid != 0u
+        && context_status == SAN9_S5_CURRENT_CONTEXT_CURRENT_CITY_INVALID) {
+        return s5_reject_before_event_result(
+            SAN9_S5_FAULT_PRECHECK,
+            SAN9_P1_M2B_BATCH_REBIND_REQUIRED)
+            ? S5_START_REJECTED_PRE_EVENT : S5_START_RESTART_REQUIRED;
+    }
+#endif
     if (context_status != SAN9_S5_CURRENT_CONTEXT_OK
         || !s5_context_matches_request(
             &first, request)
@@ -3053,6 +3083,16 @@ static S5StartOutcome s5_start_no_apply(uint64_t now_ms)
         return s5_reject_before_event(SAN9_S5_FAULT_PRECHECK)
             ? S5_START_REJECTED_PRE_EVENT : S5_START_RESTART_REQUIRED;
     }
+#if SAN9_COMBINED_BATCH_BUILD
+    if (shared->operation_mode == SAN9_ACTIVE_APPLY_MODE
+        && g_runtime.s8_bound_city_valid == 0u) {
+        g_runtime.s8_bound_city.controller_pointer = first.controller_pointer;
+        g_runtime.s8_bound_city.city_pointer = first.city_pointer;
+        g_runtime.s8_bound_city.corps_pointer = first.corps_pointer;
+        MemoryBarrier();
+        g_runtime.s8_bound_city_valid = 1u;
+    }
+#endif
     g_runtime.s5_pre = first;
 #if SAN9_COMBINED_BATCH_BUILD
     s8_select_exact_vtables(first.native_command_id);

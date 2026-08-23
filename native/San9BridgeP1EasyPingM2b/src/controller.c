@@ -1133,6 +1133,14 @@ static uint32_t run_s5_apply_once_session(
         }
         if (terminal == SAN9_P1_S5_TERMINAL_REJECTED
             && state == SAN9_S5_STATE_REJECTED_PRE_EVENT) {
+            MemoryBarrier();
+            if (is_batch_operation(config->operation_mode)
+                && shared->operation.s5.evidence.terminal_code
+                    == SAN9_P1_M2B_BATCH_REBIND_REQUIRED
+                && interlocked_read(&shared->bootstrap_result)
+                    == SAN9_P1_M2B_BATCH_REBIND_REQUIRED) {
+                return SAN9_P1_M2B_BATCH_REBIND_REQUIRED;
+            }
             return failure;
         }
         if (terminal == SAN9_P1_S5_TERMINAL_SUCCESS
@@ -2177,9 +2185,16 @@ static San9S5CurrentContextStatus s8_capture_command(
     const San9P1M2bBootstrapConfig *config,
     uint64_t game_generation,
     uint32_t native_command_id,
+    const San9S5BoundCurrentCity *bound,
     San9S5CurrentContextSnapshot *first,
     San9S5CurrentContextSnapshot *second)
 {
+    if (bound != NULL) {
+        return san9_s5_bound_current_context_capture_handle_ab(process,
+            config->target_pid, game_generation, config->target_thread_id,
+            (HWND)(uintptr_t)config->target_hwnd, bound,
+            native_command_id, first, second);
+    }
     if (native_command_id == SAN9_P1_M2B_PATROL_NATIVE_ID) {
         return san9_s6_patrol_current_context_capture_handle_ab(process,
             config->target_pid, game_generation, config->target_thread_id,
@@ -2454,9 +2469,7 @@ static uint32_t run_s8_batch_session(
     San9P1S5NoApplyEvidence step_evidence;
     uint8_t binding_digest[SAN9_S5_DIGEST_SIZE];
     char menu_signal[64];
-    uint32_t bound_controller = 0u;
-    uint32_t bound_city = 0u;
-    uint32_t bound_corps = 0u;
+    San9S5BoundCurrentCity bound_city;
     uint32_t executed = 0u;
     uint32_t skipped = 0u;
     uint32_t step;
@@ -2465,6 +2478,7 @@ static uint32_t run_s8_batch_session(
     memset(&first, 0, sizeof(first));
     memset(&second, 0, sizeof(second));
     memset(&step_evidence, 0, sizeof(step_evidence));
+    memset(&bound_city, 0, sizeof(bound_city));
     memset(binding_digest, 0, sizeof(binding_digest));
     memset(menu_signal, 0, sizeof(menu_signal));
     if (shared == NULL || config == NULL || output == NULL
@@ -2520,7 +2534,9 @@ static uint32_t run_s8_batch_session(
             memset(&first, 0, sizeof(first));
             memset(&second, 0, sizeof(second));
             status = s8_capture_command(process, config,
-                binding.game_generation, commands[step], &first, &second);
+                binding.game_generation, commands[step],
+                bound_city.controller_pointer == 0u ? NULL : &bound_city,
+                &first, &second);
             if (status != SAN9_S5_CURRENT_CONTEXT_CONTROLLER_NOT_IDLE
                 && status != SAN9_S5_CURRENT_CONTEXT_AB_MISMATCH
                 && status != SAN9_S5_CURRENT_CONTEXT_READ_FAILED) {
@@ -2544,13 +2560,13 @@ static uint32_t run_s8_batch_session(
         if (status != SAN9_S5_CURRENT_CONTEXT_OK) {
             goto cleanup;
         }
-        if (bound_city == 0u) {
-            bound_controller = first.controller_pointer;
-            bound_city = first.city_pointer;
-            bound_corps = first.corps_pointer;
-        } else if (first.controller_pointer != bound_controller
-            || first.city_pointer != bound_city
-            || first.corps_pointer != bound_corps) {
+        if (bound_city.controller_pointer == 0u) {
+            bound_city.controller_pointer = first.controller_pointer;
+            bound_city.city_pointer = first.city_pointer;
+            bound_city.corps_pointer = first.corps_pointer;
+        } else if (first.controller_pointer != bound_city.controller_pointer
+            || first.city_pointer != bound_city.city_pointer
+            || first.corps_pointer != bound_city.corps_pointer) {
             result = SAN9_P1_M2B_BATCH_REBIND_REQUIRED;
             goto cleanup;
         }
@@ -2595,6 +2611,7 @@ cleanup:
     san9_p1_secure_zero(&first, sizeof(first));
     san9_p1_secure_zero(&second, sizeof(second));
     san9_p1_secure_zero(&step_evidence, sizeof(step_evidence));
+    san9_p1_secure_zero(&bound_city, sizeof(bound_city));
     san9_p1_secure_zero(binding_digest, sizeof(binding_digest));
     san9_p1_secure_zero(menu_signal, sizeof(menu_signal));
     return result;

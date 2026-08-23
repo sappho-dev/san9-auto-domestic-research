@@ -294,6 +294,48 @@ static void test_s5_v8_frozen_post(void)
         "s5-v8-frozen-post-ready-busy-drift-rejected");
 }
 
+static void test_s8_bound_current_city_policy(void)
+{
+    San9S5BoundCurrentCity bound;
+    uint32_t normalized = UINT32_C(0xFFFFFFFF);
+    memset(&bound, 0, sizeof(bound));
+    bound.controller_pointer = UINT32_C(0x00100000);
+    bound.city_pointer = UINT32_C(0x0124DB58) + UINT32_C(0x1F0);
+    bound.corps_pointer = UINT32_C(0x01253C38) + UINT32_C(0xD4);
+    check(san9_s5_bound_current_city_normalize(&bound,
+            bound.controller_pointer, bound.corps_pointer, 0u, &normalized)
+            == SAN9_S5_CURRENT_CONTEXT_OK
+        && normalized == bound.city_pointer,
+        "s8-bound-target-zero-normalized-to-frozen-city");
+    normalized = 0u;
+    check(san9_s5_bound_current_city_normalize(&bound,
+            bound.controller_pointer, bound.corps_pointer,
+            bound.city_pointer, &normalized) == SAN9_S5_CURRENT_CONTEXT_OK
+        && normalized == bound.city_pointer,
+        "s8-bound-same-city-target-accepted");
+    normalized = UINT32_C(0xFFFFFFFF);
+    check(san9_s5_bound_current_city_normalize(&bound,
+            bound.controller_pointer, bound.corps_pointer,
+            bound.city_pointer + UINT32_C(0x1F0), &normalized)
+            == SAN9_S5_CURRENT_CONTEXT_CURRENT_CITY_INVALID
+        && normalized == 0u,
+        "s8-bound-foreign-nonzero-target-rejected");
+    normalized = UINT32_C(0xFFFFFFFF);
+    check(san9_s5_bound_current_city_normalize(&bound,
+            bound.controller_pointer + 4u, bound.corps_pointer,
+            0u, &normalized)
+            == SAN9_S5_CURRENT_CONTEXT_CURRENT_CITY_INVALID
+        && normalized == 0u,
+        "s8-bound-controller-drift-rejected");
+    normalized = UINT32_C(0xFFFFFFFF);
+    check(san9_s5_bound_current_city_normalize(&bound,
+            bound.controller_pointer, bound.corps_pointer + UINT32_C(0xD4),
+            0u, &normalized)
+            == SAN9_S5_CURRENT_CONTEXT_CURRENT_CITY_INVALID
+        && normalized == 0u,
+        "s8-bound-corps-drift-rejected");
+}
+
 typedef struct FakeRead {
     uint32_t last_address;
     size_t last_size;
@@ -1062,6 +1104,7 @@ int main(void)
     test_s5_v8_menu_assembly_abi();
 #endif
     test_s5_v8_frozen_post();
+    test_s8_bound_current_city_policy();
     test_s5_no_apply_contract();
     check(sizeof(San9P1M2bShared) == 8192u, "shared-size");
     check(offsetof(San9P1M2bShared, mailbox) == 4096u, "mailbox-offset");

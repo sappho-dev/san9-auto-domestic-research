@@ -201,6 +201,43 @@ static int s5_table_index(
     return 1;
 }
 
+static int s5_bound_current_city_shape_valid(
+    const San9S5BoundCurrentCity *bound)
+{
+    uint32_t city_id;
+    uint32_t corps_id;
+    return bound != NULL
+        && s5_valid_pointer(bound->controller_pointer)
+        && s5_table_index(bound->city_pointer,
+            S5_CITY_BASE, S5_CITY_STRIDE, S5_CITY_COUNT, &city_id)
+        && s5_table_index(bound->corps_pointer,
+            S5_CORPS_BASE, S5_CORPS_STRIDE, S5_CORPS_COUNT, &corps_id);
+}
+
+San9S5CurrentContextStatus san9_s5_bound_current_city_normalize(
+    const San9S5BoundCurrentCity *bound,
+    uint32_t observed_controller_pointer,
+    uint32_t observed_controller_corps,
+    uint32_t observed_controller_target,
+    uint32_t *normalized_city_pointer)
+{
+    if (normalized_city_pointer != NULL) {
+        *normalized_city_pointer = 0u;
+    }
+    if (!s5_bound_current_city_shape_valid(bound)
+        || normalized_city_pointer == NULL) {
+        return SAN9_S5_CURRENT_CONTEXT_INVALID_ARGUMENT;
+    }
+    if (observed_controller_pointer != bound->controller_pointer
+        || observed_controller_corps != bound->corps_pointer
+        || (observed_controller_target != 0u
+            && observed_controller_target != bound->city_pointer)) {
+        return SAN9_S5_CURRENT_CONTEXT_CURRENT_CITY_INVALID;
+    }
+    *normalized_city_pointer = bound->city_pointer;
+    return SAN9_S5_CURRENT_CONTEXT_OK;
+}
+
 static void s5_hash_u16(San9P1Sha256Context *sha, uint16_t value)
 {
     uint8_t bytes[2];
@@ -1366,6 +1403,124 @@ San9S5CurrentContextStatus san9_s6_repair_current_context_capture_reader_ab(
         reader, identity, first, second, S6_NATIVE_COMMAND_REPAIR);
 }
 
+typedef struct S5BoundReaderContext {
+    const San9S5CurrentContextReader *inner;
+    const San9S5BoundCurrentCity *bound;
+    int binding_drift;
+} S5BoundReaderContext;
+
+static int s5_bound_reader_read(
+    void *context,
+    uint32_t address,
+    void *output,
+    size_t output_size)
+{
+    S5BoundReaderContext *bound_context =
+        (S5BoundReaderContext *)context;
+    uint32_t controller_fields_address;
+    if (bound_context == NULL || bound_context->inner == NULL
+        || bound_context->inner->read == NULL
+        || bound_context->bound == NULL || output == NULL
+        || !bound_context->inner->read(
+            bound_context->inner->context, address, output, output_size)) {
+        return 0;
+    }
+    if (s5_add(bound_context->bound->controller_pointer,
+            S5_CONTROLLER_CORPS_OFFSET, &controller_fields_address)
+        && address == controller_fields_address
+        && output_size == sizeof(uint32_t) * 3u) {
+        uint8_t *bytes = (uint8_t *)output;
+        uint32_t normalized_city = 0u;
+        San9S5CurrentContextStatus status =
+            san9_s5_bound_current_city_normalize(
+                bound_context->bound,
+                bound_context->bound->controller_pointer,
+                s5_u32(bytes, 0u),
+                s5_u32(bytes, 8u),
+                &normalized_city);
+        if (status != SAN9_S5_CURRENT_CONTEXT_OK) {
+            bound_context->binding_drift = 1;
+            normalized_city = bound_context->bound->city_pointer;
+        }
+        memcpy(bytes + 8u, &normalized_city, sizeof(normalized_city));
+    }
+    return 1;
+}
+
+static San9S5CurrentContextStatus s5_capture_reader_ab_native(
+    const San9S5CurrentContextReader *reader,
+    const San9S5ExpectedIdentity *identity,
+    uint32_t native_command_id,
+    San9S5CurrentContextSnapshot *first,
+    San9S5CurrentContextSnapshot *second)
+{
+    switch (native_command_id) {
+    case S6_NATIVE_COMMAND_PATROL:
+        return san9_s6_patrol_current_context_capture_reader_ab(
+            reader, identity, first, second);
+    case S5_NATIVE_COMMAND_COMMERCE:
+        return san9_s5_current_context_capture_reader_ab(
+            reader, identity, first, second);
+    case S6_NATIVE_COMMAND_CULTIVATE:
+        return san9_s6_cultivate_current_context_capture_reader_ab(
+            reader, identity, first, second);
+    case S6_NATIVE_COMMAND_REPAIR:
+        return san9_s6_repair_current_context_capture_reader_ab(
+            reader, identity, first, second);
+    case S6_NATIVE_COMMAND_TRAIN:
+        return san9_s6_train_current_context_capture_reader_ab(
+            reader, identity, first, second);
+    default:
+        return SAN9_S5_CURRENT_CONTEXT_INVALID_ARGUMENT;
+    }
+}
+
+San9S5CurrentContextStatus san9_s5_bound_current_context_capture_reader_ab(
+    const San9S5CurrentContextReader *reader,
+    const San9S5ExpectedIdentity *identity,
+    const San9S5BoundCurrentCity *bound,
+    uint32_t native_command_id,
+    San9S5CurrentContextSnapshot *first,
+    San9S5CurrentContextSnapshot *second)
+{
+    S5BoundReaderContext bound_context;
+    San9S5CurrentContextReader bound_reader;
+    San9S5CurrentContextStatus status;
+    if (first != NULL) {
+        memset(first, 0, sizeof(*first));
+    }
+    if (second != NULL) {
+        memset(second, 0, sizeof(*second));
+    }
+    if (reader == NULL || reader->read == NULL
+        || !s5_identity_shape_valid(identity)
+        || !s5_bound_current_city_shape_valid(bound)
+        || first == NULL || second == NULL || first == second) {
+        return SAN9_S5_CURRENT_CONTEXT_INVALID_ARGUMENT;
+    }
+    memset(&bound_context, 0, sizeof(bound_context));
+    memset(&bound_reader, 0, sizeof(bound_reader));
+    bound_context.inner = reader;
+    bound_context.bound = bound;
+    bound_reader.read = s5_bound_reader_read;
+    bound_reader.context = &bound_context;
+    status = s5_capture_reader_ab_native(
+        &bound_reader, identity, native_command_id, first, second);
+    if (bound_context.binding_drift
+        || (status == SAN9_S5_CURRENT_CONTEXT_OK
+            && (first->controller_pointer != bound->controller_pointer
+                || first->city_pointer != bound->city_pointer
+                || first->corps_pointer != bound->corps_pointer
+                || second->controller_pointer != bound->controller_pointer
+                || second->city_pointer != bound->city_pointer
+                || second->corps_pointer != bound->corps_pointer))) {
+        memset(first, 0, sizeof(*first));
+        memset(second, 0, sizeof(*second));
+        return SAN9_S5_CURRENT_CONTEXT_CURRENT_CITY_INVALID;
+    }
+    return status;
+}
+
 #if defined(_WIN32) && !defined(SAN9_S5_CONTEXT_NO_HANDLE)
 typedef struct San9S5HandleReadContext {
     HANDLE process;
@@ -1586,6 +1741,55 @@ San9S5CurrentContextStatus san9_s6_repair_current_context_capture_handle_ab(
         expected_process_id, expected_process_generation,
         expected_main_thread_id, expected_window, first, second,
         S6_NATIVE_COMMAND_REPAIR);
+}
+San9S5CurrentContextStatus san9_s5_bound_current_context_capture_handle_ab(
+    HANDLE process,
+    uint32_t expected_process_id,
+    uint64_t expected_process_generation,
+    uint32_t expected_main_thread_id,
+    HWND expected_window,
+    const San9S5BoundCurrentCity *bound,
+    uint32_t native_command_id,
+    San9S5CurrentContextSnapshot *first,
+    San9S5CurrentContextSnapshot *second)
+{
+    San9S5ExpectedIdentity identity;
+    San9S5HandleReadContext read_context;
+    San9S5CurrentContextReader reader;
+    San9S5CurrentContextStatus status;
+    if (first != NULL) {
+        memset(first, 0, sizeof(*first));
+    }
+    if (second != NULL) {
+        memset(second, 0, sizeof(*second));
+    }
+    if (process == NULL || process == INVALID_HANDLE_VALUE
+        || expected_process_id == 0u || expected_process_generation == 0u
+        || expected_main_thread_id == 0u || expected_window == NULL
+        || first == NULL || second == NULL || first == second) {
+        return SAN9_S5_CURRENT_CONTEXT_INVALID_ARGUMENT;
+    }
+    memset(&identity, 0, sizeof(identity));
+    memset(&read_context, 0, sizeof(read_context));
+    memset(&reader, 0, sizeof(reader));
+    identity.process_id = expected_process_id;
+    identity.process_generation = expected_process_generation;
+    identity.main_thread_id = expected_main_thread_id;
+    identity.window_handle = (uint64_t)(uintptr_t)expected_window;
+    if (!s5_handle_binding_matches(process, &identity, expected_window)) {
+        return SAN9_S5_CURRENT_CONTEXT_BINDING_MISMATCH;
+    }
+    read_context.process = process;
+    reader.read = s5_handle_read;
+    reader.context = &read_context;
+    status = san9_s5_bound_current_context_capture_reader_ab(
+        &reader, &identity, bound, native_command_id, first, second);
+    if (!s5_handle_binding_matches(process, &identity, expected_window)) {
+        memset(first, 0, sizeof(*first));
+        memset(second, 0, sizeof(*second));
+        return SAN9_S5_CURRENT_CONTEXT_BINDING_MISMATCH;
+    }
+    return status;
 }
 #endif
 

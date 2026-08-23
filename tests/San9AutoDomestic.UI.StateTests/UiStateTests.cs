@@ -544,10 +544,20 @@ namespace San9AutoDomestic.UI.StateTests
             rebind.RecordMenuDecision(true);
             rebind.AcceptLine(
                 "{\"mode\":\"s8-wealthy-batch\",\"phase\":\"BATCH_REBIND_REQUIRED\",\"executed\":1,\"skipped\":0}");
+            NativeBatchResult rebindResult = rebind.Complete(23, string.Empty);
             AssertEx.Equal(
                 NativeControllerState.RebindRequired,
-                rebind.Complete(23, string.Empty).State,
+                rebindResult.State,
                 "Rebind must be a distinct terminal state.");
+            AssertEx.Equal(1, rebindResult.Executed,
+                "Rebind must retain the already executed count.");
+            AssertEx.Equal(0, rebindResult.Skipped,
+                "Rebind must retain the skipped count.");
+            AssertEx.Contains(
+                "停止前已执行 1，跳过 0",
+                NativeControllerClient.DescribeJsonLine(
+                    "{\"phase\":\"BATCH_REBIND_REQUIRED\",\"executed\":1,\"skipped\":0}"),
+                "The visible rebind line must preserve completed work.");
 
             NativeBatchProtocol invalid = new NativeBatchProtocol(NativeBatchKind.Basic);
             AssertEx.Equal(

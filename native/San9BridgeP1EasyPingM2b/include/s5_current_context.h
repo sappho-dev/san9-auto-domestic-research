@@ -61,6 +61,14 @@ typedef struct San9S5ExpectedIdentity {
     uint64_t window_handle;
 } San9S5ExpectedIdentity;
 
+/* Cross-step batch binding.  It is an internal read constraint, not wire
+   state and never authorizes writing controller+0x38. */
+typedef struct San9S5BoundCurrentCity {
+    uint32_t controller_pointer;
+    uint32_t city_pointer;
+    uint32_t corps_pointer;
+} San9S5BoundCurrentCity;
+
 typedef int (*San9S5CurrentContextReadCallback)(
     void *context,
     uint32_t address,
@@ -265,6 +273,24 @@ San9S5CurrentContextStatus san9_s6_repair_current_context_capture_reader_ab(
     San9S5CurrentContextSnapshot *first,
     San9S5CurrentContextSnapshot *second);
 
+/* A bound capture substitutes the frozen city only in its local read view
+   when the observed controller target is zero.  A non-zero foreign target,
+   controller drift, or corps drift returns CURRENT_CITY_INVALID. */
+San9S5CurrentContextStatus san9_s5_bound_current_city_normalize(
+    const San9S5BoundCurrentCity *bound,
+    uint32_t observed_controller_pointer,
+    uint32_t observed_controller_corps,
+    uint32_t observed_controller_target,
+    uint32_t *normalized_city_pointer);
+
+San9S5CurrentContextStatus san9_s5_bound_current_context_capture_reader_ab(
+    const San9S5CurrentContextReader *reader,
+    const San9S5ExpectedIdentity *identity,
+    const San9S5BoundCurrentCity *bound,
+    uint32_t native_command_id,
+    San9S5CurrentContextSnapshot *first,
+    San9S5CurrentContextSnapshot *second);
+
 int san9_s5_current_context_business_digest(
     const San9S5CurrentContextSnapshot *snapshot,
     uint8_t output[SAN9_S5_CURRENT_CONTEXT_DIGEST_SIZE]);
@@ -339,6 +365,17 @@ San9S5CurrentContextStatus san9_s6_repair_current_context_capture_handle_ab(
     uint64_t expected_process_generation,
     uint32_t expected_main_thread_id,
     HWND expected_window,
+    San9S5CurrentContextSnapshot *first,
+    San9S5CurrentContextSnapshot *second);
+
+San9S5CurrentContextStatus san9_s5_bound_current_context_capture_handle_ab(
+    HANDLE process,
+    uint32_t expected_process_id,
+    uint64_t expected_process_generation,
+    uint32_t expected_main_thread_id,
+    HWND expected_window,
+    const San9S5BoundCurrentCity *bound,
+    uint32_t native_command_id,
     San9S5CurrentContextSnapshot *first,
     San9S5CurrentContextSnapshot *second);
 #endif
