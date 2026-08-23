@@ -262,10 +262,22 @@ jobs:
             tests/San9AutoDomestic.UI.StateTests/UiStateTests.cs `
             tests/verify_s8_bound_path_matrix.py
           git diff --cached --check
-          git diff --cached --quiet
-          if ($LASTEXITCODE -ne 0) {
-            git commit -m 'fix: bind S8 cross-step city in production sources [skip ci]'
-            git push origin "HEAD:$env:CANDIDATE_BRANCH"
+          $previousNativeErrorPreference = $PSNativeCommandUseErrorActionPreference
+          try {
+            $PSNativeCommandUseErrorActionPreference = $false
+            git diff --cached --quiet
+            $stagedDiffExitCode = $LASTEXITCODE
+          }
+          finally {
+            $PSNativeCommandUseErrorActionPreference = $previousNativeErrorPreference
+          }
+          switch ($stagedDiffExitCode) {
+            0 { Write-Host 'No production-source changes to commit.' }
+            1 {
+              git commit -m 'fix: bind S8 cross-step city in production sources [skip ci]'
+              git push origin "HEAD:$env:CANDIDATE_BRANCH"
+            }
+            default { throw "git diff --cached --quiet failed with exit code $stagedDiffExitCode" }
           }
 
       - name: Bootstrap deterministic native hashes and commit pins
@@ -327,10 +339,22 @@ jobs:
           git diff --check
           git add -- $nativePath $rootPath $uiPath
           git diff --cached --check
-          git diff --cached --quiet
-          if ($LASTEXITCODE -ne 0) {
-            git commit -m 'build: pin deterministic S8 candidate hashes [skip ci]'
-            git push origin "HEAD:$env:CANDIDATE_BRANCH"
+          $previousNativeErrorPreference = $PSNativeCommandUseErrorActionPreference
+          try {
+            $PSNativeCommandUseErrorActionPreference = $false
+            git diff --cached --quiet
+            $stagedDiffExitCode = $LASTEXITCODE
+          }
+          finally {
+            $PSNativeCommandUseErrorActionPreference = $previousNativeErrorPreference
+          }
+          switch ($stagedDiffExitCode) {
+            0 { Write-Host 'No deterministic hash-pin changes to commit.' }
+            1 {
+              git commit -m 'build: pin deterministic S8 candidate hashes [skip ci]'
+              git push origin "HEAD:$env:CANDIDATE_BRANCH"
+            }
+            default { throw "git diff --cached --quiet failed with exit code $stagedDiffExitCode" }
           }
 
       - name: Run final native compile, 117 offline regressions, and four-path audit
