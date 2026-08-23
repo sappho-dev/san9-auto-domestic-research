@@ -1,0 +1,74 @@
+name: Record failed S8 v6 candidate run
+
+on:
+  push:
+    branches:
+      - fix/s8-cross-step-bound-city
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+concurrency:
+  group: s8-monitor-v6
+  cancel-in-progress: true
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 85
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: fix/s8-cross-step-bound-city
+
+      - name: Wait for matching v6 run
+        id: monitor
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          BRANCH: fix/s8-cross-step-bound-city
+          PUSH_SHA: ${{ github.sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          encoded="$(python -c 'import os, urllib.parse; print(urllib.parse.quote(os.environ["BRANCH"], safe=""))')"
+          target=''
+          for _ in $(seq 1 320); do
+            target="$(gh api "/repos/$REPO/actions/workflows/s8-verify-and-package-v6.yml/runs?branch=$encoded&per_page=20" \
+              --jq '.workflow_runs | map(select(.head_sha == "'"$PUSH_SHA"'")) | sort_by(.created_at) | reverse | .[0].id // empty')"
+            if [[ -n "$target" ]]; then
+              status="$(gh api "/repos/$REPO/actions/runs/$target" --jq '.status')"
+              [[ "$status" == completed ]] && break
+            fi
+            sleep 15
+          done
+          [[ -n "$target" ]] || { echo 'No matching v6 run found' >&2; exit 1; }
+          status="$(gh api "/repos/$REPO/actions/runs/$target" --jq '.status')"
+          [[ "$status" == completed ]] || { echo "v6 run timed out: $target" >&2; exit 1; }
+          conclusion="$(gh api "/repos/$REPO/actions/runs/$target" --jq '.conclusion')"
+          echo "run_id=$target" >> "$GITHUB_OUTPUT"
+          echo "conclusion=$conclusion" >> "$GITHUB_OUTPUT"
+
+      - name: Commit failed logs only
+        if: steps.monitor.outputs.conclusion != 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ steps.monitor.outputs.run_id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .github/audit
+          gh api "/repos/$REPO/actions/runs/$RUN_ID" > .github/audit/s8-v6-last-failed-run.json
+          gh run view "$RUN_ID" --repo "$REPO" --log-failed > .github/audit/s8-v6-last-failure.log 2>&1 || true
+          printf 'run_id=%s\nconclusion=failed\n' "$RUN_ID" > .github/audit/s8-v6-last-result.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/audit/s8-v6-last-failed-run.json \
+            .github/audit/s8-v6-last-failure.log \
+            .github/audit/s8-v6-last-result.txt
+          git commit -m 'chore: record failed S8 v6 candidate run [skip ci]'
+          git push origin HEAD:fix/s8-cross-step-bound-city
