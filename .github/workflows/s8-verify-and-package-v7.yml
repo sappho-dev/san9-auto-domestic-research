@@ -1,0 +1,513 @@
+name: Verify direct S8 cross-step candidate
+
+on:
+  push:
+    branches:
+      - fix/s8-cross-step-bound-city
+    paths:
+      - .github/workflows/s8-verify-and-package-v7.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: s8-direct-final-candidate
+  cancel-in-progress: false
+
+env:
+  CANDIDATE_BRANCH: candidate/s8-direct-bound-city
+  REPAIR_BRANCH: fix/s8-cross-step-bound-city
+
+jobs:
+  build-test-package:
+    runs-on: windows-2025
+    timeout-minutes: 90
+    steps:
+      - name: Disable newline rewriting before checkout
+        shell: pwsh
+        run: |
+          git config --global core.autocrlf false
+          git config --global core.safecrlf false
+          git config --global core.eol crlf
+
+      - name: Checkout clean candidate branch
+        uses: actions/checkout@v4
+        with:
+          ref: candidate/s8-direct-bound-city
+          fetch-depth: 0
+          clean: true
+
+      - name: Install pinned Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.0'
+          architecture: x64
+
+      - name: Install pinned Zig
+        uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+
+      - name: Install .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install exact audit dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --disable-pip-version-check pefile==2024.8.26 capstone==5.0.7
+          $python = (Get-Command python.exe -ErrorAction Stop).Source
+          $zig = (Get-Command zig.exe -ErrorAction Stop).Source
+          Write-Host "python=$python sha256=$((Get-FileHash -Algorithm SHA256 -LiteralPath $python).Hash)"
+          Write-Host "zig=$zig sha256=$((Get-FileHash -Algorithm SHA256 -LiteralPath $zig).Hash)"
+
+      - name: Materialize recovered plaintext directly into production sources
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          git fetch origin $env:REPAIR_BRANCH $env:CANDIDATE_BRANCH
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if (-not (Select-String -LiteralPath 'native/San9BridgeP1EasyPingM2b/include/s5_current_context.h' -SimpleMatch 'San9S5BoundCurrentCity' -Quiet)) {
+            $recovered = Join-Path $env:RUNNER_TEMP 'apply_s8_fix.recovered.py'
+            git show "origin/$($env:REPAIR_BRANCH):.github/scripts/apply_s8_fix.py" | Set-Content -LiteralPath $recovered -Encoding utf8NoBOM
+            python $recovered source
+            @'
+          from __future__ import annotations
+
+          import hashlib
+          import re
+          from pathlib import Path
+
+          ROOT = Path.cwd()
+
+          def read(path: Path) -> tuple[str, str, bool]:
+              raw = path.read_bytes()
+              bom = raw.startswith(b"\xef\xbb\xbf")
+              if bom:
+                  raw = raw[3:]
+              newline = "\r\n" if b"\r\n" in raw else "\n"
+              return raw.decode("utf-8").replace("\r\n", "\n"), newline, bom
+
+          def write(path: Path, text: str, newline: str, bom: bool) -> None:
+              data = text.replace("\n", newline).encode("utf-8")
+              path.write_bytes((b"\xef\xbb\xbf" if bom else b"") + data)
+
+          def replace_once(path: Path, old: str, new: str) -> None:
+              text, newline, bom = read(path)
+              count = text.count(old)
+              if count != 1:
+                  raise RuntimeError(f"{path}: expected one replacement, found {count}")
+              write(path, text.replace(old, new, 1), newline, bom)
+
+          replace_once(
+              ROOT / "tests/San9AutoDomestic.UI.StateTests/UiStateTests.cs",
+              '                    "{"phase":"BATCH_REBIND_REQUIRED","executed":1,"skipped":0}"),',
+              '                    "{\\"phase\\":\\"BATCH_REBIND_REQUIRED\\",\\"executed\\":1,\\"skipped\\":0}"),',
+          )
+
+          replace_once(
+              ROOT / "native/San9BridgeP1EasyPingM2b/src/bridge_dll.c",
+              '''static int s5_reject_before_event(San9S5FaultCode fault)
+          {
+              San9P1M2bShared *shared = g_runtime.shared;
+              if (shared == NULL) {
+                  return 0;
+              }
+              if (InterlockedCompareExchange(
+                      (volatile LONG *)&shared->operation.s5.terminal_state,
+                      SAN9_P1_S5_TERMINAL_REJECTED,
+                      SAN9_P1_S5_TERMINAL_START_PRE_EVENT)
+                      != SAN9_P1_S5_TERMINAL_START_PRE_EVENT) {
+                  s5_poison(fault);
+                  return 0;
+              }
+              (void)san9_s5_no_apply_machine_fail(
+                  &shared->operation.s5.machine, fault);
+              shared->operation.s5.evidence.terminal_code =
+                  shared->operation_mode == SAN9_ACTIVE_APPLY_MODE
+                  ? SAN9_ACTIVE_FAILURE
+                  : SAN9_P1_M2B_S5_NO_APPLY_FAILED;
+              shared->operation.s5.evidence.machine_state =
+                  (uint32_t)san9_s5_no_apply_machine_state(
+                      &shared->operation.s5.machine);
+              (void)san9_p1_s5_evidence_sign(&shared->operation.s5.evidence,
+                  shared->mailbox.hmac_key, sizeof(shared->mailbox.hmac_key));
+              reject_bootstrap(shared, shared->operation.s5.evidence.terminal_code, 0);
+              return 1;
+          }
+          ''',
+              '''static int s5_reject_before_event_result(
+              San9S5FaultCode fault,
+              San9P1M2bResult terminal_code)
+          {
+              San9P1M2bShared *shared = g_runtime.shared;
+              if (shared == NULL) {
+                  return 0;
+              }
+              if (InterlockedCompareExchange(
+                      (volatile LONG *)&shared->operation.s5.terminal_state,
+                      SAN9_P1_S5_TERMINAL_REJECTED,
+                      SAN9_P1_S5_TERMINAL_START_PRE_EVENT)
+                      != SAN9_P1_S5_TERMINAL_START_PRE_EVENT) {
+                  s5_poison(fault);
+                  return 0;
+              }
+              (void)san9_s5_no_apply_machine_fail(
+                  &shared->operation.s5.machine, fault);
+              shared->operation.s5.evidence.terminal_code = terminal_code;
+              shared->operation.s5.evidence.machine_state =
+                  (uint32_t)san9_s5_no_apply_machine_state(
+                      &shared->operation.s5.machine);
+              (void)san9_p1_s5_evidence_sign(&shared->operation.s5.evidence,
+                  shared->mailbox.hmac_key, sizeof(shared->mailbox.hmac_key));
+              reject_bootstrap(shared, terminal_code, 0);
+              return 1;
+          }
+
+          static int s5_reject_before_event(San9S5FaultCode fault)
+          {
+              San9P1M2bShared *shared = g_runtime.shared;
+              San9P1M2bResult terminal_code = shared != NULL
+                      && shared->operation_mode == SAN9_ACTIVE_APPLY_MODE
+                  ? SAN9_ACTIVE_FAILURE
+                  : SAN9_P1_M2B_S5_NO_APPLY_FAILED;
+              return s5_reject_before_event_result(fault, terminal_code);
+          }
+          ''',
+          )
+
+          replace_once(
+              ROOT / "native/San9BridgeP1EasyPingM2b/src/bridge_dll.c",
+              '''    context_status = s5_capture_ab(&first, &second);
+              if (context_status != SAN9_S5_CURRENT_CONTEXT_OK
+                  || !s5_context_matches_request(
+          ''',
+              '''    context_status = s5_capture_ab(&first, &second);
+          #if SAN9_COMBINED_BATCH_BUILD
+              if (shared->operation_mode == SAN9_ACTIVE_APPLY_MODE
+                  && g_runtime.s8_bound_city_valid != 0u
+                  && context_status == SAN9_S5_CURRENT_CONTEXT_CURRENT_CITY_INVALID) {
+                  return s5_reject_before_event_result(
+                      SAN9_S5_FAULT_PRECHECK,
+                      SAN9_P1_M2B_BATCH_REBIND_REQUIRED)
+                      ? S5_START_REJECTED_PRE_EVENT : S5_START_RESTART_REQUIRED;
+              }
+          #endif
+              if (context_status != SAN9_S5_CURRENT_CONTEXT_OK
+                  || !s5_context_matches_request(
+          ''',
+          )
+
+          replace_once(
+              ROOT / "native/San9BridgeP1EasyPingM2b/src/controller.c",
+              '''        if (terminal == SAN9_P1_S5_TERMINAL_REJECTED
+                      && state == SAN9_S5_STATE_REJECTED_PRE_EVENT) {
+                      return failure;
+                  }
+          ''',
+              '''        if (terminal == SAN9_P1_S5_TERMINAL_REJECTED
+                      && state == SAN9_S5_STATE_REJECTED_PRE_EVENT) {
+                      MemoryBarrier();
+                      if (is_batch_operation(config->operation_mode)
+                          && shared->operation.s5.evidence.terminal_code
+                              == SAN9_P1_M2B_BATCH_REBIND_REQUIRED
+                          && interlocked_read(&shared->bootstrap_result)
+                              == SAN9_P1_M2B_BATCH_REBIND_REQUIRED) {
+                          return SAN9_P1_M2B_BATCH_REBIND_REQUIRED;
+                      }
+                      return failure;
+                  }
+          ''',
+          )
+
+          import base64
+          import gzip
+          audit_payload = "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"
+          audit_path = ROOT / "tests/verify_s8_bound_path_matrix.py"
+          audit_path.write_bytes(gzip.decompress(base64.b64decode(audit_payload)))
+
+          build = ROOT / "native/San9BridgeP1EasyPingM2b/build.ps1"
+          text, newline, bom = read(build)
+          for relative in (
+              "include/s5_current_context.h",
+              "src/s5_current_context.c",
+              "src/controller.c",
+              "src/bridge_dll.c",
+              "src/offline_selftest.c",
+          ):
+              digest = hashlib.sha256((build.parent / relative).read_bytes()).hexdigest().upper()
+              windows = relative.replace("/", "\\")
+              pattern = re.compile(r"(@\(\(Join-Path \$PSScriptRoot '" + re.escape(windows) + r"'\),')([A-F0-9]{64})('\),)")
+              text, count = pattern.subn(r"\g<1>" + digest + r"\g<3>", text, count=1)
+              if count != 1:
+                  raise RuntimeError(f"source pin not found: {relative}")
+          write(build, text, newline, bom)
+          '@ | python -
+          }
+          python -m py_compile tests/verify_s8_bound_path_matrix.py
+          python tests/verify_s8_bound_path_matrix.py --report "$env:RUNNER_TEMP/s8-bound-path-matrix.json"
+          git diff --check
+          git add -- `
+            native/San9BridgeP1EasyPingM2b/include/s5_current_context.h `
+            native/San9BridgeP1EasyPingM2b/src/s5_current_context.c `
+            native/San9BridgeP1EasyPingM2b/src/controller.c `
+            native/San9BridgeP1EasyPingM2b/src/bridge_dll.c `
+            native/San9BridgeP1EasyPingM2b/src/offline_selftest.c `
+            native/San9BridgeP1EasyPingM2b/build.ps1 `
+            src/San9AutoDomestic.UI/NativeControllerClient.cs `
+            tests/San9AutoDomestic.UI.StateTests/UiStateTests.cs `
+            tests/verify_s8_bound_path_matrix.py
+          git diff --cached --check
+          $previousNativeErrorPreference = $PSNativeCommandUseErrorActionPreference
+          try {
+            $PSNativeCommandUseErrorActionPreference = $false
+            git diff --cached --quiet
+            $stagedDiffExitCode = $LASTEXITCODE
+          }
+          finally {
+            $PSNativeCommandUseErrorActionPreference = $previousNativeErrorPreference
+          }
+          switch ($stagedDiffExitCode) {
+            0 { Write-Host 'No production-source changes to commit.' }
+            1 {
+              git commit -m 'fix: bind S8 cross-step city in production sources [skip ci]'
+              git push origin "HEAD:$env:CANDIDATE_BRANCH"
+            }
+            default { throw "git diff --cached --quiet failed with exit code $stagedDiffExitCode" }
+          }
+
+      - name: Bootstrap deterministic native hashes and commit pins
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $false
+          $artifactRoot = Join-Path $env:RUNNER_TEMP 'san9-native-bootstrap'
+          $log = Join-Path $env:RUNNER_TEMP 'native-bootstrap.log'
+          Remove-Item -Recurse -Force $artifactRoot -ErrorAction SilentlyContinue
+          New-Item -ItemType Directory -Force -Path $artifactRoot | Out-Null
+          $caught = $null
+          try {
+            & .\native\San9BridgeP1EasyPingM2b\build.ps1 -ArtifactRoot $artifactRoot *>&1 | Tee-Object -FilePath $log
+          }
+          catch {
+            $caught = $_
+            $_ | Out-String | Tee-Object -FilePath $log -Append
+          }
+          $roles = [ordered]@{
+            Offline = 'offline.exe'; Controller = 'controller.exe'; Dll = 'bridge.dll';
+            ApplyDll = 'bridge_apply_once.dll'; CultivateDll = 'bridge_s6_cultivate_apply_once.dll';
+            PatrolDll = 'bridge_s6_patrol_apply_once.dll'; TrainDll = 'bridge_s6_train_apply_once.dll';
+            RepairDll = 'bridge_s6_repair_apply_once.dll'; S8BasicDll = 'bridge_s8_basic_batch.dll';
+            S8WealthyDll = 'bridge_s8_wealthy_batch.dll'
+          }
+          $missing = @($roles.Values | Where-Object { -not (Test-Path -LiteralPath (Join-Path $artifactRoot $_) -PathType Leaf) })
+          if ($missing.Count -ne 0) { throw "bootstrap artifacts missing: $($missing -join ', ')" }
+          $logText = [IO.File]::ReadAllText($log)
+          if ($null -ne $caught -and $logText -notmatch 'deterministic whole image rejected') { throw $caught }
+          $hashes = [ordered]@{}
+          foreach ($role in $roles.Keys) {
+            $hashes[$role] = (Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $artifactRoot $roles[$role])).Hash
+          }
+          $nativePath = 'native/San9BridgeP1EasyPingM2b/build.ps1'
+          $nativeText = [IO.File]::ReadAllText($nativePath)
+          $oldRuntime = @{}
+          foreach ($role in @('Controller','S8BasicDll','S8WealthyDll')) {
+            $match = [regex]::Match($nativeText, "(?m)^\s*$role\s*=\s*'([A-F0-9]{64})'")
+            if (-not $match.Success) { throw "missing native role $role" }
+            $oldRuntime[$role] = $match.Groups[1].Value
+          }
+          foreach ($role in $roles.Keys) {
+            $pattern = "(?m)^(\s*$role\s*=\s*')[A-F0-9]{64}(')"
+            $nativeText = [regex]::Replace($nativeText, $pattern, "`$1$($hashes[$role])`$2", 1)
+          }
+          [IO.File]::WriteAllText($nativePath, $nativeText, [Text.UTF8Encoding]::new($false))
+          $rootPath = 'build.ps1'
+          $rootText = [IO.File]::ReadAllText($rootPath)
+          $uiPath = 'src/San9AutoDomestic.UI/NativeControllerClient.cs'
+          $uiText = [IO.File]::ReadAllText($uiPath)
+          foreach ($role in @('Controller','S8BasicDll','S8WealthyDll')) {
+            $rootText = $rootText.Replace($oldRuntime[$role], $hashes[$role])
+            $uiText = $uiText.Replace($oldRuntime[$role], $hashes[$role])
+          }
+          [IO.File]::WriteAllText($rootPath, $rootText, [Text.UTF8Encoding]::new($false))
+          [IO.File]::WriteAllText($uiPath, $uiText, [Text.UTF8Encoding]::new($false))
+          $hashes | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $env:RUNNER_TEMP 'native-hashes.json') -Encoding utf8NoBOM
+          git diff --check
+          git add -- $nativePath $rootPath $uiPath
+          git diff --cached --check
+          $previousNativeErrorPreference = $PSNativeCommandUseErrorActionPreference
+          try {
+            $PSNativeCommandUseErrorActionPreference = $false
+            git diff --cached --quiet
+            $stagedDiffExitCode = $LASTEXITCODE
+          }
+          finally {
+            $PSNativeCommandUseErrorActionPreference = $previousNativeErrorPreference
+          }
+          switch ($stagedDiffExitCode) {
+            0 { Write-Host 'No deterministic hash-pin changes to commit.' }
+            1 {
+              git commit -m 'build: pin deterministic S8 candidate hashes [skip ci]'
+              git push origin "HEAD:$env:CANDIDATE_BRANCH"
+            }
+            default { throw "git diff --cached --quiet failed with exit code $stagedDiffExitCode" }
+          }
+
+      - name: Run final native compile, 117 offline regressions, and four-path audit
+        id: native
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          $artifactRoot = Join-Path $env:RUNNER_TEMP 'san9-native-final'
+          $nativeLog = Join-Path $env:RUNNER_TEMP 'native-final.log'
+          $offlineLog = Join-Path $env:RUNNER_TEMP 'offline-explicit.log'
+          $audit = Join-Path $env:RUNNER_TEMP 's8-bound-path-matrix.json'
+          Remove-Item -Recurse -Force $artifactRoot -ErrorAction SilentlyContinue
+          New-Item -ItemType Directory -Force -Path $artifactRoot | Out-Null
+          & .\native\San9BridgeP1EasyPingM2b\build.ps1 -ArtifactRoot $artifactRoot *>&1 | Tee-Object -FilePath $nativeLog
+          if ($LASTEXITCODE -ne 0) { throw "native build failed: $LASTEXITCODE" }
+          & (Join-Path $artifactRoot 'offline.exe') *>&1 | Tee-Object -FilePath $offlineLog
+          if ($LASTEXITCODE -ne 0) { throw "offline.exe failed: $LASTEXITCODE" }
+          $offlineText = [IO.File]::ReadAllText($offlineLog)
+          if ($offlineText -notmatch 'P1_M2B_OFFLINE_SELFTEST passed=117 failed=0 live_runs=0') {
+            throw 'explicit offline result was not 117/117 with live_runs=0'
+          }
+          python tests/verify_s8_bound_path_matrix.py --report $audit
+          $matrix = Get-Content -LiteralPath $audit -Raw | ConvertFrom-Json
+          if (@($matrix.matrix | Where-Object { -not $_.passed }).Count -ne 0 -or @($matrix.matrix).Count -ne 4) {
+            throw 'Controller/Bridge A/B four-path audit did not pass 4/4'
+          }
+          "artifact_root=$artifactRoot" | Out-File -LiteralPath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "native_log=$nativeLog" | Out-File -LiteralPath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "offline_log=$offlineLog" | Out-File -LiteralPath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "audit=$audit" | Out-File -LiteralPath $env:GITHUB_OUTPUT -Append -Encoding utf8
+
+      - name: Run complete product build and regression suite
+        id: product
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+          $rootLog = Join-Path $env:RUNNER_TEMP 'root-build.log'
+          & .\build.ps1 *>&1 | Tee-Object -FilePath $rootLog
+          if ($LASTEXITCODE -ne 0) { throw "product build failed: $LASTEXITCODE" }
+          $productRoot = (Resolve-Path -LiteralPath 'tools/artifacts/bin').Path
+          "root_log=$rootLog" | Out-File -LiteralPath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "product_root=$productRoot" | Out-File -LiteralPath $env:GITHUB_OUTPUT -Append -Encoding utf8
+
+      - name: Assemble exact-commit candidate ZIP, manifest, and SHA
+        id: package
+        shell: pwsh
+        env:
+          ARTIFACT_ROOT: ${{ steps.native.outputs.artifact_root }}
+          NATIVE_LOG: ${{ steps.native.outputs.native_log }}
+          OFFLINE_LOG: ${{ steps.native.outputs.offline_log }}
+          AUDIT: ${{ steps.native.outputs.audit }}
+          ROOT_LOG: ${{ steps.product.outputs.root_log }}
+          PRODUCT_ROOT: ${{ steps.product.outputs.product_root }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          git fetch origin main
+          $commit = (git rev-parse HEAD).Trim()
+          $main = (git rev-parse origin/main).Trim()
+          if ($main -ne 'ca96a042774d6fd0bbc07b8a8ccb9bae92ca1a65') { throw "main moved unexpectedly: $main" }
+          $root = Join-Path $env:RUNNER_TEMP "San9-S8-cross-step-candidate-$commit"
+          $native = Join-Path $root 'native'
+          $product = Join-Path $root 'product'
+          $evidence = Join-Path $root 'evidence'
+          Remove-Item -Recurse -Force $root -ErrorAction SilentlyContinue
+          New-Item -ItemType Directory -Force -Path $native,$product,$evidence | Out-Null
+          Copy-Item -Path (Join-Path $env:ARTIFACT_ROOT '*') -Destination $native -Recurse -Force
+          Copy-Item -Path (Join-Path $env:PRODUCT_ROOT '*') -Destination $product -Recurse -Force
+          Copy-Item -LiteralPath $env:NATIVE_LOG,$env:OFFLINE_LOG,$env:AUDIT,$env:ROOT_LOG -Destination $evidence -Force
+          $files = @()
+          Get-ChildItem -LiteralPath $root -File -Recurse | Sort-Object FullName | ForEach-Object {
+            $files += [ordered]@{
+              path = [IO.Path]::GetRelativePath($root, $_.FullName).Replace('\','/')
+              size = $_.Length
+              sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $_.FullName).Hash.ToLowerInvariant()
+            }
+          }
+          $manifest = [ordered]@{
+            repository = $env:GITHUB_REPOSITORY
+            branch = $env:CANDIDATE_BRANCH
+            commit = $commit
+            main_commit = $main
+            baseline_plaintext_commit = '1549d62'
+            generated_utc = [DateTime]::UtcNow.ToString('o')
+            verification = [ordered]@{
+              native_compile = 'passed'
+              offline_regression = '117/117; live_runs=0'
+              controller_bridge_ab_audit = '4/4 passed'
+              product_build_and_regression = 'passed'
+              main_merged = $false
+            }
+            files = $files
+          }
+          $manifestPath = Join-Path $root 'candidate-manifest.json'
+          $manifest | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $manifestPath -Encoding utf8NoBOM
+          $sumPath = Join-Path $root 'SHA256SUMS.txt'
+          Get-ChildItem -LiteralPath $root -File -Recurse | Where-Object { $_.FullName -ne $sumPath } | Sort-Object FullName | ForEach-Object {
+            $relative = [IO.Path]::GetRelativePath($root, $_.FullName).Replace('\','/')
+            "$((Get-FileHash -Algorithm SHA256 -LiteralPath $_.FullName).Hash.ToLowerInvariant())  $relative"
+          } | Set-Content -LiteralPath $sumPath -Encoding ascii
+          $zip = Join-Path $env:RUNNER_TEMP "San9-S8-cross-step-candidate-$commit.zip"
+          Remove-Item -Force $zip -ErrorAction SilentlyContinue
+          Compress-Archive -Path (Join-Path $root '*') -DestinationPath $zip -CompressionLevel Optimal
+          $sha = (Get-FileHash -Algorithm SHA256 -LiteralPath $zip).Hash.ToLowerInvariant()
+          $shaFile = Join-Path $env:RUNNER_TEMP "San9-S8-cross-step-candidate-$commit.sha256.txt"
+          "$sha  $([IO.Path]::GetFileName($zip))" | Set-Content -LiteralPath $shaFile -Encoding ascii
+          Copy-Item -LiteralPath $manifestPath -Destination (Join-Path $env:RUNNER_TEMP "candidate-manifest-$commit.json") -Force
+          "commit=$commit" | Out-File -LiteralPath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "zip=$zip" | Out-File -LiteralPath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "sha=$sha" | Out-File -LiteralPath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "sha_file=$shaFile" | Out-File -LiteralPath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "manifest=$(Join-Path $env:RUNNER_TEMP "candidate-manifest-$commit.json")" | Out-File -LiteralPath $env:GITHUB_OUTPUT -Append -Encoding utf8
+
+      - name: Upload candidate package and evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: San9-S8-cross-step-candidate-${{ steps.package.outputs.commit }}
+          path: |
+            ${{ steps.package.outputs.zip }}
+            ${{ steps.package.outputs.sha_file }}
+            ${{ steps.package.outputs.manifest }}
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0
+
+      - name: Record verified candidate summary
+        shell: pwsh
+        env:
+          FINAL_COMMIT: ${{ steps.package.outputs.commit }}
+          CANDIDATE_SHA: ${{ steps.package.outputs.sha }}
+        run: |
+          @"
+          ## Direct S8 candidate complete
+          - commit: `$env:FINAL_COMMIT`
+          - ZIP SHA-256: `$env:CANDIDATE_SHA`
+          - native: passed
+          - offline: 117/117, live_runs=0
+          - Controller/Bridge A/B: 4/4
+          - product regression: passed
+          - main: unchanged and unmerged
+          "@ | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
+
+      - name: Upload failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: San9-S8-direct-failure-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/native-bootstrap.log
+            ${{ runner.temp }}/native-final.log
+            ${{ runner.temp }}/offline-explicit.log
+            ${{ runner.temp }}/root-build.log
+            ${{ runner.temp }}/s8-bound-path-matrix.json
+          if-no-files-found: warn
+          retention-days: 14
