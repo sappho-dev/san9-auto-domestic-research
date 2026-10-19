@@ -1,7 +1,7 @@
 {
   "615a4035c8c1d14e83366946": {
     "channel_title": "孤岛车谈",
-    "status": "public_sources_exhausted_for_this_pass",
+    "status": "research_reopened",
     "episodes": [
       {
         "title": "195 卡车HMI：有谁能懂卡车司机的需求？ 对话嘉宾：高峰，June，侯依萱",
@@ -71,143 +71,6 @@
         }
       },
       {
-        "title": "189 中国车出海（4）：再聊澳大利亚汽车 对话嘉宾：陈萌，丁伯骏",
-        "published_at": "2025-12-20T23:03:45Z",
-        "duration_seconds": 4300,
-        "source_url": "https://www.ximalaya.com/sound/942379723",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "189 中国车出海（4）：再聊澳大利亚汽车 对话嘉宾：陈萌，丁伯骏"
-        },
-        "search_attempts": {
-          "full_title_query": "189 中国车出海（4）：再聊澳大利亚汽车 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 中国车出海 4 再聊澳大利亚汽车",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/6405326e178037e42fe557c2",
-              "https://www.xiaoyuzhoufm.com/episode/6466c528b70fe00c5699c19d",
-              "https://www.xiaoyuzhoufm.com/episode/647e703b8f7d9d4a7f827d54",
-              "https://www.xiaoyuzhoufm.com/episode/64bf0853a5a7840d2fa20a89",
-              "https://www.xiaoyuzhoufm.com/episode/654831ece905a845c26376cb",
-              "https://www.xiaoyuzhoufm.com/episode/658e1266c964bcb107861fc6",
-              "https://www.xiaoyuzhoufm.com/episode/6702ed7352eb4e0caf1d724c",
-              "https://www.xiaoyuzhoufm.com/episode/677b091f529ffe9e31b1d4ee",
-              "https://www.xiaoyuzhoufm.com/episode/67a94730389d720d16a9e3f8",
-              "https://www.xiaoyuzhoufm.com/episode/6a0257870b0e64b50c2104c5",
-              "https://www.xiaoyuzhoufm.com/episode/6a1e077c92551efcff13d441",
-              "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "188 汽车屏幕：如何做到车规级 对话嘉宾：宏达，吴科",
-        "published_at": "2025-12-01T23:31:31Z",
-        "duration_seconds": 4773,
-        "source_url": "https://www.ximalaya.com/sound/936630473",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "188 汽车屏幕：如何做到车规级 对话嘉宾：宏达，吴科"
-        },
-        "search_attempts": {
-          "full_title_query": "188 汽车屏幕：如何做到车规级 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 汽车屏幕 如何做到车规级",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366948",
-              "https://www.xiaoyuzhoufm.com/episode/652885f448466cc55cbe588e",
-              "https://www.xiaoyuzhoufm.com/episode/66dd748679de2cd41697b340",
-              "https://www.xiaoyuzhoufm.com/episode/6740a8030d55a37d3dc2f496",
-              "https://www.xiaoyuzhoufm.com/episode/67e9acb1a6a24ce40f80b5b8",
-              "https://www.xiaoyuzhoufm.com/episode/68b4afe05c6cd10b1778b1ba",
-              "https://www.xiaoyuzhoufm.com/episode/691094cfa0cdc0cf98917ecd",
-              "https://www.xiaoyuzhoufm.com/episode/6964387471f03dcb489ae310",
-              "https://www.xiaoyuzhoufm.com/episode/69764fbb187d74d6a8a611f4",
-              "https://www.xiaoyuzhoufm.com/episode/69a4be6959a3b70a1a1b17a1",
-              "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "187 比亚迪英国销量起飞：闷声发大财的基本逻辑 对话嘉宾：舒宁，Jason",
-        "published_at": "2025-11-15T23:06:31Z",
-        "duration_seconds": 3315,
-        "source_url": "https://www.ximalaya.com/sound/931614895",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "187 比亚迪英国销量起飞：闷声发大财的基本逻辑 对话嘉宾：舒宁，Jason"
-        },
-        "search_attempts": {
-          "full_title_query": "187 比亚迪英国销量起飞：闷声发大财的基本逻辑 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 比亚迪英国销量起飞 闷声发大财的基本逻辑",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/6176735a6f4c3e6698e89902",
-              "https://www.xiaoyuzhoufm.com/episode/653840bcbf3c757d200a6ee9",
-              "https://www.xiaoyuzhoufm.com/episode/658e1266c964bcb107861fc6",
-              "https://www.xiaoyuzhoufm.com/episode/6681d4f1356e08442206f0cd",
-              "https://www.xiaoyuzhoufm.com/episode/66b92836e632361c3642b207",
-              "https://www.xiaoyuzhoufm.com/episode/66ccf09b42dab1535b136ffc",
-              "https://www.xiaoyuzhoufm.com/episode/677b091f529ffe9e31b1d4ee",
-              "https://www.xiaoyuzhoufm.com/episode/6796c797e92894e7bf495b40",
-              "https://www.xiaoyuzhoufm.com/episode/67a94730389d720d16a9e3f8",
-              "https://www.xiaoyuzhoufm.com/episode/6964387471f03dcb489ae310"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "185 大众小鹏两周年 大众软硬皆失，内外兼虚 对话嘉宾：陆风鸣，李青，冯金钊",
-        "published_at": "2025-10-26T23:31:18Z",
-        "duration_seconds": 5237,
-        "source_url": "https://www.ximalaya.com/sound/925149607",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "185 大众小鹏两周年 大众软硬皆失，内外兼虚 对话嘉宾：陆风鸣，李青，冯金钊"
-        },
-        "search_attempts": {
-          "full_title_query": "185 大众小鹏两周年 大众软硬皆失，内外兼虚 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 大众小鹏两周年 大众软硬皆失 内外兼虚",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/64e9341dc512a31a66770c66",
-              "https://www.xiaoyuzhoufm.com/episode/653840bcbf3c757d200a6ee9",
-              "https://www.xiaoyuzhoufm.com/episode/6584d7a5eb219fa789cd8879",
-              "https://www.xiaoyuzhoufm.com/episode/66ccf09b42dab1535b136ffc",
-              "https://www.xiaoyuzhoufm.com/episode/6755056540888233d6b4ac0f",
-              "https://www.xiaoyuzhoufm.com/episode/677b091f529ffe9e31b1d4ee",
-              "https://www.xiaoyuzhoufm.com/episode/67a94730389d720d16a9e3f8",
-              "https://www.xiaoyuzhoufm.com/episode/67e9acb1a6a24ce40f80b5b8",
-              "https://www.xiaoyuzhoufm.com/episode/68cfeea5a646c97a3e8946b0",
-              "https://www.xiaoyuzhoufm.com/episode/68db09daac8b7214b72d5fea",
-              "https://www.xiaoyuzhoufm.com/episode/6964387471f03dcb489ae310",
-              "https://www.xiaoyuzhoufm.com/episode/69ae1a0a719b26db81d99498"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
         "title": "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱",
         "published_at": "2025-10-20T22:57:56Z",
         "duration_seconds": 5062,
@@ -242,41 +105,6 @@
         }
       },
       {
-        "title": "183 起底吉利收购沃尔沃：汽车的资本之魂 对话嘉宾：Benny，陆风鸣",
-        "published_at": "2025-10-12T23:20:06Z",
-        "duration_seconds": 6249,
-        "source_url": "https://www.ximalaya.com/sound/920302328",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "183 起底吉利收购沃尔沃：汽车的资本之魂 对话嘉宾：Benny，陆风鸣"
-        },
-        "search_attempts": {
-          "full_title_query": "183 起底吉利收购沃尔沃：汽车的资本之魂 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 起底吉利收购沃尔沃 汽车的资本之魂",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/6466c528b70fe00c5699c19d",
-              "https://www.xiaoyuzhoufm.com/episode/64b48bba3bedd7b325f1beb7",
-              "https://www.xiaoyuzhoufm.com/episode/652885f448466cc55cbe588e",
-              "https://www.xiaoyuzhoufm.com/episode/653eb609d99f8338bb0e616f",
-              "https://www.xiaoyuzhoufm.com/episode/658e1266c964bcb107861fc6",
-              "https://www.xiaoyuzhoufm.com/episode/65bbeb294a4579776504cac9",
-              "https://www.xiaoyuzhoufm.com/episode/65ce8b871623877b6a83da92",
-              "https://www.xiaoyuzhoufm.com/episode/665cdb46fbf7c6232f28069c",
-              "https://www.xiaoyuzhoufm.com/episode/6702ed7352eb4e0caf1d724c",
-              "https://www.xiaoyuzhoufm.com/episode/672562f4284a1314eb32b118",
-              "https://www.xiaoyuzhoufm.com/episode/68cfeea5a646c97a3e8946b0",
-              "https://www.xiaoyuzhoufm.com/episode/691094cfa0cdc0cf98917ecd"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
         "title": "180 沃尔沃（下）：SPA2的失败，锅谁背？ 对话嘉宾：苏源，陆风鸣",
         "published_at": "2025-09-14T22:03:49Z",
         "duration_seconds": 3960,
@@ -305,39 +133,6 @@
               "https://www.xiaoyuzhoufm.com/episode/67367850547b11f66291f5b7",
               "https://www.xiaoyuzhoufm.com/episode/67689b6e9e0c2b849cfc4ee2",
               "https://www.xiaoyuzhoufm.com/episode/6951ac2dbdaf89a61f4215bd",
-              "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "179 沃尔沃（上）：外交家CEO PG和他的沃尔沃帝国 对话嘉宾：苏源，陆风鸣",
-        "published_at": "2025-09-07T21:47:52Z",
-        "duration_seconds": 4425,
-        "source_url": "https://www.ximalaya.com/sound/908793086",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "179 沃尔沃（上）：外交家CEO PG和他的沃尔沃帝国 对话嘉宾：苏源，陆风鸣"
-        },
-        "search_attempts": {
-          "full_title_query": "179 沃尔沃（上）：外交家CEO PG和他的沃尔沃帝国 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 沃尔沃 上 外交家CEO PG和他的沃尔沃帝国",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/6466c528b70fe00c5699c19d",
-              "https://www.xiaoyuzhoufm.com/episode/6494756cb971bb75bb39e91d",
-              "https://www.xiaoyuzhoufm.com/episode/64b48bba3bedd7b325f1beb7",
-              "https://www.xiaoyuzhoufm.com/episode/652885f448466cc55cbe588e",
-              "https://www.xiaoyuzhoufm.com/episode/653eb609d99f8338bb0e616f",
-              "https://www.xiaoyuzhoufm.com/episode/65bbeb294a4579776504cac9",
-              "https://www.xiaoyuzhoufm.com/episode/665cdb46fbf7c6232f28069c",
-              "https://www.xiaoyuzhoufm.com/episode/672562f4284a1314eb32b118",
-              "https://www.xiaoyuzhoufm.com/episode/67689b6e9e0c2b849cfc4ee2",
               "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741"
             ]
           },
@@ -394,100 +189,6 @@
         }
       },
       {
-        "title": "174 系统工程师（3）：如果我啥都会，我早当CTO了 对话嘉宾：许新熠，吴科，孙晨露",
-        "published_at": "2025-08-03T21:17:50Z",
-        "duration_seconds": 4659,
-        "source_url": "https://www.ximalaya.com/sound/895345014",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "174 系统工程师（3）：如果我啥都会，我早当CTO了 对话嘉宾：许新熠，吴科，孙晨露"
-        },
-        "search_attempts": {
-          "full_title_query": "174 系统工程师（3）：如果我啥都会，我早当CTO了 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 系统工程师 3 如果我啥都会 我早当CTO了",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366959",
-              "https://www.xiaoyuzhoufm.com/episode/6188eb9dba55044c911040ab",
-              "https://www.xiaoyuzhoufm.com/episode/67e9acb1a6a24ce40f80b5b8",
-              "https://www.xiaoyuzhoufm.com/episode/68b4afe05c6cd10b1778b1ba",
-              "https://www.xiaoyuzhoufm.com/episode/68cfeea5a646c97a3e8946b0",
-              "https://www.xiaoyuzhoufm.com/episode/691094cfa0cdc0cf98917ecd"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "173 日产坠落：合并本田失败、e-Power和经产省 对话嘉宾：陆风鸣，杨昌龙",
-        "published_at": "2025-07-27T21:58:04Z",
-        "duration_seconds": 5342,
-        "source_url": "https://www.ximalaya.com/sound/892728896",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "173 日产坠落：合并本田失败、e-Power和经产省 对话嘉宾：陆风鸣，杨昌龙"
-        },
-        "search_attempts": {
-          "full_title_query": "173 日产坠落：合并本田失败、e-Power和经产省 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 日产坠落 合并本田失败 e Power和经产省",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/654831ece905a845c26376cb",
-              "https://www.xiaoyuzhoufm.com/episode/658e1266c964bcb107861fc6",
-              "https://www.xiaoyuzhoufm.com/episode/65d9165f9173e9003f9ba299",
-              "https://www.xiaoyuzhoufm.com/episode/665cdb46fbf7c6232f28069c",
-              "https://www.xiaoyuzhoufm.com/episode/6702ed7352eb4e0caf1d724c",
-              "https://www.xiaoyuzhoufm.com/episode/672562f4284a1314eb32b118",
-              "https://www.xiaoyuzhoufm.com/episode/6755056540888233d6b4ac0f",
-              "https://www.xiaoyuzhoufm.com/episode/68db09daac8b7214b72d5fea",
-              "https://www.xiaoyuzhoufm.com/episode/69b6ccc4719b26db81cfb183",
-              "https://www.xiaoyuzhoufm.com/episode/69cbf1b6f6e591a7ace48fa9",
-              "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "172 古德伍德速度节2025：消失的电动街和贝勒爷的小米SU7 对话嘉宾：down哥，贝勒爷",
-        "published_at": "2025-07-20T18:22:00Z",
-        "duration_seconds": 6055,
-        "source_url": "https://www.ximalaya.com/sound/890049633",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "172 古德伍德速度节2025：消失的电动街和贝勒爷的小米SU7 对话嘉宾：down哥，贝勒爷"
-        },
-        "search_attempts": {
-          "full_title_query": "172 古德伍德速度节2025：消失的电动街和贝勒爷的小米SU7 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 古德伍德速度节2025 消失的电动街和贝勒爷的小米SU7",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/6466c528b70fe00c5699c19d",
-              "https://www.xiaoyuzhoufm.com/episode/6584d7a5eb219fa789cd8879",
-              "https://www.xiaoyuzhoufm.com/episode/66b92836e632361c3642b207",
-              "https://www.xiaoyuzhoufm.com/episode/66c25bb0ccf2fa8175722b36",
-              "https://www.xiaoyuzhoufm.com/episode/67e9acb1a6a24ce40f80b5b8",
-              "https://www.xiaoyuzhoufm.com/episode/68b4afe05c6cd10b1778b1ba",
-              "https://www.xiaoyuzhoufm.com/episode/68cfeea5a646c97a3e8946b0",
-              "https://www.xiaoyuzhoufm.com/episode/6a14f7371cd5cc9bb08ab35e"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
         "title": "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄",
         "published_at": "2025-07-14T21:38:47Z",
         "duration_seconds": 5154,
@@ -523,110 +224,6 @@
         }
       },
       {
-        "title": "170 美国汽车的至暗时刻（下）：一手好牌打个稀烂 对话嘉宾：陆风鸣，罗新雨，陈萌",
-        "published_at": "2025-07-06T22:34:20Z",
-        "duration_seconds": 5527,
-        "source_url": "https://www.ximalaya.com/sound/883090415",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "170 美国汽车的至暗时刻（下）：一手好牌打个稀烂 对话嘉宾：陆风鸣，罗新雨，陈萌"
-        },
-        "search_attempts": {
-          "full_title_query": "170 美国汽车的至暗时刻（下）：一手好牌打个稀烂 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 美国汽车的至暗时刻 下 一手好牌打个稀烂",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/617fbab9b856d721e973a7f6",
-              "https://www.xiaoyuzhoufm.com/episode/647e703b8f7d9d4a7f827d54",
-              "https://www.xiaoyuzhoufm.com/episode/64b48bba3bedd7b325f1beb7",
-              "https://www.xiaoyuzhoufm.com/episode/653840bcbf3c757d200a6ee9",
-              "https://www.xiaoyuzhoufm.com/episode/654831ece905a845c26376cb",
-              "https://www.xiaoyuzhoufm.com/episode/65bbeb294a4579776504cac9",
-              "https://www.xiaoyuzhoufm.com/episode/68a253ba063a7fc3bfd628f2",
-              "https://www.xiaoyuzhoufm.com/episode/69b6ccc4719b26db81cfb183",
-              "https://www.xiaoyuzhoufm.com/episode/69cbf1b6f6e591a7ace48fa9",
-              "https://www.xiaoyuzhoufm.com/episode/69f8be919b598c6917688d7f",
-              "https://www.xiaoyuzhoufm.com/episode/6a0257870b0e64b50c2104c5"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "169 美国汽车的至暗时刻（上）：川建国立功了 对话嘉宾：陆风鸣，罗新雨，陈萌",
-        "published_at": "2025-06-29T22:21:25Z",
-        "duration_seconds": 4600,
-        "source_url": "https://www.ximalaya.com/sound/878950289",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "169 美国汽车的至暗时刻（上）：川建国立功了 对话嘉宾：陆风鸣，罗新雨，陈萌"
-        },
-        "search_attempts": {
-          "full_title_query": "169 美国汽车的至暗时刻（上）：川建国立功了 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 美国汽车的至暗时刻 上 川建国立功了",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/617fbab9b856d721e973a7f6",
-              "https://www.xiaoyuzhoufm.com/episode/647e703b8f7d9d4a7f827d54",
-              "https://www.xiaoyuzhoufm.com/episode/653840bcbf3c757d200a6ee9",
-              "https://www.xiaoyuzhoufm.com/episode/654831ece905a845c26376cb",
-              "https://www.xiaoyuzhoufm.com/episode/65ce8b871623877b6a83da92",
-              "https://www.xiaoyuzhoufm.com/episode/665cdb46fbf7c6232f28069c",
-              "https://www.xiaoyuzhoufm.com/episode/66b92836e632361c3642b207",
-              "https://www.xiaoyuzhoufm.com/episode/691094cfa0cdc0cf98917ecd",
-              "https://www.xiaoyuzhoufm.com/episode/6964387471f03dcb489ae310",
-              "https://www.xiaoyuzhoufm.com/episode/69b6ccc4719b26db81cfb183",
-              "https://www.xiaoyuzhoufm.com/episode/6a0257870b0e64b50c2104c5",
-              "https://www.xiaoyuzhoufm.com/episode/6a14f7371cd5cc9bb08ab35e"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "168 GB38031-2025：电车从今天开始，不许玩儿火 对话嘉宾：弗雷刘，刘子达",
-        "published_at": "2025-06-16T22:16:31Z",
-        "duration_seconds": 4311,
-        "source_url": "https://www.ximalaya.com/sound/871247127",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "168 GB38031-2025：电车从今天开始，不许玩儿火 对话嘉宾：弗雷刘，刘子达"
-        },
-        "search_attempts": {
-          "full_title_query": "168 GB38031-2025：电车从今天开始，不许玩儿火 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 GB38031 2025 电车从今天开始 不许玩儿火",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/6466c528b70fe00c5699c19d",
-              "https://www.xiaoyuzhoufm.com/episode/647e703b8f7d9d4a7f827d54",
-              "https://www.xiaoyuzhoufm.com/episode/64bf0853a5a7840d2fa20a89",
-              "https://www.xiaoyuzhoufm.com/episode/65d9165f9173e9003f9ba299",
-              "https://www.xiaoyuzhoufm.com/episode/67a94730389d720d16a9e3f8",
-              "https://www.xiaoyuzhoufm.com/episode/67e9acb1a6a24ce40f80b5b8",
-              "https://www.xiaoyuzhoufm.com/episode/68cfeea5a646c97a3e8946b0",
-              "https://www.xiaoyuzhoufm.com/episode/6951ac2dbdaf89a61f4215bd",
-              "https://www.xiaoyuzhoufm.com/episode/6964387471f03dcb489ae310",
-              "https://www.xiaoyuzhoufm.com/episode/69b6ccc4719b26db81cfb183",
-              "https://www.xiaoyuzhoufm.com/episode/6a0257870b0e64b50c2104c5",
-              "https://www.xiaoyuzhoufm.com/episode/6a1e077c92551efcff13d441"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
         "title": "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青",
         "published_at": "2025-06-08T22:52:10Z",
         "duration_seconds": 3646,
@@ -655,143 +252,6 @@
               "https://www.xiaoyuzhoufm.com/episode/691094cfa0cdc0cf98917ecd",
               "https://www.xiaoyuzhoufm.com/episode/6964387471f03dcb489ae310",
               "https://www.xiaoyuzhoufm.com/episode/69cbf1b6f6e591a7ace48fa9"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "166 波兰汽车业（上）：资深菲亚特海外工厂 对话嘉宾：陆风鸣，付梓耘，高处青",
-        "published_at": "2025-06-01T22:02:44Z",
-        "duration_seconds": 4995,
-        "source_url": "https://www.ximalaya.com/sound/862316027",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "166 波兰汽车业（上）：资深菲亚特海外工厂 对话嘉宾：陆风鸣，付梓耘，高处青"
-        },
-        "search_attempts": {
-          "full_title_query": "166 波兰汽车业（上）：资深菲亚特海外工厂 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 波兰汽车业 上 资深菲亚特海外工厂",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/653eb609d99f8338bb0e616f",
-              "https://www.xiaoyuzhoufm.com/episode/654831ece905a845c26376cb",
-              "https://www.xiaoyuzhoufm.com/episode/655d49791a9c63a9fd348ba2",
-              "https://www.xiaoyuzhoufm.com/episode/6584d7a5eb219fa789cd8879",
-              "https://www.xiaoyuzhoufm.com/episode/658e1266c964bcb107861fc6",
-              "https://www.xiaoyuzhoufm.com/episode/672562f4284a1314eb32b118",
-              "https://www.xiaoyuzhoufm.com/episode/6740a8030d55a37d3dc2f496",
-              "https://www.xiaoyuzhoufm.com/episode/6755056540888233d6b4ac0f",
-              "https://www.xiaoyuzhoufm.com/episode/68db09daac8b7214b72d5fea",
-              "https://www.xiaoyuzhoufm.com/episode/691094cfa0cdc0cf98917ecd",
-              "https://www.xiaoyuzhoufm.com/episode/69cbf1b6f6e591a7ace48fa9"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "165 快充困境：800V的车，400V的速度 对话嘉宾：冯金钊，韩毅，唐华寅",
-        "published_at": "2025-05-26T22:27:12Z",
-        "duration_seconds": 6616,
-        "source_url": "https://www.ximalaya.com/sound/859047134",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "165 快充困境：800V的车，400V的速度 对话嘉宾：冯金钊，韩毅，唐华寅"
-        },
-        "search_attempts": {
-          "full_title_query": "165 快充困境：800V的车，400V的速度 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 快充困境 800V的车 400V的速度",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366948",
-              "https://www.xiaoyuzhoufm.com/episode/655d49791a9c63a9fd348ba2",
-              "https://www.xiaoyuzhoufm.com/episode/65bbeb294a4579776504cac9",
-              "https://www.xiaoyuzhoufm.com/episode/66b92836e632361c3642b207",
-              "https://www.xiaoyuzhoufm.com/episode/66c25bb0ccf2fa8175722b36",
-              "https://www.xiaoyuzhoufm.com/episode/66ccf09b42dab1535b136ffc",
-              "https://www.xiaoyuzhoufm.com/episode/68db09daac8b7214b72d5fea",
-              "https://www.xiaoyuzhoufm.com/episode/6964387471f03dcb489ae310",
-              "https://www.xiaoyuzhoufm.com/episode/69b6ccc4719b26db81cfb183",
-              "https://www.xiaoyuzhoufm.com/episode/6a1e077c92551efcff13d441",
-              "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "164 工程师选车（下）：细数车评人测不出的坑 对话嘉宾：高处青，陈圣夫，冯金钊",
-        "published_at": "2025-05-19T22:59:38Z",
-        "duration_seconds": 4908,
-        "source_url": "https://www.ximalaya.com/sound/855571199",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "164 工程师选车（下）：细数车评人测不出的坑 对话嘉宾：高处青，陈圣夫，冯金钊"
-        },
-        "search_attempts": {
-          "full_title_query": "164 工程师选车（下）：细数车评人测不出的坑 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 工程师选车 下 细数车评人测不出的坑",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366959",
-              "https://www.xiaoyuzhoufm.com/episode/6466c528b70fe00c5699c19d",
-              "https://www.xiaoyuzhoufm.com/episode/665cdb46fbf7c6232f28069c",
-              "https://www.xiaoyuzhoufm.com/episode/66dd748679de2cd41697b340",
-              "https://www.xiaoyuzhoufm.com/episode/67689b6e9e0c2b849cfc4ee2",
-              "https://www.xiaoyuzhoufm.com/episode/67a94730389d720d16a9e3f8",
-              "https://www.xiaoyuzhoufm.com/episode/67bbafb952a6af799cf1a22d",
-              "https://www.xiaoyuzhoufm.com/episode/67e9acb1a6a24ce40f80b5b8",
-              "https://www.xiaoyuzhoufm.com/episode/68b4afe05c6cd10b1778b1ba",
-              "https://www.xiaoyuzhoufm.com/episode/69b6ccc4719b26db81cfb183",
-              "https://www.xiaoyuzhoufm.com/episode/69dc6998f6e591a7ac9b2ded",
-              "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "163 工程师选车（上）：选车该有执念么？ 对话嘉宾：高处青，陈圣夫，冯金钊",
-        "published_at": "2025-05-12T22:18:57Z",
-        "duration_seconds": 3976,
-        "source_url": "https://www.ximalaya.com/sound/851851142",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "163 工程师选车（上）：选车该有执念么？ 对话嘉宾：高处青，陈圣夫，冯金钊"
-        },
-        "search_attempts": {
-          "full_title_query": "163 工程师选车（上）：选车该有执念么？ 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 工程师选车 上 选车该有执念么",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366950",
-              "https://www.xiaoyuzhoufm.com/episode/6466c528b70fe00c5699c19d",
-              "https://www.xiaoyuzhoufm.com/episode/6796c797e92894e7bf495b40",
-              "https://www.xiaoyuzhoufm.com/episode/67a94730389d720d16a9e3f8",
-              "https://www.xiaoyuzhoufm.com/episode/67bbafb952a6af799cf1a22d",
-              "https://www.xiaoyuzhoufm.com/episode/67e9acb1a6a24ce40f80b5b8",
-              "https://www.xiaoyuzhoufm.com/episode/691094cfa0cdc0cf98917ecd",
-              "https://www.xiaoyuzhoufm.com/episode/69ae1a0a719b26db81d99498",
-              "https://www.xiaoyuzhoufm.com/episode/69cbf1b6f6e591a7ace48fa9",
-              "https://www.xiaoyuzhoufm.com/episode/69dc6998f6e591a7ac9b2ded",
-              "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741"
             ]
           },
           "checked_on": "2026-10-19"
@@ -859,41 +319,6 @@
               "https://www.xiaoyuzhoufm.com/episode/68cfeea5a646c97a3e8946b0",
               "https://www.xiaoyuzhoufm.com/episode/69764fbb187d74d6a8a611f4",
               "https://www.xiaoyuzhoufm.com/episode/6a0257870b0e64b50c2104c5",
-              "https://www.xiaoyuzhoufm.com/episode/6a1e077c92551efcff13d441",
-              "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741"
-            ]
-          },
-          "checked_on": "2026-10-19"
-        }
-      },
-      {
-        "title": "160 中国电动重卡（1）：运营、回本和TCO 对话嘉宾：亦达，晨露，文婷",
-        "published_at": "2025-04-21T22:32:08Z",
-        "duration_seconds": 3798,
-        "source_url": "https://www.ximalaya.com/sound/839895075",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "615a4035c8c1d14e83366946",
-          "title": "160 中国电动重卡（1）：运营、回本和TCO 对话嘉宾：亦达，晨露，文婷"
-        },
-        "search_attempts": {
-          "full_title_query": "160 中国电动重卡（1）：运营、回本和TCO 孤岛车谈 小宇宙",
-          "full_title_query_status": "Executed in four-query batch; returned aggregate results, not exhaustive",
-          "relaxed_official_domain_query": {
-            "query": "孤岛车谈 中国电动重卡 1 运营 回本和TCO",
-            "status": "searched",
-            "official_channel_result_urls": [
-              "https://www.xiaoyuzhoufm.com/episode/647e703b8f7d9d4a7f827d54",
-              "https://www.xiaoyuzhoufm.com/episode/64bf0853a5a7840d2fa20a89",
-              "https://www.xiaoyuzhoufm.com/episode/6584d7a5eb219fa789cd8879",
-              "https://www.xiaoyuzhoufm.com/episode/658e1266c964bcb107861fc6",
-              "https://www.xiaoyuzhoufm.com/episode/65bbeb294a4579776504cac9",
-              "https://www.xiaoyuzhoufm.com/episode/65ce8b871623877b6a83da92",
-              "https://www.xiaoyuzhoufm.com/episode/65d9165f9173e9003f9ba299",
-              "https://www.xiaoyuzhoufm.com/episode/665cdb46fbf7c6232f28069c",
-              "https://www.xiaoyuzhoufm.com/episode/6a0257870b0e64b50c2104c5",
-              "https://www.xiaoyuzhoufm.com/episode/6a14f7371cd5cc9bb08ab35e",
               "https://www.xiaoyuzhoufm.com/episode/6a1e077c92551efcff13d441",
               "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741"
             ]
@@ -4463,174 +3888,13 @@
         }
       }
     ],
-    "checked_at": "2026-10-19T11:21:45Z",
-    "reason": "Full-title and relaxed individual queries, public official-page links and available publisher/index routes did not identify an exact verifiable official episode URL. This is not evidence that the episode is absent from Xiaoyuzhou."
+    "checked_at": "2026-10-19T11:40:08Z",
+    "reason": "Official URLs remain unconfirmed; historical public datasets and additional source coverage are actively being examined. Phase-one search coverage did not establish source exhaustion."
   },
   "5e280faf418a84a0461fbd39": {
     "channel_title": "疯投圈",
-    "status": "public_sources_exhausted_for_this_pass",
+    "status": "research_reopened",
     "episodes": [
-      {
-        "title": "130 ✪ 成为迪士尼之前，泡泡玛特可能先超过乐高",
-        "published_at": "2026-01-21T00:00:00Z",
-        "duration_seconds": 4324,
-        "source_url": "https://crazy.capital/130",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "5e280faf418a84a0461fbd39",
-          "title": "130 ✪ 成为迪士尼之前，泡泡玛特可能先超过乐高"
-        },
-        "search_attempts": {
-          "query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" \"成为迪士尼之前，泡泡玛特可能先超过乐高\"",
-          "checked_at": "2026-10-19T10:32:59Z",
-          "search_status": "no_exact_official_candidate_in_results",
-          "relaxed_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 成为迪士尼之前 泡泡玛特可能先超过乐高",
-          "relaxed_checked_at": "2026-10-19T10:34:12Z",
-          "relaxed_search_status": "no_exact_official_candidate_in_results",
-          "single_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 成为迪士尼之前 泡泡玛特可能先超过乐高",
-          "single_checked_at": "2026-10-19T10:37:16Z",
-          "single_search_status": "no_new_target_channel_id_in_all_returned_headers"
-        }
-      },
-      {
-        "title": "114 ✪ 升级的小米、降级的盒马",
-        "published_at": "2025-04-29T08:00:00Z",
-        "duration_seconds": 4096,
-        "source_url": "https://crazy.capital/114",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "5e280faf418a84a0461fbd39",
-          "title": "114 ✪ 升级的小米、降级的盒马"
-        },
-        "search_attempts": {
-          "query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" \"升级的小米、降级的盒马\"",
-          "checked_at": "2026-10-19T10:32:59Z",
-          "search_status": "no_exact_official_candidate_in_results",
-          "relaxed_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 升级的小米 降级的盒马",
-          "relaxed_checked_at": "2026-10-19T10:34:12Z",
-          "relaxed_search_status": "no_exact_official_candidate_in_results",
-          "single_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 升级的小米 降级的盒马",
-          "single_checked_at": "2026-10-19T10:37:16Z",
-          "single_search_status": "no_new_target_channel_id_in_all_returned_headers"
-        }
-      },
-      {
-        "title": "103 ✪ 跨境游重启，何人欢喜何人忧？",
-        "published_at": "2024-09-23T00:00:00Z",
-        "duration_seconds": 3646,
-        "source_url": "https://crazy.capital/103",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "5e280faf418a84a0461fbd39",
-          "title": "103 ✪ 跨境游重启，何人欢喜何人忧？"
-        },
-        "search_attempts": {
-          "query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" \"跨境游重启，何人欢喜何人忧？\"",
-          "checked_at": "2026-10-19T10:32:59Z",
-          "search_status": "no_exact_official_candidate_in_results",
-          "relaxed_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 跨境游重启 何人欢喜何人忧 ",
-          "relaxed_checked_at": "2026-10-19T10:34:12Z",
-          "relaxed_search_status": "no_exact_official_candidate_in_results",
-          "single_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 跨境游重启 何人欢喜何人忧 ",
-          "single_checked_at": "2026-10-19T10:37:16Z",
-          "single_search_status": "no_new_target_channel_id_in_all_returned_headers"
-        }
-      },
-      {
-        "title": "95 ✪ 「非股非债」的线下加盟新趋势",
-        "published_at": "2024-05-11T00:00:00Z",
-        "duration_seconds": 4350,
-        "source_url": "https://crazy.capital/95",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "5e280faf418a84a0461fbd39",
-          "title": "95 ✪ 「非股非债」的线下加盟新趋势"
-        },
-        "search_attempts": {
-          "query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" \"「非股非债」的线下加盟新趋势\"",
-          "checked_at": "2026-10-19T10:32:59Z",
-          "search_status": "no_exact_official_candidate_in_results",
-          "relaxed_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\"  非股非债 的线下加盟新趋势",
-          "relaxed_checked_at": "2026-10-19T10:34:12Z",
-          "relaxed_search_status": "no_exact_official_candidate_in_results",
-          "single_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\"  非股非债 的线下加盟新趋势",
-          "single_checked_at": "2026-10-19T10:37:16Z",
-          "single_search_status": "no_new_target_channel_id_in_all_returned_headers"
-        }
-      },
-      {
-        "title": "86 ✪ 健康红利引爆无糖茶与户外风潮",
-        "published_at": "2023-11-22T18:00:00Z",
-        "duration_seconds": 3573,
-        "source_url": "https://crazy.capital/86",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "5e280faf418a84a0461fbd39",
-          "title": "86 ✪ 健康红利引爆无糖茶与户外风潮"
-        },
-        "search_attempts": {
-          "query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" \"健康红利引爆无糖茶与户外风潮\"",
-          "checked_at": "2026-10-19T10:32:59Z",
-          "search_status": "no_exact_official_candidate_in_results",
-          "relaxed_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 健康红利引爆无糖茶与户外风潮",
-          "relaxed_checked_at": "2026-10-19T10:34:12Z",
-          "relaxed_search_status": "no_exact_official_candidate_in_results",
-          "single_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 健康红利引爆无糖茶与户外风潮",
-          "single_checked_at": "2026-10-19T10:37:16Z",
-          "single_search_status": "no_new_target_channel_id_in_all_returned_headers"
-        }
-      },
-      {
-        "title": "75 ✪ 黑天鹅盛行，实体商业如何管理风险？",
-        "published_at": "2023-03-20T02:00:00Z",
-        "duration_seconds": 4039,
-        "source_url": "https://crazy.capital/75",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "5e280faf418a84a0461fbd39",
-          "title": "75 ✪ 黑天鹅盛行，实体商业如何管理风险？"
-        },
-        "search_attempts": {
-          "query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" \"黑天鹅盛行，实体商业如何管理风险？\"",
-          "checked_at": "2026-10-19T10:32:59Z",
-          "search_status": "no_exact_official_candidate_in_results",
-          "relaxed_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 黑天鹅盛行 实体商业如何管理风险 ",
-          "relaxed_checked_at": "2026-10-19T10:34:12Z",
-          "relaxed_search_status": "no_exact_official_candidate_in_results",
-          "single_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 黑天鹅盛行 实体商业如何管理风险 ",
-          "single_checked_at": "2026-10-19T10:37:16Z",
-          "single_search_status": "no_new_target_channel_id_in_all_returned_headers"
-        }
-      },
-      {
-        "title": "71 ✪ 每日优鲜落幕、山姆店崛起",
-        "published_at": "2022-12-08T08:00:00Z",
-        "duration_seconds": 4305,
-        "source_url": "https://crazy.capital/71",
-        "status": "official_url_unconfirmed",
-        "reason": "no_exact_official_link_in_examined_public_sources",
-        "search_ledger_key": {
-          "channel_id": "5e280faf418a84a0461fbd39",
-          "title": "71 ✪ 每日优鲜落幕、山姆店崛起"
-        },
-        "search_attempts": {
-          "query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" \"每日优鲜落幕、山姆店崛起\"",
-          "checked_at": "2026-10-19T10:32:59Z",
-          "search_status": "no_exact_official_candidate_in_results",
-          "relaxed_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 每日优鲜落幕 山姆店崛起",
-          "relaxed_checked_at": "2026-10-19T10:34:12Z",
-          "relaxed_search_status": "no_exact_official_candidate_in_results",
-          "single_query": "site:xiaoyuzhoufm.com/episode/ \"疯投圈\" 每日优鲜落幕 山姆店崛起",
-          "single_checked_at": "2026-10-19T10:37:16Z",
-          "single_search_status": "no_new_target_channel_id_in_all_returned_headers"
-        }
-      },
       {
         "title": "50 ✪ 电商混战同城零售",
         "published_at": "2020-12-25T00:00:00Z",
@@ -5437,14 +4701,14 @@
         }
       }
     ],
-    "checked_at": "2026-10-19T11:21:45Z",
-    "reason": "Full-title and relaxed individual queries, public official-page links and available publisher/index routes did not identify an exact verifiable official episode URL. This is not evidence that the episode is absent from Xiaoyuzhou."
+    "checked_at": "2026-10-19T11:40:08Z",
+    "reason": "Official URLs remain unconfirmed; historical public datasets and additional source coverage are actively being examined. Phase-one search coverage did not establish source exhaustion."
   },
   "61358d971c5d56efe5bcb5d2": {
     "channel_title": "乱翻书",
     "status": "no_unconfirmed_titles",
     "episodes": [],
-    "checked_at": "2026-10-19T11:21:45Z",
-    "reason": "All285 catalog entries verified against official pages; no unconfirmed titles remain in the current target."
+    "checked_at": "2026-10-19T11:40:08Z",
+    "reason": "All current target titles have verified official episode links."
   }
 }

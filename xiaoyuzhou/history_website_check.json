@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-19T11:32:54Z",
+  "method": "Actual browser navigation, channel details tab check, scroll to bottom, DOM link count and screenshot inspection; no playback or app launch.",
+  "channels": [
+    {
+      "url": "https://www.xiaoyuzhoufm.com/podcast/615a4035c8c1d14e83366946",
+      "visible_episode_links": 15,
+      "first_number": 212,
+      "last_number": 197,
+      "scroll_top": 1769,
+      "viewport_height": 757,
+      "document_height": 2526,
+      "load_more_or_next_page_control_found": false
+    },
+    {
+      "url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
+      "visible_episode_links": 15,
+      "first_number": 149,
+      "last_number": 135,
+      "scroll_top": 1616,
+      "viewport_height": 757,
+      "document_height": 2373,
+      "load_more_or_next_page_control_found": false
+    }
+  ],
+  "observed_navigation": "Both pages offer cosmos:// app deep links; no older-episode pagination was exposed in the inspected web UI. This is not a claim about authenticated app capabilities."
+}
