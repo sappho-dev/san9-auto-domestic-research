@@ -53,12 +53,26 @@ function render(){
   var open=node('a','open','打开 ↗');open.href=a.href;open.target='_blank';open.rel='noopener noreferrer';art.appendChild(open);container.appendChild(art);
  });
 }
+async function getCatalog(){
+ try{
+  var response=await fetch(jsonUrl+'?t='+Date.now(),{cache:'no-store'});
+  if(!response.ok)throw Error('Raw HTTP '+response.status);
+  return await response.json();
+ }catch(first){
+  var api='https://api.github.com/repos/'+repo+'/contents/xiaoyuzhou/episodes.json?ref=main';
+  var response=await fetch(api,{cache:'no-store',headers:{'Accept':'application/vnd.github+json'}});
+  if(!response.ok)throw Error('GitHub API HTTP '+response.status+'（Raw: '+first.message+'）');
+  var wrapper=await response.json();
+  if(!wrapper.content)throw Error('GitHub API 没有返回文件内容');
+  var base64=wrapper.content.replace(/\s/g,'');
+  var bytes=Uint8Array.from(atob(base64),function(c){return c.charCodeAt(0)});
+  return JSON.parse(new TextDecoder('utf-8').decode(bytes));
+ }
+}
 async function load(){
  el('refresh').disabled=true;
  try{
-  var response=await fetch(jsonUrl+'?t='+Date.now(),{cache:'no-store'});
-  if(!response.ok)throw Error('HTTP '+response.status);
-  var result=await response.json();
+  var result=await getCatalog();
   if(result.schema!==1||!result.channels||typeof result.channels!=='object')throw Error('数据格式不正确');
   data=result;networkError='';try{localStorage.setItem('xy-cache-v1',JSON.stringify(result))}catch(e){}
  }catch(e){
