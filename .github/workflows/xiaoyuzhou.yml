@@ -20,7 +20,8 @@ jobs:
     if: >-
       github.event_name != 'issues' ||
       (github.event.issue.user.login == github.repository_owner &&
-       startsWith(github.event.issue.title, '[小宇宙收藏]'))
+       (startsWith(github.event.issue.title, '[小宇宙收藏]') ||
+        startsWith(github.event.issue.title, '[小宇宙历史回填]')))
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
@@ -32,10 +33,14 @@ jobs:
           python-version: '3.12'
       - name: Update from public Xiaoyuzhou pages
         run: python xiaoyuzhou/update.py
+      - name: Probe public history sources
+        if: github.event_name == 'issues' && startsWith(github.event.issue.title, '[小宇宙历史回填]')
+        run: python xiaoyuzhou/history_probe.py
       - name: Commit index and subscriptions
         if: always()
         run: |
           git add xiaoyuzhou/episodes.json xiaoyuzhou/channels.json
+          if [ -f xiaoyuzhou/history_probe.json ]; then git add xiaoyuzhou/history_probe.json; fi
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
