@@ -36,11 +36,15 @@ jobs:
       - name: Probe public history sources
         if: github.event_name == 'issues' && startsWith(github.event.issue.title, '[小宇宙历史回填]')
         run: python xiaoyuzhou/history_probe.py
+      - name: Backfill verified official historical episode links
+        if: github.event_name == 'issues' && startsWith(github.event.issue.title, '[小宇宙历史回填]')
+        run: python xiaoyuzhou/history_backfill.py
       - name: Commit index and subscriptions
         if: always()
         run: |
           git add xiaoyuzhou/episodes.json xiaoyuzhou/channels.json
           if [ -f xiaoyuzhou/history_probe.json ]; then git add xiaoyuzhou/history_probe.json; fi
+          if [ -f xiaoyuzhou/history_backfill_result.json ]; then git add xiaoyuzhou/history_backfill_result.json; fi
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
