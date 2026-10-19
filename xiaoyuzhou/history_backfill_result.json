@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T09:44:52.650567+00:00",
-  "added_total": 270,
+  "generated_at": "2026-10-19T09:48:37.279180+00:00",
+  "added_total": 0,
   "source_rule": "Only verified official Xiaoyuzhou 24-character episode IDs are imported; no synthetic IDs or external link substitution.",
   "channels": [
     {
@@ -26,8 +26,8 @@
       "source": "https://feed.xyzfm.space/yxuruh3f9mc4",
       "rss_items": 285,
       "items_with_verified_xiaoyuzhou_id": 285,
-      "before": 15,
-      "added": 270,
+      "before": 285,
+      "added": 0,
       "after": 285
     }
   ]
