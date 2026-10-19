@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T11:40:08Z",
+  "updated_at": "2026-10-19T11:48:31Z",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "id": "615a4035c8c1d14e83366946",
@@ -202,6 +202,13 @@
           "duration_seconds": 5255
         },
         {
+          "id": "68c741b3f937638345dd7222",
+          "title": "180 沃尔沃（下）：SPA2的失败，锅谁背？ 对话嘉宾：苏源，陆风鸣",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68c741b3f937638345dd7222",
+          "duration_seconds": 3960,
+          "published_at": "2025-09-14T22:03:49.000Z"
+        },
+        {
           "id": "68be0300c2007b6e71a88596",
           "title": "179 沃尔沃（上）：外交家CEO PG和他的沃尔沃帝国 对话嘉宾：苏源，陆风鸣",
           "url": "https://www.xiaoyuzhoufm.com/episode/68be0300c2007b6e71a88596",
@@ -214,6 +221,13 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/68b4afe05c6cd10b1778b1ba",
           "published_at": "2025-08-31T19:56:34Z",
           "duration_seconds": 4666
+        },
+        {
+          "id": "68acd74b17c8c11bfbe0aa13",
+          "title": "177 懂车智炼场ADAS测试（上）：一档无与伦比的综艺节目 对话嘉宾：许新熠，薛岳",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68acd74b17c8c11bfbe0aa13",
+          "duration_seconds": 3896,
+          "published_at": "2025-08-25T21:13:03.000Z"
         },
         {
           "id": "68a253ba063a7fc3bfd628f2",
@@ -298,6 +312,13 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/6806cb6bcbde55094adc501c",
           "duration_seconds": 3798,
           "published_at": "2025-04-21T22:32:08.000Z"
+        },
+        {
+          "id": "67fb81cfff6ff2a40983d954",
+          "title": "159 端到端（下）：多安全才是真安全？ 对话嘉宾：薛越，杨继峰，章翔",
+          "url": "https://www.xiaoyuzhoufm.com/episode/67fb81cfff6ff2a40983d954",
+          "duration_seconds": 2844,
+          "published_at": "2025-04-13T09:05:34.000Z"
         },
         {
           "id": "67e9acb1a6a24ce40f80b5b8",
@@ -1378,6 +1399,27 @@
           "duration_seconds": 4624
         },
         {
+          "id": "5fe4c836dee9c1e16db718c7",
+          "title": "50 ✪ 电商混战同城零售",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5fe4c836dee9c1e16db718c7",
+          "duration_seconds": 4864,
+          "published_at": "2020-12-25T00:00:00.000Z"
+        },
+        {
+          "id": "5fb16f9283c34e85dd633027",
+          "title": "49 ✪ 饮料行业的首富与新贵",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5fb16f9283c34e85dd633027",
+          "duration_seconds": 4212,
+          "published_at": "2020-11-16T00:00:00.000Z"
+        },
+        {
+          "id": "5f63c32283c34e85dd8fcda5",
+          "title": "48 ✪ 微醺时代：低度酒的崛起",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5f63c32283c34e85dd8fcda5",
+          "duration_seconds": 4284,
+          "published_at": "2020-09-18T00:00:00.000Z"
+        },
+        {
           "id": "5f3e42aa9504bbdb77598154",
           "title": "47 ✪ 日本消费升级启示录",
           "url": "https://www.xiaoyuzhoufm.com/episode/5f3e42aa9504bbdb77598154",
@@ -1385,11 +1427,32 @@
           "duration_seconds": 3648
         },
         {
+          "id": "5f077cf16d76607427b0a264",
+          "title": "46 ✪ 永不过时的金银珠宝生意",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5f077cf16d76607427b0a264",
+          "duration_seconds": 3553,
+          "published_at": "2020-07-10T00:00:00.000Z"
+        },
+        {
           "id": "5ee67ec6418a84a0464f7a75",
           "title": "45 ✪ 后移动互联网时代的VC行业",
           "url": "https://www.xiaoyuzhoufm.com/episode/5ee67ec6418a84a0464f7a75",
           "published_at": "2020-06-14T20:00:00Z",
           "duration_seconds": 4115
+        },
+        {
+          "id": "5ebd66a2418a84a046049c61",
+          "title": "44 ✪ 你坐的是职场真火箭还是窜天猴？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5ebd66a2418a84a046049c61",
+          "duration_seconds": 4150,
+          "published_at": "2020-05-14T17:00:00.000Z"
+        },
+        {
+          "id": "5e822876418a84a04656470c",
+          "title": "43 ✪ 生鲜之王——永辉超市",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e822876418a84a04656470c",
+          "duration_seconds": 3881,
+          "published_at": "2020-03-30T18:00:00.000Z"
         },
         {
           "id": "5e58c455418a84a0465f6480",
@@ -1413,6 +1476,13 @@
           "duration_seconds": 4485
         },
         {
+          "id": "5e280faf418a84a0461fbfd9",
+          "title": "39 ✪ 与花总漫谈短视频行业",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfd9",
+          "duration_seconds": 3817,
+          "published_at": "2019-12-14T18:00:00.000Z"
+        },
+        {
           "id": "5e280faf418a84a0461fbfda",
           "title": "38 ✪ 运动用品市场风云再起",
           "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfda",
@@ -1425,6 +1495,27 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfdd",
           "published_at": "2019-09-20T18:00:00Z",
           "duration_seconds": 4516
+        },
+        {
+          "id": "5e280faf418a84a0461fbfe0",
+          "title": "36 ✪ 新消费品牌崛起大时代",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfe0",
+          "duration_seconds": 4722,
+          "published_at": "2019-08-25T12:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fbfe1",
+          "title": "35 ✪ 创业，不止北上广深杭",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfe1",
+          "duration_seconds": 4431,
+          "published_at": "2019-07-21T08:45:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fbfe2",
+          "title": "34 ✪ 再谈出海电商的全球机遇",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfe2",
+          "duration_seconds": 4473,
+          "published_at": "2019-06-21T12:00:00.000Z"
         },
         {
           "id": "5e280faf418a84a0461fbfe3",
@@ -1441,11 +1532,53 @@
           "duration_seconds": 5161
         },
         {
+          "id": "5e280faf418a84a0461fbfe7",
+          "title": "31 ✪ NOME vs 名创优品：日用零售的王者之争",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfe7",
+          "duration_seconds": 4260,
+          "published_at": "2019-03-12T00:00:00.000Z"
+        },
+        {
           "id": "5e280faf418a84a0461fbfe8",
           "title": "30 ✪ 卖不掉的衣服去哪了？",
           "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfe8",
           "published_at": "2019-02-20T00:00:00Z",
           "duration_seconds": 4369
+        },
+        {
+          "id": "5e280faf418a84a0461fbfe9",
+          "title": "29 ✪ airbnb—唯一还有机会在中国胜出的硅谷巨头",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfe9",
+          "duration_seconds": 3879,
+          "published_at": "2019-01-26T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fbfea",
+          "title": "28 ✪ 学习爱好者最好的时代",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfea",
+          "duration_seconds": 3711,
+          "published_at": "2019-01-03T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fbfeb",
+          "title": "27 ✪ 名创优品的十元店江湖",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfeb",
+          "duration_seconds": 4687,
+          "published_at": "2018-12-12T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fbfec",
+          "title": "26 ✪ 美团是中国最大型的便利店",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfec",
+          "duration_seconds": 4676,
+          "published_at": "2018-11-06T06:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fbfee",
+          "title": "25 ✪ 如何用 VC 的思维买股票",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfee",
+          "duration_seconds": 4825,
+          "published_at": "2018-10-27T00:00:00.000Z"
         },
         {
           "id": "5e280faf418a84a0461fbff0",
@@ -1455,11 +1588,95 @@
           "duration_seconds": 4613
         },
         {
+          "id": "5e280faf418a84a0461fbff3",
+          "title": "23 ✪ 漫谈小米生态链",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbff3",
+          "duration_seconds": 4544,
+          "published_at": "2018-09-01T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fbff6",
+          "title": "22 ✪ 在线旅游三国杀",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbff6",
+          "duration_seconds": 3728,
+          "published_at": "2018-08-11T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fbff7",
+          "title": "21 ✪ 自由职业是生活的理想状态吗？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbff7",
+          "duration_seconds": 5891,
+          "published_at": "2018-07-12T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fbff9",
+          "title": "20 ✪ 居住市场进入租赁时代",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbff9",
+          "duration_seconds": 4886,
+          "published_at": "2018-06-10T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fbffc",
+          "title": "19 ✪ 星巴克轶事",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbffc",
+          "duration_seconds": 3739,
+          "published_at": "2018-04-24T00:00:00.000Z"
+        },
+        {
           "id": "5e280faf418a84a0461fbfff",
           "title": "18 ✪ 拼多多=中国的Costco?",
           "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfff",
           "duration_seconds": 3898,
           "published_at": "2018-04-02T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc001",
+          "title": "17 ✪ 股权投资 VS 区块链投资",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc001",
+          "duration_seconds": 4822,
+          "published_at": "2018-02-27T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc002",
+          "title": "16 ✪ 巨头进击的一年——2017创投领域回顾",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc002",
+          "duration_seconds": 4018,
+          "published_at": "2018-01-17T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc003",
+          "title": "15 ✪ 知识服务利用你的焦虑，你还是忍不住持续付费",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc003",
+          "duration_seconds": 4611,
+          "published_at": "2017-12-11T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc004",
+          "title": "14 ✪ 「产品不好的公司不配做营销」",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc004",
+          "duration_seconds": 4518,
+          "published_at": "2017-11-22T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc005",
+          "title": "13 ✪ 无人零售真伪风口之辩",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc005",
+          "duration_seconds": 3946,
+          "published_at": "2017-10-17T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc006",
+          "title": "12 ✪ 「『新』不一定是好的，但『旧』一定是不好的」",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc006",
+          "duration_seconds": 2681,
+          "published_at": "2017-09-26T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc007",
+          "title": "11 ✪ 租赁是电商的未来趋势吗？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc007",
+          "duration_seconds": 4023,
+          "published_at": "2017-09-07T00:00:00.000Z"
         },
         {
           "id": "5e280faf418a84a0461fc008",
@@ -1469,6 +1686,20 @@
           "published_at": "2017-08-07T16:00:00.000Z"
         },
         {
+          "id": "5e280faf418a84a0461fc009",
+          "title": "9 ✪ 茶饮行业会出现下一个星巴克吗？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc009",
+          "duration_seconds": 3888,
+          "published_at": "2017-07-13T15:19:18.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc00b",
+          "title": "8 ✪ 专访小密圈吴鲁加",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc00b",
+          "duration_seconds": 4449,
+          "published_at": "2017-05-09T17:40:46.000Z"
+        },
+        {
           "id": "5e280faf418a84a0461fc00d",
           "title": "7 ✪ 两个穿着严选拖鞋的人聊严选",
           "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc00d",
@@ -1476,11 +1707,46 @@
           "published_at": "2017-03-14T16:19:00.000Z"
         },
         {
+          "id": "5e280faf418a84a0461fc00e",
+          "title": "6 ✪ 2016 回顾与展望",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc00e",
+          "duration_seconds": 4330,
+          "published_at": "2016-12-31T04:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc00f",
+          "title": "5 ✪ 你会在网上买家具吗？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc00f",
+          "duration_seconds": 3708,
+          "published_at": "2016-12-05T12:41:09.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc010",
+          "title": "4 ✪ Keep 都一年四轮融资了，体育创业还有什么机会吗？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc010",
+          "duration_seconds": 3839,
+          "published_at": "2016-06-18T14:28:41.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc011",
+          "title": "3 ✪ 互联网金融在中国",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc011",
+          "duration_seconds": 2538,
+          "published_at": "2016-04-13T03:13:34.000Z"
+        },
+        {
           "id": "5e280faf418a84a0461fc013",
           "title": "2 ✪ SaaS 太热闹，教你看尽门道",
           "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc013",
           "duration_seconds": 5014,
           "published_at": "2016-03-04T05:25:36.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc015",
+          "title": "1 ✪ 2016 会是出口电商爆发的元年吗？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc015",
+          "duration_seconds": 3592,
+          "published_at": "2016-02-25T21:39:42.000Z"
         }
       ],
       "enabled": true,

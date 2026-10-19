@@ -1,14 +1,14 @@
 [
   {
-    "checked_at": "2026-10-19T11:40:26Z",
+    "checked_at": "2026-10-19T11:48:46Z",
     "channel_id": "615a4035c8c1d14e83366946",
     "channel_title": "孤岛车谈",
     "public_url": "https://www.xiaoyuzhoufm.com/podcast/615a4035c8c1d14e83366946",
     "public_latest_count": 15,
     "new_since_final_catalog": 0,
     "retains_all_existing_ids": true,
-    "catalog_count_before": 95,
-    "catalog_count_after": 95,
+    "catalog_count_before": 98,
+    "catalog_count_after": 98,
     "latest": {
       "id": "6ad4f1079554aaac00a10ca4",
       "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
@@ -18,15 +18,15 @@
     }
   },
   {
-    "checked_at": "2026-10-19T11:40:31Z",
+    "checked_at": "2026-10-19T11:48:50Z",
     "channel_id": "5e280faf418a84a0461fbd39",
     "channel_title": "疯投圈",
     "public_url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
     "public_latest_count": 15,
     "new_since_final_catalog": 0,
     "retains_all_existing_ids": true,
-    "catalog_count_before": 114,
-    "catalog_count_after": 114,
+    "catalog_count_before": 149,
+    "catalog_count_after": 149,
     "latest": {
       "id": "6acde05dea9bf07d68c15060",
       "title": "149 ✪ 抖省省突袭美团到店业务：本地生活怎么卷",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "checked_at": "2026-10-19T11:40:39Z",
+    "checked_at": "2026-10-19T11:48:54Z",
     "channel_id": "61358d971c5d56efe5bcb5d2",
     "channel_title": "乱翻书",
     "public_url": "https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2",

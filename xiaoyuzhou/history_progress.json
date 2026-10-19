@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "issue": "https://github.com/sappho-dev/san9-auto-domestic-research/issues/11",
-  "updated_at": "2026-10-19T11:40:08Z",
+  "updated_at": "2026-10-19T11:48:31Z",
   "status": "in_progress",
   "stage": "reopened_public_snapshot_discovery",
   "baseline_commit": "e4c62c1e5a2fa78f9e1c89367fb4721343e6bce0",
@@ -14,18 +14,18 @@
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "archive_target": 212,
-      "catalog_count": 95,
-      "official_pages_verified": 95,
+      "catalog_count": 98,
+      "official_pages_verified": 98,
       "pending_existing_audit": 0,
-      "archive_remaining": 117
+      "archive_remaining": 114
     },
     "5e280faf418a84a0461fbd39": {
       "title": "疯投圈",
       "archive_target": 149,
-      "catalog_count": 114,
-      "official_pages_verified": 114,
+      "catalog_count": 149,
+      "official_pages_verified": 149,
       "pending_existing_audit": 0,
-      "archive_remaining": 35
+      "archive_remaining": 0
     },
     "61358d971c5d56efe5bcb5d2": {
       "title": "乱翻书",
@@ -37,7 +37,7 @@
     }
   },
   "batch_changes": {
-    "added": 24,
+    "added": 38,
     "updated": 0
   },
   "validation": {
@@ -45,7 +45,7 @@
     "catalog_schema": 1,
     "no_deleted_ids": true,
     "protected_paths_unchanged": true,
-    "official_page_verification_passed": 494,
+    "official_page_verification_passed": 532,
     "catalog_quality_pass": true,
     "cross_channel_duplicate_ids": 0,
     "duplicate_normalized_titles": 0,
@@ -62,14 +62,14 @@
   "method": "Discover actual links via public search or published cross-links; GET official episode page; check eid, pid, channel title, full title, publication date and duration; preserve evidence; merge fresh remote catalog by ID with branch-head lease. Never guess IDs or request audio.",
   "next_action": "Finish adjacent-date rank snapshots and older public datasets; verify every actual official link before the next additive SHA-aware batch.",
   "target_total": 646,
-  "catalog_total": 494,
-  "official_pages_verified_total": 494,
-  "unconfirmed_total": 152,
+  "catalog_total": 532,
+  "official_pages_verified_total": 532,
+  "unconfirmed_total": 114,
   "session_changes": {
-    "added": 56,
+    "added": 94,
     "corrected_existing": 1,
     "removed": 0
   },
   "completion_note": "Reopened: historical public datasets have produced further verified links. Prior broad source-exhaustion wording was premature.",
-  "base_commit_for_final_batch": "8870c1dd668b9d9babb0f54d888a5a650a05fdbe"
+  "base_commit_for_final_batch": "49f7cfdedff507a9242624b2a63f3324a5bd7d88"
 }

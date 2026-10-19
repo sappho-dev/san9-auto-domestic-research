@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T11:40:08Z",
+  "updated_at": "2026-10-19T11:48:31Z",
   "note": "External public RSS metadata archive. This file is not read by the unchanged local HTML. Missing Xiaoyuzhou episode IDs are deliberately left null.",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "source_rss": "https://www.ximalaya.com/album/49896353.xml",
       "count": 212,
-      "linked_to_native_count": 95,
+      "linked_to_native_count": 98,
       "episodes": [
         {
           "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
@@ -231,7 +231,7 @@
           "published_at": "2025-09-14T22:03:49Z",
           "duration_seconds": 3960,
           "source_url": "https://www.ximalaya.com/sound/911491461",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "68c741b3f937638345dd7222"
         },
         {
           "title": "179 沃尔沃（上）：外交家CEO PG和他的沃尔沃帝国 对话嘉宾：苏源，陆风鸣",
@@ -252,7 +252,7 @@
           "published_at": "2025-08-25T21:13:03Z",
           "duration_seconds": 3896,
           "source_url": "https://www.ximalaya.com/sound/903657792",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "68acd74b17c8c11bfbe0aa13"
         },
         {
           "title": "176 汽车空调：一个有温度的shy tech 对话嘉宾：Alex，唐华寅",
@@ -378,7 +378,7 @@
           "published_at": "2025-04-13T09:05:34Z",
           "duration_seconds": 2844,
           "source_url": "https://www.ximalaya.com/sound/835958238",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "67fb81cfff6ff2a40983d954"
         },
         {
           "title": "158 端到端（上）：自动驾驶不是功能，而是能力 对话嘉宾：薛越，杨继峰，章翔",
@@ -1499,7 +1499,7 @@
       "title": "疯投圈",
       "source_rss": "https://crazy.capital/feed",
       "count": 149,
-      "linked_to_native_count": 114,
+      "linked_to_native_count": 149,
       "episodes": [
         {
           "title": "149 ✪ 抖省省突袭美团到店业务：本地生活怎么卷",
@@ -2199,21 +2199,21 @@
           "published_at": "2020-12-25T00:00:00Z",
           "duration_seconds": 4864,
           "source_url": "https://crazy.capital/50",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5fe4c836dee9c1e16db718c7"
         },
         {
           "title": "49 ✪ 饮料行业的首富与新贵",
           "published_at": "2020-11-16T00:00:00Z",
           "duration_seconds": 4212,
           "source_url": "https://crazy.capital/49",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5fb16f9283c34e85dd633027"
         },
         {
           "title": "48 ✪ 微醺时代：低度酒的崛起",
           "published_at": "2020-09-18T00:00:00Z",
           "duration_seconds": 4284,
           "source_url": "https://crazy.capital/48",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5f63c32283c34e85dd8fcda5"
         },
         {
           "title": "47 ✪ 日本消费升级启示录",
@@ -2227,7 +2227,7 @@
           "published_at": "2020-07-10T00:00:00Z",
           "duration_seconds": 3553,
           "source_url": "https://crazy.capital/46",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5f077cf16d76607427b0a264"
         },
         {
           "title": "45 ✪ 后移动互联网时代的VC行业",
@@ -2241,14 +2241,14 @@
           "published_at": "2020-05-14T17:00:00Z",
           "duration_seconds": 4150,
           "source_url": "https://crazy.capital/44",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5ebd66a2418a84a046049c61"
         },
         {
           "title": "43 ✪ 生鲜之王——永辉超市",
           "published_at": "2020-03-30T18:00:00Z",
           "duration_seconds": 3881,
           "source_url": "https://crazy.capital/43",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e822876418a84a04656470c"
         },
         {
           "title": "42 ✪ 专业类 KOL 的崛起",
@@ -2276,7 +2276,7 @@
           "published_at": "2019-12-14T18:00:00Z",
           "duration_seconds": 3817,
           "source_url": "https://crazy.capital/39",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbfd9"
         },
         {
           "title": "38 ✪ 运动用品市场风云再起",
@@ -2297,21 +2297,21 @@
           "published_at": "2019-08-25T12:00:00Z",
           "duration_seconds": 4722,
           "source_url": "https://crazy.capital/36",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbfe0"
         },
         {
           "title": "35 ✪ 创业，不止北上广深杭",
           "published_at": "2019-07-21T08:45:00Z",
           "duration_seconds": 4431,
           "source_url": "https://crazy.capital/35",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbfe1"
         },
         {
           "title": "34 ✪ 再谈出海电商的全球机遇",
           "published_at": "2019-06-21T12:00:00Z",
           "duration_seconds": 4473,
           "source_url": "https://crazy.capital/34",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbfe2"
         },
         {
           "title": "33 ✪ 过载时代的信息修养",
@@ -2332,7 +2332,7 @@
           "published_at": "2019-03-12T00:00:00Z",
           "duration_seconds": 4260,
           "source_url": "https://crazy.capital/31",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbfe7"
         },
         {
           "title": "30 ✪ 卖不掉的衣服去哪了？",
@@ -2346,35 +2346,35 @@
           "published_at": "2019-01-26T00:00:00Z",
           "duration_seconds": 3879,
           "source_url": "https://crazy.capital/29",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbfe9"
         },
         {
           "title": "28 ✪ 学习爱好者最好的时代",
           "published_at": "2019-01-03T00:00:00Z",
           "duration_seconds": 3711,
           "source_url": "https://crazy.capital/28",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbfea"
         },
         {
           "title": "27 ✪ 名创优品的十元店江湖",
           "published_at": "2018-12-12T00:00:00Z",
           "duration_seconds": 4687,
           "source_url": "https://crazy.capital/27",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbfeb"
         },
         {
           "title": "26 ✪ 美团是中国最大型的便利店",
           "published_at": "2018-11-06T06:00:00Z",
           "duration_seconds": 4676,
           "source_url": "https://crazy.capital/26",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbfec"
         },
         {
           "title": "25 ✪ 如何用 VC 的思维买股票",
           "published_at": "2018-10-27T00:00:00Z",
           "duration_seconds": 4825,
           "source_url": "https://crazy.capital/25",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbfee"
         },
         {
           "title": "24 ✪ 咖啡战争",
@@ -2388,35 +2388,35 @@
           "published_at": "2018-09-01T00:00:00Z",
           "duration_seconds": 4544,
           "source_url": "https://crazy.capital/23",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbff3"
         },
         {
           "title": "22 ✪ 在线旅游三国杀",
           "published_at": "2018-08-11T00:00:00Z",
           "duration_seconds": 3728,
           "source_url": "https://crazy.capital/22",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbff6"
         },
         {
           "title": "21 ✪ 自由职业是生活的理想状态吗？",
           "published_at": "2018-07-12T00:00:00Z",
           "duration_seconds": 5891,
           "source_url": "https://crazy.capital/21",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbff7"
         },
         {
           "title": "20 ✪ 居住市场进入租赁时代",
           "published_at": "2018-06-10T00:00:00Z",
           "duration_seconds": 4886,
           "source_url": "https://crazy.capital/20",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbff9"
         },
         {
           "title": "19 ✪ 星巴克轶事",
           "published_at": "2018-04-24T00:00:00Z",
           "duration_seconds": 3739,
           "source_url": "https://crazy.capital/19",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fbffc"
         },
         {
           "title": "18 ✪ 拼多多=中国的Costco?",
@@ -2430,49 +2430,49 @@
           "published_at": "2018-02-27T00:00:00Z",
           "duration_seconds": 4822,
           "source_url": "https://crazy.capital/17",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc001"
         },
         {
           "title": "16 ✪ 巨头进击的一年——2017创投领域回顾",
           "published_at": "2018-01-17T00:00:00Z",
           "duration_seconds": 4018,
           "source_url": "https://crazy.capital/16",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc002"
         },
         {
           "title": "15 ✪ 知识服务利用你的焦虑，你还是忍不住持续付费",
           "published_at": "2017-12-11T00:00:00Z",
           "duration_seconds": 4611,
           "source_url": "https://crazy.capital/15",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc003"
         },
         {
           "title": "14 ✪ 「产品不好的公司不配做营销」",
           "published_at": "2017-11-22T00:00:00Z",
           "duration_seconds": 4518,
           "source_url": "https://crazy.capital/14",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc004"
         },
         {
           "title": "13 ✪ 无人零售真伪风口之辩",
           "published_at": "2017-10-17T00:00:00Z",
           "duration_seconds": 3946,
           "source_url": "https://crazy.capital/13",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc005"
         },
         {
           "title": "12 ✪ 「『新』不一定是好的，但『旧』一定是不好的」",
           "published_at": "2017-09-26T00:00:00Z",
           "duration_seconds": 2681,
           "source_url": "https://crazy.capital/12",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc006"
         },
         {
           "title": "11 ✪ 租赁是电商的未来趋势吗？",
           "published_at": "2017-09-07T00:00:00Z",
           "duration_seconds": 4023,
           "source_url": "https://crazy.capital/11",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc007"
         },
         {
           "title": "10 ✪ 新零售可以解决生鲜行业难题吗？",
@@ -2486,14 +2486,14 @@
           "published_at": "2017-07-13T15:19:18Z",
           "duration_seconds": 3888,
           "source_url": "https://crazy.capital/9",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc009"
         },
         {
           "title": "8 ✪ 专访小密圈吴鲁加",
           "published_at": "2017-05-09T17:40:46Z",
           "duration_seconds": 4449,
           "source_url": "https://crazy.capital/8",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc00b"
         },
         {
           "title": "7 ✪ 两个穿着严选拖鞋的人聊严选",
@@ -2507,28 +2507,28 @@
           "published_at": "2016-12-31T04:00:00Z",
           "duration_seconds": 4330,
           "source_url": "https://crazy.capital/6",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc00e"
         },
         {
           "title": "5 ✪ 你会在网上买家具吗？",
           "published_at": "2016-12-05T12:41:09Z",
           "duration_seconds": 3708,
           "source_url": "https://crazy.capital/5",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc00f"
         },
         {
           "title": "4 ✪ Keep 都一年四轮融资了，体育创业还有什么机会吗？",
           "published_at": "2016-06-18T14:28:41Z",
           "duration_seconds": 3839,
           "source_url": "https://crazy.capital/4",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc010"
         },
         {
           "title": "3 ✪ 互联网金融在中国",
           "published_at": "2016-04-13T03:13:34Z",
           "duration_seconds": 2538,
           "source_url": "https://crazy.capital/3",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc011"
         },
         {
           "title": "2 ✪ SaaS 太热闹，教你看尽门道",
@@ -2542,7 +2542,7 @@
           "published_at": "2016-02-25T21:39:42Z",
           "duration_seconds": 3592,
           "source_url": "https://crazy.capital/1",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "5e280faf418a84a0461fc015"
         }
       ]
     }

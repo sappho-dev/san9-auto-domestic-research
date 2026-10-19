@@ -3240,5 +3240,644 @@
         }
       ]
     }
-  ]
+  ],
+  "adjacent_date_pass": {
+    "checked_at": "2026-10-19T11:47:22.609Z",
+    "snapshots": [
+      {
+        "sha": "fd75a3dbdb1cdc5a9a7e74590aa423142018e7b6",
+        "date": "2025-04-27T16:49:36Z",
+        "targets": [
+          "159 端到端（下）：多安全才是真安全？ 对话嘉宾：薛越，杨继峰，章翔"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/fd75a3dbdb1cdc5a9a7e74590aa423142018e7b6/hot_episodes.json",
+        "source_blob": "9c26eb2889af21247158177320104ebdd249ce72",
+        "total_rows": 618,
+        "entries": [
+          {
+            "title": "113. 疯投圈×无界有声：在AI时代重思教育",
+            "podcastID": "3af373a1ad1562852b8f46eec475d98e",
+            "podcastName": "疯投圈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e8/d8/8e/e8d88ed9-b12c-b8d9-5e5d-25682f72c182/mza_4966428153200416701.png/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/67fd4396004ef840a8c07f67",
+            "playCount": 19036,
+            "commentCount": 41,
+            "subscription": 345314,
+            "duration": 55,
+            "postTime": "2025-04-15T00:00:00.000Z",
+            "primaryGenreName": "商务",
+            "totalEpisodesCount": 175,
+            "openRate": 0.05512663836392385,
+            "lastReleaseDateDayCount": 11.812828055555556
+          },
+          {
+            "title": "159 端到端（下）：多安全才是真安全？ 对话嘉宾：薛越，杨继峰，章翔",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/67fb81cfff6ff2a40983d954",
+            "playCount": 1417,
+            "commentCount": 16,
+            "subscription": 13258,
+            "duration": 47,
+            "postTime": "2025-04-13T09:05:34.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 307,
+            "openRate": 0.10687886559058682,
+            "lastReleaseDateDayCount": 13.433962314814815
+          }
+        ]
+      },
+      {
+        "sha": "42cdb3f3ce53eac7b318aa4dd19f185b6593d030",
+        "date": "2025-05-07T12:31:10Z",
+        "targets": [
+          "161 中国电动重卡（2）：薪资、补贴和电车推广 对话嘉宾：亦达，晨露，文婷"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/42cdb3f3ce53eac7b318aa4dd19f185b6593d030/hot_episodes.json",
+        "source_blob": "5ecec61fed2d00e8148c6f85d29262477396a083",
+        "total_rows": 529,
+        "entries": [
+          {
+            "title": "114. 升级的小米、降级的盒马",
+            "podcastID": "3af373a1ad1562852b8f46eec475d98e",
+            "podcastName": "疯投圈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e8/d8/8e/e8d88ed9-b12c-b8d9-5e5d-25682f72c182/mza_4966428153200416701.png/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68107f8c39225b36f7ab881a",
+            "playCount": 25683,
+            "commentCount": 141,
+            "subscription": 346328,
+            "duration": 68,
+            "postTime": "2025-04-29T08:00:00.000Z",
+            "primaryGenreName": "商务",
+            "totalEpisodesCount": 177,
+            "openRate": 0.07415802360767827,
+            "lastReleaseDateDayCount": 7.479498402777778
+          }
+        ]
+      },
+      {
+        "sha": "b6bcd95653b954da4bb1fa1da72f60affdacef1a",
+        "date": "2025-05-10T12:26:09Z",
+        "targets": [
+          "161 中国电动重卡（2）：薪资、补贴和电车推广 对话嘉宾：亦达，晨露，文婷"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/b6bcd95653b954da4bb1fa1da72f60affdacef1a/hot_episodes.json",
+        "source_blob": "33052d24ce737334283195970986e6e340cebb0d",
+        "total_rows": 543,
+        "entries": [
+          {
+            "title": "114. 升级的小米、降级的盒马",
+            "podcastID": "3af373a1ad1562852b8f46eec475d98e",
+            "podcastName": "疯投圈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e8/d8/8e/e8d88ed9-b12c-b8d9-5e5d-25682f72c182/mza_4966428153200416701.png/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68107f8c39225b36f7ab881a",
+            "playCount": 30763,
+            "commentCount": 158,
+            "subscription": 346828,
+            "duration": 68,
+            "postTime": "2025-04-29T08:00:00.000Z",
+            "primaryGenreName": "商务",
+            "totalEpisodesCount": 177,
+            "openRate": 0.08869814432514099,
+            "lastReleaseDateDayCount": 10.479502303240741
+          }
+        ]
+      },
+      {
+        "sha": "088407c78ee2652b0991250778dca25e9b5a7dc3",
+        "date": "2025-05-15T13:32:33Z",
+        "targets": [
+          "162 中国电动重卡（3）：风景中国独好 对话嘉宾：亦达，晨露，文婷"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/088407c78ee2652b0991250778dca25e9b5a7dc3/hot_episodes.json",
+        "source_blob": "efd486632e465d61db1f0e50cf13570f1c2020ff",
+        "total_rows": 539,
+        "entries": [
+          {
+            "title": "163 工程师选车（上）：选车该有执念么？ 对话嘉宾：高处青，陈圣夫，冯金钊",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68227825c65811539907dd96",
+            "playCount": 1098,
+            "commentCount": 23,
+            "subscription": 13361,
+            "duration": 66,
+            "postTime": "2025-05-12T22:18:57.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 311,
+            "openRate": 0.08217947758401317,
+            "lastReleaseDateDayCount": 1.883035474537037
+          }
+        ]
+      },
+      {
+        "sha": "01172c0e3d82f19848a5aa69069e65aa3c3248a0",
+        "date": "2025-05-18T12:26:49Z",
+        "targets": [
+          "162 中国电动重卡（3）：风景中国独好 对话嘉宾：亦达，晨露，文婷"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/01172c0e3d82f19848a5aa69069e65aa3c3248a0/hot_episodes.json",
+        "source_blob": "7a03f3e61a87de685c9dd1de021738c32a203682",
+        "total_rows": 583,
+        "entries": [
+          {
+            "title": "115. ☕️咖啡战争2025",
+            "podcastID": "3af373a1ad1562852b8f46eec475d98e",
+            "podcastName": "疯投圈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e8/d8/8e/e8d88ed9-b12c-b8d9-5e5d-25682f72c182/mza_4966428153200416701.png/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/682610c33c9f9b72f4a926d6",
+            "playCount": 17362,
+            "commentCount": 86,
+            "subscription": 347011,
+            "duration": 84,
+            "postTime": "2025-05-16T00:00:00.000Z",
+            "primaryGenreName": "商务",
+            "totalEpisodesCount": 177,
+            "openRate": 0.05003299607217062,
+            "lastReleaseDateDayCount": 1.812868113425926
+          },
+          {
+            "title": "163 工程师选车（上）：选车该有执念么？ 对话嘉宾：高处青，陈圣夫，冯金钊",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68227825c65811539907dd96",
+            "playCount": 1845,
+            "commentCount": 24,
+            "subscription": 13361,
+            "duration": 66,
+            "postTime": "2025-05-12T22:18:57.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 311,
+            "openRate": 0.13808846643215328,
+            "lastReleaseDateDayCount": 4.883041724537037
+          }
+        ]
+      },
+      {
+        "sha": "574b6326d2dae9929e6030407c4927cafc68e74b",
+        "date": "2025-06-18T12:31:44Z",
+        "targets": [
+          "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/574b6326d2dae9929e6030407c4927cafc68e74b/hot_episodes.json",
+        "source_blob": "7c4dab7a2d36d84867b3456d2cf4766df22c12e6",
+        "total_rows": 635,
+        "entries": [
+          {
+            "title": "116. 关税冲突下中国品牌的全球化之路",
+            "podcastID": "3af373a1ad1562852b8f46eec475d98e",
+            "podcastName": "疯投圈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e8/d8/8e/e8d88ed9-b12c-b8d9-5e5d-25682f72c182/mza_4966428153200416701.png/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/6840a0ef7dd7cf65661fe754",
+            "playCount": 27779,
+            "commentCount": 34,
+            "subscription": 351283,
+            "duration": 77,
+            "postTime": "2025-06-05T00:00:00.000Z",
+            "primaryGenreName": "商务",
+            "totalEpisodesCount": 179,
+            "openRate": 0.07907869153930022,
+            "lastReleaseDateDayCount": 12.812885335648149
+          }
+        ]
+      },
+      {
+        "sha": "6df3a0c4f5b72d0502db1551bbd0f15cc25f1371",
+        "date": "2025-06-21T12:27:35Z",
+        "targets": [
+          "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/6df3a0c4f5b72d0502db1551bbd0f15cc25f1371/hot_episodes.json",
+        "source_blob": "111bf823d078ca966cc8749370d48d969426e77d",
+        "total_rows": 653,
+        "entries": [
+          {
+            "title": "168 GB38031-2025：电车从今天开始，不许玩儿火 对话嘉宾：弗雷刘，刘子达",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68509cd2c5706adba79679d5",
+            "playCount": 1569,
+            "commentCount": 16,
+            "subscription": 13550,
+            "duration": 72,
+            "postTime": "2025-06-16T22:16:31.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 317,
+            "openRate": 0.11579335793357934,
+            "lastReleaseDateDayCount": 3.884749097222222
+          }
+        ]
+      },
+      {
+        "sha": "e862f17b33d709287bb1cfd25289f528e0fa641a",
+        "date": "2025-07-25T12:32:59Z",
+        "targets": [
+          "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/e862f17b33d709287bb1cfd25289f528e0fa641a/hot_episodes.json",
+        "source_blob": "67b0cb9b0a467e797c1bb9eb2b18aaf0769e7062",
+        "total_rows": 628,
+        "entries": [
+          {
+            "title": "119. 人群洞察：染发的中老年和集卡的小学生",
+            "podcastID": "3af373a1ad1562852b8f46eec475d98e",
+            "podcastName": "疯投圈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e8/d8/8e/e8d88ed9-b12c-b8d9-5e5d-25682f72c182/mza_4966428153200416701.png/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/688130545d44c42cfa370e94",
+            "playCount": 4682,
+            "commentCount": 9,
+            "subscription": 351283,
+            "duration": 71,
+            "postTime": "2025-07-24T00:00:00.000Z",
+            "primaryGenreName": "商务",
+            "totalEpisodesCount": 179,
+            "openRate": 0.013328285171784573,
+            "lastReleaseDateDayCount": 0.8129671064814815
+          },
+          {
+            "title": "172 古德伍德速度节2025：消失的电动街和贝勒爷的小米SU7 对话嘉宾：down哥，贝勒爷",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/687d35f8c59667271523719a",
+            "playCount": 1218,
+            "commentCount": 15,
+            "subscription": 13550,
+            "duration": 101,
+            "postTime": "2025-07-20T18:22:00.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 317,
+            "openRate": 0.08988929889298893,
+            "lastReleaseDateDayCount": 4.0476893287037035
+          }
+        ]
+      },
+      {
+        "sha": "ccea5a43dd0f4299c5ba65a8b0b266c8fd1cbf3a",
+        "date": "2025-07-28T12:34:41Z",
+        "targets": [
+          "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/ccea5a43dd0f4299c5ba65a8b0b266c8fd1cbf3a/hot_episodes.json",
+        "source_blob": "6ba141e7ea79830f264ce8a83ed86205f1c274bf",
+        "total_rows": 638,
+        "entries": [
+          {
+            "title": "119. 人群洞察：染发的中老年和集卡的小学生",
+            "podcastID": "3af373a1ad1562852b8f46eec475d98e",
+            "podcastName": "疯投圈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e8/d8/8e/e8d88ed9-b12c-b8d9-5e5d-25682f72c182/mza_4966428153200416701.png/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/688130545d44c42cfa370e94",
+            "playCount": 14723,
+            "commentCount": 23,
+            "subscription": 351283,
+            "duration": 71,
+            "postTime": "2025-07-24T00:00:00.000Z",
+            "primaryGenreName": "商务",
+            "totalEpisodesCount": 179,
+            "openRate": 0.04191207658782235,
+            "lastReleaseDateDayCount": 3.8131280439814814
+          },
+          {
+            "title": "172 古德伍德速度节2025：消失的电动街和贝勒爷的小米SU7 对话嘉宾：down哥，贝勒爷",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/687d35f8c59667271523719a",
+            "playCount": 1490,
+            "commentCount": 18,
+            "subscription": 13550,
+            "duration": 101,
+            "postTime": "2025-07-20T18:22:00.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 317,
+            "openRate": 0.1099630996309963,
+            "lastReleaseDateDayCount": 7.047850266203704
+          }
+        ]
+      },
+      {
+        "sha": "3f5d258f07b831dfbe614bac1c01db252fc2670f",
+        "date": "2025-08-20T12:30:50Z",
+        "targets": [
+          "175 系统工程师（4）：专家，你听我说完 对话嘉宾：许新熠，吴科，孙晨露"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/3f5d258f07b831dfbe614bac1c01db252fc2670f/hot_episodes.json",
+        "source_blob": "ca21c5cab5becad5a5746ce382ed1d349ba32f8b",
+        "total_rows": 626,
+        "entries": [
+          {
+            "title": "120. 💸个人资产如何配置才能睡得着？",
+            "podcastID": "3af373a1ad1562852b8f46eec475d98e",
+            "podcastName": "疯投圈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e8/d8/8e/e8d88ed9-b12c-b8d9-5e5d-25682f72c182/mza_4966428153200416701.png/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68932a4131a0c364c96ece8b",
+            "playCount": 24577,
+            "commentCount": 48,
+            "subscription": 360511,
+            "duration": 71,
+            "postTime": "2025-08-06T10:00:00.000Z",
+            "primaryGenreName": "商务",
+            "totalEpisodesCount": 191,
+            "openRate": 0.06817267711664832,
+            "lastReleaseDateDayCount": 13.39615204861111
+          }
+        ]
+      },
+      {
+        "sha": "16f6e83ded408cd8b808402700b9c72e7d363e7d",
+        "date": "2025-08-23T12:27:06Z",
+        "targets": [
+          "175 系统工程师（4）：专家，你听我说完 对话嘉宾：许新熠，吴科，孙晨露"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/16f6e83ded408cd8b808402700b9c72e7d363e7d/hot_episodes.json",
+        "source_blob": "86bb1cc57df9c521ad1a70c9de1faaf878b898e8",
+        "total_rows": 630,
+        "entries": [
+          {
+            "title": "121. 长沙很忙：鸣鸣忙上市、茶颜忙零食",
+            "podcastID": "3af373a1ad1562852b8f46eec475d98e",
+            "podcastName": "疯投圈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e8/d8/8e/e8d88ed9-b12c-b8d9-5e5d-25682f72c182/mza_4966428153200416701.png/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/689a76eef73cd0924e3f4f28",
+            "playCount": 22969,
+            "commentCount": 41,
+            "subscription": 361043,
+            "duration": 68,
+            "postTime": "2025-08-12T00:00:00.000Z",
+            "primaryGenreName": "商务",
+            "totalEpisodesCount": 191,
+            "openRate": 0.06361846095894395,
+            "lastReleaseDateDayCount": 10.812845671296296
+          },
+          {
+            "title": "176 汽车空调：一个有温度的shy tech 对话嘉宾：Alex，唐华寅",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68a253ba063a7fc3bfd628f2",
+            "playCount": 1215,
+            "commentCount": 43,
+            "subscription": 14175,
+            "duration": 89,
+            "postTime": "2025-08-17T21:45:27.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 335,
+            "openRate": 0.08571428571428572,
+            "lastReleaseDateDayCount": 4.906283171296296
+          }
+        ]
+      },
+      {
+        "sha": "56cc69c8dc52cda4225dead9136bd83a1e188502",
+        "date": "2025-09-04T12:29:03Z",
+        "targets": [
+          "177 懂车智炼场ADAS测试（上）：一档无与伦比的综艺节目 对话嘉宾：许新熠，薛岳"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/56cc69c8dc52cda4225dead9136bd83a1e188502/hot_episodes.json",
+        "source_blob": "4b54284a38caea5d5fdb8fc9d1d093a60e121348",
+        "total_rows": 636,
+        "entries": [
+          {
+            "title": "177 懂车智炼场ADAS测试（上）：一档无与伦比的综艺节目 对话嘉宾：许新熠，薛岳",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68acd74b17c8c11bfbe0aa13",
+            "playCount": 1438,
+            "commentCount": 19,
+            "subscription": 14363,
+            "duration": 65,
+            "postTime": "2025-08-25T21:13:03.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 343,
+            "openRate": 0.10011835967416279,
+            "lastReleaseDateDayCount": 8.928777511574074
+          }
+        ]
+      },
+      {
+        "sha": "fccae59082826a06e6926e2884da4adeeb800876",
+        "date": "2025-09-07T12:25:58Z",
+        "targets": [
+          "177 懂车智炼场ADAS测试（上）：一档无与伦比的综艺节目 对话嘉宾：许新熠，薛岳"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/fccae59082826a06e6926e2884da4adeeb800876/hot_episodes.json",
+        "source_blob": "5520fa9a334c5ceac0a1510899a88c458d2b59a4",
+        "total_rows": 632,
+        "entries": [
+          {
+            "title": "122. 山姆中国还能火多久？",
+            "podcastID": "3af373a1ad1562852b8f46eec475d98e",
+            "podcastName": "疯投圈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e8/d8/8e/e8d88ed9-b12c-b8d9-5e5d-25682f72c182/mza_4966428153200416701.png/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68b83a0b17c8c11bfbe116fd",
+            "playCount": 20798,
+            "commentCount": 79,
+            "subscription": 362968,
+            "duration": 63,
+            "postTime": "2025-09-03T13:00:00.000Z",
+            "primaryGenreName": "商务",
+            "totalEpisodesCount": 193,
+            "openRate": 0.0572998170637632,
+            "lastReleaseDateDayCount": 3.271162511574074
+          },
+          {
+            "title": "177 懂车智炼场ADAS测试（上）：一档无与伦比的综艺节目 对话嘉宾：许新熠，薛岳",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68acd74b17c8c11bfbe0aa13",
+            "playCount": 1573,
+            "commentCount": 19,
+            "subscription": 14373,
+            "duration": 65,
+            "postTime": "2025-08-25T21:13:03.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 343,
+            "openRate": 0.10944131357406248,
+            "lastReleaseDateDayCount": 11.928766678240741
+          }
+        ]
+      },
+      {
+        "sha": "296a553393b36d091e87c8d4feddf9730319235e",
+        "date": "2025-09-24T12:30:07Z",
+        "targets": [
+          "180 沃尔沃（下）：SPA2的失败，锅谁背？ 对话嘉宾：苏源，陆风鸣"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/296a553393b36d091e87c8d4feddf9730319235e/hot_episodes.json",
+        "source_blob": "376ec5bcf2948d76fa5132a3ba9a7ab0274bb634",
+        "total_rows": 660,
+        "entries": [
+          {
+            "title": "180 沃尔沃（下）：SPA2的失败，锅谁背？ 对话嘉宾：苏源，陆风鸣",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68c741b3f937638345dd7222",
+            "playCount": 1439,
+            "commentCount": 20,
+            "subscription": 14503,
+            "duration": 66,
+            "postTime": "2025-09-14T22:03:49.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 349,
+            "openRate": 0.09922085085844308,
+            "lastReleaseDateDayCount": 8.893501712962962
+          }
+        ]
+      },
+      {
+        "sha": "b4f4bcb59728cedf82df84f0d40f762a23110b76",
+        "date": "2025-09-27T12:25:46Z",
+        "targets": [
+          "180 沃尔沃（下）：SPA2的失败，锅谁背？ 对话嘉宾：苏源，陆风鸣"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/b4f4bcb59728cedf82df84f0d40f762a23110b76/hot_episodes.json",
+        "source_blob": "8167e15e33fe4bd80e66fea29b33e1c7db29b946",
+        "total_rows": 675,
+        "entries": [
+          {
+            "title": "181 来吉利走一遭：吉利是如何（反）内卷的 对话嘉宾：胡洸久，陈圣夫",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68cfeea5a646c97a3e8946b0",
+            "playCount": 2004,
+            "commentCount": 84,
+            "subscription": 14543,
+            "duration": 88,
+            "postTime": "2025-09-21T11:53:11.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 349,
+            "openRate": 0.13779825345527058,
+            "lastReleaseDateDayCount": 5.31756056712963
+          }
+        ]
+      },
+      {
+        "sha": "b73dc61334c736e69ce4e34eca265781b48c32cd",
+        "date": "2025-10-29T12:32:32Z",
+        "targets": [
+          "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/b73dc61334c736e69ce4e34eca265781b48c32cd/hot_episodes.json",
+        "source_blob": "de1c3f466462af105b396b0ad497d21ea3b6a377",
+        "total_rows": 639,
+        "entries": [
+          {
+            "title": "185 大众小鹏两周年 大众软硬皆失，内外兼虚 对话嘉宾：陆风鸣，李青，冯金钊",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68feb598285426070d5358e1",
+            "playCount": 2064,
+            "commentCount": 33,
+            "subscription": 15255,
+            "duration": 87,
+            "postTime": "2025-10-26T23:31:18.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 357,
+            "openRate": 0.1352999016715831,
+            "lastReleaseDateDayCount": 1.832782627314815
+          }
+        ]
+      },
+      {
+        "sha": "f14177ac35f471feae054ff6003f3c5ad3131d06",
+        "date": "2025-11-04T12:33:31Z",
+        "targets": [
+          "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱"
+        ],
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/f14177ac35f471feae054ff6003f3c5ad3131d06/hot_episodes.json",
+        "source_blob": "ee332f7f6616874e2eed26738b1915f4eda7a0c5",
+        "total_rows": 638,
+        "entries": [
+          {
+            "title": "125. 名创优品「偷师」泡泡玛特、卡游上市遇挫",
+            "podcastID": "3af373a1ad1562852b8f46eec475d98e",
+            "podcastName": "疯投圈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e8/d8/8e/e8d88ed9-b12c-b8d9-5e5d-25682f72c182/mza_4966428153200416701.png/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/690775bf6e241a8dee08136b",
+            "playCount": 5501,
+            "commentCount": 16,
+            "subscription": 374314,
+            "duration": 69,
+            "postTime": "2025-11-02T15:00:00.000Z",
+            "primaryGenreName": "商务",
+            "totalEpisodesCount": 199,
+            "openRate": 0.014696217614088706,
+            "lastReleaseDateDayCount": 1.1877920138888889
+          },
+          {
+            "title": "185 大众小鹏两周年 大众软硬皆失，内外兼虚 对话嘉宾：陆风鸣，李青，冯金钊",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68feb598285426070d5358e1",
+            "playCount": 3679,
+            "commentCount": 40,
+            "subscription": 15329,
+            "duration": 87,
+            "postTime": "2025-10-26T23:31:18.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 357,
+            "openRate": 0.24000260943310067,
+            "lastReleaseDateDayCount": 7.832722569444444
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": "67fb81cfff6ff2a40983d954",
+        "title": "159 端到端（下）：多安全才是真安全？ 对话嘉宾：薛越，杨继峰，章翔",
+        "channel": "孤岛车谈",
+        "url": "https://www.xiaoyuzhoufm.com/episode/67fb81cfff6ff2a40983d954",
+        "sources": [
+          {
+            "snapshot_date": "2025-04-27T16:49:36Z",
+            "url": "https://github.com/cellinlab/xyzrank/blob/fd75a3dbdb1cdc5a9a7e74590aa423142018e7b6/hot_episodes.json",
+            "blob": "9c26eb2889af21247158177320104ebdd249ce72"
+          }
+        ]
+      },
+      {
+        "id": "68acd74b17c8c11bfbe0aa13",
+        "title": "177 懂车智炼场ADAS测试（上）：一档无与伦比的综艺节目 对话嘉宾：许新熠，薛岳",
+        "channel": "孤岛车谈",
+        "url": "https://www.xiaoyuzhoufm.com/episode/68acd74b17c8c11bfbe0aa13",
+        "sources": [
+          {
+            "snapshot_date": "2025-09-04T12:29:03Z",
+            "url": "https://github.com/cellinlab/xyzrank/blob/56cc69c8dc52cda4225dead9136bd83a1e188502/hot_episodes.json",
+            "blob": "4b54284a38caea5d5fdb8fc9d1d093a60e121348"
+          },
+          {
+            "snapshot_date": "2025-09-07T12:25:58Z",
+            "url": "https://github.com/cellinlab/xyzrank/blob/fccae59082826a06e6926e2884da4adeeb800876/hot_episodes.json",
+            "blob": "5520fa9a334c5ceac0a1510899a88c458d2b59a4"
+          }
+        ]
+      },
+      {
+        "id": "68c741b3f937638345dd7222",
+        "title": "180 沃尔沃（下）：SPA2的失败，锅谁背？ 对话嘉宾：苏源，陆风鸣",
+        "channel": "孤岛车谈",
+        "url": "https://www.xiaoyuzhoufm.com/episode/68c741b3f937638345dd7222",
+        "sources": [
+          {
+            "snapshot_date": "2025-09-24T12:30:07Z",
+            "url": "https://github.com/cellinlab/xyzrank/blob/296a553393b36d091e87c8d4feddf9730319235e/hot_episodes.json",
+            "blob": "376ec5bcf2948d76fa5132a3ba9a7ab0274bb634"
+          }
+        ]
+      }
+    ]
+  }
 }
