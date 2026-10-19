@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T10:13:57Z",
+  "updated_at": "2026-10-19T10:17:57Z",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "id": "615a4035c8c1d14e83366946",
@@ -650,11 +650,25 @@
           "duration_seconds": 3787
         },
         {
+          "id": "689a76eef73cd0924e3f4f28",
+          "title": "121 ✪ 长沙很忙：鸣鸣忙上市、茶颜忙零食",
+          "url": "https://www.xiaoyuzhoufm.com/episode/689a76eef73cd0924e3f4f28",
+          "published_at": "2025-08-12T00:00:00Z",
+          "duration_seconds": 4081
+        },
+        {
           "id": "68932a4131a0c364c96ece8b",
           "title": "120 ✪ 💸个人资产如何配置才能睡得着？",
           "url": "https://www.xiaoyuzhoufm.com/episode/68932a4131a0c364c96ece8b",
           "published_at": "2025-08-06T10:00:00Z",
           "duration_seconds": 4245
+        },
+        {
+          "id": "688130545d44c42cfa370e94",
+          "title": "119 ✪ 人群洞察：染发的中老年和集卡的小学生",
+          "url": "https://www.xiaoyuzhoufm.com/episode/688130545d44c42cfa370e94",
+          "published_at": "2025-07-24T00:00:00Z",
+          "duration_seconds": 4257
         },
         {
           "id": "686d7fd6ff03a76aa94f9d38",
@@ -692,11 +706,60 @@
           "duration_seconds": 3290
         },
         {
+          "id": "67e42850ee362900edac1ba9",
+          "title": "112 ✪ 奶茶争霸2025",
+          "url": "https://www.xiaoyuzhoufm.com/episode/67e42850ee362900edac1ba9",
+          "published_at": "2025-03-27T00:00:00Z",
+          "duration_seconds": 4415
+        },
+        {
           "id": "67cf27a952a6af799cd91ca9",
           "title": "111 ✪ 上市一年股价十倍，老铺黄金凭什么",
           "url": "https://www.xiaoyuzhoufm.com/episode/67cf27a952a6af799cd91ca9",
           "published_at": "2025-03-11T00:00:00Z",
           "duration_seconds": 4841
+        },
+        {
+          "id": "67c0a7ec52a6af799cdcdcd6",
+          "title": "110 ✪ 健康红利还能持续多久？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/67c0a7ec52a6af799cdcdcd6",
+          "published_at": "2025-02-28T00:00:00Z",
+          "duration_seconds": 4488
+        },
+        {
+          "id": "67aa5bb7bf2864230a56d270",
+          "title": "109 ✪ 回顾与展望：低增速时代的商业趋势",
+          "url": "https://www.xiaoyuzhoufm.com/episode/67aa5bb7bf2864230a56d270",
+          "published_at": "2025-02-11T00:00:00Z",
+          "duration_seconds": 4706
+        },
+        {
+          "id": "677c22af7317752df13d8b46",
+          "title": "108 ✪ 银发の商机",
+          "url": "https://www.xiaoyuzhoufm.com/episode/677c22af7317752df13d8b46",
+          "published_at": "2025-01-07T00:00:00Z",
+          "duration_seconds": 3865
+        },
+        {
+          "id": "675f2ebd11b20ca77e515826",
+          "title": "107 ✪ 社区何以生长：线上小红书、线下阿那亚",
+          "url": "https://www.xiaoyuzhoufm.com/episode/675f2ebd11b20ca77e515826",
+          "published_at": "2024-12-16T00:00:00Z",
+          "duration_seconds": 4202
+        },
+        {
+          "id": "673a4dddfe1d1f4503a8bfee",
+          "title": "106 ✪ 胖东来永辉大战沃尔玛山姆",
+          "url": "https://www.xiaoyuzhoufm.com/episode/673a4dddfe1d1f4503a8bfee",
+          "published_at": "2024-11-18T00:00:00Z",
+          "duration_seconds": 4903
+        },
+        {
+          "id": "672a7fd8f30fa8b17f332510",
+          "title": "105 ✪ 霸王茶姬、林里、柠季为何能开遍全国？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/672a7fd8f30fa8b17f332510",
+          "published_at": "2024-11-06T00:00:00Z",
+          "duration_seconds": 4061
         },
         {
           "id": "6716b28cedb5ad730b169a3a",
@@ -713,11 +776,60 @@
           "duration_seconds": 5667
         },
         {
+          "id": "66d2d701529bdcba056fa324",
+          "title": "101 ✪ 直播电商见顶了吗？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66d2d701529bdcba056fa324",
+          "published_at": "2024-08-31T10:00:00Z",
+          "duration_seconds": 4838
+        },
+        {
+          "id": "66b3efd00ce6e5bf7c6549eb",
+          "title": "100 ✪ 名创优品大战泡泡玛特",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66b3efd00ce6e5bf7c6549eb",
+          "published_at": "2024-08-08T00:00:00Z",
+          "duration_seconds": 3822
+        },
+        {
           "id": "66a16144c8295bd902cb4883",
           "title": "99 ✪ 中式快餐如何超越麦当劳？",
           "url": "https://www.xiaoyuzhoufm.com/episode/66a16144c8295bd902cb4883",
           "published_at": "2024-07-25T00:00:00Z",
           "duration_seconds": 4466
+        },
+        {
+          "id": "668ad51ecfe6449e7cc020c6",
+          "title": "98 ✪ 咖啡战争2024",
+          "url": "https://www.xiaoyuzhoufm.com/episode/668ad51ecfe6449e7cc020c6",
+          "published_at": "2024-07-08T00:00:00Z",
+          "duration_seconds": 4705
+        },
+        {
+          "id": "66746dc21095b771397b8f2c",
+          "title": "97 ✪ 全球化之路：优衣库、萨莉亚、日本动漫",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66746dc21095b771397b8f2c",
+          "published_at": "2024-06-21T00:00:00Z",
+          "duration_seconds": 4988
+        },
+        {
+          "id": "6658c8826679fd6c9eb78c82",
+          "title": "96 ✪ 中高端也要性价比：山姆、理想、lululemon",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6658c8826679fd6c9eb78c82",
+          "published_at": "2024-05-31T00:00:00Z",
+          "duration_seconds": 4211
+        },
+        {
+          "id": "6609a48ac416b9ac887bfede",
+          "title": "94 ✪ 国潮退去，李宁应否固守「李宁」？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6609a48ac416b9ac887bfede",
+          "published_at": "2024-04-01T00:00:00Z",
+          "duration_seconds": 3956
+        },
+        {
+          "id": "65ee4a763ecebc977e1912c2",
+          "title": "92 ✪ 酒店逆势涨价的商业逻辑",
+          "url": "https://www.xiaoyuzhoufm.com/episode/65ee4a763ecebc977e1912c2",
+          "published_at": "2024-03-11T00:00:00Z",
+          "duration_seconds": 4762
         },
         {
           "id": "65dbab139173e9003f8c1690",
@@ -727,11 +839,207 @@
           "duration_seconds": 4080
         },
         {
+          "id": "65c26ec20cce6754dc12f95c",
+          "title": "90 ✪ 奶茶争霸2024（下）",
+          "url": "https://www.xiaoyuzhoufm.com/episode/65c26ec20cce6754dc12f95c",
+          "published_at": "2024-02-07T00:00:00Z",
+          "duration_seconds": 3549
+        },
+        {
+          "id": "65ba719ce4c892c990586e9f",
+          "title": "89 ✪ 奶茶争霸2024（上）",
+          "url": "https://www.xiaoyuzhoufm.com/episode/65ba719ce4c892c990586e9f",
+          "published_at": "2024-01-31T15:45:00Z",
+          "duration_seconds": 3999
+        },
+        {
+          "id": "6588650845e80bc31bbbf454",
+          "title": "88 ✪ 盒马的两难：既要「移山」、又要下沉",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6588650845e80bc31bbbf454",
+          "published_at": "2023-12-25T00:00:00Z",
+          "duration_seconds": 4077
+        },
+        {
+          "id": "6579d41c8d1a605c33b964f9",
+          "title": "87 ✪ 经济动能切换，普通人何去何从？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6579d41c8d1a605c33b964f9",
+          "published_at": "2023-12-14T00:00:00Z",
+          "duration_seconds": 3645
+        },
+        {
+          "id": "65105603f1bfc685ce1345b8",
+          "title": "83 ✪ 心理健身：焦虑时代的新刚需",
+          "url": "https://www.xiaoyuzhoufm.com/episode/65105603f1bfc685ce1345b8",
+          "published_at": "2023-09-24T20:00:00Z",
+          "duration_seconds": 4781
+        },
+        {
+          "id": "64cfeaaee70b5a13106fe9fe",
+          "title": "80 ✪ 咖啡战争2023",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64cfeaaee70b5a13106fe9fe",
+          "published_at": "2023-08-06T18:00:00Z",
+          "duration_seconds": 3903
+        },
+        {
+          "id": "64930fc5fe21fa068c029eb2",
+          "title": "78 ✪ 创作者的小时代——聊聊小红书与视频号",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64930fc5fe21fa068c029eb2",
+          "published_at": "2023-06-21T14:00:00Z",
+          "duration_seconds": 4142
+        },
+        {
+          "id": "644140f2f53a29414acf22be",
+          "title": "76 ✪ 广度 vs 深度：产品战略的抉择",
+          "url": "https://www.xiaoyuzhoufm.com/episode/644140f2f53a29414acf22be",
+          "published_at": "2023-04-20T14:00:00Z",
+          "duration_seconds": 3823
+        },
+        {
           "id": "63f477bc3976a061622f9d57",
           "title": "74 ✪ 新消费背后的真趋势",
           "url": "https://www.xiaoyuzhoufm.com/episode/63f477bc3976a061622f9d57",
           "published_at": "2023-02-21T08:00:00Z",
           "duration_seconds": 5076
+        },
+        {
+          "id": "63aed1da4bbe65bc7346c284",
+          "title": "72 ✪ 从直播到商城：兴趣电商的迭代与演化",
+          "url": "https://www.xiaoyuzhoufm.com/episode/63aed1da4bbe65bc7346c284",
+          "published_at": "2022-12-30T12:00:00Z",
+          "duration_seconds": 3178
+        },
+        {
+          "id": "637b13b2d3c7226ae899349f",
+          "title": "70 ✪ 从得物到阿那亚：再谈情感价值",
+          "url": "https://www.xiaoyuzhoufm.com/episode/637b13b2d3c7226ae899349f",
+          "published_at": "2022-11-21T08:00:00Z",
+          "duration_seconds": 4112
+        },
+        {
+          "id": "63504be43fc1a6bf8a0a4590",
+          "title": "69 ✪ 品牌管理：靠创意还是科学？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/63504be43fc1a6bf8a0a4590",
+          "published_at": "2022-10-20T00:00:00Z",
+          "duration_seconds": 4925
+        },
+        {
+          "id": "629dfa6acd9b181e67a2d0ec",
+          "title": "66 ✪ 二级市场的叙事与估值逻辑",
+          "url": "https://www.xiaoyuzhoufm.com/episode/629dfa6acd9b181e67a2d0ec",
+          "published_at": "2022-06-06T13:00:00Z",
+          "duration_seconds": 4689
+        },
+        {
+          "id": "629851fdf6be757a5275fe0f",
+          "title": "65 ✪ 咖啡战争2022",
+          "url": "https://www.xiaoyuzhoufm.com/episode/629851fdf6be757a5275fe0f",
+          "published_at": "2022-06-01T14:00:00Z",
+          "duration_seconds": 435
+        },
+        {
+          "id": "626d812df0a94d932863b953",
+          "title": "64 ✪ 漫谈「创作者经济」",
+          "url": "https://www.xiaoyuzhoufm.com/episode/626d812df0a94d932863b953",
+          "published_at": "2022-04-30T15:59:00Z",
+          "duration_seconds": 4043
+        },
+        {
+          "id": "6244b2d8e90e615dbe1faeee",
+          "title": "63 ✪ 从直播带货看电商新格局",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6244b2d8e90e615dbe1faeee",
+          "published_at": "2022-03-31T00:00:00Z",
+          "duration_seconds": 4949
+        },
+        {
+          "id": "62140ccc64e6a127ed2bfc64",
+          "title": "62 ✪ 健康饮食到底是真趋势还是伪需求？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/62140ccc64e6a127ed2bfc64",
+          "published_at": "2022-02-22T02:00:00Z",
+          "duration_seconds": 4827
+        },
+        {
+          "id": "61e650e002f9e216902c7608",
+          "title": "61 ✪ 边缘创新：破圈于主流之外",
+          "url": "https://www.xiaoyuzhoufm.com/episode/61e650e002f9e216902c7608",
+          "published_at": "2022-01-19T10:00:00Z",
+          "duration_seconds": 4639
+        },
+        {
+          "id": "617efb3eb856d721e973a67f",
+          "title": "58 ✪ 运动鞋会出现下一个国货之光吗？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/617efb3eb856d721e973a67f",
+          "published_at": "2021-10-31T15:58:00Z",
+          "duration_seconds": 3665
+        },
+        {
+          "id": "61560dc1ae1d32c4f86c151e",
+          "title": "57 ✪ 灵感与卓越之茶",
+          "url": "https://www.xiaoyuzhoufm.com/episode/61560dc1ae1d32c4f86c151e",
+          "published_at": "2021-09-30T15:55:00Z",
+          "duration_seconds": 4130
+        },
+        {
+          "id": "613a47eecab9fa9b95f2fa73",
+          "title": "56 ✪ 超级文和友：商业地产新物种",
+          "url": "https://www.xiaoyuzhoufm.com/episode/613a47eecab9fa9b95f2fa73",
+          "published_at": "2021-09-10T00:00:00Z",
+          "duration_seconds": 3966
+        },
+        {
+          "id": "60eec4f08dd484eefdb48482",
+          "title": "55 ✪ 从 Zara 到 Shein：快时尚的两代王者",
+          "url": "https://www.xiaoyuzhoufm.com/episode/60eec4f08dd484eefdb48482",
+          "published_at": "2021-07-14T11:00:00Z",
+          "duration_seconds": 3622
+        },
+        {
+          "id": "6074707da8969a63cb6e6aef",
+          "title": "53 ✪ 咖啡战争2021",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6074707da8969a63cb6e6aef",
+          "published_at": "2021-04-12T15:00:00Z",
+          "duration_seconds": 3513
+        },
+        {
+          "id": "6055b56b892e07b459396392",
+          "title": "52 ✪ 探寻万亿家居行业的创新模式",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6055b56b892e07b459396392",
+          "published_at": "2021-03-20T10:00:00Z",
+          "duration_seconds": 3653
+        },
+        {
+          "id": "601a83dc939fa818084e03f8",
+          "title": "51 ✪ 从泡泡玛特谈起：物质消费中的情感价值",
+          "url": "https://www.xiaoyuzhoufm.com/episode/601a83dc939fa818084e03f8",
+          "published_at": "2021-02-03T11:00:00Z",
+          "duration_seconds": 4624
+        },
+        {
+          "id": "5f3e42aa9504bbdb77598154",
+          "title": "47 ✪ 日本消费升级启示录",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5f3e42aa9504bbdb77598154",
+          "published_at": "2020-08-20T12:00:00Z",
+          "duration_seconds": 3648
+        },
+        {
+          "id": "5ee67ec6418a84a0464f7a75",
+          "title": "45 ✪ 后移动互联网时代的VC行业",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5ee67ec6418a84a0464f7a75",
+          "published_at": "2020-06-14T20:00:00Z",
+          "duration_seconds": 4115
+        },
+        {
+          "id": "5e58c455418a84a0465f6480",
+          "title": "42 ✪ 专业类 KOL 的崛起",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e58c455418a84a0465f6480",
+          "published_at": "2020-02-28T14:00:00Z",
+          "duration_seconds": 4133
+        },
+        {
+          "id": "5e456e83418a84a046f0b82d",
+          "title": "41 ✪ 快手的社交网络之路",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e456e83418a84a046f0b82d",
+          "published_at": "2020-02-13T15:00:00Z",
+          "duration_seconds": 4189
         },
         {
           "id": "5e280faf418a84a0461fbfd7",
@@ -741,11 +1049,46 @@
           "duration_seconds": 4485
         },
         {
+          "id": "5e280faf418a84a0461fbfda",
+          "title": "38 ✪ 运动用品市场风云再起",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfda",
+          "published_at": "2019-10-29T02:00:00Z",
+          "duration_seconds": 4039
+        },
+        {
+          "id": "5e280faf418a84a0461fbfdd",
+          "title": "37 ✪ 「中国有过多企业旨在提升效率，太少能创造体验」",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfdd",
+          "published_at": "2019-09-20T18:00:00Z",
+          "duration_seconds": 4516
+        },
+        {
           "id": "5e280faf418a84a0461fbfe3",
           "title": "33 ✪ 过载时代的信息修养",
           "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfe3",
           "published_at": "2019-05-12T00:00:00Z",
           "duration_seconds": 4447
+        },
+        {
+          "id": "5e280faf418a84a0461fbfe5",
+          "title": "32 ✪ 复杂服务行业如何平台化",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfe5",
+          "published_at": "2019-04-02T00:00:00Z",
+          "duration_seconds": 5161
+        },
+        {
+          "id": "5e280faf418a84a0461fbfe8",
+          "title": "30 ✪ 卖不掉的衣服去哪了？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfe8",
+          "published_at": "2019-02-20T00:00:00Z",
+          "duration_seconds": 4369
+        },
+        {
+          "id": "5e280faf418a84a0461fbff0",
+          "title": "24 ✪ 咖啡战争",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbff0",
+          "published_at": "2018-09-27T00:00:00Z",
+          "duration_seconds": 4613
         }
       ],
       "enabled": true,
