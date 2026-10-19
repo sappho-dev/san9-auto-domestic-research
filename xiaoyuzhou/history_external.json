@@ -1,0 +1,2550 @@
+{
+  "schema": 1,
+  "updated_at": "2026-10-19T09:51:12Z",
+  "note": "External public RSS metadata archive. This file is not read by the unchanged local HTML. Missing Xiaoyuzhou episode IDs are deliberately left null.",
+  "channels": {
+    "615a4035c8c1d14e83366946": {
+      "title": "孤岛车谈",
+      "source_rss": "https://www.ximalaya.com/album/49896353.xml",
+      "count": 212,
+      "linked_to_native_count": 15,
+      "episodes": [
+        {
+          "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
+          "published_at": "2026-10-18T15:41:27Z",
+          "duration_seconds": 5601,
+          "source_url": "https://www.ximalaya.com/sound/1025244908",
+          "xiaoyuzhou_eid": "6ad4f1079554aaac00a10ca4"
+        },
+        {
+          "title": "211 丰田（3）：NUMMI和丰田生产方式 对话嘉宾：吴桐雨，许新熠",
+          "published_at": "2026-10-12T22:57:23Z",
+          "duration_seconds": 7540,
+          "source_url": "https://www.ximalaya.com/sound/1023728133",
+          "xiaoyuzhou_eid": "6acd7ae17b6bc0d79abd394f"
+        },
+        {
+          "title": "210 丰田（2）：一人一款车，打破组织内耗 对话嘉宾：金木，许新熠",
+          "published_at": "2026-09-25T22:14:35Z",
+          "duration_seconds": 6257,
+          "source_url": "https://www.ximalaya.com/sound/1018412285",
+          "xiaoyuzhou_eid": "6ab6fadeab04f399f7542741"
+        },
+        {
+          "title": "209 丰田（1）：先到泰国，再到肯塔基 对话嘉宾：Jason",
+          "published_at": "2026-08-23T23:27:57Z",
+          "duration_seconds": 7027,
+          "source_url": "https://www.ximalaya.com/sound/1008231734",
+          "xiaoyuzhou_eid": "6a8b8a7e008ed7314dab72b9"
+        },
+        {
+          "title": "207 专访Gumpert：传奇的人生 对话嘉宾：Roland Rumpert，down哥",
+          "published_at": "2026-08-02T11:26:39Z",
+          "duration_seconds": 5975,
+          "source_url": "https://www.ximalaya.com/sound/1004224532",
+          "xiaoyuzhou_eid": "6a6f327c47ac66f4b53539d3"
+        },
+        {
+          "title": "206 法拉利Luce：是错误的尝试还是伟大的突破 对话嘉宾：温如",
+          "published_at": "2026-07-20T00:34:09Z",
+          "duration_seconds": 8883,
+          "source_url": "https://www.ximalaya.com/sound/1001840682",
+          "xiaoyuzhou_eid": "6a5d784314e09e78bfa4010d"
+        },
+        {
+          "title": "205 比亚迪闪充：不止于快 对话嘉宾：弗雷刘，付梓耘，章翔",
+          "published_at": "2026-06-14T23:05:43Z",
+          "duration_seconds": 3843,
+          "source_url": "https://www.ximalaya.com/sound/990824628",
+          "xiaoyuzhou_eid": "6a2f389d1d5866c024f42835"
+        },
+        {
+          "title": "204 起亚EV5：电动车的二元世界 对话嘉宾：侯社长，王涵",
+          "published_at": "2026-06-01T21:54:10Z",
+          "duration_seconds": 6364,
+          "source_url": "https://www.ximalaya.com/sound/980594751",
+          "xiaoyuzhou_eid": "6a1e077c92551efcff13d441"
+        },
+        {
+          "title": "203 机油：在纯电化彻底完成前绕不开的伙伴 对话嘉宾：Adam，Sam",
+          "published_at": "2026-05-25T15:25:10Z",
+          "duration_seconds": 5424,
+          "source_url": "https://www.ximalaya.com/sound/979074028",
+          "xiaoyuzhou_eid": "6a14f7371cd5cc9bb08ab35e"
+        },
+        {
+          "title": "202 车将不车：中国汽车的生态化反 对话嘉宾：冯金钊，王以琳，许新熠",
+          "published_at": "2026-05-11T21:38:12Z",
+          "duration_seconds": 8800,
+          "source_url": "https://www.ximalaya.com/sound/975974158",
+          "xiaoyuzhou_eid": "6a0257870b0e64b50c2104c5"
+        },
+        {
+          "title": "201 2026特斯拉低息贷款：从价格战到金融战 对话嘉宾：Benny，Jason",
+          "published_at": "2026-05-04T15:13:24Z",
+          "duration_seconds": 4731,
+          "source_url": "https://www.ximalaya.com/sound/974477808",
+          "xiaoyuzhou_eid": "69f8be919b598c6917688d7f"
+        },
+        {
+          "title": "200 福特为什么要让李沁来帮忙造皮卡 对话嘉宾：李沁，徐桑",
+          "published_at": "2026-04-12T22:25:14Z",
+          "duration_seconds": 7474,
+          "source_url": "https://www.ximalaya.com/sound/969739871",
+          "xiaoyuzhou_eid": "69dc6998f6e591a7ac9b2ded"
+        },
+        {
+          "title": "199 PLM：汽车研发流水线 对话嘉宾：Simon，down哥，胡雯婷，孙晨露",
+          "published_at": "2026-03-31T15:26:19Z",
+          "duration_seconds": 7293,
+          "source_url": "https://www.ximalaya.com/sound/966907452",
+          "xiaoyuzhou_eid": "69cbf1b6f6e591a7ace48fa9"
+        },
+        {
+          "title": "198 本田2025EV战略崩盘：本田的今天，就是日本的明天 对话嘉宾：金木，白东升",
+          "published_at": "2026-03-15T14:31:53Z",
+          "duration_seconds": 7939,
+          "source_url": "https://www.ximalaya.com/sound/963150876",
+          "xiaoyuzhou_eid": "69b6ccc4719b26db81cfb183"
+        },
+        {
+          "title": "197 小鹏汇天陆地航母：如果你有200万，你该不该买它？ 对话嘉宾：许新熠，佳佳",
+          "published_at": "2026-03-09T00:18:09Z",
+          "duration_seconds": 7035,
+          "source_url": "https://www.ximalaya.com/sound/961560811",
+          "xiaoyuzhou_eid": "69ae1a0a719b26db81d99498"
+        },
+        {
+          "title": "196 雷诺安培解散：开也成功，关也成功 对话嘉宾：王涵，Eric",
+          "published_at": "2026-03-01T22:06:36Z",
+          "duration_seconds": 4035,
+          "source_url": "https://www.ximalaya.com/sound/959915416",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "195 卡车HMI：有谁能懂卡车司机的需求？ 对话嘉宾：高峰，June，侯依萱",
+          "published_at": "2026-02-15T23:03:33Z",
+          "duration_seconds": 7634,
+          "source_url": "https://www.ximalaya.com/sound/957283836",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "194 中式豪华：干死BBA共需几步？ 对话嘉宾：管仲窥豹、蒋晨",
+          "published_at": "2026-01-25T16:42:57Z",
+          "duration_seconds": 5437,
+          "source_url": "https://www.ximalaya.com/sound/952107207",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "193 地效时代F1：这四年算不算成功？对话嘉宾：周浩然、邓烨明",
+          "published_at": "2026-01-18T21:58:15Z",
+          "duration_seconds": 6324,
+          "source_url": "https://www.ximalaya.com/sound/950242768",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "192 比亚迪海狮06：插混前驱VS纯电后驱 对话嘉宾：冯金钊、Toto文翰",
+          "published_at": "2026-01-11T23:18:57Z",
+          "duration_seconds": 5530,
+          "source_url": "https://www.ximalaya.com/sound/948377605",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "191 奔驰转型：左手顶奢，右手纯电 对话嘉宾：冯金钊",
+          "published_at": "2026-01-03T23:48:08Z",
+          "duration_seconds": 4892,
+          "source_url": "https://www.ximalaya.com/sound/946070267",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "190 理想MEGA爆燃：这次居然是冷却液 对话嘉宾：王炎，章翔",
+          "published_at": "2025-12-28T21:50:42Z",
+          "duration_seconds": 3824,
+          "source_url": "https://www.ximalaya.com/sound/944504027",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "189 中国车出海（4）：再聊澳大利亚汽车 对话嘉宾：陈萌，丁伯骏",
+          "published_at": "2025-12-20T23:03:45Z",
+          "duration_seconds": 4300,
+          "source_url": "https://www.ximalaya.com/sound/942379723",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "188 汽车屏幕：如何做到车规级 对话嘉宾：宏达，吴科",
+          "published_at": "2025-12-01T23:31:31Z",
+          "duration_seconds": 4773,
+          "source_url": "https://www.ximalaya.com/sound/936630473",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "187 比亚迪英国销量起飞：闷声发大财的基本逻辑 对话嘉宾：舒宁，Jason",
+          "published_at": "2025-11-15T23:06:31Z",
+          "duration_seconds": 3315,
+          "source_url": "https://www.ximalaya.com/sound/931614895",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "186 敏捷开发：一个悲伤的故事 对话嘉宾：苏源，吴科，孙晨露",
+          "published_at": "2025-11-09T12:42:05Z",
+          "duration_seconds": 6221,
+          "source_url": "https://www.ximalaya.com/sound/929730241",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "185 大众小鹏两周年 大众软硬皆失，内外兼虚 对话嘉宾：陆风鸣，李青，冯金钊",
+          "published_at": "2025-10-26T23:31:18Z",
+          "duration_seconds": 5237,
+          "source_url": "https://www.ximalaya.com/sound/925149607",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱",
+          "published_at": "2025-10-20T22:57:56Z",
+          "duration_seconds": 5062,
+          "source_url": "https://www.ximalaya.com/sound/923156815",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "183 起底吉利收购沃尔沃：汽车的资本之魂 对话嘉宾：Benny，陆风鸣",
+          "published_at": "2025-10-12T23:20:06Z",
+          "duration_seconds": 6249,
+          "source_url": "https://www.ximalaya.com/sound/920302328",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "182 常州：波士顿电池、中航锂电和理想汽车 对话嘉宾：陆风鸣，唐华寅",
+          "published_at": "2025-09-29T22:05:11Z",
+          "duration_seconds": 5442,
+          "source_url": "https://www.ximalaya.com/sound/916271493",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "181 来吉利走一遭：吉利是如何（反）内卷的 对话嘉宾：胡洸久，陈圣夫",
+          "published_at": "2025-09-21T11:53:11Z",
+          "duration_seconds": 5255,
+          "source_url": "https://www.ximalaya.com/sound/913573157",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "180 沃尔沃（下）：SPA2的失败，锅谁背？ 对话嘉宾：苏源，陆风鸣",
+          "published_at": "2025-09-14T22:03:49Z",
+          "duration_seconds": 3960,
+          "source_url": "https://www.ximalaya.com/sound/911491461",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "179 沃尔沃（上）：外交家CEO PG和他的沃尔沃帝国 对话嘉宾：苏源，陆风鸣",
+          "published_at": "2025-09-07T21:47:52Z",
+          "duration_seconds": 4425,
+          "source_url": "https://www.ximalaya.com/sound/908793086",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "178 懂车智炼场ADAS测试（下）：需要智能化的不只有车 对话嘉宾：许新熠，薛岳",
+          "published_at": "2025-08-31T19:56:34Z",
+          "duration_seconds": 4666,
+          "source_url": "https://www.ximalaya.com/sound/906021963",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "177 懂车智炼场ADAS测试（上）：一档无与伦比的综艺节目 对话嘉宾：许新熠，薛岳",
+          "published_at": "2025-08-25T21:13:03Z",
+          "duration_seconds": 3896,
+          "source_url": "https://www.ximalaya.com/sound/903657792",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "176 汽车空调：一个有温度的shy tech 对话嘉宾：Alex，唐华寅",
+          "published_at": "2025-08-17T21:45:27Z",
+          "duration_seconds": 5346,
+          "source_url": "https://www.ximalaya.com/sound/900620491",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "175 系统工程师（4）：专家，你听我说完 对话嘉宾：许新熠，吴科，孙晨露",
+          "published_at": "2025-08-10T22:46:17Z",
+          "duration_seconds": 4835,
+          "source_url": "https://www.ximalaya.com/sound/898040320",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "174 系统工程师（3）：如果我啥都会，我早当CTO了 对话嘉宾：许新熠，吴科，孙晨露",
+          "published_at": "2025-08-03T21:17:50Z",
+          "duration_seconds": 4659,
+          "source_url": "https://www.ximalaya.com/sound/895345014",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "173 日产坠落：合并本田失败、e-Power和经产省 对话嘉宾：陆风鸣，杨昌龙",
+          "published_at": "2025-07-27T21:58:04Z",
+          "duration_seconds": 5342,
+          "source_url": "https://www.ximalaya.com/sound/892728896",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "172 古德伍德速度节2025：消失的电动街和贝勒爷的小米SU7 对话嘉宾：down哥，贝勒爷",
+          "published_at": "2025-07-20T18:22:00Z",
+          "duration_seconds": 6055,
+          "source_url": "https://www.ximalaya.com/sound/890049633",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄",
+          "published_at": "2025-07-14T21:38:47Z",
+          "duration_seconds": 5154,
+          "source_url": "https://www.ximalaya.com/sound/887770640",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "170 美国汽车的至暗时刻（下）：一手好牌打个稀烂 对话嘉宾：陆风鸣，罗新雨，陈萌",
+          "published_at": "2025-07-06T22:34:20Z",
+          "duration_seconds": 5527,
+          "source_url": "https://www.ximalaya.com/sound/883090415",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "169 美国汽车的至暗时刻（上）：川建国立功了 对话嘉宾：陆风鸣，罗新雨，陈萌",
+          "published_at": "2025-06-29T22:21:25Z",
+          "duration_seconds": 4600,
+          "source_url": "https://www.ximalaya.com/sound/878950289",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "168 GB38031-2025：电车从今天开始，不许玩儿火 对话嘉宾：弗雷刘，刘子达",
+          "published_at": "2025-06-16T22:16:31Z",
+          "duration_seconds": 4311,
+          "source_url": "https://www.ximalaya.com/sound/871247127",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青",
+          "published_at": "2025-06-08T22:52:10Z",
+          "duration_seconds": 3646,
+          "source_url": "https://www.ximalaya.com/sound/866312352",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "166 波兰汽车业（上）：资深菲亚特海外工厂 对话嘉宾：陆风鸣，付梓耘，高处青",
+          "published_at": "2025-06-01T22:02:44Z",
+          "duration_seconds": 4995,
+          "source_url": "https://www.ximalaya.com/sound/862316027",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "165 快充困境：800V的车，400V的速度 对话嘉宾：冯金钊，韩毅，唐华寅",
+          "published_at": "2025-05-26T22:27:12Z",
+          "duration_seconds": 6616,
+          "source_url": "https://www.ximalaya.com/sound/859047134",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "164 工程师选车（下）：细数车评人测不出的坑 对话嘉宾：高处青，陈圣夫，冯金钊",
+          "published_at": "2025-05-19T22:59:38Z",
+          "duration_seconds": 4908,
+          "source_url": "https://www.ximalaya.com/sound/855571199",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "163 工程师选车（上）：选车该有执念么？ 对话嘉宾：高处青，陈圣夫，冯金钊",
+          "published_at": "2025-05-12T22:18:57Z",
+          "duration_seconds": 3976,
+          "source_url": "https://www.ximalaya.com/sound/851851142",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "162 中国电动重卡（3）：风景中国独好 对话嘉宾：亦达，晨露，文婷",
+          "published_at": "2025-05-05T11:26:18Z",
+          "duration_seconds": 2785,
+          "source_url": "https://www.ximalaya.com/sound/847071816",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "161 中国电动重卡（2）：薪资、补贴和电车推广 对话嘉宾：亦达，晨露，文婷",
+          "published_at": "2025-04-27T22:55:01Z",
+          "duration_seconds": 4013,
+          "source_url": "https://www.ximalaya.com/sound/843194384",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "160 中国电动重卡（1）：运营、回本和TCO 对话嘉宾：亦达，晨露，文婷",
+          "published_at": "2025-04-21T22:32:08Z",
+          "duration_seconds": 3798,
+          "source_url": "https://www.ximalaya.com/sound/839895075",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "159 端到端（下）：多安全才是真安全？ 对话嘉宾：薛越，杨继峰，章翔",
+          "published_at": "2025-04-13T09:05:34Z",
+          "duration_seconds": 2844,
+          "source_url": "https://www.ximalaya.com/sound/835958238",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "158 端到端（上）：自动驾驶不是功能，而是能力 对话嘉宾：薛越，杨继峰，章翔",
+          "published_at": "2025-04-06T22:44:26Z",
+          "duration_seconds": 4314,
+          "source_url": "https://www.ximalaya.com/sound/832700774",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "157 车机界面设计：蒙眼狂奔，AI上车 对话嘉宾：张冠男，许可，侯依萱",
+          "published_at": "2025-03-30T20:28:00Z",
+          "duration_seconds": 2836,
+          "source_url": "https://www.ximalaya.com/sound/829114053",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "156 MBSE（下）：德味儿流程，行业护城河 对话嘉宾：许新熠，高处青",
+          "published_at": "2025-03-23T21:00:00Z",
+          "duration_seconds": 3804,
+          "source_url": "https://www.ximalaya.com/sound/824301598",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "155 MBSE（上）：大象放冰箱的问题终于有解了 对话嘉宾：许新熠，高处青",
+          "published_at": "2025-03-10T09:10:53Z",
+          "duration_seconds": 3465,
+          "source_url": "https://www.ximalaya.com/sound/818502028",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "154 驾驶模式：软件定义汽车的局限 对话嘉宾：刘亦然，戴政",
+          "published_at": "2025-03-02T11:16:16Z",
+          "duration_seconds": 2940,
+          "source_url": "https://www.ximalaya.com/sound/810864100",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "153 解读蔚来EP Mode：纯软件定义的性能车有意思么？ 对话嘉宾：刘亦然，戴政",
+          "published_at": "2025-02-23T23:07:11Z",
+          "duration_seconds": 3437,
+          "source_url": "https://www.ximalaya.com/sound/808313494",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "152 比亚迪的《工程师之魂》（3）：船大好掉头 对话嘉宾：陆风鸣，李赫瑄",
+          "published_at": "2025-02-16T23:46:14Z",
+          "duration_seconds": 4163,
+          "source_url": "https://www.ximalaya.com/sound/806093448",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "151 比亚迪的《工程师之魂》（2）：命悬一线到一飞冲天 对话嘉宾：陆风鸣，李赫瑄",
+          "published_at": "2025-02-10T00:04:08Z",
+          "duration_seconds": 3320,
+          "source_url": "https://www.ximalaya.com/sound/804136334",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "150 比亚迪的《工程师之魂》（1）：250万、秦川和巴菲特 对话嘉宾：陆风鸣",
+          "published_at": "2025-01-26T23:14:19Z",
+          "duration_seconds": 4388,
+          "source_url": "https://www.ximalaya.com/sound/799849887",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "149 系统工程师（2）：千人千面，无边无沿 对话嘉宾：许新熠，岳凯",
+          "published_at": "2025-01-19T23:03:31Z",
+          "duration_seconds": 3216,
+          "source_url": "https://www.ximalaya.com/sound/797869309",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "148 系统工程师（1）：无所不知却又无所知 对话嘉宾：许新熠，岳凯",
+          "published_at": "2025-01-12T21:30:00Z",
+          "duration_seconds": 3419,
+          "source_url": "https://www.ximalaya.com/sound/794580797",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "147 中国车出海（3）：在欧洲如何卖车？ 对话嘉宾：Jason，俞波",
+          "published_at": "2025-01-05T21:45:54Z",
+          "duration_seconds": 4997,
+          "source_url": "https://www.ximalaya.com/sound/791154273",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "146 懂车帝碰撞测试（下）：新闻梦想有错么？对话嘉宾：许新熠，王路，G桑，章翔",
+          "published_at": "2024-12-28T13:06:36Z",
+          "duration_seconds": 3502,
+          "source_url": "https://www.ximalaya.com/sound/788354628",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "145 懂车帝碰撞测试（上）：车太高也是错？对话嘉宾：许新熠，王路，章翔",
+          "published_at": "2024-12-22T22:46:40Z",
+          "duration_seconds": 4008,
+          "source_url": "https://www.ximalaya.com/sound/786731064",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "144 大众小鹏一周年 德国亡国进行时 对话嘉宾：陆风鸣，李青，冯金钊",
+          "published_at": "2024-12-08T02:06:26Z",
+          "duration_seconds": 4903,
+          "source_url": "https://www.ximalaya.com/sound/782147956",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "143 2024巴黎车展(4)：车展还有多大意义？对话嘉宾：耿源，丁伯骏",
+          "published_at": "2024-12-01T14:13:23Z",
+          "duration_seconds": 4260,
+          "source_url": "https://www.ximalaya.com/sound/780039820",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "142 2024巴黎车展(3)：欧洲人如何消费汽车？对话嘉宾：钟添悦",
+          "published_at": "2024-11-22T15:22:31Z",
+          "duration_seconds": 4736,
+          "source_url": "https://www.ximalaya.com/sound/777264303",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "141 Northvolt倒闭：初创造电池，环保当饭吃 对话嘉宾：严杰，胡雯婷，陆风鸣",
+          "published_at": "2024-11-14T21:58:57Z",
+          "duration_seconds": 3940,
+          "source_url": "https://www.ximalaya.com/sound/774793274",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "140 2024巴黎车展(2)：惩罚关税下，哪家车企还在勇闯欧洲？对话嘉宾：冯金钊",
+          "published_at": "2024-11-07T22:36:00Z",
+          "duration_seconds": 4411,
+          "source_url": "https://www.ximalaya.com/sound/772601621",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "139 吉利雷诺合资Horse：法国人跟中国人学造内燃机 对话嘉宾：陈圣夫，陆风鸣，胡博峰",
+          "published_at": "2024-11-01T22:50:53Z",
+          "duration_seconds": 5615,
+          "source_url": "https://www.ximalaya.com/sound/770771673",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "138 上海通用和泛亚（3）：2027后，上海通用还会不会存在？ 对话嘉宾：陆风鸣，侯社",
+          "published_at": "2024-10-27T20:08:08Z",
+          "duration_seconds": 3601,
+          "source_url": "https://www.ximalaya.com/sound/769180995",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "137 2024巴黎车展(1)：雷诺真是极星该有的样子",
+          "published_at": "2024-10-21T23:13:19Z",
+          "duration_seconds": 3834,
+          "source_url": "https://www.ximalaya.com/sound/767424403",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "136 上海通用和泛亚（2）：南方MPV到胖头鱼 对话嘉宾：陆风鸣，侯社",
+          "published_at": "2024-10-13T19:25:04Z",
+          "duration_seconds": 4050,
+          "source_url": "https://www.ximalaya.com/sound/764938223",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "135 上海通用和杨雪兰（1）：影响整个中国汽车界的合资故事 对话嘉宾：陆风鸣",
+          "published_at": "2024-10-06T20:00:00Z",
+          "duration_seconds": 3750,
+          "source_url": "https://www.ximalaya.com/sound/762863330",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "134 中国车出海（2）：不卖车，卖技术 对话嘉宾：舒宁，朱珂，俞波",
+          "published_at": "2024-09-22T20:54:42Z",
+          "duration_seconds": 3448,
+          "source_url": "https://www.ximalaya.com/sound/759012475",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "133 中国车出海（1）：去泰国开厂共需几步？对话嘉宾：舒宁，朱珂，俞波",
+          "published_at": "2024-09-16T20:42:56Z",
+          "duration_seconds": 3456,
+          "source_url": "https://www.ximalaya.com/sound/757259280",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "132 蔚来自研智驾芯片（下）：无尽L2 对话嘉宾：章翔，Roy",
+          "published_at": "2024-09-08T09:38:15Z",
+          "duration_seconds": 2871,
+          "source_url": "https://www.ximalaya.com/sound/755007893",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "131 蔚来自研智驾芯片（上）：意义在哪里？对话嘉宾：章翔，Roy",
+          "published_at": "2024-09-02T22:10:34Z",
+          "duration_seconds": 3859,
+          "source_url": "https://www.ximalaya.com/sound/753638872",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "130 大电池插混在欧洲 对话嘉宾：林纯兴，唐华寅",
+          "published_at": "2024-08-26T20:38:42Z",
+          "duration_seconds": 5097,
+          "source_url": "https://www.ximalaya.com/sound/751889324",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "129 2024古德伍德速度节（下）：风扇车，Shadow和Joest 对话嘉宾：林纯兴，down哥",
+          "published_at": "2024-08-18T20:15:16Z",
+          "duration_seconds": 4430,
+          "source_url": "https://www.ximalaya.com/sound/749781822",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "128 2024古德伍德速度节（上）：MG、仰望和RB17 对话嘉宾：林纯兴，down哥",
+          "published_at": "2024-08-11T20:44:54Z",
+          "duration_seconds": 3736,
+          "source_url": "https://www.ximalaya.com/sound/747928323",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "127 F1传奇工程师纽维（下）：躺着开F1和双层扩散器 对话嘉宾：徐桑，邓工",
+          "published_at": "2024-07-21T18:32:50Z",
+          "duration_seconds": 2768,
+          "source_url": "https://www.ximalaya.com/sound/742934276",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "126 F1传奇工程师纽维（上）：辍学、March、威廉姆斯 对话嘉宾：徐桑，邓工",
+          "published_at": "2024-07-07T21:32:33Z",
+          "duration_seconds": 4196,
+          "source_url": "https://www.ximalaya.com/sound/739776692",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "125 比亚迪DM五代：46%是真的 对话嘉宾：张文川，林工",
+          "published_at": "2024-06-30T21:34:36Z",
+          "duration_seconds": 5224,
+          "source_url": "https://www.ximalaya.com/sound/738275521",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "124 汽车教父皮耶希（2）：布加迪、平台化、XL1 对话嘉宾：down哥，冯金钊，陆风鸣",
+          "published_at": "2024-06-16T20:59:00Z",
+          "duration_seconds": 5227,
+          "source_url": "https://www.ximalaya.com/sound/735325774",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "123 汽车教父皮耶希（1）：保时捷917、五缸、四驱 对话嘉宾：down哥，冯金钊，陆风鸣",
+          "published_at": "2024-06-09T21:59:13Z",
+          "duration_seconds": 4250,
+          "source_url": "https://www.ximalaya.com/sound/733978482",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "122 Tusimple（下）：梦醒2024 对话嘉宾：许新熠，陆风鸣",
+          "published_at": "2024-06-02T20:39:49Z",
+          "duration_seconds": 2440,
+          "source_url": "https://www.ximalaya.com/sound/732600082",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "121 Tusimple（上）：Tucson，梦开始的地方 对话嘉宾：许新熠，陆风鸣",
+          "published_at": "2024-05-27T14:14:56Z",
+          "duration_seconds": 3975,
+          "source_url": "https://www.ximalaya.com/sound/731371489",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "120 阿斯顿马丁（下）：贵族品牌的生存之道 对话嘉宾：Jenway，崔安东",
+          "published_at": "2024-05-18T11:02:58Z",
+          "duration_seconds": 3985,
+          "source_url": "https://www.ximalaya.com/sound/729542979",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "119 阿斯顿马丁（上）：越破产越高端 对话嘉宾：Jenway，崔安东",
+          "published_at": "2024-05-11T21:02:43Z",
+          "duration_seconds": 4419,
+          "source_url": "https://www.ximalaya.com/sound/728251603",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "118 狂野的AEB白名单 对话嘉宾：老印，薛越",
+          "published_at": "2024-04-12T00:08:00Z",
+          "duration_seconds": 2610,
+          "source_url": "https://www.ximalaya.com/sound/721792510",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "117 到底该怎么测AEB？ 对话嘉宾：老印，薛越",
+          "published_at": "2024-03-30T10:20:34Z",
+          "duration_seconds": 3926,
+          "source_url": "https://www.ximalaya.com/sound/719080165",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "116 考驾照圆桌（下）：日本金色驾照 对话嘉宾：杨昌龙，红工，胡洸久，岳凯",
+          "published_at": "2024-03-21T21:34:42Z",
+          "duration_seconds": 4630,
+          "source_url": "https://www.ximalaya.com/sound/716480646",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "115 考驾照圆桌(上)： 中日意英美，哪国最难考 对话嘉宾:杨昌龙,红工,胡洸久,岳凯",
+          "published_at": "2024-03-14T22:50:43Z",
+          "duration_seconds": 4713,
+          "source_url": "https://www.ximalaya.com/sound/714328294",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "114 汽车数据隐私：越智能越裸奔 对话嘉宾：郭庆，郭工",
+          "published_at": "2024-03-08T11:04:57Z",
+          "duration_seconds": 5413,
+          "source_url": "https://www.ximalaya.com/sound/712321928",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "113 电动卡车（下）：冰箱微波炉耽误回本儿 对话嘉宾：孙晨露，许新熠，胡雯婷",
+          "published_at": "2024-02-23T22:00:00Z",
+          "duration_seconds": 2808,
+          "source_url": "https://www.ximalaya.com/sound/707247659",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "112 电动卡车（上）：拉货回本指南 对话嘉宾：孙晨露，许新熠，胡雯婷",
+          "published_at": "2024-02-15T21:40:34Z",
+          "duration_seconds": 3877,
+          "source_url": "https://www.ximalaya.com/sound/706689605",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "111 延期交付有解么？对话嘉宾：Elaine滕磊，唐华寅",
+          "published_at": "2024-02-01T18:20:03Z",
+          "duration_seconds": 4890,
+          "source_url": "https://www.ximalaya.com/sound/703674117",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "110 特斯拉Cybertruck（下）：透过钢板看韭菜 对话嘉宾：王路，许新熠，老印",
+          "published_at": "2024-01-25T22:13:59Z",
+          "duration_seconds": 4558,
+          "source_url": "https://www.ximalaya.com/sound/702075275",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "109 特斯拉Cybertruck（上）老美皮卡指南 对话嘉宾：许新熠，老印",
+          "published_at": "2024-01-19T10:11:25Z",
+          "duration_seconds": 3287,
+          "source_url": "https://www.ximalaya.com/sound/700814583",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "108 先裁CEO，奥迪F1计划风雨飘摇 对话嘉宾：徐桑，村长托马斯，117",
+          "published_at": "2024-01-12T08:58:18Z",
+          "duration_seconds": 2564,
+          "source_url": "https://www.ximalaya.com/sound/699400977",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "107 奥迪：F1我来了 对话嘉宾：徐桑，村长托马斯，117",
+          "published_at": "2024-01-05T07:27:49Z",
+          "duration_seconds": 2759,
+          "source_url": "https://www.ximalaya.com/sound/697946188",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "106 Stellantis和零跑合资，谁输了谁赢了？对话嘉宾：王博，冯金钊，俞翔",
+          "published_at": "2023-12-28T22:57:17Z",
+          "duration_seconds": 3870,
+          "source_url": "https://www.ximalaya.com/sound/696463934",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "105 纯电超跑是不是就不该存在？对话嘉宾：段金雨、朱博、戴政",
+          "published_at": "2023-12-21T21:42:02Z",
+          "duration_seconds": 3743,
+          "source_url": "https://www.ximalaya.com/sound/694985696",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "104 2000马力也没用？电动Rimac刷纽北说明什么？对话嘉宾：段金雨、朱博、戴政",
+          "published_at": "2023-12-14T23:31:30Z",
+          "duration_seconds": 3797,
+          "source_url": "https://www.ximalaya.com/sound/693308193",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "103 欧洲车企的350kW快充封印 对话嘉宾：韩毅，唐华寅",
+          "published_at": "2023-12-08T08:56:36Z",
+          "duration_seconds": 2886,
+          "source_url": "https://www.ximalaya.com/sound/691618251",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "102 为什么即插即充能这么难？对话嘉宾：韩毅，唐华寅",
+          "published_at": "2023-12-01T22:09:48Z",
+          "duration_seconds": 3602,
+          "source_url": "https://www.ximalaya.com/sound/689903519",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "101 当德国汽车没了祖传秘方 对话嘉宾：Elaine滕磊，李青",
+          "published_at": "2023-11-26T13:11:02Z",
+          "duration_seconds": 2168,
+          "source_url": "https://www.ximalaya.com/sound/688167717",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "100 德国车的祖传秘方45欧元一本 对话嘉宾：Elaine滕磊，李青",
+          "published_at": "2023-11-21T22:14:06Z",
+          "duration_seconds": 3800,
+          "source_url": "https://www.ximalaya.com/sound/686770698",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "099 一汽大众和李文波，一次让皮耶希难忘的engine swap 对话嘉宾：陆风鸣，范文廷",
+          "published_at": "2023-11-05T23:25:01Z",
+          "duration_seconds": 3961,
+          "source_url": "https://www.ximalaya.com/sound/681478942",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "098 上海大众和李文波，来之不易的桑塔纳 对话嘉宾：陆风鸣，范文廷",
+          "published_at": "2023-10-29T18:53:40Z",
+          "duration_seconds": 3650,
+          "source_url": "https://www.ximalaya.com/sound/679235471",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "097 大众历史：没有研发部，盈利靠返祖 对话嘉宾：陆风鸣，范文廷",
+          "published_at": "2023-10-24T20:47:42Z",
+          "duration_seconds": 3636,
+          "source_url": "https://www.ximalaya.com/sound/677250235",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "096 汽车座椅：不只是沙发 对话嘉宾：郭鹏飞，冯金钊",
+          "published_at": "2023-10-12T22:30:17Z",
+          "duration_seconds": 4486,
+          "source_url": "https://www.ximalaya.com/sound/673043188",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "095 F1新加坡站为什么终结了红牛连胜？对话嘉宾：黄恺霖，唐潇睿",
+          "published_at": "2023-10-01T21:53:50Z",
+          "duration_seconds": 2630,
+          "source_url": "https://www.ximalaya.com/sound/670431933",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "094 红色的阿罗能拥有绿色的未来？",
+          "published_at": "2023-09-19T22:29:22Z",
+          "duration_seconds": 1120,
+          "source_url": "https://www.ximalaya.com/sound/667100976",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "093 合作小鹏，大众押宝合肥 对话嘉宾：陆风鸣，李青，冯金钊",
+          "published_at": "2023-09-08T16:39:41Z",
+          "duration_seconds": 2949,
+          "source_url": "https://www.ximalaya.com/sound/664390348",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "092 大众汽车：德国特色社会主义汽车厂 对话嘉宾：陆风鸣，李青，冯金钊",
+          "published_at": "2023-08-25T22:14:28Z",
+          "duration_seconds": 2660,
+          "source_url": "https://www.ximalaya.com/sound/659992721",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "091 为什么满街眯眯眼车灯？对话嘉宾：Jorbin，SanC",
+          "published_at": "2023-08-17T22:18:15Z",
+          "duration_seconds": 3581,
+          "source_url": "https://www.ximalaya.com/sound/657570555",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "090 为什么总觉得车灯不够亮？对话嘉宾：Jorbin，SanC",
+          "published_at": "2023-08-06T12:40:02Z",
+          "duration_seconds": 4675,
+          "source_url": "https://www.ximalaya.com/sound/654523157",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "089 中国不需要ET5 Touring，但蔚来需要 对话嘉宾：陆风鸣、苏源、冯金钊",
+          "published_at": "2023-07-24T22:48:05Z",
+          "duration_seconds": 3261,
+          "source_url": "https://www.ximalaya.com/sound/651351546",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "088 wagon是客货两用车还是时尚先锋？ 对话嘉宾：陆风鸣教授",
+          "published_at": "2023-07-16T22:05:45Z",
+          "duration_seconds": 2575,
+          "source_url": "https://www.ximalaya.com/sound/649124842",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "087 比亚迪到底能不能用常压油箱？ 对话嘉宾：栾工，冯金钊",
+          "published_at": "2023-07-04T21:16:01Z",
+          "duration_seconds": 3033,
+          "source_url": "https://www.ximalaya.com/sound/646158746",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "086 保时捷无中生“油”，efuel能减碳么？ 对话嘉宾：Alice，陆巍",
+          "published_at": "2023-06-22T16:01:52Z",
+          "duration_seconds": 4030,
+          "source_url": "https://www.ximalaya.com/sound/643425919",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "085 电动化完成前，我想留一台油车 对话嘉宾：Vouney，Down哥",
+          "published_at": "2023-06-11T23:00:02Z",
+          "duration_seconds": 3665,
+          "source_url": "https://www.ximalaya.com/sound/640849310",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "084 要智能，要低碳，还是要皮卡？电动世界车在哪里？对话嘉宾：侯社长，冯金钊",
+          "published_at": "2023-06-05T22:33:43Z",
+          "duration_seconds": 2486,
+          "source_url": "https://www.ximalaya.com/sound/639581080",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "083 裂开的世界和绝迹的世界车 对话嘉宾：侯社长，冯金钊",
+          "published_at": "2023-05-28T22:31:23Z",
+          "duration_seconds": 3102,
+          "source_url": "https://www.ximalaya.com/sound/637692115",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "082 电动车时代，中国赛车也能弯道超个车？ 对话嘉宾：王佳伟，Patrick",
+          "published_at": "2023-05-18T22:45:39Z",
+          "duration_seconds": 2756,
+          "source_url": "https://www.ximalaya.com/sound/634774989",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "081 拯救中国赛车，从培养车迷开始 对话嘉宾：王佳伟，Patrick",
+          "published_at": "2023-05-09T22:12:10Z",
+          "duration_seconds": 2836,
+          "source_url": "https://www.ximalaya.com/sound/632339181",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "080 2035年欧洲需要640GWh的动力电池，它搞的来么？对话嘉宾：刘子达",
+          "published_at": "2023-05-01T22:31:23Z",
+          "duration_seconds": 4377,
+          "source_url": "https://www.ximalaya.com/sound/630529995",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "079 以用户体验出发，聊聊电动车和车机 对话嘉宾：Vouney，张冠男",
+          "published_at": "2023-04-02T22:23:04Z",
+          "duration_seconds": 2136,
+          "source_url": "https://www.ximalaya.com/sound/623166248",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "078 乔布斯说：要先从用户体验开始 对话嘉宾：Vouney，张冠男",
+          "published_at": "2023-03-26T22:51:22Z",
+          "duration_seconds": 3121,
+          "source_url": "https://www.ximalaya.com/sound/621323379",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "077 电动时代的逆行者日产 对话嘉宾：杨宇，刘工",
+          "published_at": "2023-03-13T22:20:00Z",
+          "duration_seconds": 2808,
+          "source_url": "https://www.ximalaya.com/sound/617918837",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "076 见所未见的保时捷 对话嘉宾：李温如，丁伯骏",
+          "published_at": "2023-03-05T23:48:42Z",
+          "duration_seconds": 3876,
+          "source_url": "https://www.ximalaya.com/sound/615893560",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "075 雪铁龙DS（下）：让法国总统死里逃生的液气悬挂 对话嘉宾：罗昶，笑语",
+          "published_at": "2023-01-15T22:45:49Z",
+          "duration_seconds": 3571,
+          "source_url": "https://www.ximalaya.com/sound/604773007",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "074 雪铁龙DS（上）：独步天下二十载的天外来车 对话嘉宾：罗昶，笑语",
+          "published_at": "2023-01-08T23:00:44Z",
+          "duration_seconds": 4170,
+          "source_url": "https://www.ximalaya.com/sound/602909582",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "073 极氪001下地库烧胎上墙事故解读",
+          "published_at": "2022-12-04T07:23:00Z",
+          "duration_seconds": 520,
+          "source_url": "https://www.ximalaya.com/sound/593475252",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "072福特Bronco：老旧燃油车也懂用户思维？对话嘉宾：周骏汇Jenway、陈萌",
+          "published_at": "2022-11-27T22:59:10Z",
+          "duration_seconds": 2455,
+          "source_url": "https://www.ximalaya.com/sound/591810083",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "071造车新势力，薪酬大揭秘：为什么特斯拉不招“蔚小理“的人？",
+          "published_at": "2022-11-01T16:12:55Z",
+          "duration_seconds": 4177,
+          "source_url": "https://www.ximalaya.com/sound/582373750",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "070 工匠派造的小跑车靠谱么？对话嘉宾：唐华寅 陈旭",
+          "published_at": "2022-10-24T06:28:00Z",
+          "duration_seconds": 794,
+          "source_url": "https://www.ximalaya.com/sound/579459441",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "069英国汽车工业的罗曼蒂克消亡史，从女王的灵车开始说起",
+          "published_at": "2022-10-10T10:43:45Z",
+          "duration_seconds": 3473,
+          "source_url": "https://www.ximalaya.com/sound/575860360",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "068 数字时代还有驾驶乐趣么？对话嘉宾：陆巍，朱博",
+          "published_at": "2022-10-03T00:17:27Z",
+          "duration_seconds": 1011,
+          "source_url": "https://www.ximalaya.com/sound/573944824",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "067 对话秦力洪：蔚来来欧洲不只是卖几台车而已",
+          "published_at": "2022-09-24T21:36:28Z",
+          "duration_seconds": 1002,
+          "source_url": "https://www.ximalaya.com/sound/571935248",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+          "published_at": "2022-09-19T12:01:21Z",
+          "duration_seconds": 3448,
+          "source_url": "https://www.ximalaya.com/sound/570521491",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "065 卡车自动驾驶：能回本儿的自动驾驶（推广）对话嘉宾：史院平，黄恺霖",
+          "published_at": "2022-09-11T23:33:00Z",
+          "duration_seconds": 1682,
+          "source_url": "https://www.ximalaya.com/sound/568484200",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "064谁说女人只喜欢粉色车？对话嘉宾：松松和秋秋",
+          "published_at": "2022-09-05T12:19:36Z",
+          "duration_seconds": 2831,
+          "source_url": "https://www.ximalaya.com/sound/566873469",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "063 Stellantis圆桌特辑（下）：那一年，一帮外国工程师在东北擀面，放炮仗",
+          "published_at": "2022-08-30T14:55:22Z",
+          "duration_seconds": 2689,
+          "source_url": "https://www.ximalaya.com/sound/565383801",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "062 圆桌特辑（上）：那些年，Stellantis在中国的笑与泪",
+          "published_at": "2022-08-22T11:01:29Z",
+          "duration_seconds": 3107,
+          "source_url": "https://www.ximalaya.com/sound/563265190",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "061 自动驾驶灵魂拷问：算力越大越安全？对话嘉宾：章翔，侯俊杰",
+          "published_at": "2022-08-15T16:16:08Z",
+          "duration_seconds": 1735,
+          "source_url": "https://www.ximalaya.com/sound/561502484",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "060 高算力芯片+程序员炼丹，软件就能定义汽车了？对话嘉宾：Sean，张盟",
+          "published_at": "2022-08-08T11:33:40Z",
+          "duration_seconds": 2552,
+          "source_url": "https://www.ximalaya.com/sound/559453047",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "059 F1还是FE，车企该站谁？对话嘉宾：杨洋，周浩然",
+          "published_at": "2022-08-01T12:47:48Z",
+          "duration_seconds": 2409,
+          "source_url": "https://www.ximalaya.com/sound/557471196",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "058 七秒刚刚好，自动驾驶接管时长背后的科学道理 对话嘉宾：杨榆程，张博，侯依萱",
+          "published_at": "2022-07-24T09:16:36Z",
+          "duration_seconds": 3196,
+          "source_url": "https://www.ximalaya.com/sound/555022029",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "057 如果车能自动驾驶，谁来买保险？ 对话嘉宾：徐之炯，李铀",
+          "published_at": "2022-06-26T22:27:52Z",
+          "duration_seconds": 3233,
+          "source_url": "https://www.ximalaya.com/sound/546743207",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "056 仿真模拟开发，此处无车胜有车 对话嘉宾：杨昌龙，范昌易",
+          "published_at": "2022-06-19T21:20:14Z",
+          "duration_seconds": 2745,
+          "source_url": "https://www.ximalaya.com/sound/544755930",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "055 原来轮辋制造主要拼的是水力发电 对话嘉宾：李祺，冯金钊",
+          "published_at": "2022-06-12T22:47:36Z",
+          "duration_seconds": 3464,
+          "source_url": "https://www.ximalaya.com/sound/542685985",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "054 Stellantis特辑：美国通用到法国PSA，欧宝自问我是谁？ 对话嘉宾：康定伟，李文超",
+          "published_at": "2022-06-06T20:19:37Z",
+          "duration_seconds": 2268,
+          "source_url": "https://www.ximalaya.com/sound/540882236",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "053 Stellantis特辑：百年美资历史，纯粹德国制造 对话嘉宾：康定伟，李文超",
+          "published_at": "2022-05-29T21:16:36Z",
+          "duration_seconds": 2385,
+          "source_url": "https://www.ximalaya.com/sound/538532152",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "052 Stellantis特辑：浸润在德意文化里的纯粹美国味 对话嘉宾：蒋晨、张昊龙、毕海默",
+          "published_at": "2022-05-22T21:57:21Z",
+          "duration_seconds": 3696,
+          "source_url": "https://www.ximalaya.com/sound/535924482",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "051 Stellantis特辑：百折不挠的老三 克莱斯勒 对话嘉宾：蒋晨",
+          "published_at": "2022-05-15T21:31:50Z",
+          "duration_seconds": 3562,
+          "source_url": "https://www.ximalaya.com/sound/532607946",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "050 如果有一天，中日韩结盟 对话嘉宾：贾钊，王昕",
+          "published_at": "2022-05-08T20:00:00Z",
+          "duration_seconds": 1662,
+          "source_url": "https://www.ximalaya.com/sound/529772503",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "049 现代汽车关停发动机研发意味着什么？ 对话嘉宾： 贾钊、王昕",
+          "published_at": "2022-05-01T20:00:00Z",
+          "duration_seconds": 2379,
+          "source_url": "https://www.ximalaya.com/sound/527308342",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "048 Stellantis特辑：保守的家族企业标致 对话嘉宾：罗昶，张睿钊",
+          "published_at": "2022-04-24T23:26:29Z",
+          "duration_seconds": 3494,
+          "source_url": "https://www.ximalaya.com/sound/525300008",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "047 Stellantis特辑：底盘先锋雪铁龙 对话嘉宾：罗昶，张睿钊",
+          "published_at": "2022-04-17T20:00:00Z",
+          "duration_seconds": 2969,
+          "source_url": "https://www.ximalaya.com/sound/522501120",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "046 Stellantis特辑：菲亚特不卖汽车卖产线 对话嘉宾：崔安东，谢伟彬",
+          "published_at": "2022-04-10T21:19:29Z",
+          "duration_seconds": 2858,
+          "source_url": "https://www.ximalaya.com/sound/520366237",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "045 Stellantis特辑：菲亚特宇宙到底有多大 对话嘉宾：崔安东，谢伟彬",
+          "published_at": "2022-04-03T18:21:13Z",
+          "duration_seconds": 2258,
+          "source_url": "https://www.ximalaya.com/sound/517897920",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "044 无所不能的变速箱油：传动、控制、润滑、冷却 对话嘉宾：张烽、王崇明",
+          "published_at": "2022-03-27T20:28:23Z",
+          "duration_seconds": 3341,
+          "source_url": "https://www.ximalaya.com/sound/515429707",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "043宋诗如：别担心，做好标定工程师一点也不难",
+          "published_at": "2022-03-20T22:11:23Z",
+          "duration_seconds": 3382,
+          "source_url": "https://www.ximalaya.com/sound/513014580",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "042 刘诗卉：这位美妆up主在迈凯伦做研发",
+          "published_at": "2022-03-13T23:36:35Z",
+          "duration_seconds": 3037,
+          "source_url": "https://www.ximalaya.com/sound/510640232",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "041 Jojo：从波许（Bosch）公司走出来的女技术开发总监",
+          "published_at": "2022-03-06T22:04:37Z",
+          "duration_seconds": 3103,
+          "source_url": "https://www.ximalaya.com/sound/508332555",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "040听说造轮胎和蒸包子没啥区别？对话嘉宾：冯金钊",
+          "published_at": "2022-02-27T22:29:30Z",
+          "duration_seconds": 3666,
+          "source_url": "https://www.ximalaya.com/sound/506127045",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "039 于月仙的车顶碎了到底赖谁？对话嘉宾：章翔、王路",
+          "published_at": "2022-02-20T22:42:32Z",
+          "duration_seconds": 2877,
+          "source_url": "https://www.ximalaya.com/sound/503927547",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "038电动车该搞到1000公里续航么？ 对话嘉宾：罗昶，唐华寅",
+          "published_at": "2022-02-14T09:00:19Z",
+          "duration_seconds": 3382,
+          "source_url": "https://www.ximalaya.com/sound/501778168",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "037 Robotaxi还是Ultra Cruise，自动驾驶该怎么走？ 对话嘉宾：薛越，陈萌",
+          "published_at": "2022-02-07T09:00:00Z",
+          "duration_seconds": 3015,
+          "source_url": "https://www.ximalaya.com/sound/499487120",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "036不聊工程聊资本 对话嘉宾：杨斯博，章翔",
+          "published_at": "2022-01-31T09:00:00Z",
+          "duration_seconds": 2735,
+          "source_url": "https://www.ximalaya.com/sound/497918479",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "035和周冠宇的师哥聊聊中国赛车的差距 对话嘉宾： 谢欣哲，李沁",
+          "published_at": "2022-01-24T09:00:00Z",
+          "duration_seconds": 3527,
+          "source_url": "https://www.ximalaya.com/sound/495649590",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "034来自F1的那一把火：玛莎拉蒂Nettuno发动机的预燃烧室技术 对话嘉宾 刘恺年，朱枫",
+          "published_at": "2022-01-17T00:09:00Z",
+          "duration_seconds": 3504,
+          "source_url": "https://www.ximalaya.com/sound/493181984",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "033溯源汽车电气化之鼻祖——12V电池 对话嘉宾：谢仁浩，李青",
+          "published_at": "2022-01-10T09:00:00Z",
+          "duration_seconds": 2970,
+          "source_url": "https://www.ximalaya.com/sound/490958259",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "032把元宇宙放进汽车的座舱共需几步？对话人工智能学者高庆一",
+          "published_at": "2022-01-03T09:00:21Z",
+          "duration_seconds": 3140,
+          "source_url": "https://www.ximalaya.com/sound/487889235",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "031都2021年了，固态电池咋还不来？对话嘉宾王昕、王崇明",
+          "published_at": "2021-12-27T09:01:00Z",
+          "duration_seconds": 2706,
+          "source_url": "https://www.ximalaya.com/sound/486519981",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "030汽车人变身！汽车工程师该如何转型？对话嘉宾：陆巍、冯金钊",
+          "published_at": "2021-12-20T09:00:00Z",
+          "duration_seconds": 2903,
+          "source_url": "https://www.ximalaya.com/sound/484276344",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "029车企不参与WRC赛事就是技术不行？ 对话嘉宾：朱博、down哥",
+          "published_at": "2021-12-13T09:00:00Z",
+          "duration_seconds": 3151,
+          "source_url": "https://www.ximalaya.com/sound/481874945",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "028通聊澳洲汽车工业（下）：霍顿“关门弟子”亲历关厂始末 对话嘉宾： 丁伯骏，陈萌",
+          "published_at": "2021-12-06T09:00:00Z",
+          "duration_seconds": 1531,
+          "source_url": "https://www.ximalaya.com/sound/479481134",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "027通聊澳洲汽车工业（上）：从马鞍公司到巴顿（贴牌）计划 对话嘉宾： 丁伯骏，陈萌",
+          "published_at": "2021-11-29T09:00:00Z",
+          "duration_seconds": 2030,
+          "source_url": "https://www.ximalaya.com/sound/477143748",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "026和DJ聊赛车（下）：卡丁车是最接近F1的赛车！ 对话嘉宾：DJ，杨洋",
+          "published_at": "2021-11-22T09:00:00Z",
+          "duration_seconds": 2404,
+          "source_url": "https://www.ximalaya.com/sound/474772898",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "025和DJ聊赛车（上）：如何（从学美术专业）成长为赛车工程师 对话嘉宾： DJ，杨洋",
+          "published_at": "2021-11-15T09:00:00Z",
+          "duration_seconds": 1419,
+          "source_url": "https://www.ximalaya.com/sound/472428073",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "024对话李沁：一不小心当上了F1工程师",
+          "published_at": "2021-11-08T09:00:00Z",
+          "duration_seconds": 2852,
+          "source_url": "https://www.ximalaya.com/sound/470126937",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "023氢能社会（下）：氢燃料电池车比汽油车还安全！ 对话嘉宾：胡静文 韩峰",
+          "published_at": "2021-11-01T10:00:13Z",
+          "duration_seconds": 1591,
+          "source_url": "https://www.ximalaya.com/sound/467794249",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "022氢能社会（上）：氢能和电能是互补而非竞争 对话嘉宾：胡静文 韩峰",
+          "published_at": "2021-10-25T09:00:03Z",
+          "duration_seconds": 2225,
+          "source_url": "https://www.ximalaya.com/sound/465507380",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "021对话陆巍：我是动力域控制器软件的爸爸",
+          "published_at": "2021-10-18T09:00:00Z",
+          "duration_seconds": 2878,
+          "source_url": "https://www.ximalaya.com/sound/463338487",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "020路特斯要搞自动驾驶赛车？有戏么？对话嘉宾：前FSAEer黄恺霖、自动驾驶工程师薛越",
+          "published_at": "2021-10-11T09:00:00Z",
+          "duration_seconds": 2761,
+          "source_url": "https://www.ximalaya.com/sound/461174547",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "019电动未来下德国车企的转型 对话嘉宾：冯金钊 胡静文",
+          "published_at": "2021-10-04T09:00:00Z",
+          "duration_seconds": 3385,
+          "source_url": "https://www.ximalaya.com/sound/459020745",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "018 ADAS 功能安全：没认真读过产品手册，还敢上路吗？ 对话嘉宾：唐华寅 张永艺 闫冰",
+          "published_at": "2021-09-27T05:33:45Z",
+          "duration_seconds": 4788,
+          "source_url": "https://www.ximalaya.com/sound/457237739",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "017中国车能不能做到世界级的NVH？对话嘉宾 NVH专家郑康 仿真专家胡静文",
+          "published_at": "2021-09-17T09:00:00Z",
+          "duration_seconds": 3308,
+          "source_url": "https://www.ximalaya.com/sound/454218042",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "016造车=搭乐高？电动底盘的未来 对话嘉宾 唐华寅 纪洪超",
+          "published_at": "2021-09-10T09:00:00Z",
+          "duration_seconds": 3437,
+          "source_url": "https://www.ximalaya.com/sound/452102834",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "015如何（防止）黑一辆车：车辆信息安全【推广】对话嘉宾：钟严军 唐华寅",
+          "published_at": "2021-09-03T09:00:00Z",
+          "duration_seconds": 2280,
+          "source_url": "https://www.ximalaya.com/sound/449940417",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "014一代枭雄卡洛斯戈恩 对话嘉宾 周锦程 陈德馨",
+          "published_at": "2021-08-27T09:02:00Z",
+          "duration_seconds": 2891,
+          "source_url": "https://www.ximalaya.com/sound/447846217",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "013和38号聊聊国产混动车 嘉宾：38号，刘亦然",
+          "published_at": "2021-08-20T07:59:23Z",
+          "duration_seconds": 2946,
+          "source_url": "https://www.ximalaya.com/sound/445657317",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "012穿越日记：纵贯巴西的两台摩托和穿越欧亚大陆的2CV，嘉宾：林林，罗昶",
+          "published_at": "2021-08-13T10:56:58Z",
+          "duration_seconds": 4018,
+          "source_url": "https://www.ximalaya.com/sound/443274691",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "011特斯拉压铸：偷工减料还是大胆创新？嘉宾王路，肖兆非",
+          "published_at": "2021-08-06T09:34:19Z",
+          "duration_seconds": 2618,
+          "source_url": "https://www.ximalaya.com/sound/440811401",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "010底盘电子工程师王以琳：圈内人眼中的ADAS",
+          "published_at": "2021-07-30T09:34:32Z",
+          "duration_seconds": 2952,
+          "source_url": "https://www.ximalaya.com/sound/438588180",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "009宝马工程师杨洋：从卡丁车冠军到宝马底盘工程师",
+          "published_at": "2021-07-23T07:07:45Z",
+          "duration_seconds": 3114,
+          "source_url": "https://www.ximalaya.com/sound/436429042",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "008碳纤维博士后肖兆非：超跑背后的复合材料技术",
+          "published_at": "2021-07-16T09:32:08Z",
+          "duration_seconds": 2431,
+          "source_url": "https://www.ximalaya.com/sound/434240012",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "007对话吴颉远：剑桥/MIT双料高材生算不清特斯拉股价？",
+          "published_at": "2021-07-09T06:37:44Z",
+          "duration_seconds": 2774,
+          "source_url": "https://www.ximalaya.com/sound/431931854",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "006前保时捷GT2/GT3/918发动机仿真专家胡静文：德英美汽车工程人才培养大横评",
+          "published_at": "2021-07-02T07:28:50Z",
+          "duration_seconds": 3987,
+          "source_url": "https://www.ximalaya.com/sound/429781141",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "005资深车身工程师王路：谁说工程师不能是艺术家",
+          "published_at": "2021-06-25T10:47:40Z",
+          "duration_seconds": 2351,
+          "source_url": "https://www.ximalaya.com/sound/427806705",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "004首席工程师唐华寅：好奇心和电驱动",
+          "published_at": "2021-06-18T09:20:27Z",
+          "duration_seconds": 2157,
+          "source_url": "https://www.ximalaya.com/sound/425758276",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "003聊聊EDR和行驶数据采集 对话嘉宾：安全气囊专家章翔、自动驾驶专家周轶",
+          "published_at": "2021-06-11T08:45:44Z",
+          "duration_seconds": 2071,
+          "source_url": "https://www.ximalaya.com/sound/423748107",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "002功能安全工程师章翔：中国汽车的“引进来、走出去”",
+          "published_at": "2021-06-04T11:14:39Z",
+          "duration_seconds": 2635,
+          "source_url": "https://www.ximalaya.com/sound/421640380",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "001首席工程师罗昶：从自研双电机奥拓到系统工程",
+          "published_at": "2021-05-28T11:39:07Z",
+          "duration_seconds": 2464,
+          "source_url": "https://www.ximalaya.com/sound/419519959",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "000《孤岛车谈》是什么？",
+          "published_at": "2021-05-28T11:23:35Z",
+          "duration_seconds": 3447,
+          "source_url": "https://www.ximalaya.com/sound/419516057",
+          "xiaoyuzhou_eid": null
+        }
+      ]
+    },
+    "5e280faf418a84a0461fbd39": {
+      "title": "疯投圈",
+      "source_rss": "https://crazy.capital/feed",
+      "count": 149,
+      "linked_to_native_count": 15,
+      "episodes": [
+        {
+          "title": "149 ✪ 抖省省突袭美团到店业务：本地生活怎么卷",
+          "published_at": "2026-10-13T09:00:00Z",
+          "duration_seconds": 5130,
+          "source_url": "https://crazy.capital/149",
+          "xiaoyuzhou_eid": "6acde05dea9bf07d68c15060"
+        },
+        {
+          "title": "148 ✪ 吃好睡好：肯德基KPRO入局轻食、亚朵星球床品创新",
+          "published_at": "2026-09-28T10:00:00Z",
+          "duration_seconds": 4064,
+          "source_url": "https://crazy.capital/148",
+          "xiaoyuzhou_eid": "6aba3902f00f04e58a09d59c"
+        },
+        {
+          "title": "147 ✪ SHEIN回港上市、新拼姆开启自营",
+          "published_at": "2026-09-08T10:00:00Z",
+          "duration_seconds": 4203,
+          "source_url": "https://crazy.capital/147",
+          "xiaoyuzhou_eid": "6a9fdcb0a771cfe1ba2ec57d"
+        },
+        {
+          "title": "146 ✪ 对买量和铺货说bye-bye，AI如何驱动出海品牌增长?",
+          "published_at": "2026-08-31T10:00:00Z",
+          "duration_seconds": 4733,
+          "source_url": "https://crazy.capital/146",
+          "xiaoyuzhou_eid": "6a9546228e912c9d3127f1d0"
+        },
+        {
+          "title": "145 ✪ 改属中资的餐饮洋品牌",
+          "published_at": "2026-08-22T03:00:00Z",
+          "duration_seconds": 4331,
+          "source_url": "https://crazy.capital/145",
+          "xiaoyuzhou_eid": "6a890ae2008ed7314d0070b5"
+        },
+        {
+          "title": "144 ✪ 国货出海新趋势：山下有松、观夏、PANE",
+          "published_at": "2026-08-09T10:00:00Z",
+          "duration_seconds": 3925,
+          "source_url": "https://crazy.capital/144",
+          "xiaoyuzhou_eid": "6a782a2c55c134f6e1eb5965"
+        },
+        {
+          "title": "143 ✪ 🚗「蔚小理」的高端探索",
+          "published_at": "2026-07-27T00:00:00Z",
+          "duration_seconds": 5086,
+          "source_url": "https://crazy.capital/143",
+          "xiaoyuzhou_eid": "6a665b5763ed6d3691fd60d6"
+        },
+        {
+          "title": "142 ✪ 产品体验学日本、全球营销学韩国",
+          "published_at": "2026-07-10T00:00:00Z",
+          "duration_seconds": 3770,
+          "source_url": "https://crazy.capital/142",
+          "xiaoyuzhou_eid": "6a4fe00851601cef92dda291"
+        },
+        {
+          "title": "141 ✪ ☕️咖啡战争2026：机构化与本土化",
+          "published_at": "2026-06-26T08:00:00Z",
+          "duration_seconds": 4274,
+          "source_url": "https://crazy.capital/141",
+          "xiaoyuzhou_eid": "6a3e29583aec4bac3d4ecd07"
+        },
+        {
+          "title": "140 ✪ 大疆还能低空飞多久？",
+          "published_at": "2026-06-18T00:00:00Z",
+          "duration_seconds": 5034,
+          "source_url": "https://crazy.capital/140",
+          "xiaoyuzhou_eid": "6a32b7b0f0f66b17f06e9ef9"
+        },
+        {
+          "title": "139 ✪ 泡泡玛特和拼多多值得投资么？",
+          "published_at": "2026-06-04T00:00:00Z",
+          "duration_seconds": 4002,
+          "source_url": "https://crazy.capital/139",
+          "xiaoyuzhou_eid": "6a213584f414362f3ab828e3"
+        },
+        {
+          "title": "138 ✪ 👟昂跑中国重直营、🦍超级猩猩不办卡",
+          "published_at": "2026-05-13T00:00:00Z",
+          "duration_seconds": 4523,
+          "source_url": "https://crazy.capital/138",
+          "xiaoyuzhou_eid": "6a035ff1e9161a38ce344593"
+        },
+        {
+          "title": "137 ✪ 从顺德猪肉婆到韩国圣水洞：那些AI无法取代的体验消费",
+          "published_at": "2026-04-20T12:00:00Z",
+          "duration_seconds": 4613,
+          "source_url": "https://crazy.capital/137",
+          "xiaoyuzhou_eid": "69e60962cb1c11d03b3a1185"
+        },
+        {
+          "title": "136 ✪ 美团的零售破局：收购叮咚、挑战山姆盒马？",
+          "published_at": "2026-04-10T15:00:00Z",
+          "duration_seconds": 4266,
+          "source_url": "https://crazy.capital/136",
+          "xiaoyuzhou_eid": "69d911ad24a6ea4a54824c8e"
+        },
+        {
+          "title": "135 ✪ 🥤奶茶争霸2026",
+          "published_at": "2026-03-27T00:00:00Z",
+          "duration_seconds": 4418,
+          "source_url": "https://crazy.capital/135",
+          "xiaoyuzhou_eid": "69c5a1e521b3b2db217b38d9"
+        },
+        {
+          "title": "134 ✪ G2格局下的全球投资",
+          "published_at": "2026-03-20T00:00:00Z",
+          "duration_seconds": 4337,
+          "source_url": "https://crazy.capital/134",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "133 ✪ 圈层化与试图破圈的lululemon",
+          "published_at": "2026-03-05T00:00:00Z",
+          "duration_seconds": 4348,
+          "source_url": "https://crazy.capital/133",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "132 ✪ 🍦雪糕江湖",
+          "published_at": "2026-02-10T00:00:00Z",
+          "duration_seconds": 4643,
+          "source_url": "https://crazy.capital/132",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "131 ✪ 对话野人先生：野蛮生长的中国冰淇淋",
+          "published_at": "2026-01-30T00:00:00Z",
+          "duration_seconds": 3311,
+          "source_url": "https://crazy.capital/131",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "130 ✪ 成为迪士尼之前，泡泡玛特可能先超过乐高",
+          "published_at": "2026-01-21T00:00:00Z",
+          "duration_seconds": 4324,
+          "source_url": "https://crazy.capital/130",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "129 ✪ 体验化增长：Peet's、亚朵、源氏木语",
+          "published_at": "2025-12-13T00:00:00Z",
+          "duration_seconds": 4948,
+          "source_url": "https://crazy.capital/129",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "128 ✪ 个人投资的风险管理",
+          "published_at": "2025-12-04T00:00:00Z",
+          "duration_seconds": 3924,
+          "source_url": "https://crazy.capital/128",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "127 ✪ 全球化之路：出海其实也挺难",
+          "published_at": "2025-11-21T09:00:00Z",
+          "duration_seconds": 3929,
+          "source_url": "https://crazy.capital/127",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "126 ✪ 银发新势力：被低估的消费觉醒",
+          "published_at": "2025-11-13T00:00:00Z",
+          "duration_seconds": 3844,
+          "source_url": "https://crazy.capital/126",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "125 ✪ 名创优品「偷师」泡泡玛特、卡游上市遇挫",
+          "published_at": "2025-11-02T15:00:00Z",
+          "duration_seconds": 4157,
+          "source_url": "https://crazy.capital/125",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "124 ✪ 二线城市的商机",
+          "published_at": "2025-10-06T00:00:00Z",
+          "duration_seconds": 3531,
+          "source_url": "https://crazy.capital/124",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "123 ✪ 掘金东南亚的机遇与挑战",
+          "published_at": "2025-09-30T00:00:00Z",
+          "duration_seconds": 4722,
+          "source_url": "https://crazy.capital/123",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "122 ✪ 山姆中国还能火多久？",
+          "published_at": "2025-09-03T13:00:00Z",
+          "duration_seconds": 3787,
+          "source_url": "https://crazy.capital/122",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "121 ✪ 长沙很忙：鸣鸣忙上市、茶颜忙零食",
+          "published_at": "2025-08-12T00:00:00Z",
+          "duration_seconds": 4081,
+          "source_url": "https://crazy.capital/121",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "120 ✪ 💸个人资产如何配置才能睡得着？",
+          "published_at": "2025-08-06T10:00:00Z",
+          "duration_seconds": 4245,
+          "source_url": "https://crazy.capital/120",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "119 ✪ 人群洞察：染发的中老年和集卡的小学生",
+          "published_at": "2025-07-24T00:00:00Z",
+          "duration_seconds": 4257,
+          "source_url": "https://crazy.capital/119",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "118 ✪ 🦘🐶🐱即时零售三国杀",
+          "published_at": "2025-07-09T00:00:00Z",
+          "duration_seconds": 4646,
+          "source_url": "https://crazy.capital/118",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "117 ✪ 👨‍🦳那些朝气蓬勃的老年人",
+          "published_at": "2025-06-27T00:00:00Z",
+          "duration_seconds": 4079,
+          "source_url": "https://crazy.capital/117",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "116 ✪ 关税冲突下中国品牌的全球化之路",
+          "published_at": "2025-06-05T00:00:00Z",
+          "duration_seconds": 4598,
+          "source_url": "https://crazy.capital/116",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "115 ✪ ☕️咖啡战争2025",
+          "published_at": "2025-05-16T00:00:00Z",
+          "duration_seconds": 5052,
+          "source_url": "https://crazy.capital/115",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "114 ✪ 升级的小米、降级的盒马",
+          "published_at": "2025-04-29T08:00:00Z",
+          "duration_seconds": 4096,
+          "source_url": "https://crazy.capital/114",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "113 ✪ 疯投圈×无界有声：在AI时代重思教育",
+          "published_at": "2025-04-15T00:00:00Z",
+          "duration_seconds": 3290,
+          "source_url": "https://crazy.capital/113",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "112 ✪ 奶茶争霸2025",
+          "published_at": "2025-03-27T00:00:00Z",
+          "duration_seconds": 4415,
+          "source_url": "https://crazy.capital/112",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "111 ✪ 上市一年股价十倍，老铺黄金凭什么",
+          "published_at": "2025-03-11T00:00:00Z",
+          "duration_seconds": 4841,
+          "source_url": "https://crazy.capital/111",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "110 ✪ 健康红利还能持续多久？",
+          "published_at": "2025-02-28T00:00:00Z",
+          "duration_seconds": 4488,
+          "source_url": "https://crazy.capital/110",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "109 ✪ 回顾与展望：低增速时代的商业趋势",
+          "published_at": "2025-02-11T00:00:00Z",
+          "duration_seconds": 4706,
+          "source_url": "https://crazy.capital/109",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "108 ✪ 银发の商机",
+          "published_at": "2025-01-07T00:00:00Z",
+          "duration_seconds": 3865,
+          "source_url": "https://crazy.capital/108",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "107 ✪ 社区何以生长：线上小红书、线下阿那亚",
+          "published_at": "2024-12-16T00:00:00Z",
+          "duration_seconds": 4202,
+          "source_url": "https://crazy.capital/107",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "106 ✪ 胖东来永辉大战沃尔玛山姆",
+          "published_at": "2024-11-18T00:00:00Z",
+          "duration_seconds": 4903,
+          "source_url": "https://crazy.capital/106",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "105 ✪ 霸王茶姬、林里、柠季为何能开遍全国？",
+          "published_at": "2024-11-06T00:00:00Z",
+          "duration_seconds": 4061,
+          "source_url": "https://crazy.capital/105",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "104 ✪ 内卷与反内卷：拼多多的商家、卖枕头的亚朵",
+          "published_at": "2024-10-22T00:00:00Z",
+          "duration_seconds": 4130,
+          "source_url": "https://crazy.capital/104",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "103 ✪ 跨境游重启，何人欢喜何人忧？",
+          "published_at": "2024-09-23T00:00:00Z",
+          "duration_seconds": 3646,
+          "source_url": "https://crazy.capital/103",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "102 ✪ 视频号有何商机？",
+          "published_at": "2024-09-17T10:00:00Z",
+          "duration_seconds": 5667,
+          "source_url": "https://crazy.capital/102",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "101 ✪ 直播电商见顶了吗？",
+          "published_at": "2024-08-31T10:00:00Z",
+          "duration_seconds": 4838,
+          "source_url": "https://crazy.capital/101",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "100 ✪ 名创优品大战泡泡玛特",
+          "published_at": "2024-08-08T00:00:00Z",
+          "duration_seconds": 3822,
+          "source_url": "https://crazy.capital/100",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "99 ✪ 中式快餐如何超越麦当劳？",
+          "published_at": "2024-07-25T00:00:00Z",
+          "duration_seconds": 4466,
+          "source_url": "https://crazy.capital/99",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "98 ✪ 咖啡战争2024",
+          "published_at": "2024-07-08T00:00:00Z",
+          "duration_seconds": 4705,
+          "source_url": "https://crazy.capital/98",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "97 ✪ 全球化之路：优衣库、萨莉亚、日本动漫",
+          "published_at": "2024-06-21T00:00:00Z",
+          "duration_seconds": 4988,
+          "source_url": "https://crazy.capital/97",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "96 ✪ 中高端也要性价比：山姆、理想、lululemon",
+          "published_at": "2024-05-31T00:00:00Z",
+          "duration_seconds": 4211,
+          "source_url": "https://crazy.capital/96",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "95 ✪ 「非股非债」的线下加盟新趋势",
+          "published_at": "2024-05-11T00:00:00Z",
+          "duration_seconds": 4350,
+          "source_url": "https://crazy.capital/95",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "94 ✪ 国潮退去，李宁应否固守「李宁」？",
+          "published_at": "2024-04-01T00:00:00Z",
+          "duration_seconds": 3956,
+          "source_url": "https://crazy.capital/94",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "93 ✪ 出海电商大杀四方",
+          "published_at": "2024-03-22T00:00:00Z",
+          "duration_seconds": 4718,
+          "source_url": "https://crazy.capital/93",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "92 ✪ 酒店逆势涨价的商业逻辑",
+          "published_at": "2024-03-11T00:00:00Z",
+          "duration_seconds": 4762,
+          "source_url": "https://crazy.capital/92",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "91 ✪ 日本游学考察见闻录",
+          "published_at": "2024-02-26T00:00:00Z",
+          "duration_seconds": 4080,
+          "source_url": "https://crazy.capital/91",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "90 ✪ 奶茶争霸2024（下）",
+          "published_at": "2024-02-07T00:00:00Z",
+          "duration_seconds": 3549,
+          "source_url": "https://crazy.capital/90",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "89 ✪ 奶茶争霸2024（上）",
+          "published_at": "2024-01-31T15:45:00Z",
+          "duration_seconds": 3999,
+          "source_url": "https://crazy.capital/89",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "88 ✪ 盒马的两难：既要「移山」、又要下沉",
+          "published_at": "2023-12-25T00:00:00Z",
+          "duration_seconds": 4077,
+          "source_url": "https://crazy.capital/88",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "87 ✪ 经济动能切换，普通人何去何从？",
+          "published_at": "2023-12-14T00:00:00Z",
+          "duration_seconds": 3645,
+          "source_url": "https://crazy.capital/87",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "86 ✪ 健康红利引爆无糖茶与户外风潮",
+          "published_at": "2023-11-22T18:00:00Z",
+          "duration_seconds": 3573,
+          "source_url": "https://crazy.capital/86",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "85 ✪ 三顿半：体验型品牌如何跨越周期成长？",
+          "published_at": "2023-11-10T00:00:00Z",
+          "duration_seconds": 4950,
+          "source_url": "https://crazy.capital/85",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "84 ✪ 逆风狂飙二十年——优衣库的启示",
+          "published_at": "2023-10-22T00:00:00Z",
+          "duration_seconds": 4405,
+          "source_url": "https://crazy.capital/84",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "83 ✪ 心理健身：焦虑时代的新刚需",
+          "published_at": "2023-09-24T20:00:00Z",
+          "duration_seconds": 4781,
+          "source_url": "https://crazy.capital/83",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "82 ✪ 香奈儿涨价、特斯拉降价——消费品如何定价？",
+          "published_at": "2023-09-06T00:00:00Z",
+          "duration_seconds": 4488,
+          "source_url": "https://crazy.capital/82",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "81 ✪ 「睡眠环境」新机遇",
+          "published_at": "2023-08-22T20:00:00Z",
+          "duration_seconds": 4092,
+          "source_url": "https://crazy.capital/81",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "80 ✪ 咖啡战争2023",
+          "published_at": "2023-08-06T18:00:00Z",
+          "duration_seconds": 3903,
+          "source_url": "https://crazy.capital/80",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "79 ✪ 在不确定的时代思考投资的确定性",
+          "published_at": "2023-07-19T00:00:00Z",
+          "duration_seconds": 4641,
+          "source_url": "https://crazy.capital/79",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "78 ✪ 创作者的小时代——聊聊小红书与视频号",
+          "published_at": "2023-06-21T14:00:00Z",
+          "duration_seconds": 4142,
+          "source_url": "https://crazy.capital/78",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "77 ✪ 卷王的大航海时代——中国企业出海新范式",
+          "published_at": "2023-05-14T12:00:00Z",
+          "duration_seconds": 4243,
+          "source_url": "https://crazy.capital/77",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "76 ✪ 广度 vs 深度：产品战略的抉择",
+          "published_at": "2023-04-20T14:00:00Z",
+          "duration_seconds": 3823,
+          "source_url": "https://crazy.capital/76",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "75 ✪ 黑天鹅盛行，实体商业如何管理风险？",
+          "published_at": "2023-03-20T02:00:00Z",
+          "duration_seconds": 4039,
+          "source_url": "https://crazy.capital/75",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "74 ✪ 新消费背后的真趋势",
+          "published_at": "2023-02-21T08:00:00Z",
+          "duration_seconds": 5076,
+          "source_url": "https://crazy.capital/74",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "73 ✪ 三顿半吴骏：城市漫游、灵感与创造的故事",
+          "published_at": "2023-01-15T15:00:00Z",
+          "duration_seconds": 4101,
+          "source_url": "https://crazy.capital/73",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "72 ✪ 从直播到商城：兴趣电商的迭代与演化",
+          "published_at": "2022-12-30T12:00:00Z",
+          "duration_seconds": 3178,
+          "source_url": "https://crazy.capital/72",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "71 ✪ 每日优鲜落幕、山姆店崛起",
+          "published_at": "2022-12-08T08:00:00Z",
+          "duration_seconds": 4305,
+          "source_url": "https://crazy.capital/71",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "70 ✪ 从得物到阿那亚：再谈情感价值",
+          "published_at": "2022-11-21T08:00:00Z",
+          "duration_seconds": 4112,
+          "source_url": "https://crazy.capital/70",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "69 ✪ 品牌管理：靠创意还是科学？",
+          "published_at": "2022-10-20T00:00:00Z",
+          "duration_seconds": 4925,
+          "source_url": "https://crazy.capital/69",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "68 ✪ 做视频后收获的新认知",
+          "published_at": "2022-08-30T20:00:00Z",
+          "duration_seconds": 4621,
+          "source_url": "https://crazy.capital/68",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "67 ✪ 火锅争雄：服务至上 vs 产品主义",
+          "published_at": "2022-07-30T14:00:00Z",
+          "duration_seconds": 5264,
+          "source_url": "https://crazy.capital/67",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "66 ✪ 二级市场的叙事与估值逻辑",
+          "published_at": "2022-06-06T13:00:00Z",
+          "duration_seconds": 4689,
+          "source_url": "https://crazy.capital/66",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "65 ✪ 咖啡战争2022",
+          "published_at": "2022-06-01T14:00:00Z",
+          "duration_seconds": 435,
+          "source_url": "https://crazy.capital/65",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "64 ✪ 漫谈「创作者经济」",
+          "published_at": "2022-04-30T15:59:00Z",
+          "duration_seconds": 4043,
+          "source_url": "https://crazy.capital/64",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "63 ✪ 从直播带货看电商新格局",
+          "published_at": "2022-03-31T00:00:00Z",
+          "duration_seconds": 4949,
+          "source_url": "https://crazy.capital/63",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "62 ✪ 健康饮食到底是真趋势还是伪需求？",
+          "published_at": "2022-02-22T02:00:00Z",
+          "duration_seconds": 4827,
+          "source_url": "https://crazy.capital/62",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "61 ✪ 边缘创新：破圈于主流之外",
+          "published_at": "2022-01-19T10:00:00Z",
+          "duration_seconds": 4639,
+          "source_url": "https://crazy.capital/61",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "60 ✪ 不止于盲盒：年轻人的潮流消费",
+          "published_at": "2021-12-13T00:00:00Z",
+          "duration_seconds": 3450,
+          "source_url": "https://crazy.capital/60",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "59 ✪ 从吃水果到喝水果、从果茶到品茗",
+          "published_at": "2021-12-03T08:00:00Z",
+          "duration_seconds": 4732,
+          "source_url": "https://crazy.capital/59",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "58 ✪ 运动鞋会出现下一个国货之光吗？",
+          "published_at": "2021-10-31T15:58:00Z",
+          "duration_seconds": 3665,
+          "source_url": "https://crazy.capital/58",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "57 ✪ 灵感与卓越之茶",
+          "published_at": "2021-09-30T15:55:00Z",
+          "duration_seconds": 4130,
+          "source_url": "https://crazy.capital/57",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "56 ✪ 超级文和友：商业地产新物种",
+          "published_at": "2021-09-10T00:00:00Z",
+          "duration_seconds": 3966,
+          "source_url": "https://crazy.capital/56",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "55 ✪ 从 Zara 到 Shein：快时尚的两代王者",
+          "published_at": "2021-07-14T11:00:00Z",
+          "duration_seconds": 3622,
+          "source_url": "https://crazy.capital/55",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "54 ✪ 线下门店业态的复兴",
+          "published_at": "2021-06-01T01:00:00Z",
+          "duration_seconds": 3857,
+          "source_url": "https://crazy.capital/54",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "53 ✪ 咖啡战争2021",
+          "published_at": "2021-04-12T15:00:00Z",
+          "duration_seconds": 3513,
+          "source_url": "https://crazy.capital/53",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "52 ✪ 探寻万亿家居行业的创新模式",
+          "published_at": "2021-03-20T10:00:00Z",
+          "duration_seconds": 3653,
+          "source_url": "https://crazy.capital/52",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "51 ✪ 从泡泡玛特谈起：物质消费中的情感价值",
+          "published_at": "2021-02-03T11:00:00Z",
+          "duration_seconds": 4624,
+          "source_url": "https://crazy.capital/51",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "50 ✪ 电商混战同城零售",
+          "published_at": "2020-12-25T00:00:00Z",
+          "duration_seconds": 4864,
+          "source_url": "https://crazy.capital/50",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "49 ✪ 饮料行业的首富与新贵",
+          "published_at": "2020-11-16T00:00:00Z",
+          "duration_seconds": 4212,
+          "source_url": "https://crazy.capital/49",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "48 ✪ 微醺时代：低度酒的崛起",
+          "published_at": "2020-09-18T00:00:00Z",
+          "duration_seconds": 4284,
+          "source_url": "https://crazy.capital/48",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "47 ✪ 日本消费升级启示录",
+          "published_at": "2020-08-20T12:00:00Z",
+          "duration_seconds": 3648,
+          "source_url": "https://crazy.capital/47",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "46 ✪ 永不过时的金银珠宝生意",
+          "published_at": "2020-07-10T00:00:00Z",
+          "duration_seconds": 3553,
+          "source_url": "https://crazy.capital/46",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "45 ✪ 后移动互联网时代的VC行业",
+          "published_at": "2020-06-14T20:00:00Z",
+          "duration_seconds": 4115,
+          "source_url": "https://crazy.capital/45",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "44 ✪ 你坐的是职场真火箭还是窜天猴？",
+          "published_at": "2020-05-14T17:00:00Z",
+          "duration_seconds": 4150,
+          "source_url": "https://crazy.capital/44",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "43 ✪ 生鲜之王——永辉超市",
+          "published_at": "2020-03-30T18:00:00Z",
+          "duration_seconds": 3881,
+          "source_url": "https://crazy.capital/43",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "42 ✪ 专业类 KOL 的崛起",
+          "published_at": "2020-02-28T14:00:00Z",
+          "duration_seconds": 4133,
+          "source_url": "https://crazy.capital/42",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "41 ✪ 快手的社交网络之路",
+          "published_at": "2020-02-13T15:00:00Z",
+          "duration_seconds": 4189,
+          "source_url": "https://crazy.capital/41",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "40 ✪ 疯投圈的未来",
+          "published_at": "2019-12-31T15:00:00Z",
+          "duration_seconds": 4485,
+          "source_url": "https://crazy.capital/40",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "39 ✪ 与花总漫谈短视频行业",
+          "published_at": "2019-12-14T18:00:00Z",
+          "duration_seconds": 3817,
+          "source_url": "https://crazy.capital/39",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "38 ✪ 运动用品市场风云再起",
+          "published_at": "2019-10-29T02:00:00Z",
+          "duration_seconds": 4039,
+          "source_url": "https://crazy.capital/38",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "37 ✪ 「中国有过多企业旨在提升效率，太少能创造体验」",
+          "published_at": "2019-09-20T18:00:00Z",
+          "duration_seconds": 4516,
+          "source_url": "https://crazy.capital/37",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "36 ✪ 新消费品牌崛起大时代",
+          "published_at": "2019-08-25T12:00:00Z",
+          "duration_seconds": 4722,
+          "source_url": "https://crazy.capital/36",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "35 ✪ 创业，不止北上广深杭",
+          "published_at": "2019-07-21T08:45:00Z",
+          "duration_seconds": 4431,
+          "source_url": "https://crazy.capital/35",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "34 ✪ 再谈出海电商的全球机遇",
+          "published_at": "2019-06-21T12:00:00Z",
+          "duration_seconds": 4473,
+          "source_url": "https://crazy.capital/34",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "33 ✪ 过载时代的信息修养",
+          "published_at": "2019-05-12T00:00:00Z",
+          "duration_seconds": 4447,
+          "source_url": "https://crazy.capital/33",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "32 ✪ 复杂服务行业如何平台化",
+          "published_at": "2019-04-02T00:00:00Z",
+          "duration_seconds": 5161,
+          "source_url": "https://crazy.capital/32",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "31 ✪ NOME vs 名创优品：日用零售的王者之争",
+          "published_at": "2019-03-12T00:00:00Z",
+          "duration_seconds": 4260,
+          "source_url": "https://crazy.capital/31",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "30 ✪ 卖不掉的衣服去哪了？",
+          "published_at": "2019-02-20T00:00:00Z",
+          "duration_seconds": 4369,
+          "source_url": "https://crazy.capital/30",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "29 ✪ airbnb—唯一还有机会在中国胜出的硅谷巨头",
+          "published_at": "2019-01-26T00:00:00Z",
+          "duration_seconds": 3879,
+          "source_url": "https://crazy.capital/29",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "28 ✪ 学习爱好者最好的时代",
+          "published_at": "2019-01-03T00:00:00Z",
+          "duration_seconds": 3711,
+          "source_url": "https://crazy.capital/28",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "27 ✪ 名创优品的十元店江湖",
+          "published_at": "2018-12-12T00:00:00Z",
+          "duration_seconds": 4687,
+          "source_url": "https://crazy.capital/27",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "26 ✪ 美团是中国最大型的便利店",
+          "published_at": "2018-11-06T06:00:00Z",
+          "duration_seconds": 4676,
+          "source_url": "https://crazy.capital/26",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "25 ✪ 如何用 VC 的思维买股票",
+          "published_at": "2018-10-27T00:00:00Z",
+          "duration_seconds": 4825,
+          "source_url": "https://crazy.capital/25",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "24 ✪ 咖啡战争",
+          "published_at": "2018-09-27T00:00:00Z",
+          "duration_seconds": 4613,
+          "source_url": "https://crazy.capital/24",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "23 ✪ 漫谈小米生态链",
+          "published_at": "2018-09-01T00:00:00Z",
+          "duration_seconds": 4544,
+          "source_url": "https://crazy.capital/23",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "22 ✪ 在线旅游三国杀",
+          "published_at": "2018-08-11T00:00:00Z",
+          "duration_seconds": 3728,
+          "source_url": "https://crazy.capital/22",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "21 ✪ 自由职业是生活的理想状态吗？",
+          "published_at": "2018-07-12T00:00:00Z",
+          "duration_seconds": 5891,
+          "source_url": "https://crazy.capital/21",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "20 ✪ 居住市场进入租赁时代",
+          "published_at": "2018-06-10T00:00:00Z",
+          "duration_seconds": 4886,
+          "source_url": "https://crazy.capital/20",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "19 ✪ 星巴克轶事",
+          "published_at": "2018-04-24T00:00:00Z",
+          "duration_seconds": 3739,
+          "source_url": "https://crazy.capital/19",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "18 ✪ 拼多多=中国的Costco?",
+          "published_at": "2018-04-02T00:00:00Z",
+          "duration_seconds": 3898,
+          "source_url": "https://crazy.capital/18",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "17 ✪ 股权投资 VS 区块链投资",
+          "published_at": "2018-02-27T00:00:00Z",
+          "duration_seconds": 4822,
+          "source_url": "https://crazy.capital/17",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "16 ✪ 巨头进击的一年——2017创投领域回顾",
+          "published_at": "2018-01-17T00:00:00Z",
+          "duration_seconds": 4018,
+          "source_url": "https://crazy.capital/16",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "15 ✪ 知识服务利用你的焦虑，你还是忍不住持续付费",
+          "published_at": "2017-12-11T00:00:00Z",
+          "duration_seconds": 4611,
+          "source_url": "https://crazy.capital/15",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "14 ✪ 「产品不好的公司不配做营销」",
+          "published_at": "2017-11-22T00:00:00Z",
+          "duration_seconds": 4518,
+          "source_url": "https://crazy.capital/14",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "13 ✪ 无人零售真伪风口之辩",
+          "published_at": "2017-10-17T00:00:00Z",
+          "duration_seconds": 3946,
+          "source_url": "https://crazy.capital/13",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "12 ✪ 「『新』不一定是好的，但『旧』一定是不好的」",
+          "published_at": "2017-09-26T00:00:00Z",
+          "duration_seconds": 2681,
+          "source_url": "https://crazy.capital/12",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "11 ✪ 租赁是电商的未来趋势吗？",
+          "published_at": "2017-09-07T00:00:00Z",
+          "duration_seconds": 4023,
+          "source_url": "https://crazy.capital/11",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "10 ✪ 新零售可以解决生鲜行业难题吗？",
+          "published_at": "2017-08-07T16:00:00Z",
+          "duration_seconds": 4067,
+          "source_url": "https://crazy.capital/10",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "9 ✪ 茶饮行业会出现下一个星巴克吗？",
+          "published_at": "2017-07-13T15:19:18Z",
+          "duration_seconds": 3888,
+          "source_url": "https://crazy.capital/9",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "8 ✪ 专访小密圈吴鲁加",
+          "published_at": "2017-05-09T17:40:46Z",
+          "duration_seconds": 4449,
+          "source_url": "https://crazy.capital/8",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "7 ✪ 两个穿着严选拖鞋的人聊严选",
+          "published_at": "2017-03-14T16:19:00Z",
+          "duration_seconds": 3592,
+          "source_url": "https://crazy.capital/7",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "6 ✪ 2016 回顾与展望",
+          "published_at": "2016-12-31T04:00:00Z",
+          "duration_seconds": 4330,
+          "source_url": "https://crazy.capital/6",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "5 ✪ 你会在网上买家具吗？",
+          "published_at": "2016-12-05T12:41:09Z",
+          "duration_seconds": 3708,
+          "source_url": "https://crazy.capital/5",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "4 ✪ Keep 都一年四轮融资了，体育创业还有什么机会吗？",
+          "published_at": "2016-06-18T14:28:41Z",
+          "duration_seconds": 3839,
+          "source_url": "https://crazy.capital/4",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "3 ✪ 互联网金融在中国",
+          "published_at": "2016-04-13T03:13:34Z",
+          "duration_seconds": 2538,
+          "source_url": "https://crazy.capital/3",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "2 ✪ SaaS 太热闹，教你看尽门道",
+          "published_at": "2016-03-04T05:25:36Z",
+          "duration_seconds": 5014,
+          "source_url": "https://crazy.capital/2",
+          "xiaoyuzhou_eid": null
+        },
+        {
+          "title": "1 ✪ 2016 会是出口电商爆发的元年吗？",
+          "published_at": "2016-02-25T21:39:42Z",
+          "duration_seconds": 3592,
+          "source_url": "https://crazy.capital/1",
+          "xiaoyuzhou_eid": null
+        }
+      ]
+    }
+  }
+}
