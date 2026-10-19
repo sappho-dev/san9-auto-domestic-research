@@ -1,10 +1,14 @@
 [
   {
+    "checked_at": "2026-10-19T11:20:18Z",
     "channel_id": "615a4035c8c1d14e83366946",
     "channel_title": "孤岛车谈",
+    "public_url": "https://www.xiaoyuzhoufm.com/podcast/615a4035c8c1d14e83366946",
     "public_latest_count": 15,
-    "new_since_baseline": 0,
+    "new_since_final_catalog": 0,
     "retains_all_existing_ids": true,
+    "catalog_count_before": 78,
+    "catalog_count_after": 78,
     "latest": {
       "id": "6ad4f1079554aaac00a10ca4",
       "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
@@ -14,11 +18,15 @@
     }
   },
   {
+    "checked_at": "2026-10-19T11:20:22Z",
     "channel_id": "5e280faf418a84a0461fbd39",
     "channel_title": "疯投圈",
+    "public_url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
     "public_latest_count": 15,
-    "new_since_baseline": 0,
+    "new_since_final_catalog": 0,
     "retains_all_existing_ids": true,
+    "catalog_count_before": 107,
+    "catalog_count_after": 107,
     "latest": {
       "id": "6acde05dea9bf07d68c15060",
       "title": "149 ✪ 抖省省突袭美团到店业务：本地生活怎么卷",
@@ -28,11 +36,15 @@
     }
   },
   {
+    "checked_at": "2026-10-19T11:20:26Z",
     "channel_id": "61358d971c5d56efe5bcb5d2",
     "channel_title": "乱翻书",
+    "public_url": "https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2",
     "public_latest_count": 15,
-    "new_since_baseline": 0,
+    "new_since_final_catalog": 0,
     "retains_all_existing_ids": true,
+    "catalog_count_before": 285,
+    "catalog_count_after": 285,
     "latest": {
       "id": "6ab4b804e742e36efcbab131",
       "title": "277.从提醒你，到替你办：Today想把Personal AI带到哪一步？",

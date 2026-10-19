@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T10:37:48Z",
+  "updated_at": "2026-10-19T11:19:50Z",
   "note": "External public RSS metadata archive. This file is not read by the unchanged local HTML. Missing Xiaoyuzhou episode IDs are deliberately left null.",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "source_rss": "https://www.ximalaya.com/album/49896353.xml",
       "count": 212,
-      "linked_to_native_count": 71,
+      "linked_to_native_count": 78,
       "episodes": [
         {
           "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
@@ -910,7 +910,7 @@
           "published_at": "2023-05-28T22:31:23Z",
           "duration_seconds": 3102,
           "source_url": "https://www.ximalaya.com/sound/637692115",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6473ddaffc28a4c0f0b6bbe7"
         },
         {
           "title": "082 电动车时代，中国赛车也能弯道超个车？ 对话嘉宾：王佳伟，Patrick",
@@ -1134,7 +1134,7 @@
           "published_at": "2022-05-15T21:31:50Z",
           "duration_seconds": 3562,
           "source_url": "https://www.ximalaya.com/sound/532607946",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "62817528362406f9826a5623"
         },
         {
           "title": "050 如果有一天，中日韩结盟 对话嘉宾：贾钊，王昕",
@@ -1323,21 +1323,21 @@
           "published_at": "2021-11-08T09:00:00Z",
           "duration_seconds": 2852,
           "source_url": "https://www.ximalaya.com/sound/470126937",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6188eb9dba55044c911040ab"
         },
         {
           "title": "023氢能社会（下）：氢燃料电池车比汽油车还安全！ 对话嘉宾：胡静文 韩峰",
           "published_at": "2021-11-01T10:00:13Z",
           "duration_seconds": 1591,
           "source_url": "https://www.ximalaya.com/sound/467794249",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "617fbab9b856d721e973a7f6"
         },
         {
           "title": "022氢能社会（上）：氢能和电能是互补而非竞争 对话嘉宾：胡静文 韩峰",
           "published_at": "2021-10-25T09:00:03Z",
           "duration_seconds": 2225,
           "source_url": "https://www.ximalaya.com/sound/465507380",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6176735a6f4c3e6698e89902"
         },
         {
           "title": "021对话陆巍：我是动力域控制器软件的爸爸",
@@ -1372,7 +1372,7 @@
           "published_at": "2021-09-17T09:00:00Z",
           "duration_seconds": 3308,
           "source_url": "https://www.ximalaya.com/sound/454218042",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366948"
         },
         {
           "title": "016造车=搭乐高？电动底盘的未来 对话嘉宾 唐华寅 纪洪超",
@@ -1428,7 +1428,7 @@
           "published_at": "2021-07-23T07:07:45Z",
           "duration_seconds": 3114,
           "source_url": "https://www.ximalaya.com/sound/436429042",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366950"
         },
         {
           "title": "008碳纤维博士后肖兆非：超跑背后的复合材料技术",

@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-19T11:21:45Z",
+  "status": "examined_public_routes_exhausted",
+  "total_official_channel_count": 646,
+  "verified_catalog_total": 470,
+  "unconfirmed_total": 176,
+  "channels": {
+    "5e280faf418a84a0461fbd39": {
+      "checked_at": "2026-10-19T10:43:06.519697+00:00",
+      "pid": "5e280faf418a84a0461fbd39",
+      "official_channel_count": 149,
+      "initial_native_count": 90,
+      "new_official_verified_count": 17,
+      "verified_native_total_after_integration": 107,
+      "residual_unmapped_count": 42,
+      "new_episode_numbers": [
+        2,
+        7,
+        10,
+        18,
+        54,
+        59,
+        60,
+        67,
+        68,
+        73,
+        77,
+        79,
+        81,
+        82,
+        84,
+        85,
+        93
+      ],
+      "searches": {
+        "full_title_queries": 59,
+        "relaxed_batch_queries": 42,
+        "relaxed_individual_queries": 42,
+        "individual_result_headers_retained": true
+      },
+      "graph": {
+        "seed_pages_checked": 107,
+        "seed_http_errors": 0,
+        "anchors_unique_links": 12,
+        "unknown_links_verified": 11,
+        "other_channels_skipped": 11,
+        "new_target_ids": 0,
+        "serialized_comment_pages_scanned": 107,
+        "serialized_comment_unknown_candidates": 0
+      },
+      "index_checks": [
+        {
+          "url": "https://www.xiaoyuzhoufm.com/sitemap.xml",
+          "http_status": 404
+        },
+        {
+          "url": "https://www.xiaoyuzhoufm.com/robots.txt",
+          "http_status": 200,
+          "finding": "No sitemap advertised"
+        },
+        {
+          "url": "https://lib.crazy.capital/",
+          "http_status": 200,
+          "finding": "142 publisher-feed entries; no Xiaoyuzhou episode mappings in inspected index/RSS/sample episode"
+        },
+        {
+          "url": "https://crazy.capital/feed",
+          "http_status": 403,
+          "finding": "Existing parent archive has 149 entries; public web renderer can read publisher pages but no native mappings seen"
+        },
+        {
+          "url": "https://earsonme.com/episodes/fov9P786II90",
+          "http_status": 403,
+          "finding": "Search-indexed missing episode 114; source href inaccessible via normal public requests"
+        },
+        {
+          "url": "https://xyzrank.com/api/episodes",
+          "http_status": 403
+        },
+        {
+          "url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280faf418a84a0461fbd39",
+          "http_status": 403
+        },
+        {
+          "url": "https://github.com/cellinlab/xyzrank/raw/refs/heads/main/hot_episodes.json",
+          "http_status": 200,
+          "finding": "Only already-known episode149 for target show"
+        }
+      ],
+      "limitation": "Residual42 are unlinked in the examined public discovery routes, not proven absent from Xiaoyuzhou; no guessed episode IDs, login, anti-bot bypass, audio downloads, or paid services used."
+    },
+    "615a4035c8c1d14e83366946": {
+      "channel_id": "615a4035c8c1d14e83366946",
+      "archive_count": 212,
+      "starting_official_count": 63,
+      "new_verified_count": 15,
+      "coverage_count": 78,
+      "residual_count": 134,
+      "new_episode_numbers": [
+        9,
+        17,
+        22,
+        23,
+        24,
+        51,
+        69,
+        83,
+        93,
+        121,
+        123,
+        124,
+        136,
+        138,
+        142
+      ],
+      "full_title_searches": 142,
+      "relaxed_single_query_searches": 140,
+      "crosslink_graph_status": "Complete: all63 starting official pages and13 newly discovered pages checked for explicit links; enhanced63-page sweep extracted rendered URLs and recursive serialized EPISODE entities, verified unknown targets, and recursively expanded new same-channel episodes. Added051 and083. Public HTML comments only; app-only paginated comments not accessed.",
+      "limit": "Web search coverage is not proof of nonexistence; no undocumented or guessed IDs used",
+      "graph_sweep": {
+        "ledger": "history_link_graph.json",
+        "candidates": "history_verification.jsonl",
+        "initial_seeds_checked": 63,
+        "total_pages_checked": 68,
+        "http200_count": 68,
+        "errors": 0,
+        "new_verified": 2,
+        "unknown_out_of_channel_rejected": 2,
+        "completed_at": "2026-10-19T10:46:07Z"
+      }
+    }
+  },
+  "limits": [
+    "Search results are incomplete indexes; no absence/nonexistence claim is made.",
+    "Only public HTML and its embedded metadata/comments were inspected; app-only pagination was not accessed.",
+    "403 and unavailable public routes were recorded without attempting access-control or anti-bot bypass.",
+    "No audio files, private accounts, credentials, or paid services were used."
+  ],
+  "resume_when": "A new concrete public source or official episode URL becomes available; do not repeat completed broad queries without new evidence."
+}

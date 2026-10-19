@@ -1,0 +1,45 @@
+{
+  "catalog_quality_pass": true,
+  "catalog_total": 470,
+  "official_page_verified_total": 470,
+  "all_archive_targets_linked": false,
+  "channels": {
+    "615a4035c8c1d14e83366946": {
+      "title": "孤岛车谈",
+      "catalog_count": 78,
+      "official_page_verified": 78,
+      "archive_remaining": 134,
+      "all_catalog_entries_verified": true
+    },
+    "5e280faf418a84a0461fbd39": {
+      "title": "疯投圈",
+      "catalog_count": 107,
+      "official_page_verified": 107,
+      "archive_remaining": 42,
+      "all_catalog_entries_verified": true
+    },
+    "61358d971c5d56efe5bcb5d2": {
+      "title": "乱翻书",
+      "catalog_count": 285,
+      "official_page_verified": 285,
+      "archive_remaining": 0,
+      "all_catalog_entries_verified": true
+    }
+  },
+  "errors": [],
+  "publication_precision": "Existing whole-second RSS timestamps are retained when equal to official timestamp to the second; exact official timestamps are stored in the evidence ledger.",
+  "checked_at": "2026-10-19T11:21:45Z",
+  "baseline_entries_retained": 438,
+  "new_entries": 32,
+  "metadata_corrections": 1,
+  "removed_entries": 0,
+  "unit_tests_passed": 14,
+  "protected_paths": {
+    ".github/workflows/xiaoyuzhou.yml": "478730cdf79980074cd7a361c44cbe28ec1979e5",
+    "xiaoyuzhou/index.html": "a4792ce7e8b0f4d800f5f9ddfdf00b3e61e5d451",
+    "xiaoyuzhou/update.py": "3d4fd8a992319360dbb30aeebe32c915968db942",
+    "xiaoyuzhou/channels.json": "4fe9c54813db435ea518fb79a26179760f6e5259"
+  },
+  "recent_sync_report": "history_recent_sync_check.json",
+  "official_channel_counts": "history_official_counts.json"
+}

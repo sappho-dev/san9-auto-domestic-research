@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-19",
+  "channels": [
+    {
+      "url": "https://www.xiaoyuzhoufm.com/podcast/615a4035c8c1d14e83366946",
+      "pid": "615a4035c8c1d14e83366946",
+      "title": "孤岛车谈",
+      "official_episode_count": 212,
+      "embedded_recent_count": 15
+    },
+    {
+      "url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
+      "pid": "5e280faf418a84a0461fbd39",
+      "title": "疯投圈",
+      "official_episode_count": 149,
+      "embedded_recent_count": 15
+    },
+    {
+      "url": "https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2",
+      "pid": "61358d971c5d56efe5bcb5d2",
+      "title": "乱翻书",
+      "official_episode_count": 285,
+      "embedded_recent_count": 15
+    }
+  ]
+}

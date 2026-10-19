@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "issue": "https://github.com/sappho-dev/san9-auto-domestic-research/issues/11",
-  "updated_at": "2026-10-19T10:37:48Z",
-  "status": "in_progress",
-  "stage": "audit_and_public_history_discovery",
+  "updated_at": "2026-10-19T11:21:45Z",
+  "status": "completed_with_unconfirmed_residual",
+  "stage": "public_history_audit_and_discovery_concluded",
   "baseline_commit": "e4c62c1e5a2fa78f9e1c89367fb4721343e6bce0",
   "baseline_counts": {
     "615a4035c8c1d14e83366946": 63,
@@ -14,10 +14,10 @@
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "archive_target": 212,
-      "catalog_count": 71,
-      "official_pages_verified": 71,
+      "catalog_count": 78,
+      "official_pages_verified": 78,
       "pending_existing_audit": 0,
-      "archive_remaining": 141
+      "archive_remaining": 134
     },
     "5e280faf418a84a0461fbd39": {
       "title": "疯投圈",
@@ -31,26 +31,45 @@
       "title": "乱翻书",
       "archive_target": 285,
       "catalog_count": 285,
-      "official_pages_verified": 121,
-      "pending_existing_audit": 164,
+      "official_pages_verified": 285,
+      "pending_existing_audit": 0,
       "archive_remaining": 0
     }
   },
   "batch_changes": {
-    "added": 25,
-    "updated": 1
+    "added": 7,
+    "updated": 0
   },
   "validation": {
-    "unit_tests_passed": 10,
+    "unit_tests_passed": 14,
     "catalog_schema": 1,
     "no_deleted_ids": true,
-    "protected_paths_unchanged": true
+    "protected_paths_unchanged": true,
+    "official_page_verification_passed": 470,
+    "catalog_quality_pass": true,
+    "cross_channel_duplicate_ids": 0,
+    "duplicate_normalized_titles": 0,
+    "recent_public_sync_channels_passed": 3,
+    "required_ci_checks": [],
+    "ci_note": "Workflow has schedule/issues/workflow_dispatch triggers, not push; no new Actions execution claimed."
   },
   "protected_paths": {
     ".github/workflows/xiaoyuzhou.yml": "478730cdf79980074cd7a361c44cbe28ec1979e5",
     "xiaoyuzhou/index.html": "a4792ce7e8b0f4d800f5f9ddfdf00b3e61e5d451",
-    "xiaoyuzhou/update.py": "3d4fd8a992319360dbb30aeebe32c915968db942"
+    "xiaoyuzhou/update.py": "3d4fd8a992319360dbb30aeebe32c915968db942",
+    "xiaoyuzhou/channels.json": "4fe9c54813db435ea518fb79a26179760f6e5259"
   },
   "method": "Discover actual links via public search or published cross-links; GET official episode page; check eid, pid, channel title, full title, publication date and duration; preserve evidence; merge fresh remote catalog by ID with branch-head lease. Never guess IDs or request audio.",
-  "next_action": "Finish remaining official-page audits, individual title searches and bounded existing-page link-graph checks; import only verified candidates."
+  "next_action": "Resume only with new public evidence for exact unconfirmed episode links; ordinary daily latest-episode sync remains active.",
+  "target_total": 646,
+  "catalog_total": 470,
+  "official_pages_verified_total": 470,
+  "unconfirmed_total": 176,
+  "session_changes": {
+    "added": 32,
+    "corrected_existing": 1,
+    "removed": 0
+  },
+  "completion_note": "All existing and newly included entries verified; reasonable examined public routes exhausted. The 176 residual titles are unconfirmed links, not proven nonexistent episodes.",
+  "base_commit_for_final_batch": "e6b8ab04c6a37c1047241aded77d124c82d15ca8"
 }

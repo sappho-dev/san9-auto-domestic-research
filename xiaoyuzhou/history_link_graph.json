@@ -1,0 +1,2128 @@
+{
+  "schema": 1,
+  "channels": {
+    "615a4035c8c1d14e83366946": {
+      "channel_id": "615a4035c8c1d14e83366946",
+      "started_at": "2026-10-19T10:41:46Z",
+      "seed_count": 63,
+      "status": "complete",
+      "scope": "All63 starting official pages plus explicit referral page; follow unknown actual episode links; recursively expand only verified same-channel pages",
+      "pending_queue": [],
+      "completed_at": "2026-10-19T10:46:07Z",
+      "pages": [
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/64ad312bdc89afb6ef6fea8a",
+          "eid": "64ad312bdc89afb6ef6fea8a",
+          "checked_at": "2026-10-19T10:41:46Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/64ad312bdc89afb6ef6fea8a",
+          "page_sha256": "919fbf667f02c54248994c8878827fbf6cf78c0546b103ce91fd9f4a901ed2b6",
+          "official_metadata": {
+            "eid": "64ad312bdc89afb6ef6fea8a",
+            "pid": "64acd266dc89afb6ef66a7d1",
+            "title": "Vol.001 一线实战经验告诉你，新能源出海遇到的那些坑（上）",
+            "pubDate": "2023-07-11T10:38:34.908Z",
+            "duration": 4039,
+            "channel_title": "无限不可能引擎"
+          },
+          "same_channel_verified": false,
+          "linked_episode_ids": [
+            "6473ddaffc28a4c0f0b6bbe7",
+            "647e703b8f7d9d4a7f827d54"
+          ]
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6473ddaffc28a4c0f0b6bbe7",
+          "eid": "6473ddaffc28a4c0f0b6bbe7",
+          "checked_at": "2026-10-19T10:41:46Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6473ddaffc28a4c0f0b6bbe7",
+          "page_sha256": "7f90743b2a204168bb45093d23645400310d351c6c7457b41bee5f97b11c5505",
+          "official_metadata": {
+            "eid": "6473ddaffc28a4c0f0b6bbe7",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "083 裂开的世界和绝迹的世界车 对话嘉宾：侯社长，冯金钊",
+            "pubDate": "2023-05-28T22:31:23.000Z",
+            "duration": 3102,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6ad4f1079554aaac00a10ca4",
+          "eid": "6ad4f1079554aaac00a10ca4",
+          "checked_at": "2026-10-19T10:41:50Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6ad4f1079554aaac00a10ca4",
+          "page_sha256": "b1769772c54ec832caeff08b93737eec9bbfcddf55fd4d712aa5f84435c80a59",
+          "official_metadata": {
+            "eid": "6ad4f1079554aaac00a10ca4",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
+            "pubDate": "2026-10-18T15:41:27.000Z",
+            "duration": 5601,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6acd7ae17b6bc0d79abd394f",
+          "eid": "6acd7ae17b6bc0d79abd394f",
+          "checked_at": "2026-10-19T10:41:53Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6acd7ae17b6bc0d79abd394f",
+          "page_sha256": "15cfe60a7bb1d7a989a2151286b93e3c5e18f3d885b6b32f326c29e24448ed54",
+          "official_metadata": {
+            "eid": "6acd7ae17b6bc0d79abd394f",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "211 丰田（3）：NUMMI和丰田生产方式 对话嘉宾：吴桐雨，许新熠",
+            "pubDate": "2026-10-12T22:57:23.000Z",
+            "duration": 7540,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": [
+            "691094cfa0cdc0cf98917ecd"
+          ]
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741",
+          "eid": "6ab6fadeab04f399f7542741",
+          "checked_at": "2026-10-19T10:41:57Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741",
+          "page_sha256": "01304ff82e4be0435c118e84804bcd1926662f81a72e3c60dd5a2f6b64782ef9",
+          "official_metadata": {
+            "eid": "6ab6fadeab04f399f7542741",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "210 丰田（2）：一人一款车，打破组织内耗 对话嘉宾：金木，许新熠",
+            "pubDate": "2026-09-25T22:14:35.000Z",
+            "duration": 6257,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6a8b8a7e008ed7314dab72b9",
+          "eid": "6a8b8a7e008ed7314dab72b9",
+          "checked_at": "2026-10-19T10:42:01Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6a8b8a7e008ed7314dab72b9",
+          "page_sha256": "3b772cd525bc1249bdbad2299832bfadb9e53e8758e6ddb05b3e10dff4fe580f",
+          "official_metadata": {
+            "eid": "6a8b8a7e008ed7314dab72b9",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "209 丰田（1）：先到泰国，再到肯塔基 对话嘉宾：Jason",
+            "pubDate": "2026-08-23T23:27:57.000Z",
+            "duration": 7027,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6a6f327c47ac66f4b53539d3",
+          "eid": "6a6f327c47ac66f4b53539d3",
+          "checked_at": "2026-10-19T10:42:04Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6a6f327c47ac66f4b53539d3",
+          "page_sha256": "13e03ba5a2f54b22bcd1ab537bb25373b8c747c0a719e983914cc7b412d858ea",
+          "official_metadata": {
+            "eid": "6a6f327c47ac66f4b53539d3",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "207 专访Gumpert：传奇的人生 对话嘉宾：Roland Rumpert，down哥",
+            "pubDate": "2026-08-02T11:26:39.000Z",
+            "duration": 5975,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6a5d784314e09e78bfa4010d",
+          "eid": "6a5d784314e09e78bfa4010d",
+          "checked_at": "2026-10-19T10:42:08Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6a5d784314e09e78bfa4010d",
+          "page_sha256": "145824dd5bee3b54cb511d132eff3e539d776a0b879f880552ede9888caed2d3",
+          "official_metadata": {
+            "eid": "6a5d784314e09e78bfa4010d",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "206 法拉利Luce：是错误的尝试还是伟大的突破 对话嘉宾：温如",
+            "pubDate": "2026-07-20T00:34:09.000Z",
+            "duration": 8883,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6a2f389d1d5866c024f42835",
+          "eid": "6a2f389d1d5866c024f42835",
+          "checked_at": "2026-10-19T10:42:11Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6a2f389d1d5866c024f42835",
+          "page_sha256": "02d3802d9a7c5784cc07b7c1298cc20e675707a79e3af8d7750f7434c8a79607",
+          "official_metadata": {
+            "eid": "6a2f389d1d5866c024f42835",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "205 比亚迪闪充：不止于快 对话嘉宾：弗雷刘，付梓耘，章翔",
+            "pubDate": "2026-06-14T23:05:43.000Z",
+            "duration": 3843,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6a1e077c92551efcff13d441",
+          "eid": "6a1e077c92551efcff13d441",
+          "checked_at": "2026-10-19T10:42:15Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6a1e077c92551efcff13d441",
+          "page_sha256": "f6171ad435a876e3833d35a5d2d5f623934e640e7d511d7d3bd3f2f0dde2c198",
+          "official_metadata": {
+            "eid": "6a1e077c92551efcff13d441",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "204 起亚EV5：电动车的二元世界 对话嘉宾：侯社长，王涵",
+            "pubDate": "2026-06-01T21:54:10.000Z",
+            "duration": 6364,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6a14f7371cd5cc9bb08ab35e",
+          "eid": "6a14f7371cd5cc9bb08ab35e",
+          "checked_at": "2026-10-19T10:42:18Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6a14f7371cd5cc9bb08ab35e",
+          "page_sha256": "b5eb5879abc8c3dc648030cfb78652c24679258d55cca0670b108aa74c72dc6c",
+          "official_metadata": {
+            "eid": "6a14f7371cd5cc9bb08ab35e",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "203 机油：在纯电化彻底完成前绕不开的伙伴 对话嘉宾：Adam，Sam",
+            "pubDate": "2026-05-25T15:25:10.000Z",
+            "duration": 5424,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6a0257870b0e64b50c2104c5",
+          "eid": "6a0257870b0e64b50c2104c5",
+          "checked_at": "2026-10-19T10:42:22Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6a0257870b0e64b50c2104c5",
+          "page_sha256": "f6870197e798eafc7ad01ca3c524aa631556abcb277623a6a7897403113cd920",
+          "official_metadata": {
+            "eid": "6a0257870b0e64b50c2104c5",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "202 车将不车：中国汽车的生态化反 对话嘉宾：冯金钊，王以琳，许新熠",
+            "pubDate": "2026-05-11T21:38:12.000Z",
+            "duration": 8800,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/69f8be919b598c6917688d7f",
+          "eid": "69f8be919b598c6917688d7f",
+          "checked_at": "2026-10-19T10:42:25Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/69f8be919b598c6917688d7f",
+          "page_sha256": "36171cae0fcc8db7dbc12cb7d91f78211992eeefd87085cfa8ac58cfabdad8da",
+          "official_metadata": {
+            "eid": "69f8be919b598c6917688d7f",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "201 2026特斯拉低息贷款：从价格战到金融战 对话嘉宾：Benny，Jason",
+            "pubDate": "2026-05-04T15:13:24.000Z",
+            "duration": 4731,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/69dc6998f6e591a7ac9b2ded",
+          "eid": "69dc6998f6e591a7ac9b2ded",
+          "checked_at": "2026-10-19T10:42:29Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/69dc6998f6e591a7ac9b2ded",
+          "page_sha256": "a99fb64751811a40532b015d2d6c49030eec4281aa7a44608f94ebd04334ba13",
+          "official_metadata": {
+            "eid": "69dc6998f6e591a7ac9b2ded",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "200 福特为什么要让李沁来帮忙造皮卡 对话嘉宾：李沁，徐桑",
+            "pubDate": "2026-04-12T22:25:14.000Z",
+            "duration": 7474,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/69cbf1b6f6e591a7ace48fa9",
+          "eid": "69cbf1b6f6e591a7ace48fa9",
+          "checked_at": "2026-10-19T10:42:32Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/69cbf1b6f6e591a7ace48fa9",
+          "page_sha256": "b10e80dd62e0e9cf5c88905260f9b8ca5c8c7b340fadf34decf143d4e5f0196b",
+          "official_metadata": {
+            "eid": "69cbf1b6f6e591a7ace48fa9",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "199 PLM：汽车研发流水线 对话嘉宾：Simon，down哥，胡雯婷，孙晨露",
+            "pubDate": "2026-03-31T15:26:19.000Z",
+            "duration": 7293,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/69b6ccc4719b26db81cfb183",
+          "eid": "69b6ccc4719b26db81cfb183",
+          "checked_at": "2026-10-19T10:42:36Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/69b6ccc4719b26db81cfb183",
+          "page_sha256": "1a70627e99817b6f272ed70bd91e9caf45e8b1c41d21bbf172d7bf369665698b",
+          "official_metadata": {
+            "eid": "69b6ccc4719b26db81cfb183",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "198 本田2025EV战略崩盘：本田的今天，就是日本的明天 对话嘉宾：金木，白东升",
+            "pubDate": "2026-03-15T14:31:53.000Z",
+            "duration": 7939,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/69ae1a0a719b26db81d99498",
+          "eid": "69ae1a0a719b26db81d99498",
+          "checked_at": "2026-10-19T10:42:40Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/69ae1a0a719b26db81d99498",
+          "page_sha256": "6d30a19cd0f7a7d0dc6e579ef4d49299eefc534ad10083c62809aebef705c571",
+          "official_metadata": {
+            "eid": "69ae1a0a719b26db81d99498",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "197 小鹏汇天陆地航母：如果你有200万，你该不该买它？ 对话嘉宾：许新熠，佳佳",
+            "pubDate": "2026-03-09T00:18:09.000Z",
+            "duration": 7035,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/69a4be6959a3b70a1a1b17a1",
+          "eid": "69a4be6959a3b70a1a1b17a1",
+          "checked_at": "2026-10-19T10:42:43Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/69a4be6959a3b70a1a1b17a1",
+          "page_sha256": "f386e62a2aebbf58d829349e3aecd8034ab1e79c9ab94937a5f3845220f8dc3d",
+          "official_metadata": {
+            "eid": "69a4be6959a3b70a1a1b17a1",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "196 雷诺安培解散：开也成功，关也成功 对话嘉宾：王涵，Eric",
+            "pubDate": "2026-03-01T22:06:36.000Z",
+            "duration": 4035,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/69764fbb187d74d6a8a611f4",
+          "eid": "69764fbb187d74d6a8a611f4",
+          "checked_at": "2026-10-19T10:42:47Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/69764fbb187d74d6a8a611f4",
+          "page_sha256": "f9f40883b70bad31489d63c25ab899c255bb64495404cec777bad59cdbbc5394",
+          "official_metadata": {
+            "eid": "69764fbb187d74d6a8a611f4",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "194 中式豪华：干死BBA共需几步？ 对话嘉宾：管仲窥豹、蒋晨",
+            "pubDate": "2026-01-25T16:42:57.000Z",
+            "duration": 5437,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6964387471f03dcb489ae310",
+          "eid": "6964387471f03dcb489ae310",
+          "checked_at": "2026-10-19T10:42:50Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6964387471f03dcb489ae310",
+          "page_sha256": "b2e0089da4f22c479926cdcbdc8fc910b74959c1978889293e8e4492cac875ad",
+          "official_metadata": {
+            "eid": "6964387471f03dcb489ae310",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "192 比亚迪海狮06：插混前驱VS纯电后驱 对话嘉宾：冯金钊、Toto文翰",
+            "pubDate": "2026-01-11T23:18:57.000Z",
+            "duration": 5530,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6959b2bbdf9d06670bdfdc63",
+          "eid": "6959b2bbdf9d06670bdfdc63",
+          "checked_at": "2026-10-19T10:42:54Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6959b2bbdf9d06670bdfdc63",
+          "page_sha256": "b2a9d899328ccb183fc0a4d6108cef7ebc0f5eacb0527175316a8a8a80473e7c",
+          "official_metadata": {
+            "eid": "6959b2bbdf9d06670bdfdc63",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "191 奔驰转型：左手顶奢，右手纯电 对话嘉宾：冯金钊",
+            "pubDate": "2026-01-03T23:48:08.000Z",
+            "duration": 4892,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6951ac2dbdaf89a61f4215bd",
+          "eid": "6951ac2dbdaf89a61f4215bd",
+          "checked_at": "2026-10-19T10:42:59Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6951ac2dbdaf89a61f4215bd",
+          "page_sha256": "330236aab05ce562201a91ff01ab205fdbddd4aff72e28f2b9d7ecc713989ac9",
+          "official_metadata": {
+            "eid": "6951ac2dbdaf89a61f4215bd",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "190 理想MEGA爆燃：这次居然是冷却液 对话嘉宾：王炎，章翔",
+            "pubDate": "2025-12-28T21:50:42.000Z",
+            "duration": 3824,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/691094cfa0cdc0cf98917ecd",
+          "eid": "691094cfa0cdc0cf98917ecd",
+          "checked_at": "2026-10-19T10:43:08Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/691094cfa0cdc0cf98917ecd",
+          "page_sha256": "e2f68391b905c82e9d8fe6024f844e4ea8fc97e4f79e21615ada6f05bd2ad52a",
+          "official_metadata": {
+            "eid": "691094cfa0cdc0cf98917ecd",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "186 敏捷开发：一个悲伤的故事 对话嘉宾：苏源，吴科，孙晨露",
+            "pubDate": "2025-11-09T12:42:05.000Z",
+            "duration": 6221,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/68db09daac8b7214b72d5fea",
+          "eid": "68db09daac8b7214b72d5fea",
+          "checked_at": "2026-10-19T10:43:11Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/68db09daac8b7214b72d5fea",
+          "page_sha256": "b09f84aff534660a83c66dd50e6dad6c7196c4ad72e19e7189e6d789da6b8d65",
+          "official_metadata": {
+            "eid": "68db09daac8b7214b72d5fea",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "182 常州：波士顿电池、中航锂电和理想汽车 对话嘉宾：陆风鸣，唐华寅",
+            "pubDate": "2025-09-29T22:05:11.000Z",
+            "duration": 5442,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/68cfeea5a646c97a3e8946b0",
+          "eid": "68cfeea5a646c97a3e8946b0",
+          "checked_at": "2026-10-19T10:43:15Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/68cfeea5a646c97a3e8946b0",
+          "page_sha256": "b9854d9248487e40a78e3dae61e29641ec2be09288ab2ced4ba31231eca68aee",
+          "official_metadata": {
+            "eid": "68cfeea5a646c97a3e8946b0",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "181 来吉利走一遭：吉利是如何（反）内卷的 对话嘉宾：胡洸久，陈圣夫",
+            "pubDate": "2025-09-21T11:53:11.000Z",
+            "duration": 5255,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/68b4afe05c6cd10b1778b1ba",
+          "eid": "68b4afe05c6cd10b1778b1ba",
+          "checked_at": "2026-10-19T10:43:18Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/68b4afe05c6cd10b1778b1ba",
+          "page_sha256": "a73914e52563c1834a52b9269087828b07ca3cef828dbfb9bba201de5db7365b",
+          "official_metadata": {
+            "eid": "68b4afe05c6cd10b1778b1ba",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "178 懂车智炼场ADAS测试（下）：需要智能化的不只有车 对话嘉宾：许新熠，薛岳",
+            "pubDate": "2025-08-31T19:56:34.000Z",
+            "duration": 4666,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/68a253ba063a7fc3bfd628f2",
+          "eid": "68a253ba063a7fc3bfd628f2",
+          "checked_at": "2026-10-19T10:43:21Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/68a253ba063a7fc3bfd628f2",
+          "page_sha256": "7cb8253651557c8c50702ae0b9495cf677065374f12ce3d2d88fc0fb181be736",
+          "official_metadata": {
+            "eid": "68a253ba063a7fc3bfd628f2",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "176 汽车空调：一个有温度的shy tech 对话嘉宾：Alex，唐华寅",
+            "pubDate": "2025-08-17T21:45:27.000Z",
+            "duration": 5346,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/67e9acb1a6a24ce40f80b5b8",
+          "eid": "67e9acb1a6a24ce40f80b5b8",
+          "checked_at": "2026-10-19T10:43:25Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/67e9acb1a6a24ce40f80b5b8",
+          "page_sha256": "787653256cc53159730cfc68e40cf84e7fc60dd50dab687c61a0310af032060c",
+          "official_metadata": {
+            "eid": "67e9acb1a6a24ce40f80b5b8",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "157 车机界面设计：蒙眼狂奔，AI上车 对话嘉宾：张冠男，许可，侯依萱",
+            "pubDate": "2025-03-30T20:28:00.000Z",
+            "duration": 2836,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/67bbafb952a6af799cf1a22d",
+          "eid": "67bbafb952a6af799cf1a22d",
+          "checked_at": "2026-10-19T10:43:28Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/67bbafb952a6af799cf1a22d",
+          "page_sha256": "bbe1e1c654f432ba3815cf70799da2d6c49399eff8a598914ab995e659bd7084",
+          "official_metadata": {
+            "eid": "67bbafb952a6af799cf1a22d",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "153 解读蔚来EP Mode：纯软件定义的性能车有意思么？ 对话嘉宾：刘亦然，戴政",
+            "pubDate": "2025-02-23T23:07:11.000Z",
+            "duration": 3437,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/67a94730389d720d16a9e3f8",
+          "eid": "67a94730389d720d16a9e3f8",
+          "checked_at": "2026-10-19T10:43:31Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/67a94730389d720d16a9e3f8",
+          "page_sha256": "6ae5e6921eacdd7f990fad272967749f4cd40d054d2131f54c40cacf8c1ecfa3",
+          "official_metadata": {
+            "eid": "67a94730389d720d16a9e3f8",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "151 比亚迪的《工程师之魂》（2）：命悬一线到一飞冲天 对话嘉宾：陆风鸣，李赫瑄",
+            "pubDate": "2025-02-10T00:04:08.000Z",
+            "duration": 3320,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6796c797e92894e7bf495b40",
+          "eid": "6796c797e92894e7bf495b40",
+          "checked_at": "2026-10-19T10:43:35Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6796c797e92894e7bf495b40",
+          "page_sha256": "e923978bce2f78cd72af8295b0d66d4af1e62cced578f81f7fbaa297c953029a",
+          "official_metadata": {
+            "eid": "6796c797e92894e7bf495b40",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "150 比亚迪的《工程师之魂》（1）：250万、秦川和巴菲特 对话嘉宾：陆风鸣",
+            "pubDate": "2025-01-26T23:14:19.000Z",
+            "duration": 4388,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/677b091f529ffe9e31b1d4ee",
+          "eid": "677b091f529ffe9e31b1d4ee",
+          "checked_at": "2026-10-19T10:43:38Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/677b091f529ffe9e31b1d4ee",
+          "page_sha256": "4b1e3979fe1398b603a99387b2a11e06cf7da93162484ff6e1057ea249ec5c96",
+          "official_metadata": {
+            "eid": "677b091f529ffe9e31b1d4ee",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "147 中国车出海（3）：在欧洲如何卖车？ 对话嘉宾：Jason，俞波",
+            "pubDate": "2025-01-05T21:45:54.000Z",
+            "duration": 4997,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/67689b6e9e0c2b849cfc4ee2",
+          "eid": "67689b6e9e0c2b849cfc4ee2",
+          "checked_at": "2026-10-19T10:43:41Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/67689b6e9e0c2b849cfc4ee2",
+          "page_sha256": "c3950a003fd8c73b56df03ee8c5672efa32a4aea73fe3a34b43c692fafc315fc",
+          "official_metadata": {
+            "eid": "67689b6e9e0c2b849cfc4ee2",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "145 懂车帝碰撞测试（上）：车太高也是错？对话嘉宾：许新熠，王路，章翔",
+            "pubDate": "2024-12-22T22:46:40.000Z",
+            "duration": 4008,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6755056540888233d6b4ac0f",
+          "eid": "6755056540888233d6b4ac0f",
+          "checked_at": "2026-10-19T10:43:45Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6755056540888233d6b4ac0f",
+          "page_sha256": "fa9f70d61d102c0a6d5f9e11cdc9415456ba0d51dd46b5e4beb3576312ed578c",
+          "official_metadata": {
+            "eid": "6755056540888233d6b4ac0f",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "144 大众小鹏一周年 德国亡国进行时 对话嘉宾：陆风鸣，李青，冯金钊",
+            "pubDate": "2024-12-08T02:06:26.000Z",
+            "duration": 4903,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": [
+            "64e9341dc512a31a66770c66",
+            "64fb5e5750676b0e9fd16fa8"
+          ]
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/67367850547b11f66291f5b7",
+          "eid": "67367850547b11f66291f5b7",
+          "checked_at": "2026-10-19T10:43:49Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/67367850547b11f66291f5b7",
+          "page_sha256": "7bcd512ee62bcddc371160623bd50a669d07530cc888881d941be18ee5269b7e",
+          "official_metadata": {
+            "eid": "67367850547b11f66291f5b7",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "141 Northvolt倒闭：初创造电池，环保当饭吃 对话嘉宾：严杰，胡雯婷，陆风鸣",
+            "pubDate": "2024-11-14T21:58:57.000Z",
+            "duration": 3940,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/672562f4284a1314eb32b118",
+          "eid": "672562f4284a1314eb32b118",
+          "checked_at": "2026-10-19T10:43:53Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/672562f4284a1314eb32b118",
+          "page_sha256": "00928ac4fdba288a7368c2250b7373f39d04427f8da7e3d0184330dd2e395259",
+          "official_metadata": {
+            "eid": "672562f4284a1314eb32b118",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "139 吉利雷诺合资Horse：法国人跟中国人学造内燃机 对话嘉宾：陈圣夫，陆风鸣，胡博峰",
+            "pubDate": "2024-11-01T22:50:53.000Z",
+            "duration": 5615,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6702ed7352eb4e0caf1d724c",
+          "eid": "6702ed7352eb4e0caf1d724c",
+          "checked_at": "2026-10-19T10:43:57Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6702ed7352eb4e0caf1d724c",
+          "page_sha256": "f900542150b2502406dd73f0911b89a5b99cc1f552953fa387d38de33923ae8f",
+          "official_metadata": {
+            "eid": "6702ed7352eb4e0caf1d724c",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "135 上海通用和杨雪兰（1）：影响整个中国汽车界的合资故事 对话嘉宾：陆风鸣",
+            "pubDate": "2024-10-06T20:00:00.000Z",
+            "duration": 3750,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/66dd748679de2cd41697b340",
+          "eid": "66dd748679de2cd41697b340",
+          "checked_at": "2026-10-19T10:44:01Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/66dd748679de2cd41697b340",
+          "page_sha256": "0f0157af32a3b191e1c48e5c902e99733afbacabbef22d8251821a844d0d8c75",
+          "official_metadata": {
+            "eid": "66dd748679de2cd41697b340",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "132 蔚来自研智驾芯片（下）：无尽L2 对话嘉宾：章翔，Roy",
+            "pubDate": "2024-09-08T09:38:15.000Z",
+            "duration": 2871,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/66ccf09b42dab1535b136ffc",
+          "eid": "66ccf09b42dab1535b136ffc",
+          "checked_at": "2026-10-19T10:44:04Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/66ccf09b42dab1535b136ffc",
+          "page_sha256": "fb3ca6e963cc423d1846fb3f8de4142265f686ced49a5e5c589b2b54a8103a07",
+          "official_metadata": {
+            "eid": "66ccf09b42dab1535b136ffc",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "130 大电池插混在欧洲 对话嘉宾：林纯兴，唐华寅",
+            "pubDate": "2024-08-26T20:38:42.000Z",
+            "duration": 5097,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/66c25bb0ccf2fa8175722b36",
+          "eid": "66c25bb0ccf2fa8175722b36",
+          "checked_at": "2026-10-19T10:44:08Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/66c25bb0ccf2fa8175722b36",
+          "page_sha256": "52c25ccd0e5e1819cb244a170f23790303ebc4395801954b65e09f80a5e648fd",
+          "official_metadata": {
+            "eid": "66c25bb0ccf2fa8175722b36",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "129 2024古德伍德速度节（下）：风扇车，Shadow和Joest 对话嘉宾：林纯兴，down哥",
+            "pubDate": "2024-08-18T20:15:16.000Z",
+            "duration": 4430,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/66b92836e632361c3642b207",
+          "eid": "66b92836e632361c3642b207",
+          "checked_at": "2026-10-19T10:44:12Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/66b92836e632361c3642b207",
+          "page_sha256": "696baf639e8bc9c4054b6fcd5144a7a30e01fa8e27624ae2a7ec5270598cfcd2",
+          "official_metadata": {
+            "eid": "66b92836e632361c3642b207",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "128 2024古德伍德速度节（上）：MG、仰望和RB17 对话嘉宾：林纯兴，down哥",
+            "pubDate": "2024-08-11T20:44:54.000Z",
+            "duration": 3736,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6681d4f1356e08442206f0cd",
+          "eid": "6681d4f1356e08442206f0cd",
+          "checked_at": "2026-10-19T10:44:16Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6681d4f1356e08442206f0cd",
+          "page_sha256": "8c2008f1f126b63f7db5a9f4ac8484d9b397838be6caa48dad17a8f3de084fc1",
+          "official_metadata": {
+            "eid": "6681d4f1356e08442206f0cd",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "125 比亚迪DM五代：46%是真的 对话嘉宾：张文川，林工",
+            "pubDate": "2024-06-30T21:34:36.000Z",
+            "duration": 5224,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/665cdb46fbf7c6232f28069c",
+          "eid": "665cdb46fbf7c6232f28069c",
+          "checked_at": "2026-10-19T10:44:19Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/665cdb46fbf7c6232f28069c",
+          "page_sha256": "2967c9e4bd6767c6691de44e0aeceb05e7ee0af3a28f156354c834da1d08e807",
+          "official_metadata": {
+            "eid": "665cdb46fbf7c6232f28069c",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "122 Tusimple（下）：梦醒2024 对话嘉宾：许新熠，陆风鸣",
+            "pubDate": "2024-06-02T20:39:49.000Z",
+            "duration": 2440,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": [
+            "65ce8b871623877b6a83da92",
+            "65d9165f9173e9003f9ba299",
+            "670eeed1b5509a9cfb6319d2",
+            "671a6ca9b7c57bc077c213b0"
+          ]
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/671a6ca9b7c57bc077c213b0",
+          "eid": "671a6ca9b7c57bc077c213b0",
+          "checked_at": "2026-10-19T10:44:23Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/671a6ca9b7c57bc077c213b0",
+          "page_sha256": "2767388ea1211ff43357085dd365563aa7a4d3a66c68f3224686a39c16a923de",
+          "official_metadata": {
+            "eid": "671a6ca9b7c57bc077c213b0",
+            "pid": "6690fd2737236c546eadac67",
+            "title": "06.从图森的兴与衰聊起，CTO适合做公司一号位吗？对话零一汽车创始人黄泽铧",
+            "pubDate": "2024-10-24T22:00:00.000Z",
+            "duration": 3646,
+            "channel_title": "技术不无聊"
+          },
+          "same_channel_verified": false,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/66488fe2fbc01d7f363c0f28",
+          "eid": "66488fe2fbc01d7f363c0f28",
+          "checked_at": "2026-10-19T10:44:26Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/66488fe2fbc01d7f363c0f28",
+          "page_sha256": "6293a17fa1ab0be54957e9da5105788a55f404a522867c04dbf42c8bf17dda33",
+          "official_metadata": {
+            "eid": "66488fe2fbc01d7f363c0f28",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "120 阿斯顿马丁（下）：贵族品牌的生存之道 对话嘉宾：Jenway，崔安东",
+            "pubDate": "2024-05-18T11:02:58.000Z",
+            "duration": 3985,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/65d9165f9173e9003f9ba299",
+          "eid": "65d9165f9173e9003f9ba299",
+          "checked_at": "2026-10-19T10:44:31Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/65d9165f9173e9003f9ba299",
+          "page_sha256": "21f495fc9e5250025e677c3d1afc8af8c88d716cf8ad4c71c1a1ae0276d6e08e",
+          "official_metadata": {
+            "eid": "65d9165f9173e9003f9ba299",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "113 电动卡车（下）：冰箱微波炉耽误回本儿 对话嘉宾：孙晨露，许新熠，胡雯婷",
+            "pubDate": "2024-02-23T22:00:00.000Z",
+            "duration": 2808,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/65ce8b871623877b6a83da92",
+          "eid": "65ce8b871623877b6a83da92",
+          "checked_at": "2026-10-19T10:44:34Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/65ce8b871623877b6a83da92",
+          "page_sha256": "5bf28f666be08c3f24c0389e4f4138109fc42bd6b52023462636e6572e915a1d",
+          "official_metadata": {
+            "eid": "65ce8b871623877b6a83da92",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "112 电动卡车（上）：拉货回本指南 对话嘉宾：孙晨露，许新熠，胡雯婷",
+            "pubDate": "2024-02-15T21:40:34.000Z",
+            "duration": 3877,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/65bbeb294a4579776504cac9",
+          "eid": "65bbeb294a4579776504cac9",
+          "checked_at": "2026-10-19T10:44:38Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/65bbeb294a4579776504cac9",
+          "page_sha256": "6b8cddb59d55986391c9d3e1e9a9cbcc6857a30bae84820e5499804b6c48b15c",
+          "official_metadata": {
+            "eid": "65bbeb294a4579776504cac9",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "111 延期交付有解么？对话嘉宾：Elaine滕磊，唐华寅",
+            "pubDate": "2024-02-01T18:20:03.000Z",
+            "duration": 4890,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6597b524abacfc25d7305919",
+          "eid": "6597b524abacfc25d7305919",
+          "checked_at": "2026-10-19T10:44:41Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6597b524abacfc25d7305919",
+          "page_sha256": "b318a5c1cac3326a8d22616957486615f4cd9bb22efb10e6ee74dd3efce539f6",
+          "official_metadata": {
+            "eid": "6597b524abacfc25d7305919",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "107 奥迪：F1我来了 对话嘉宾：徐桑，村长托马斯，117",
+            "pubDate": "2024-01-05T07:27:49.000Z",
+            "duration": 2759,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/658e1266c964bcb107861fc6",
+          "eid": "658e1266c964bcb107861fc6",
+          "checked_at": "2026-10-19T10:44:52Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/658e1266c964bcb107861fc6",
+          "page_sha256": "c91a6d216c362bae85033ec6d9881cb2226e912580db2d8d0fa57067f1e25d8a",
+          "official_metadata": {
+            "eid": "658e1266c964bcb107861fc6",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "106 Stellantis和零跑合资，谁输了谁赢了？对话嘉宾：王博，冯金钊，俞翔",
+            "pubDate": "2023-12-28T22:57:17.000Z",
+            "duration": 3870,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6584d7a5eb219fa789cd8879",
+          "eid": "6584d7a5eb219fa789cd8879",
+          "checked_at": "2026-10-19T10:44:56Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6584d7a5eb219fa789cd8879",
+          "page_sha256": "d20be19365ffba24580d164bf7d0b0a03884684579bce1af37f57717b1e83ab9",
+          "official_metadata": {
+            "eid": "6584d7a5eb219fa789cd8879",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "105 纯电超跑是不是就不该存在？对话嘉宾：段金雨、朱博、戴政",
+            "pubDate": "2023-12-21T21:42:02.000Z",
+            "duration": 3743,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/655d49791a9c63a9fd348ba2",
+          "eid": "655d49791a9c63a9fd348ba2",
+          "checked_at": "2026-10-19T10:45:01Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/655d49791a9c63a9fd348ba2",
+          "page_sha256": "367a0d1097c6188cc7e03e4bb7a89468d345dad278c1451a70794d1fcd6cfa26",
+          "official_metadata": {
+            "eid": "655d49791a9c63a9fd348ba2",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "100 德国车的祖传秘方45欧元一本 对话嘉宾：Elaine滕磊，李青",
+            "pubDate": "2023-11-21T22:14:06.000Z",
+            "duration": 3800,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/654831ece905a845c26376cb",
+          "eid": "654831ece905a845c26376cb",
+          "checked_at": "2026-10-19T10:45:04Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/654831ece905a845c26376cb",
+          "page_sha256": "f33330ec854ed873e86161de4a32ecaa8b0afb531b3e45d0bacca69e36bd478e",
+          "official_metadata": {
+            "eid": "654831ece905a845c26376cb",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "099 一汽大众和李文波，一次让皮耶希难忘的engine swap 对话嘉宾：陆风鸣，范文廷",
+            "pubDate": "2023-11-05T23:25:01.000Z",
+            "duration": 3961,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/653eb609d99f8338bb0e616f",
+          "eid": "653eb609d99f8338bb0e616f",
+          "checked_at": "2026-10-19T10:45:08Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/653eb609d99f8338bb0e616f",
+          "page_sha256": "b93a1d16b268aed0336ea3d3a19d10bc1dbfdc3cd26648db762f925dbca5939f",
+          "official_metadata": {
+            "eid": "653eb609d99f8338bb0e616f",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "098 上海大众和李文波，来之不易的桑塔纳 对话嘉宾：陆风鸣，范文廷",
+            "pubDate": "2023-10-29T18:53:40.000Z",
+            "duration": 3650,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/653840bcbf3c757d200a6ee9",
+          "eid": "653840bcbf3c757d200a6ee9",
+          "checked_at": "2026-10-19T10:45:13Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/653840bcbf3c757d200a6ee9",
+          "page_sha256": "c8f6fab187e2923d4f76fb32e0fc63fe678245558a888eb5725ae494b41e7843",
+          "official_metadata": {
+            "eid": "653840bcbf3c757d200a6ee9",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "097 大众历史：没有研发部，盈利靠返祖 对话嘉宾：陆风鸣，范文廷",
+            "pubDate": "2023-10-24T20:47:42.000Z",
+            "duration": 3636,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": [
+            "62e6a703818e054ae3c10f91"
+          ]
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/62e6a703818e054ae3c10f91",
+          "eid": "62e6a703818e054ae3c10f91",
+          "checked_at": "2026-10-19T10:45:17Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/62e6a703818e054ae3c10f91",
+          "page_sha256": "4da6e0503fb251af61cc661e678a1373e777cd84fda4ae521693a65b7dda0c84",
+          "official_metadata": {
+            "eid": "62e6a703818e054ae3c10f91",
+            "pid": "621d969b6572fee26fe83733",
+            "title": "06 从德国大众罢免CEO谈大众与保时捷家族和工人的复杂股权史",
+            "pubDate": "2022-07-31T16:00:02.485Z",
+            "duration": 3489,
+            "channel_title": "理性批判"
+          },
+          "same_channel_verified": false,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/652885f448466cc55cbe588e",
+          "eid": "652885f448466cc55cbe588e",
+          "checked_at": "2026-10-19T10:45:20Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/652885f448466cc55cbe588e",
+          "page_sha256": "1c96020617cbbc05956aef3cd4a6eaa1f1d0eec9a63c590a3f68d94a030de12c",
+          "official_metadata": {
+            "eid": "652885f448466cc55cbe588e",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "096 汽车座椅：不只是沙发 对话嘉宾：郭鹏飞，冯金钊",
+            "pubDate": "2023-10-12T22:30:17.000Z",
+            "duration": 4486,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6519ee424a1021b53edfbe5b",
+          "eid": "6519ee424a1021b53edfbe5b",
+          "checked_at": "2026-10-19T10:45:24Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6519ee424a1021b53edfbe5b",
+          "page_sha256": "4342d9682dc0f46040239c33033924cffd490aa904256e3ae60f7fc14f2f121c",
+          "official_metadata": {
+            "eid": "6519ee424a1021b53edfbe5b",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "095 F1新加坡站为什么终结了红牛连胜？对话嘉宾：黄恺霖，唐潇睿",
+            "pubDate": "2023-10-01T21:53:50.000Z",
+            "duration": 2630,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/64e9341dc512a31a66770c66",
+          "eid": "64e9341dc512a31a66770c66",
+          "checked_at": "2026-10-19T10:45:27Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/64e9341dc512a31a66770c66",
+          "page_sha256": "de7d55027d85d605e19b4a4356071e8bf8ce4981b5ae3db8ee2b83460613a05f",
+          "official_metadata": {
+            "eid": "64e9341dc512a31a66770c66",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "092 大众汽车：德国特色社会主义汽车厂 对话嘉宾：陆风鸣，李青，冯金钊",
+            "pubDate": "2023-08-25T22:14:28.000Z",
+            "duration": 2660,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/64bf0853a5a7840d2fa20a89",
+          "eid": "64bf0853a5a7840d2fa20a89",
+          "checked_at": "2026-10-19T10:45:32Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/64bf0853a5a7840d2fa20a89",
+          "page_sha256": "26f2886f484750e478dea1fd8a9d07791c60bec1957fbcb436c69d848842fcb0",
+          "official_metadata": {
+            "eid": "64bf0853a5a7840d2fa20a89",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "089 中国不需要ET5 Touring，但蔚来需要 对话嘉宾：陆风鸣、苏源、冯金钊",
+            "pubDate": "2023-07-24T22:48:05.000Z",
+            "duration": 3261,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/64b48bba3bedd7b325f1beb7",
+          "eid": "64b48bba3bedd7b325f1beb7",
+          "checked_at": "2026-10-19T10:45:35Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/64b48bba3bedd7b325f1beb7",
+          "page_sha256": "accb3bcbf1b572ad891b037f674c16d2cd1c112c4cd2cb9e361f95ebbc72db15",
+          "official_metadata": {
+            "eid": "64b48bba3bedd7b325f1beb7",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "088 wagon是客货两用车还是时尚先锋？ 对话嘉宾：陆风鸣教授",
+            "pubDate": "2023-07-16T22:05:45.000Z",
+            "duration": 2575,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": [
+            "62817528362406f9826a5623"
+          ]
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/62817528362406f9826a5623",
+          "eid": "62817528362406f9826a5623",
+          "checked_at": "2026-10-19T10:45:38Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/62817528362406f9826a5623",
+          "page_sha256": "4477a372539f1bc1b613246f7d4da83a27461ae3005cb66e17837ba2392dc531",
+          "official_metadata": {
+            "eid": "62817528362406f9826a5623",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "051 Stellantis特辑：百折不挠的老三 克莱斯勒 对话嘉宾：蒋晨",
+            "pubDate": "2022-05-15T21:31:50.000Z",
+            "duration": 3562,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6494756cb971bb75bb39e91d",
+          "eid": "6494756cb971bb75bb39e91d",
+          "checked_at": "2026-10-19T10:45:42Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6494756cb971bb75bb39e91d",
+          "page_sha256": "6fe100920bf71840b18ed8fa8d7ea9ac18e4d5ea029c8c4f10ae8a08b1789d6b",
+          "official_metadata": {
+            "eid": "6494756cb971bb75bb39e91d",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "086 保时捷无中生“油”，efuel能减碳么？ 对话嘉宾：Alice，陆巍",
+            "pubDate": "2023-06-22T16:01:52.000Z",
+            "duration": 4030,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/647e703b8f7d9d4a7f827d54",
+          "eid": "647e703b8f7d9d4a7f827d54",
+          "checked_at": "2026-10-19T10:45:46Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/647e703b8f7d9d4a7f827d54",
+          "page_sha256": "d2a23c1f7693114515941a5865f06d9b7bf3c04d73b5dd5e49538f2d7c210fae",
+          "official_metadata": {
+            "eid": "647e703b8f7d9d4a7f827d54",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "084 要智能，要低碳，还是要皮卡？电动世界车在哪里？对话嘉宾：侯社长，冯金钊",
+            "pubDate": "2023-06-05T22:33:43.000Z",
+            "duration": 2486,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6466c528b70fe00c5699c19d",
+          "eid": "6466c528b70fe00c5699c19d",
+          "checked_at": "2026-10-19T10:45:51Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6466c528b70fe00c5699c19d",
+          "page_sha256": "0842b4237742810d02918ef8fb1e16bcef5055027bdf4eef69f1719a981a646a",
+          "official_metadata": {
+            "eid": "6466c528b70fe00c5699c19d",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "082 电动车时代，中国赛车也能弯道超个车？ 对话嘉宾：王佳伟，Patrick",
+            "pubDate": "2023-05-18T22:45:39.000Z",
+            "duration": 2756,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/645ad290a280a045fec88ac6",
+          "eid": "645ad290a280a045fec88ac6",
+          "checked_at": "2026-10-19T10:45:55Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/645ad290a280a045fec88ac6",
+          "page_sha256": "5031c00c8541ebb8482413dd0ede695cf93a5736015aed766d3d0d10c7886b9a",
+          "official_metadata": {
+            "eid": "645ad290a280a045fec88ac6",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "081 拯救中国赛车，从培养车迷开始 对话嘉宾：王佳伟，Patrick",
+            "pubDate": "2023-05-09T22:12:10.000Z",
+            "duration": 2836,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6405326e178037e42fe557c2",
+          "eid": "6405326e178037e42fe557c2",
+          "checked_at": "2026-10-19T10:45:58Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/6405326e178037e42fe557c2",
+          "page_sha256": "48c1e2a8cf9dadbad91ccf0fae5296e15a2361df810ac5d9b664d21faff02ce7",
+          "official_metadata": {
+            "eid": "6405326e178037e42fe557c2",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "076 见所未见的保时捷 对话嘉宾：李温如，丁伯骏",
+            "pubDate": "2023-03-05T23:48:42.000Z",
+            "duration": 3876,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        },
+        {
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366959",
+          "eid": "615a4035c8c1d14e83366959",
+          "checked_at": "2026-10-19T10:46:03Z",
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366959",
+          "page_sha256": "5d2019638468c08700383ed2d4e5704f49cd4e664937c3a21e6a08bbb77f4a40",
+          "official_metadata": {
+            "eid": "615a4035c8c1d14e83366959",
+            "pid": "615a4035c8c1d14e83366946",
+            "title": "000《孤岛车谈》是什么？",
+            "pubDate": "2021-05-28T11:23:35.000Z",
+            "duration": 3447,
+            "channel_title": "孤岛车谈"
+          },
+          "same_channel_verified": true,
+          "linked_episode_ids": []
+        }
+      ]
+    },
+    "5e280faf418a84a0461fbd39": {
+      "pid": "5e280faf418a84a0461fbd39",
+      "checked_at": "2026-10-19T10:42:37.368663Z",
+      "seed_count": 107,
+      "seed_pages_checked": [
+        {
+          "eid": "6acde05dea9bf07d68c15060",
+          "checked_at": "2026-10-19T10:36:25.873316Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6aba3902f00f04e58a09d59c",
+          "checked_at": "2026-10-19T10:36:29.220497Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6a9fdcb0a771cfe1ba2ec57d",
+          "checked_at": "2026-10-19T10:36:32.211068Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6a9546228e912c9d3127f1d0",
+          "checked_at": "2026-10-19T10:36:35.240289Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6a890ae2008ed7314d0070b5",
+          "checked_at": "2026-10-19T10:36:38.231306Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6a782a2c55c134f6e1eb5965",
+          "checked_at": "2026-10-19T10:36:41.100088Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6a665b5763ed6d3691fd60d6",
+          "checked_at": "2026-10-19T10:36:44.086991Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6a4fe00851601cef92dda291",
+          "checked_at": "2026-10-19T10:36:47.670951Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6a3e29583aec4bac3d4ecd07",
+          "checked_at": "2026-10-19T10:36:50.508795Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6a32b7b0f0f66b17f06e9ef9",
+          "checked_at": "2026-10-19T10:36:53.497031Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6a213584f414362f3ab828e3",
+          "checked_at": "2026-10-19T10:36:56.719749Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6a035ff1e9161a38ce344593",
+          "checked_at": "2026-10-19T10:37:00.332801Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "69e60962cb1c11d03b3a1185",
+          "checked_at": "2026-10-19T10:37:03.447049Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "69d911ad24a6ea4a54824c8e",
+          "checked_at": "2026-10-19T10:37:06.828668Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "69c5a1e521b3b2db217b38d9",
+          "checked_at": "2026-10-19T10:37:10.063323Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "69bc3f4b719b26db81ae938a",
+          "checked_at": "2026-10-19T10:37:14.028067Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "69a8646dee0e57ed606a3cb6",
+          "checked_at": "2026-10-19T10:37:17.411330Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "698a234498b7f324e1082615",
+          "checked_at": "2026-10-19T10:37:21.722723Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "697ba1591729de5bda0b69cf",
+          "checked_at": "2026-10-19T10:37:38.971769Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "693c9d52b1ea64ff19f232a8",
+          "checked_at": "2026-10-19T10:37:42.356382Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "693099df60d9170fe8dc4b9d",
+          "checked_at": "2026-10-19T10:37:45.355218Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "69202663991a009c0d356267",
+          "checked_at": "2026-10-19T10:37:48.419777Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6914e26a995f074535473845",
+          "checked_at": "2026-10-19T10:37:52.319862Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "690775bf6e241a8dee08136b",
+          "checked_at": "2026-10-19T10:37:55.115981Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "68e2a9f852f01d1dd20b8957",
+          "checked_at": "2026-10-19T10:37:58.207747Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "68dade09ac8b7214b728722c",
+          "checked_at": "2026-10-19T10:38:00.784892Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "68b83a0b17c8c11bfbe116fd",
+          "checked_at": "2026-10-19T10:38:03.595389Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "689a76eef73cd0924e3f4f28",
+          "checked_at": "2026-10-19T10:38:06.271677Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "68932a4131a0c364c96ece8b",
+          "checked_at": "2026-10-19T10:38:09.068832Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "688130545d44c42cfa370e94",
+          "checked_at": "2026-10-19T10:38:11.813297Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "686d7fd6ff03a76aa94f9d38",
+          "checked_at": "2026-10-19T10:38:14.510751Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "685da93fe5dce229141edc95",
+          "checked_at": "2026-10-19T10:38:17.483834Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6840a0ef7dd7cf65661fe754",
+          "checked_at": "2026-10-19T10:38:20.667314Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "682610c33c9f9b72f4a926d6",
+          "checked_at": "2026-10-19T10:38:23.866946Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "67fd4396004ef840a8c07f67",
+          "checked_at": "2026-10-19T10:38:26.960679Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "67e42850ee362900edac1ba9",
+          "checked_at": "2026-10-19T10:38:30.088069Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "67cf27a952a6af799cd91ca9",
+          "checked_at": "2026-10-19T10:38:32.808482Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "67c0a7ec52a6af799cdcdcd6",
+          "checked_at": "2026-10-19T10:38:35.992572Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "67aa5bb7bf2864230a56d270",
+          "checked_at": "2026-10-19T10:38:39.123224Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "677c22af7317752df13d8b46",
+          "checked_at": "2026-10-19T10:38:42.675965Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "675f2ebd11b20ca77e515826",
+          "checked_at": "2026-10-19T10:38:46.827827Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "673a4dddfe1d1f4503a8bfee",
+          "checked_at": "2026-10-19T10:38:50.671711Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "672a7fd8f30fa8b17f332510",
+          "checked_at": "2026-10-19T10:38:54.975676Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6716b28cedb5ad730b169a3a",
+          "checked_at": "2026-10-19T10:38:57.883927Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "66e94e9a79de2cd416ac32d6",
+          "checked_at": "2026-10-19T10:39:00.915421Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "66d2d701529bdcba056fa324",
+          "checked_at": "2026-10-19T10:39:03.955332Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "66b3efd00ce6e5bf7c6549eb",
+          "checked_at": "2026-10-19T10:39:06.801046Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "66a16144c8295bd902cb4883",
+          "checked_at": "2026-10-19T10:39:10.243359Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "668ad51ecfe6449e7cc020c6",
+          "checked_at": "2026-10-19T10:39:13.423883Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "66746dc21095b771397b8f2c",
+          "checked_at": "2026-10-19T10:39:16.366758Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6658c8826679fd6c9eb78c82",
+          "checked_at": "2026-10-19T10:39:24.728289Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6609a48ac416b9ac887bfede",
+          "checked_at": "2026-10-19T10:39:29.395684Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "65ee4a763ecebc977e1912c2",
+          "checked_at": "2026-10-19T10:39:32.923618Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "65dbab139173e9003f8c1690",
+          "checked_at": "2026-10-19T10:39:36.923691Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "65c26ec20cce6754dc12f95c",
+          "checked_at": "2026-10-19T10:39:40.899145Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "65ba719ce4c892c990586e9f",
+          "checked_at": "2026-10-19T10:39:44.091452Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6588650845e80bc31bbbf454",
+          "checked_at": "2026-10-19T10:39:49.368919Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6579d41c8d1a605c33b964f9",
+          "checked_at": "2026-10-19T10:39:53.137541Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "65105603f1bfc685ce1345b8",
+          "checked_at": "2026-10-19T10:39:56.587478Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "64cfeaaee70b5a13106fe9fe",
+          "checked_at": "2026-10-19T10:39:59.879139Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "64930fc5fe21fa068c029eb2",
+          "checked_at": "2026-10-19T10:40:03.235237Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "644140f2f53a29414acf22be",
+          "checked_at": "2026-10-19T10:40:06.540350Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "63f477bc3976a061622f9d57",
+          "checked_at": "2026-10-19T10:40:10.022650Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "63aed1da4bbe65bc7346c284",
+          "checked_at": "2026-10-19T10:40:13.451199Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "637b13b2d3c7226ae899349f",
+          "checked_at": "2026-10-19T10:40:17.467968Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "63504be43fc1a6bf8a0a4590",
+          "checked_at": "2026-10-19T10:40:21.094782Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "629dfa6acd9b181e67a2d0ec",
+          "checked_at": "2026-10-19T10:40:24.619620Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "629851fdf6be757a5275fe0f",
+          "checked_at": "2026-10-19T10:40:28.999338Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "626d812df0a94d932863b953",
+          "checked_at": "2026-10-19T10:40:32.906480Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6244b2d8e90e615dbe1faeee",
+          "checked_at": "2026-10-19T10:40:36.622540Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "62140ccc64e6a127ed2bfc64",
+          "checked_at": "2026-10-19T10:40:40.035616Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "61e650e002f9e216902c7608",
+          "checked_at": "2026-10-19T10:40:53.159772Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "617efb3eb856d721e973a67f",
+          "checked_at": "2026-10-19T10:40:57.531144Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "61560dc1ae1d32c4f86c151e",
+          "checked_at": "2026-10-19T10:41:00.847327Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "613a47eecab9fa9b95f2fa73",
+          "checked_at": "2026-10-19T10:41:04.266441Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "60eec4f08dd484eefdb48482",
+          "checked_at": "2026-10-19T10:41:08.391912Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6074707da8969a63cb6e6aef",
+          "checked_at": "2026-10-19T10:41:11.969687Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "6055b56b892e07b459396392",
+          "checked_at": "2026-10-19T10:41:15.654197Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "601a83dc939fa818084e03f8",
+          "checked_at": "2026-10-19T10:41:15.658447Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "5f3e42aa9504bbdb77598154",
+          "checked_at": "2026-10-19T10:41:19.178760Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "5ee67ec6418a84a0464f7a75",
+          "checked_at": "2026-10-19T10:41:23.086769Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "5e58c455418a84a0465f6480",
+          "checked_at": "2026-10-19T10:41:26.663377Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "5e456e83418a84a046f0b82d",
+          "checked_at": "2026-10-19T10:41:35.779285Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "5e280faf418a84a0461fbfd7",
+          "checked_at": "2026-10-19T10:41:38.498840Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "5e280faf418a84a0461fbfda",
+          "checked_at": "2026-10-19T10:41:41.246176Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "5e280faf418a84a0461fbfdd",
+          "checked_at": "2026-10-19T10:41:44.103338Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "5e280faf418a84a0461fbfe3",
+          "checked_at": "2026-10-19T10:41:47.023537Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "5e280faf418a84a0461fbfe5",
+          "checked_at": "2026-10-19T10:41:50.667156Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "5e280faf418a84a0461fbfe8",
+          "checked_at": "2026-10-19T10:41:53.967308Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "5e280faf418a84a0461fbff0",
+          "checked_at": "2026-10-19T10:41:57.731011Z",
+          "http_status": 200,
+          "cached": false
+        },
+        {
+          "eid": "65344f133d13f3bd9250e8e7",
+          "checked_at": "2026-10-19T10:42:00.563358Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "654d5181c4005429c75536b6",
+          "checked_at": "2026-10-19T10:42:00.569414Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "65fc7cbe26881d3e61c597e9",
+          "checked_at": "2026-10-19T10:42:00.575836Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "64f7858277efd17530c5e58e",
+          "checked_at": "2026-10-19T10:42:00.587007Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "6460a8bf24bc6849d1aa3819",
+          "checked_at": "2026-10-19T10:42:00.592713Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "64b6fd1e02b2d836f40130f3",
+          "checked_at": "2026-10-19T10:42:00.597449Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "64e50b59de3bbafaef55b908",
+          "checked_at": "2026-10-19T10:42:00.602521Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "630e61519c937e57153213a1",
+          "checked_at": "2026-10-19T10:42:00.607707Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "63c413535bcf39008db9ec43",
+          "checked_at": "2026-10-19T10:42:00.611999Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "61a9d56596af264978358ffa",
+          "checked_at": "2026-10-19T10:42:00.616876Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "61b6307e16c87ea6b084ebc7",
+          "checked_at": "2026-10-19T10:42:00.622841Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "62e51bb56e2b292ba3ebcfe8",
+          "checked_at": "2026-10-19T10:42:00.627657Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "60b53c0cbef1b331d0e7a8c3",
+          "checked_at": "2026-10-19T10:42:00.634145Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "5e280faf418a84a0461fbfff",
+          "checked_at": "2026-10-19T10:42:00.641596Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "5e280faf418a84a0461fc008",
+          "checked_at": "2026-10-19T10:42:00.645947Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "5e280faf418a84a0461fc00d",
+          "checked_at": "2026-10-19T10:42:00.649664Z",
+          "http_status": 200,
+          "cached": true
+        },
+        {
+          "eid": "5e280faf418a84a0461fc013",
+          "checked_at": "2026-10-19T10:42:00.651857Z",
+          "http_status": 200,
+          "cached": true
+        }
+      ],
+      "unknown_link_checks": [
+        {
+          "eid": "65e9605c2d96b6aa805058fe",
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/65e9605c2d96b6aa805058fe",
+          "checked_at": "2026-10-19T10:42:00.674742Z",
+          "http_status": 200,
+          "official_metadata": {
+            "eid": "65e9605c2d96b6aa805058fe",
+            "pid": "65c49e4577470a095be99713",
+            "podcast_title": "闪光点",
+            "title": "银发经济知多少",
+            "published_at": "2024-03-07T06:36:12.464Z",
+            "duration_seconds": 1710,
+            "status": "NORMAL",
+            "pay_type": "FREE"
+          },
+          "outcome": "skipped_other_channel",
+          "referral_urls": [
+            "https://www.xiaoyuzhoufm.com/episode/677c22af7317752df13d8b46"
+          ]
+        },
+        {
+          "eid": "61dbf5b519e8465da2f8f4fd",
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/61dbf5b519e8465da2f8f4fd",
+          "checked_at": "2026-10-19T10:42:03.891491Z",
+          "http_status": 200,
+          "official_metadata": {
+            "eid": "61dbf5b519e8465da2f8f4fd",
+            "pid": "611719d3cb0b82e1df0ad29e",
+            "podcast_title": "无人知晓",
+            "title": "E09 孟岩对话黄海：让更多人知道你，还是让爱你的人更爱你",
+            "published_at": "2022-01-10T09:00:36.486Z",
+            "duration_seconds": 5167,
+            "status": "NORMAL",
+            "pay_type": "FREE"
+          },
+          "outcome": "skipped_other_channel",
+          "referral_urls": [
+            "https://www.xiaoyuzhoufm.com/episode/61e650e002f9e216902c7608"
+          ]
+        },
+        {
+          "eid": "6051d0ef1e7fe0ce4f6ed689",
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6051d0ef1e7fe0ce4f6ed689",
+          "checked_at": "2026-10-19T10:42:06.681844Z",
+          "http_status": 200,
+          "official_metadata": {
+            "eid": "6051d0ef1e7fe0ce4f6ed689",
+            "pid": "6022a180ef5fdaddc30bb101",
+            "podcast_title": "商业就是这样",
+            "title": "Vol.06 MANNER咖啡凭什么做到好喝+便宜+连锁？",
+            "published_at": "2021-03-17T09:00:00.000Z",
+            "duration_seconds": 1623,
+            "status": "NORMAL",
+            "pay_type": "FREE"
+          },
+          "outcome": "skipped_other_channel",
+          "referral_urls": [
+            "https://www.xiaoyuzhoufm.com/episode/60b53c0cbef1b331d0e7a8c3"
+          ]
+        },
+        {
+          "eid": "60ac90c70e9b5dfb00ae9ed6",
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/60ac90c70e9b5dfb00ae9ed6",
+          "checked_at": "2026-10-19T10:42:09.948716Z",
+          "http_status": 200,
+          "official_metadata": {
+            "eid": "60ac90c70e9b5dfb00ae9ed6",
+            "pid": "5f445cdb9504bbdb77f092e9",
+            "podcast_title": "泡腾 VC",
+            "title": "S2E13｜中国的咖啡新品牌已经卷到了雀巢和星巴克了吗？",
+            "published_at": "2021-05-25T05:00:00.000Z",
+            "duration_seconds": 3161,
+            "status": "NORMAL",
+            "pay_type": "FREE"
+          },
+          "outcome": "skipped_other_channel",
+          "referral_urls": [
+            "https://www.xiaoyuzhoufm.com/episode/60b53c0cbef1b331d0e7a8c3"
+          ]
+        },
+        {
+          "eid": "60508e935c16e1ea46b34749",
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/60508e935c16e1ea46b34749",
+          "checked_at": "2026-10-19T10:42:13.058307Z",
+          "http_status": 200,
+          "official_metadata": {
+            "eid": "60508e935c16e1ea46b34749",
+            "pid": "5fe5b198dee9c1e16dfb9672",
+            "podcast_title": "二维吾码",
+            "title": "咖啡，一个想象中的万亿市场",
+            "published_at": "2021-03-16T10:14:39.000Z",
+            "duration_seconds": 2160,
+            "status": "NORMAL",
+            "pay_type": "FREE"
+          },
+          "outcome": "skipped_other_channel",
+          "referral_urls": [
+            "https://www.xiaoyuzhoufm.com/episode/60b53c0cbef1b331d0e7a8c3"
+          ]
+        },
+        {
+          "eid": "603598b384056b20cdf9f8a8",
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/603598b384056b20cdf9f8a8",
+          "checked_at": "2026-10-19T10:42:17.380853Z",
+          "http_status": 200,
+          "official_metadata": {
+            "eid": "603598b384056b20cdf9f8a8",
+            "pid": "5e285856418a84a04627b7be",
+            "podcast_title": "贝望录",
+            "title": "40. 速溶是精品咖啡的反义词吗？",
+            "published_at": "2021-02-24T00:01:46.000Z",
+            "duration_seconds": 3275,
+            "status": "NORMAL",
+            "pay_type": "FREE"
+          },
+          "outcome": "skipped_other_channel",
+          "referral_urls": [
+            "https://www.xiaoyuzhoufm.com/episode/60b53c0cbef1b331d0e7a8c3"
+          ]
+        },
+        {
+          "eid": "604f42363c92d4f62c2a93c6",
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/604f42363c92d4f62c2a93c6",
+          "checked_at": "2026-10-19T10:42:20.209103Z",
+          "http_status": 200,
+          "official_metadata": {
+            "eid": "604f42363c92d4f62c2a93c6",
+            "pid": "5f4486d19504bbdb7729ea07",
+            "podcast_title": "话仙桃",
+            "title": "vol.11 咖啡店里，咖啡是最重要的吗？",
+            "published_at": "2021-03-15T10:59:02.000Z",
+            "duration_seconds": 3469,
+            "status": "NORMAL",
+            "pay_type": "FREE"
+          },
+          "outcome": "skipped_other_channel",
+          "referral_urls": [
+            "https://www.xiaoyuzhoufm.com/episode/60b53c0cbef1b331d0e7a8c3"
+          ]
+        },
+        {
+          "eid": "5f517a4583c34e85dd48e77e",
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/5f517a4583c34e85dd48e77e",
+          "checked_at": "2026-10-19T10:42:23.146036Z",
+          "http_status": 200,
+          "official_metadata": {
+            "eid": "5f517a4583c34e85dd48e77e",
+            "pid": "5e7cccf8418a84a046c4e7f9",
+            "podcast_title": "创业内幕 Startup Insider",
+            "title": "S2 Vol.23 鱼眼咖啡孙瑜：平价精品咖啡规模战",
+            "published_at": "2020-09-03T22:00:36.000Z",
+            "duration_seconds": 3403,
+            "status": "NORMAL",
+            "pay_type": "FREE"
+          },
+          "outcome": "skipped_other_channel",
+          "referral_urls": [
+            "https://www.xiaoyuzhoufm.com/episode/60b53c0cbef1b331d0e7a8c3"
+          ]
+        },
+        {
+          "eid": "6036dc6397755b8fc9c66b92",
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/6036dc6397755b8fc9c66b92",
+          "checked_at": "2026-10-19T10:42:26.284756Z",
+          "http_status": 200,
+          "official_metadata": {
+            "eid": "6036dc6397755b8fc9c66b92",
+            "pid": "6022a180ef5fdaddc30bb101",
+            "podcast_title": "商业就是这样",
+            "title": "Vol.03 几万块“一口”的透明牙套，是怎么在中国流行的",
+            "published_at": "2021-02-24T23:00:00.000Z",
+            "duration_seconds": 1391,
+            "status": "NORMAL",
+            "pay_type": "FREE"
+          },
+          "outcome": "skipped_other_channel",
+          "referral_urls": [
+            "https://www.xiaoyuzhoufm.com/episode/60b53c0cbef1b331d0e7a8c3"
+          ]
+        },
+        {
+          "eid": "60a4deaaa2316a209134318d",
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/60a4deaaa2316a209134318d",
+          "checked_at": "2026-10-19T10:42:29.904675Z",
+          "http_status": 200,
+          "official_metadata": {
+            "eid": "60a4deaaa2316a209134318d",
+            "pid": "6022a180ef5fdaddc30bb101",
+            "podcast_title": "商业就是这样",
+            "title": "Vol.15 大数据选址，玄学还是科学？",
+            "published_at": "2021-05-19T08:00:00.000Z",
+            "duration_seconds": 1678,
+            "status": "NORMAL",
+            "pay_type": "FREE"
+          },
+          "outcome": "skipped_other_channel",
+          "referral_urls": [
+            "https://www.xiaoyuzhoufm.com/episode/60b53c0cbef1b331d0e7a8c3"
+          ]
+        },
+        {
+          "eid": "5fc444dddee9c1e16df84ea2",
+          "source_url": "https://www.xiaoyuzhoufm.com/episode/5fc444dddee9c1e16df84ea2",
+          "checked_at": "2026-10-19T10:42:33.693051Z",
+          "http_status": 200,
+          "official_metadata": {
+            "eid": "5fc444dddee9c1e16df84ea2",
+            "pid": "5f445cdb9504bbdb77f092e9",
+            "podcast_title": "泡腾 VC",
+            "title": "15: 要好看，就要武装到牙齿",
+            "published_at": "2020-11-30T00:45:00.000Z",
+            "duration_seconds": 3936,
+            "status": "NORMAL",
+            "pay_type": "FREE"
+          },
+          "outcome": "skipped_other_channel",
+          "referral_urls": [
+            "https://www.xiaoyuzhoufm.com/episode/60b53c0cbef1b331d0e7a8c3"
+          ]
+        }
+      ]
+    }
+  }
+}
