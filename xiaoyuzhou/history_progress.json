@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "issue": "https://github.com/sappho-dev/san9-auto-domestic-research/issues/11",
+  "status": "in_progress",
+  "stage": "audit_existing_before_backfill",
+  "baseline_commit": "e4c62c1e5a2fa78f9e1c89367fb4721343e6bce0",
+  "baseline_counts": {
+    "615a4035c8c1d14e83366946": 63,
+    "5e280faf418a84a0461fbd39": 90,
+    "61358d971c5d56efe5bcb5d2": 285
+  },
+  "target_archive_counts": {
+    "615a4035c8c1d14e83366946": 212,
+    "5e280faf418a84a0461fbd39": 149,
+    "61358d971c5d56efe5bcb5d2": 285
+  },
+  "verified_existing": 66,
+  "audited_existing": 66,
+  "audit_nonverified": [],
+  "progress_rule": "Resume official-page audit from history_verification.jsonl; candidate evidence is discovery only until title, channel ID, channel name, and date are read from the actual public official page. No guessed IDs. No media requests.",
+  "protected_paths": {
+    ".github/workflows/xiaoyuzhou.yml": "478730cdf79980074cd7a361c44cbe28ec1979e5",
+    "xiaoyuzhou/index.html": "a4792ce7e8b0f4d800f5f9ddfdf00b3e61e5d451",
+    "xiaoyuzhou/update.py": "3d4fd8a992319360dbb30aeebe32c915968db942"
+  },
+  "discovery_checks": [
+    {
+      "url": "https://www.xiaoyuzhoufm.com/robots.txt",
+      "result": "public; no sitemap declaration"
+    },
+    {
+      "url": "https://www.xiaoyuzhoufm.com/sitemap.xml",
+      "result": "HTTP404"
+    },
+    {
+      "url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
+      "result": "public structured metadata shows149episodes, latest15embedded; no pagination in public page JS"
+    }
+  ]
+}
