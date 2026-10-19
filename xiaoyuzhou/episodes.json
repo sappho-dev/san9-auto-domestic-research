@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T09:50:57Z",
+  "updated_at": "2026-10-19T10:02:24Z",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "id": "615a4035c8c1d14e83366946",
@@ -109,6 +109,48 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/69ae1a0a719b26db81d99498",
           "published_at": "2026-03-09T00:18:09.000Z",
           "duration_seconds": 7035
+        },
+        {
+          "id": "69a4be6959a3b70a1a1b17a1",
+          "title": "196 雷诺安培解散：开也成功，关也成功 对话嘉宾：王涵，Eric",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69a4be6959a3b70a1a1b17a1",
+          "published_at": "2026-03-01T22:06:36Z",
+          "duration_seconds": 4035
+        },
+        {
+          "id": "6796c797e92894e7bf495b40",
+          "title": "150 比亚迪的《工程师之魂》（1）：250万、秦川和巴菲特 对话嘉宾：陆风鸣",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6796c797e92894e7bf495b40",
+          "published_at": "2025-01-26T23:14:19Z",
+          "duration_seconds": 4388
+        },
+        {
+          "id": "6681d4f1356e08442206f0cd",
+          "title": "125 比亚迪DM五代：46%是真的 对话嘉宾：张文川，林工",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6681d4f1356e08442206f0cd",
+          "published_at": "2024-06-30T21:34:36Z",
+          "duration_seconds": 5224
+        },
+        {
+          "id": "655d49791a9c63a9fd348ba2",
+          "title": "100 德国车的祖传秘方45欧元一本 对话嘉宾：Elaine滕磊，李青",
+          "url": "https://www.xiaoyuzhoufm.com/episode/655d49791a9c63a9fd348ba2",
+          "published_at": "2023-11-21T22:14:06Z",
+          "duration_seconds": 3800
+        },
+        {
+          "id": "654831ece905a845c26376cb",
+          "title": "099 一汽大众和李文波，一次让皮耶希难忘的engine swap 对话嘉宾：陆风鸣，范文廷",
+          "url": "https://www.xiaoyuzhoufm.com/episode/654831ece905a845c26376cb",
+          "published_at": "2023-11-05T23:25:01Z",
+          "duration_seconds": 3961
+        },
+        {
+          "id": "615a4035c8c1d14e83366959",
+          "title": "000《孤岛车谈》是什么？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366959",
+          "published_at": "2021-05-28T11:23:35Z",
+          "duration_seconds": 3447
         }
       ],
       "enabled": true,
