@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T10:17:57Z",
+  "updated_at": "2026-10-19T10:37:48Z",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "id": "615a4035c8c1d14e83366946",
@@ -230,6 +230,13 @@
           "duration_seconds": 4903
         },
         {
+          "id": "6740a8030d55a37d3dc2f496",
+          "title": "142 2024巴黎车展(3)：欧洲人如何消费汽车？对话嘉宾：钟添悦",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6740a8030d55a37d3dc2f496",
+          "duration_seconds": 4736,
+          "published_at": "2024-11-22T15:22:31.000Z"
+        },
+        {
           "id": "67367850547b11f66291f5b7",
           "title": "141 Northvolt倒闭：初创造电池，环保当饭吃 对话嘉宾：严杰，胡雯婷，陆风鸣",
           "url": "https://www.xiaoyuzhoufm.com/episode/67367850547b11f66291f5b7",
@@ -242,6 +249,20 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/672562f4284a1314eb32b118",
           "published_at": "2024-11-01T22:50:53Z",
           "duration_seconds": 5615
+        },
+        {
+          "id": "671ea1a38956330d70887fb3",
+          "title": "138 上海通用和泛亚（3）：2027后，上海通用还会不会存在？ 对话嘉宾：陆风鸣，侯社",
+          "url": "https://www.xiaoyuzhoufm.com/episode/671ea1a38956330d70887fb3",
+          "duration_seconds": 3601,
+          "published_at": "2024-10-27T20:08:08.000Z"
+        },
+        {
+          "id": "670c27b7d9a875d5a9fb1bb4",
+          "title": "136 上海通用和泛亚（2）：南方MPV到胖头鱼 对话嘉宾：陆风鸣，侯社",
+          "url": "https://www.xiaoyuzhoufm.com/episode/670c27b7d9a875d5a9fb1bb4",
+          "duration_seconds": 4050,
+          "published_at": "2024-10-13T19:25:04.000Z"
         },
         {
           "id": "6702ed7352eb4e0caf1d724c",
@@ -286,11 +307,32 @@
           "duration_seconds": 5224
         },
         {
+          "id": "666f543ad95bb47271ca3659",
+          "title": "124 汽车教父皮耶希（2）：布加迪、平台化、XL1 对话嘉宾：down哥，冯金钊，陆风鸣",
+          "url": "https://www.xiaoyuzhoufm.com/episode/666f543ad95bb47271ca3659",
+          "duration_seconds": 5227,
+          "published_at": "2024-06-16T20:59:00.000Z"
+        },
+        {
+          "id": "66662b4e3552c38a0f3a3173",
+          "title": "123 汽车教父皮耶希（1）：保时捷917、五缸、四驱 对话嘉宾：down哥，冯金钊，陆风鸣",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66662b4e3552c38a0f3a3173",
+          "duration_seconds": 4250,
+          "published_at": "2024-06-09T21:59:13.000Z"
+        },
+        {
           "id": "665cdb46fbf7c6232f28069c",
           "title": "122 Tusimple（下）：梦醒2024 对话嘉宾：许新熠，陆风鸣",
           "url": "https://www.xiaoyuzhoufm.com/episode/665cdb46fbf7c6232f28069c",
           "published_at": "2024-06-02T20:39:49Z",
           "duration_seconds": 2440
+        },
+        {
+          "id": "66549d2b75f2e39409d4bc24",
+          "title": "121 Tusimple（上）：Tucson，梦开始的地方 对话嘉宾：许新熠，陆风鸣",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66549d2b75f2e39409d4bc24",
+          "duration_seconds": 3975,
+          "published_at": "2024-05-27T14:14:56.000Z"
         },
         {
           "id": "66488fe2fbc01d7f363c0f28",
@@ -384,6 +426,13 @@
           "duration_seconds": 2630
         },
         {
+          "id": "64fb5e5750676b0e9fd16fa8",
+          "title": "093 合作小鹏，大众押宝合肥 对话嘉宾：陆风鸣，李青，冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64fb5e5750676b0e9fd16fa8",
+          "duration_seconds": 2949,
+          "published_at": "2023-09-08T16:39:41.000Z"
+        },
+        {
           "id": "64e9341dc512a31a66770c66",
           "title": "092 大众汽车：德国特色社会主义汽车厂 对话嘉宾：陆风鸣，李青，冯金钊",
           "url": "https://www.xiaoyuzhoufm.com/episode/64e9341dc512a31a66770c66",
@@ -438,6 +487,13 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/6405326e178037e42fe557c2",
           "published_at": "2023-03-05T23:48:42Z",
           "duration_seconds": 3876
+        },
+        {
+          "id": "6343fd5039d890706e7b00f5",
+          "title": "069英国汽车工业的罗曼蒂克消亡史，从女王的灵车开始说起",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6343fd5039d890706e7b00f5",
+          "duration_seconds": 3473,
+          "published_at": "2022-10-10T10:43:45.000Z"
         },
         {
           "id": "615a4035c8c1d14e83366959",
@@ -825,6 +881,13 @@
           "duration_seconds": 3956
         },
         {
+          "id": "65fc7cbe26881d3e61c597e9",
+          "title": "93 ✪ 出海电商大杀四方",
+          "url": "https://www.xiaoyuzhoufm.com/episode/65fc7cbe26881d3e61c597e9",
+          "duration_seconds": 4718,
+          "published_at": "2024-03-22T00:00:00.000Z"
+        },
+        {
           "id": "65ee4a763ecebc977e1912c2",
           "title": "92 ✪ 酒店逆势涨价的商业逻辑",
           "url": "https://www.xiaoyuzhoufm.com/episode/65ee4a763ecebc977e1912c2",
@@ -867,11 +930,39 @@
           "duration_seconds": 3645
         },
         {
+          "id": "654d5181c4005429c75536b6",
+          "title": "85 ✪ 三顿半：体验型品牌如何跨越周期成长？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/654d5181c4005429c75536b6",
+          "duration_seconds": 4950,
+          "published_at": "2023-11-10T00:00:00.000Z"
+        },
+        {
+          "id": "65344f133d13f3bd9250e8e7",
+          "title": "84 ✪ 逆风狂飙二十年——优衣库的启示",
+          "url": "https://www.xiaoyuzhoufm.com/episode/65344f133d13f3bd9250e8e7",
+          "duration_seconds": 4405,
+          "published_at": "2023-10-22T00:00:00.000Z"
+        },
+        {
           "id": "65105603f1bfc685ce1345b8",
           "title": "83 ✪ 心理健身：焦虑时代的新刚需",
           "url": "https://www.xiaoyuzhoufm.com/episode/65105603f1bfc685ce1345b8",
           "published_at": "2023-09-24T20:00:00Z",
           "duration_seconds": 4781
+        },
+        {
+          "id": "64f7858277efd17530c5e58e",
+          "title": "82 ✪ 香奈儿涨价、特斯拉降价——消费品如何定价？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64f7858277efd17530c5e58e",
+          "duration_seconds": 4488,
+          "published_at": "2023-09-06T00:00:00.000Z"
+        },
+        {
+          "id": "64e50b59de3bbafaef55b908",
+          "title": "81 ✪ 「睡眠环境」新机遇",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64e50b59de3bbafaef55b908",
+          "duration_seconds": 4092,
+          "published_at": "2023-08-22T20:00:00.000Z"
         },
         {
           "id": "64cfeaaee70b5a13106fe9fe",
@@ -881,11 +972,25 @@
           "duration_seconds": 3903
         },
         {
+          "id": "64b6fd1e02b2d836f40130f3",
+          "title": "79 ✪ 在不确定的时代思考投资的确定性",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64b6fd1e02b2d836f40130f3",
+          "duration_seconds": 4641,
+          "published_at": "2023-07-19T00:00:00.000Z"
+        },
+        {
           "id": "64930fc5fe21fa068c029eb2",
           "title": "78 ✪ 创作者的小时代——聊聊小红书与视频号",
           "url": "https://www.xiaoyuzhoufm.com/episode/64930fc5fe21fa068c029eb2",
           "published_at": "2023-06-21T14:00:00Z",
           "duration_seconds": 4142
+        },
+        {
+          "id": "6460a8bf24bc6849d1aa3819",
+          "title": "77 ✪ 卷王的大航海时代——中国企业出海新范式",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6460a8bf24bc6849d1aa3819",
+          "duration_seconds": 4243,
+          "published_at": "2023-05-14T12:00:00.000Z"
         },
         {
           "id": "644140f2f53a29414acf22be",
@@ -900,6 +1005,13 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/63f477bc3976a061622f9d57",
           "published_at": "2023-02-21T08:00:00Z",
           "duration_seconds": 5076
+        },
+        {
+          "id": "63c413535bcf39008db9ec43",
+          "title": "73 ✪ 三顿半吴骏：城市漫游、灵感与创造的故事",
+          "url": "https://www.xiaoyuzhoufm.com/episode/63c413535bcf39008db9ec43",
+          "duration_seconds": 4101,
+          "published_at": "2023-01-15T15:00:00.000Z"
         },
         {
           "id": "63aed1da4bbe65bc7346c284",
@@ -923,6 +1035,20 @@
           "duration_seconds": 4925
         },
         {
+          "id": "630e61519c937e57153213a1",
+          "title": "68 ✪ 做视频后收获的新认知",
+          "url": "https://www.xiaoyuzhoufm.com/episode/630e61519c937e57153213a1",
+          "duration_seconds": 4621,
+          "published_at": "2022-08-30T20:00:00.000Z"
+        },
+        {
+          "id": "62e51bb56e2b292ba3ebcfe8",
+          "title": "67 ✪ 火锅争雄：服务至上 vs 产品主义",
+          "url": "https://www.xiaoyuzhoufm.com/episode/62e51bb56e2b292ba3ebcfe8",
+          "duration_seconds": 5264,
+          "published_at": "2022-07-30T14:00:00.000Z"
+        },
+        {
           "id": "629dfa6acd9b181e67a2d0ec",
           "title": "66 ✪ 二级市场的叙事与估值逻辑",
           "url": "https://www.xiaoyuzhoufm.com/episode/629dfa6acd9b181e67a2d0ec",
@@ -931,10 +1057,10 @@
         },
         {
           "id": "629851fdf6be757a5275fe0f",
-          "title": "65 ✪ 咖啡战争2022",
+          "title": "咖啡战争2022",
           "url": "https://www.xiaoyuzhoufm.com/episode/629851fdf6be757a5275fe0f",
-          "published_at": "2022-06-01T14:00:00Z",
-          "duration_seconds": 435
+          "published_at": "2022-06-02T07:00:00.942Z",
+          "duration_seconds": 4372
         },
         {
           "id": "626d812df0a94d932863b953",
@@ -965,6 +1091,20 @@
           "duration_seconds": 4639
         },
         {
+          "id": "61b6307e16c87ea6b084ebc7",
+          "title": "60 ✪ 不止于盲盒：年轻人的潮流消费",
+          "url": "https://www.xiaoyuzhoufm.com/episode/61b6307e16c87ea6b084ebc7",
+          "duration_seconds": 3450,
+          "published_at": "2021-12-13T00:00:00.000Z"
+        },
+        {
+          "id": "61a9d56596af264978358ffa",
+          "title": "59 ✪ 从吃水果到喝水果、从果茶到品茗",
+          "url": "https://www.xiaoyuzhoufm.com/episode/61a9d56596af264978358ffa",
+          "duration_seconds": 4732,
+          "published_at": "2021-12-03T08:00:00.000Z"
+        },
+        {
           "id": "617efb3eb856d721e973a67f",
           "title": "58 ✪ 运动鞋会出现下一个国货之光吗？",
           "url": "https://www.xiaoyuzhoufm.com/episode/617efb3eb856d721e973a67f",
@@ -991,6 +1131,13 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/60eec4f08dd484eefdb48482",
           "published_at": "2021-07-14T11:00:00Z",
           "duration_seconds": 3622
+        },
+        {
+          "id": "60b53c0cbef1b331d0e7a8c3",
+          "title": "54 ✪ 线下门店业态的复兴",
+          "url": "https://www.xiaoyuzhoufm.com/episode/60b53c0cbef1b331d0e7a8c3",
+          "duration_seconds": 3857,
+          "published_at": "2021-06-01T01:00:00.000Z"
         },
         {
           "id": "6074707da8969a63cb6e6aef",
@@ -1089,6 +1236,34 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbff0",
           "published_at": "2018-09-27T00:00:00Z",
           "duration_seconds": 4613
+        },
+        {
+          "id": "5e280faf418a84a0461fbfff",
+          "title": "18 ✪ 拼多多=中国的Costco?",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfff",
+          "duration_seconds": 3898,
+          "published_at": "2018-04-02T00:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc008",
+          "title": "10 ✪ 新零售可以解决生鲜行业难题吗？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc008",
+          "duration_seconds": 4067,
+          "published_at": "2017-08-07T16:00:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc00d",
+          "title": "7 ✪ 两个穿着严选拖鞋的人聊严选",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc00d",
+          "duration_seconds": 3592,
+          "published_at": "2017-03-14T16:19:00.000Z"
+        },
+        {
+          "id": "5e280faf418a84a0461fc013",
+          "title": "2 ✪ SaaS 太热闹，教你看尽门道",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fc013",
+          "duration_seconds": 5014,
+          "published_at": "2016-03-04T05:25:36.000Z"
         }
       ],
       "enabled": true,

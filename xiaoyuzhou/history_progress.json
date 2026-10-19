@@ -1,40 +1,56 @@
 {
   "schema": 1,
   "issue": "https://github.com/sappho-dev/san9-auto-domestic-research/issues/11",
+  "updated_at": "2026-10-19T10:37:48Z",
   "status": "in_progress",
-  "stage": "audit_existing_before_backfill",
+  "stage": "audit_and_public_history_discovery",
   "baseline_commit": "e4c62c1e5a2fa78f9e1c89367fb4721343e6bce0",
   "baseline_counts": {
     "615a4035c8c1d14e83366946": 63,
     "5e280faf418a84a0461fbd39": 90,
     "61358d971c5d56efe5bcb5d2": 285
   },
-  "target_archive_counts": {
-    "615a4035c8c1d14e83366946": 212,
-    "5e280faf418a84a0461fbd39": 149,
-    "61358d971c5d56efe5bcb5d2": 285
+  "channels": {
+    "615a4035c8c1d14e83366946": {
+      "title": "孤岛车谈",
+      "archive_target": 212,
+      "catalog_count": 71,
+      "official_pages_verified": 71,
+      "pending_existing_audit": 0,
+      "archive_remaining": 141
+    },
+    "5e280faf418a84a0461fbd39": {
+      "title": "疯投圈",
+      "archive_target": 149,
+      "catalog_count": 107,
+      "official_pages_verified": 107,
+      "pending_existing_audit": 0,
+      "archive_remaining": 42
+    },
+    "61358d971c5d56efe5bcb5d2": {
+      "title": "乱翻书",
+      "archive_target": 285,
+      "catalog_count": 285,
+      "official_pages_verified": 121,
+      "pending_existing_audit": 164,
+      "archive_remaining": 0
+    }
   },
-  "verified_existing": 66,
-  "audited_existing": 66,
-  "audit_nonverified": [],
-  "progress_rule": "Resume official-page audit from history_verification.jsonl; candidate evidence is discovery only until title, channel ID, channel name, and date are read from the actual public official page. No guessed IDs. No media requests.",
+  "batch_changes": {
+    "added": 25,
+    "updated": 1
+  },
+  "validation": {
+    "unit_tests_passed": 10,
+    "catalog_schema": 1,
+    "no_deleted_ids": true,
+    "protected_paths_unchanged": true
+  },
   "protected_paths": {
     ".github/workflows/xiaoyuzhou.yml": "478730cdf79980074cd7a361c44cbe28ec1979e5",
     "xiaoyuzhou/index.html": "a4792ce7e8b0f4d800f5f9ddfdf00b3e61e5d451",
     "xiaoyuzhou/update.py": "3d4fd8a992319360dbb30aeebe32c915968db942"
   },
-  "discovery_checks": [
-    {
-      "url": "https://www.xiaoyuzhoufm.com/robots.txt",
-      "result": "public; no sitemap declaration"
-    },
-    {
-      "url": "https://www.xiaoyuzhoufm.com/sitemap.xml",
-      "result": "HTTP404"
-    },
-    {
-      "url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
-      "result": "public structured metadata shows149episodes, latest15embedded; no pagination in public page JS"
-    }
-  ]
+  "method": "Discover actual links via public search or published cross-links; GET official episode page; check eid, pid, channel title, full title, publication date and duration; preserve evidence; merge fresh remote catalog by ID with branch-head lease. Never guess IDs or request audio.",
+  "next_action": "Finish remaining official-page audits, individual title searches and bounded existing-page link-graph checks; import only verified candidates."
 }

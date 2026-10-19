@@ -35,7 +35,8 @@ def fetch(eid):
     if not ep: raise ValueError('official page has no episode; statusCode=' + str(props.get('statusCode')))
     return {'http_status': status, 'final_url': final_url, 'page_sha256': hashlib.sha256(payload).hexdigest(),
             'id': ep.get('eid'), 'channel_id': ep.get('pid'), 'channel_title': ep.get('podcast', {}).get('title'),
-            'title': ep.get('title'), 'published_at': ep.get('pubDate'), 'duration_seconds': ep.get('duration')}
+            'title': ep.get('title'), 'published_at': ep.get('pubDate'), 'duration_seconds': ep.get('duration'),
+            'linked_episode_ids': sorted(set(re.findall(r'xiaoyuzhoufm\.com/episode/([a-f0-9]{24})', html)) - {eid})}
 
 def check(item):
     pid, ep = item
