@@ -1,5 +1,363 @@
 {
   "schema": 1,
-  "updated_at": null,
-  "channels": {}
+  "updated_at": "2026-10-19T08:24:53Z",
+  "channels": {
+    "615a4035c8c1d14e83366946": {
+      "id": "615a4035c8c1d14e83366946",
+      "episodes": [
+        {
+          "id": "6ad4f1079554aaac00a10ca4",
+          "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6ad4f1079554aaac00a10ca4",
+          "published_at": "2026-10-18T15:41:27.000Z",
+          "duration_seconds": 5601
+        },
+        {
+          "id": "6acd7ae17b6bc0d79abd394f",
+          "title": "211 丰田（3）：NUMMI和丰田生产方式 对话嘉宾：吴桐雨，许新熠",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6acd7ae17b6bc0d79abd394f",
+          "published_at": "2026-10-12T22:57:23.000Z",
+          "duration_seconds": 7540
+        },
+        {
+          "id": "6ab6fadeab04f399f7542741",
+          "title": "210 丰田（2）：一人一款车，打破组织内耗 对话嘉宾：金木，许新熠",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6ab6fadeab04f399f7542741",
+          "published_at": "2026-09-25T22:14:35.000Z",
+          "duration_seconds": 6257
+        },
+        {
+          "id": "6a8b8a7e008ed7314dab72b9",
+          "title": "209 丰田（1）：先到泰国，再到肯塔基 对话嘉宾：Jason",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a8b8a7e008ed7314dab72b9",
+          "published_at": "2026-08-23T23:27:57.000Z",
+          "duration_seconds": 7027
+        },
+        {
+          "id": "6a6f327c47ac66f4b53539d3",
+          "title": "207 专访Gumpert：传奇的人生 对话嘉宾：Roland Rumpert，down哥",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a6f327c47ac66f4b53539d3",
+          "published_at": "2026-08-02T11:26:39.000Z",
+          "duration_seconds": 5975
+        },
+        {
+          "id": "6a5d784314e09e78bfa4010d",
+          "title": "206 法拉利Luce：是错误的尝试还是伟大的突破 对话嘉宾：温如",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a5d784314e09e78bfa4010d",
+          "published_at": "2026-07-20T00:34:09.000Z",
+          "duration_seconds": 8883
+        },
+        {
+          "id": "6a2f389d1d5866c024f42835",
+          "title": "205 比亚迪闪充：不止于快 对话嘉宾：弗雷刘，付梓耘，章翔",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a2f389d1d5866c024f42835",
+          "published_at": "2026-06-14T23:05:43.000Z",
+          "duration_seconds": 3843
+        },
+        {
+          "id": "6a1e077c92551efcff13d441",
+          "title": "204 起亚EV5：电动车的二元世界 对话嘉宾：侯社长，王涵",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a1e077c92551efcff13d441",
+          "published_at": "2026-06-01T21:54:10.000Z",
+          "duration_seconds": 6364
+        },
+        {
+          "id": "6a14f7371cd5cc9bb08ab35e",
+          "title": "203 机油：在纯电化彻底完成前绕不开的伙伴 对话嘉宾：Adam，Sam",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a14f7371cd5cc9bb08ab35e",
+          "published_at": "2026-05-25T15:25:10.000Z",
+          "duration_seconds": 5424
+        },
+        {
+          "id": "6a0257870b0e64b50c2104c5",
+          "title": "202 车将不车：中国汽车的生态化反 对话嘉宾：冯金钊，王以琳，许新熠",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a0257870b0e64b50c2104c5",
+          "published_at": "2026-05-11T21:38:12.000Z",
+          "duration_seconds": 8800
+        },
+        {
+          "id": "69f8be919b598c6917688d7f",
+          "title": "201 2026特斯拉低息贷款：从价格战到金融战 对话嘉宾：Benny，Jason",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69f8be919b598c6917688d7f",
+          "published_at": "2026-05-04T15:13:24.000Z",
+          "duration_seconds": 4731
+        },
+        {
+          "id": "69dc6998f6e591a7ac9b2ded",
+          "title": "200 福特为什么要让李沁来帮忙造皮卡 对话嘉宾：李沁，徐桑",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69dc6998f6e591a7ac9b2ded",
+          "published_at": "2026-04-12T22:25:14.000Z",
+          "duration_seconds": 7474
+        },
+        {
+          "id": "69cbf1b6f6e591a7ace48fa9",
+          "title": "199 PLM：汽车研发流水线 对话嘉宾：Simon，down哥，胡雯婷，孙晨露",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69cbf1b6f6e591a7ace48fa9",
+          "published_at": "2026-03-31T15:26:19.000Z",
+          "duration_seconds": 7293
+        },
+        {
+          "id": "69b6ccc4719b26db81cfb183",
+          "title": "198 本田2025EV战略崩盘：本田的今天，就是日本的明天 对话嘉宾：金木，白东升",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69b6ccc4719b26db81cfb183",
+          "published_at": "2026-03-15T14:31:53.000Z",
+          "duration_seconds": 7939
+        },
+        {
+          "id": "69ae1a0a719b26db81d99498",
+          "title": "197 小鹏汇天陆地航母：如果你有200万，你该不该买它？ 对话嘉宾：许新熠，佳佳",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69ae1a0a719b26db81d99498",
+          "published_at": "2026-03-09T00:18:09.000Z",
+          "duration_seconds": 7035
+        }
+      ],
+      "enabled": true,
+      "url": "https://www.xiaoyuzhoufm.com/podcast/615a4035c8c1d14e83366946",
+      "title": "孤岛车谈",
+      "author": "孤岛车谈",
+      "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9iYWUxLWF1ZGlvZnJlZWhpZ2hxcHMvM0UvRkQvQ01Db09TUUZIX284QUFHN0VBRGxXblMtLmpwZWc=.jpeg@small",
+      "last_checked_at": "2026-10-19T08:24:53Z",
+      "last_success_at": "2026-10-19T08:24:53Z",
+      "last_error": null,
+      "consecutive_failures": 0
+    },
+    "5e280faf418a84a0461fbd39": {
+      "id": "5e280faf418a84a0461fbd39",
+      "episodes": [
+        {
+          "id": "6acde05dea9bf07d68c15060",
+          "title": "149 ✪ 抖省省突袭美团到店业务：本地生活怎么卷",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6acde05dea9bf07d68c15060",
+          "published_at": "2026-10-13T09:00:00.000Z",
+          "duration_seconds": 5130
+        },
+        {
+          "id": "6aba3902f00f04e58a09d59c",
+          "title": "148 ✪ 吃好睡好：肯德基KPRO入局轻食、亚朵星球床品创新",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6aba3902f00f04e58a09d59c",
+          "published_at": "2026-09-28T10:00:00.000Z",
+          "duration_seconds": 4064
+        },
+        {
+          "id": "6a9fdcb0a771cfe1ba2ec57d",
+          "title": "147 ✪ SHEIN回港上市、新拼姆开启自营",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a9fdcb0a771cfe1ba2ec57d",
+          "published_at": "2026-09-08T10:00:00.000Z",
+          "duration_seconds": 4203
+        },
+        {
+          "id": "6a9546228e912c9d3127f1d0",
+          "title": "146 ✪ 对买量和铺货说bye-bye，AI如何驱动出海品牌增长?",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a9546228e912c9d3127f1d0",
+          "published_at": "2026-08-31T10:00:00.000Z",
+          "duration_seconds": 4733
+        },
+        {
+          "id": "6a890ae2008ed7314d0070b5",
+          "title": "145 ✪ 改属中资的餐饮洋品牌",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a890ae2008ed7314d0070b5",
+          "published_at": "2026-08-22T03:00:00.000Z",
+          "duration_seconds": 4331
+        },
+        {
+          "id": "6a782a2c55c134f6e1eb5965",
+          "title": "144 ✪ 国货出海新趋势：山下有松、观夏、PANE",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a782a2c55c134f6e1eb5965",
+          "published_at": "2026-08-09T10:00:00.000Z",
+          "duration_seconds": 3925
+        },
+        {
+          "id": "6a665b5763ed6d3691fd60d6",
+          "title": "143 ✪ 🚗「蔚小理」的高端探索",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a665b5763ed6d3691fd60d6",
+          "published_at": "2026-07-27T00:00:00.000Z",
+          "duration_seconds": 5086
+        },
+        {
+          "id": "6a4fe00851601cef92dda291",
+          "title": "142 ✪ 产品体验学日本、全球营销学韩国",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a4fe00851601cef92dda291",
+          "published_at": "2026-07-10T00:00:00.000Z",
+          "duration_seconds": 3770
+        },
+        {
+          "id": "6a3e29583aec4bac3d4ecd07",
+          "title": "141 ✪ ☕️咖啡战争2026：机构化与本土化",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a3e29583aec4bac3d4ecd07",
+          "published_at": "2026-06-26T08:00:00.000Z",
+          "duration_seconds": 4274
+        },
+        {
+          "id": "6a32b7b0f0f66b17f06e9ef9",
+          "title": "140 ✪ 大疆还能低空飞多久？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a32b7b0f0f66b17f06e9ef9",
+          "published_at": "2026-06-18T00:00:00.000Z",
+          "duration_seconds": 5034
+        },
+        {
+          "id": "6a213584f414362f3ab828e3",
+          "title": "139 ✪ 泡泡玛特和拼多多值得投资么？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a213584f414362f3ab828e3",
+          "published_at": "2026-06-04T00:00:00.000Z",
+          "duration_seconds": 4002
+        },
+        {
+          "id": "6a035ff1e9161a38ce344593",
+          "title": "138 ✪ 👟昂跑中国重直营、🦍超级猩猩不办卡",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a035ff1e9161a38ce344593",
+          "published_at": "2026-05-13T00:00:00.000Z",
+          "duration_seconds": 4523
+        },
+        {
+          "id": "69e60962cb1c11d03b3a1185",
+          "title": "137 ✪ 从顺德猪肉婆到韩国圣水洞：那些AI无法取代的体验消费",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69e60962cb1c11d03b3a1185",
+          "published_at": "2026-04-20T12:00:00.000Z",
+          "duration_seconds": 4613
+        },
+        {
+          "id": "69d911ad24a6ea4a54824c8e",
+          "title": "136 ✪ 美团的零售破局：收购叮咚、挑战山姆盒马？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69d911ad24a6ea4a54824c8e",
+          "published_at": "2026-04-10T15:00:00.000Z",
+          "duration_seconds": 4266
+        },
+        {
+          "id": "69c5a1e521b3b2db217b38d9",
+          "title": "135 ✪ 🥤奶茶争霸2026",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69c5a1e521b3b2db217b38d9",
+          "published_at": "2026-03-27T00:00:00.000Z",
+          "duration_seconds": 4418
+        }
+      ],
+      "enabled": true,
+      "url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
+      "title": "疯投圈",
+      "author": "黄海、Rio",
+      "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9jcmF6eS5jYXBpdGFsL2Fzc2V0cy9pY29uLXNxdWFyZS1ub3JtYWwtZGFyay1jbkA0eC5wbmc=.png@small",
+      "last_checked_at": "2026-10-19T08:24:53Z",
+      "last_success_at": "2026-10-19T08:24:53Z",
+      "last_error": null,
+      "consecutive_failures": 0
+    },
+    "61358d971c5d56efe5bcb5d2": {
+      "id": "61358d971c5d56efe5bcb5d2",
+      "episodes": [
+        {
+          "id": "6ab4b804e742e36efcbab131",
+          "title": "277.从提醒你，到替你办：Today想把Personal AI带到哪一步？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6ab4b804e742e36efcbab131",
+          "published_at": "2026-09-24T05:46:12.282Z",
+          "duration_seconds": 5981
+        },
+        {
+          "id": "6ab2546493d5eb3bdc794b18",
+          "title": "276.当AI给出所有答案，年轻人如何找到自己的问题？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6ab2546493d5eb3bdc794b18",
+          "published_at": "2026-09-22T10:20:35.931Z",
+          "duration_seconds": 4353
+        },
+        {
+          "id": "6ab029b7ac389df82734ebb6",
+          "title": "275.AI办公的热闹还没散，个人Agent的战争已经开始｜拆解Town、Instinct、Grok Bot与Muse",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6ab029b7ac389df82734ebb6",
+          "published_at": "2026-09-21T00:00:00.000Z",
+          "duration_seconds": 7575
+        },
+        {
+          "id": "6aa9329c051af796b9e8a2dc",
+          "title": "274.从全面屏到中折叠，小米的高端化这次找对路了吗？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6aa9329c051af796b9e8a2dc",
+          "published_at": "2026-09-16T00:00:00.000Z",
+          "duration_seconds": 3595
+        },
+        {
+          "id": "6aa76141492687f6aad974bc",
+          "title": "273.逛完外滩大会，发现蚂蚁找到了新位置",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6aa76141492687f6aad974bc",
+          "published_at": "2026-09-14T03:13:02.193Z",
+          "duration_seconds": 5308
+        },
+        {
+          "id": "6a981121a0210c197dcc5e6e",
+          "title": "272.从飞书基座到Agent优先，豆包工作All in one紧追WorkBuddy",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a981121a0210c197dcc5e6e",
+          "published_at": "2026-09-02T12:12:09.445Z",
+          "duration_seconds": 6690
+        },
+        {
+          "id": "6a8813df1352af56ff39cc0e",
+          "title": "271.唐朝都要不存在了？为什么伪史论会在今年大爆发？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a8813df1352af56ff39cc0e",
+          "published_at": "2026-08-21T09:37:27.363Z",
+          "duration_seconds": 4863
+        },
+        {
+          "id": "6a6da28d1b5e24969ce72d4c",
+          "title": "270.大厂押注AI办公，飞书和钉钉却先成了配角",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a6da28d1b5e24969ce72d4c",
+          "published_at": "2026-08-01T07:44:43.360Z",
+          "duration_seconds": 5829
+        },
+        {
+          "id": "6a4f777d1e32575f5eb3cbc1",
+          "title": "269.卷规模 VS 卷创作：真人短剧的两种生存模式",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
+          "published_at": "2026-07-09T10:32:06.454Z",
+          "duration_seconds": 4297
+        },
+        {
+          "id": "6a3bdd319d2f5743683d4841",
+          "title": "268.AI时代，个人工作台会重新回到手机吗？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a3bdd319d2f5743683d4841",
+          "published_at": "2026-06-24T13:49:54.122Z",
+          "duration_seconds": 3698
+        },
+        {
+          "id": "6a2be12243a22a695582ab90",
+          "title": "发券、裂变、极速版，如何用红包设计增长？丨字节跳动 第8集",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a2be12243a22a695582ab90",
+          "published_at": "2026-06-12T11:04:56.981Z",
+          "duration_seconds": 10788
+        },
+        {
+          "id": "6a1d9e487460cabdeb597a29",
+          "title": "267.3000块成本，3.5亿次播放，AI短剧怎么在抖音挣钱？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a1d9e487460cabdeb597a29",
+          "published_at": "2026-06-01T15:14:35.698Z",
+          "duration_seconds": 2217
+        },
+        {
+          "id": "6a1953f9ac7bdb080c32baa5",
+          "title": "全面压制，不留空档：字节跳动如何做增长？｜字节跳动 第7集",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a1953f9ac7bdb080c32baa5",
+          "published_at": "2026-05-29T09:42:21.068Z",
+          "duration_seconds": 14316
+        },
+        {
+          "id": "6a02f59ce1eb34a9393fb269",
+          "title": "头腾大战八年后，再把字节和腾讯在各个战场上的竞争逐一拆开｜字节跳动 第6集",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a02f59ce1eb34a9393fb269",
+          "published_at": "2026-05-12T10:16:41.081Z",
+          "duration_seconds": 7545
+        },
+        {
+          "id": "69f0d90f740bacea8777122d",
+          "title": "266.从红果到AI短剧：谁在革谁的命？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69f0d90f740bacea8777122d",
+          "published_at": "2026-04-28T23:30:00.000Z",
+          "duration_seconds": 7339
+        }
+      ],
+      "enabled": true,
+      "url": "https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2",
+      "title": "乱翻书",
+      "author": "乱局",
+      "image": "https://image.xyzcdn.net/FqqQkG2Api63iYHz38DWlnFdR-1y.jpg@small",
+      "last_checked_at": "2026-10-19T08:24:53Z",
+      "last_success_at": "2026-10-19T08:24:53Z",
+      "last_error": null,
+      "consecutive_failures": 0
+    }
+  }
 }
