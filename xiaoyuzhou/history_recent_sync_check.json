@@ -1,14 +1,14 @@
 [
   {
-    "checked_at": "2026-10-19T12:11:08Z",
+    "checked_at": "2026-10-19T12:15:01Z",
     "channel_id": "615a4035c8c1d14e83366946",
     "channel_title": "孤岛车谈",
     "public_url": "https://www.xiaoyuzhoufm.com/podcast/615a4035c8c1d14e83366946",
     "public_latest_count": 15,
     "new_since_final_catalog": 0,
     "retains_all_existing_ids": true,
-    "catalog_count_before": 156,
-    "catalog_count_after": 156,
+    "catalog_count_before": 186,
+    "catalog_count_after": 186,
     "latest": {
       "id": "6ad4f1079554aaac00a10ca4",
       "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
@@ -18,7 +18,7 @@
     }
   },
   {
-    "checked_at": "2026-10-19T12:11:13Z",
+    "checked_at": "2026-10-19T12:15:04Z",
     "channel_id": "5e280faf418a84a0461fbd39",
     "channel_title": "疯投圈",
     "public_url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "checked_at": "2026-10-19T12:11:27Z",
+    "checked_at": "2026-10-19T12:15:08Z",
     "channel_id": "61358d971c5d56efe5bcb5d2",
     "channel_title": "乱翻书",
     "public_url": "https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2",

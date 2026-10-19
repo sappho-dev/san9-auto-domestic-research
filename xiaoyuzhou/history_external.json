@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T12:11:08Z",
+  "updated_at": "2026-10-19T12:15:00Z",
   "note": "External public RSS metadata archive. This file is not read by the unchanged local HTML. Missing Xiaoyuzhou episode IDs are deliberately left null.",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "source_rss": "https://www.ximalaya.com/album/49896353.xml",
       "count": 212,
-      "linked_to_native_count": 156,
+      "linked_to_native_count": 186,
       "episodes": [
         {
           "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
@@ -1057,77 +1057,77 @@
           "published_at": "2022-08-22T11:01:29Z",
           "duration_seconds": 3107,
           "source_url": "https://www.ximalaya.com/sound/563265190",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "630367659b12c5cb5a91f0db"
         },
         {
           "title": "061 自动驾驶灵魂拷问：算力越大越安全？对话嘉宾：章翔，侯俊杰",
           "published_at": "2022-08-15T16:16:08Z",
           "duration_seconds": 1735,
           "source_url": "https://www.ximalaya.com/sound/561502484",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "62fa7dbd1627d0ffaac2ec76"
         },
         {
           "title": "060 高算力芯片+程序员炼丹，软件就能定义汽车了？对话嘉宾：Sean，张盟",
           "published_at": "2022-08-08T11:33:40Z",
           "duration_seconds": 2552,
           "source_url": "https://www.ximalaya.com/sound/559453047",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "62f0f876f5799d1345640224"
         },
         {
           "title": "059 F1还是FE，车企该站谁？对话嘉宾：杨洋，周浩然",
           "published_at": "2022-08-01T12:47:48Z",
           "duration_seconds": 2409,
           "source_url": "https://www.ximalaya.com/sound/557471196",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "62e7d03b0c99dbdd1aa325d1"
         },
         {
           "title": "058 七秒刚刚好，自动驾驶接管时长背后的科学道理 对话嘉宾：杨榆程，张博，侯依萱",
           "published_at": "2022-07-24T09:16:36Z",
           "duration_seconds": 3196,
           "source_url": "https://www.ximalaya.com/sound/555022029",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "62dd15db83b2b478ce31ef25"
         },
         {
           "title": "057 如果车能自动驾驶，谁来买保险？ 对话嘉宾：徐之炯，李铀",
           "published_at": "2022-06-26T22:27:52Z",
           "duration_seconds": 3233,
           "source_url": "https://www.ximalaya.com/sound/546743207",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "62b8e669704fa195d96a35c6"
         },
         {
           "title": "056 仿真模拟开发，此处无车胜有车 对话嘉宾：杨昌龙，范昌易",
           "published_at": "2022-06-19T21:20:14Z",
           "duration_seconds": 2745,
           "source_url": "https://www.ximalaya.com/sound/544755930",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "62af9781ba5434fc2d65f3cb"
         },
         {
           "title": "055 原来轮辋制造主要拼的是水力发电 对话嘉宾：李祺，冯金钊",
           "published_at": "2022-06-12T22:47:36Z",
           "duration_seconds": 3464,
           "source_url": "https://www.ximalaya.com/sound/542685985",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "62a680e8491e0b04ff0eb775"
         },
         {
           "title": "054 Stellantis特辑：美国通用到法国PSA，欧宝自问我是谁？ 对话嘉宾：康定伟，李文超",
           "published_at": "2022-06-06T20:19:37Z",
           "duration_seconds": 2268,
           "source_url": "https://www.ximalaya.com/sound/540882236",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "629e66a49670852dace80fa4"
         },
         {
           "title": "053 Stellantis特辑：百年美资历史，纯粹德国制造 对话嘉宾：康定伟，李文超",
           "published_at": "2022-05-29T21:16:36Z",
           "duration_seconds": 2385,
           "source_url": "https://www.ximalaya.com/sound/538532152",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6293e8b1a3a94755cd088972"
         },
         {
           "title": "052 Stellantis特辑：浸润在德意文化里的纯粹美国味 对话嘉宾：蒋晨、张昊龙、毕海默",
           "published_at": "2022-05-22T21:57:21Z",
           "duration_seconds": 3696,
           "source_url": "https://www.ximalaya.com/sound/535924482",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "628ab48ce2faf1d02a81c2ea"
         },
         {
           "title": "051 Stellantis特辑：百折不挠的老三 克莱斯勒 对话嘉宾：蒋晨",
@@ -1141,133 +1141,133 @@
           "published_at": "2022-05-08T20:00:00Z",
           "duration_seconds": 1662,
           "source_url": "https://www.ximalaya.com/sound/529772503",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "62782614384f4ba14aa858b9"
         },
         {
           "title": "049 现代汽车关停发动机研发意味着什么？ 对话嘉宾： 贾钊、王昕",
           "published_at": "2022-05-01T20:00:00Z",
           "duration_seconds": 2379,
           "source_url": "https://www.ximalaya.com/sound/527308342",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "626ee748f1add8a5975e6fe0"
         },
         {
           "title": "048 Stellantis特辑：保守的家族企业标致 对话嘉宾：罗昶，张睿钊",
           "published_at": "2022-04-24T23:26:29Z",
           "duration_seconds": 3494,
           "source_url": "https://www.ximalaya.com/sound/525300008",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6265eba9863e391d2cdb97e1"
         },
         {
           "title": "047 Stellantis特辑：底盘先锋雪铁龙 对话嘉宾：罗昶，张睿钊",
           "published_at": "2022-04-17T20:00:00Z",
           "duration_seconds": 2969,
           "source_url": "https://www.ximalaya.com/sound/522501120",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "625c767a516bcf8772ee7eb3"
         },
         {
           "title": "046 Stellantis特辑：菲亚特不卖汽车卖产线 对话嘉宾：崔安东，谢伟彬",
           "published_at": "2022-04-10T21:19:29Z",
           "duration_seconds": 2858,
           "source_url": "https://www.ximalaya.com/sound/520366237",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "62534abb75c3d710976fa7b3"
         },
         {
           "title": "045 Stellantis特辑：菲亚特宇宙到底有多大 对话嘉宾：崔安东，谢伟彬",
           "published_at": "2022-04-03T18:21:13Z",
           "duration_seconds": 2258,
           "source_url": "https://www.ximalaya.com/sound/517897920",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6249f8660bc1b8e68a1db31d"
         },
         {
           "title": "044 无所不能的变速箱油：传动、控制、润滑、冷却 对话嘉宾：张烽、王崇明",
           "published_at": "2022-03-27T20:28:23Z",
           "duration_seconds": 3341,
           "source_url": "https://www.ximalaya.com/sound/515429707",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6240c9cc0de79263b93b8c97"
         },
         {
           "title": "043宋诗如：别担心，做好标定工程师一点也不难",
           "published_at": "2022-03-20T22:11:23Z",
           "duration_seconds": 3382,
           "source_url": "https://www.ximalaya.com/sound/513014580",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6237a8617972f457dfda9d90"
         },
         {
           "title": "042 刘诗卉：这位美妆up主在迈凯伦做研发",
           "published_at": "2022-03-13T23:36:35Z",
           "duration_seconds": 3037,
           "source_url": "https://www.ximalaya.com/sound/510640232",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "622e8af40932915f221aa363"
         },
         {
           "title": "041 Jojo：从波许（Bosch）公司走出来的女技术开发总监",
           "published_at": "2022-03-06T22:04:37Z",
           "duration_seconds": 3103,
           "source_url": "https://www.ximalaya.com/sound/508332555",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6225348d5c5931a3a048d9ec"
         },
         {
           "title": "040听说造轮胎和蒸包子没啥区别？对话嘉宾：冯金钊",
           "published_at": "2022-02-27T22:29:30Z",
           "duration_seconds": 3666,
           "source_url": "https://www.ximalaya.com/sound/506127045",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "621bfce59a3519b71827d86b"
         },
         {
           "title": "039 于月仙的车顶碎了到底赖谁？对话嘉宾：章翔、王路",
           "published_at": "2022-02-20T22:42:32Z",
           "duration_seconds": 2877,
           "source_url": "https://www.ximalaya.com/sound/503927547",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6212c8bb6a1d4ec075b0699a"
         },
         {
           "title": "038电动车该搞到1000公里续航么？ 对话嘉宾：罗昶，唐华寅",
           "published_at": "2022-02-14T09:00:19Z",
           "duration_seconds": 3382,
           "source_url": "https://www.ximalaya.com/sound/501778168",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "620a1adb59a3135f621da9f3"
         },
         {
           "title": "037 Robotaxi还是Ultra Cruise，自动驾驶该怎么走？ 对话嘉宾：薛越，陈萌",
           "published_at": "2022-02-07T09:00:00Z",
           "duration_seconds": 3015,
           "source_url": "https://www.ximalaya.com/sound/499487120",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6200e08a3ac8492cb2e26ce0"
         },
         {
           "title": "036不聊工程聊资本 对话嘉宾：杨斯博，章翔",
           "published_at": "2022-01-31T09:00:00Z",
           "duration_seconds": 2735,
           "source_url": "https://www.ximalaya.com/sound/497918479",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "61f7a9e080651919bbdecf02"
         },
         {
           "title": "035和周冠宇的师哥聊聊中国赛车的差距 对话嘉宾： 谢欣哲，李沁",
           "published_at": "2022-01-24T09:00:00Z",
           "duration_seconds": 3527,
           "source_url": "https://www.ximalaya.com/sound/495649590",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "61ee6e650a4b952e22831d40"
         },
         {
           "title": "034来自F1的那一把火：玛莎拉蒂Nettuno发动机的预燃烧室技术 对话嘉宾 刘恺年，朱枫",
           "published_at": "2022-01-17T00:09:00Z",
           "duration_seconds": 3504,
           "source_url": "https://www.ximalaya.com/sound/493181984",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "61e4b60e349a5d36efc83a2e"
         },
         {
           "title": "033溯源汽车电气化之鼻祖——12V电池 对话嘉宾：谢仁浩，李青",
           "published_at": "2022-01-10T09:00:00Z",
           "duration_seconds": 2970,
           "source_url": "https://www.ximalaya.com/sound/490958259",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "61dbf5e22c4f5801faea0ecc"
         },
         {
           "title": "032把元宇宙放进汽车的座舱共需几步？对话人工智能学者高庆一",
           "published_at": "2022-01-03T09:00:21Z",
           "duration_seconds": 3140,
           "source_url": "https://www.ximalaya.com/sound/487889235",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "61d2be720eef504c04856dfd"
         },
         {
           "title": "031都2021年了，固态电池咋还不来？对话嘉宾王昕、王崇明",

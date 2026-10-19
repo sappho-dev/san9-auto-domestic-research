@@ -1,14 +1,14 @@
 {
   "catalog_quality_pass": true,
-  "catalog_total": 590,
-  "official_page_verified_total": 590,
+  "catalog_total": 620,
+  "official_page_verified_total": 620,
   "all_archive_targets_linked": false,
   "channels": {
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
-      "catalog_count": 156,
-      "official_page_verified": 156,
-      "archive_remaining": 56,
+      "catalog_count": 186,
+      "official_page_verified": 186,
+      "archive_remaining": 26,
       "all_catalog_entries_verified": true
     },
     "5e280faf418a84a0461fbd39": {
@@ -28,9 +28,9 @@
   },
   "errors": [],
   "publication_precision": "Existing whole-second RSS timestamps are retained when equal to official timestamp to the second; exact official timestamps are stored in the evidence ledger.",
-  "checked_at": "2026-10-19T12:11:08Z",
+  "checked_at": "2026-10-19T12:15:00Z",
   "baseline_entries_retained": 438,
-  "new_entries": 152,
+  "new_entries": 182,
   "metadata_corrections": 1,
   "removed_entries": 0,
   "unit_tests_passed": 14,
