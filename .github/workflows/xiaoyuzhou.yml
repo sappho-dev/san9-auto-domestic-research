@@ -1,0 +1,46 @@
+name: Xiaoyuzhou podcast sync
+
+on:
+  schedule:
+    # Daily at 18:00 Asia/Tokyo (UTC+09:00).
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: xiaoyuzhou-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: >-
+      github.event_name != 'issues' ||
+      (github.event.issue.user.login == github.repository_owner &&
+       startsWith(github.event.issue.title, '[小宇宙收藏]'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Update from public Xiaoyuzhou pages
+        run: python xiaoyuzhou/update.py
+      - name: Commit index and subscriptions
+        if: always()
+        run: |
+          git add xiaoyuzhou/episodes.json xiaoyuzhou/channels.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(xiaoyuzhou): refresh podcast catalog"
+          git push
