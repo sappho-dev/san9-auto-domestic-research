@@ -3879,5 +3879,329 @@
         ]
       }
     ]
+  },
+  "early_date_pass": {
+    "checked_at": "2026-10-19T11:57:09.585Z",
+    "snapshots": [
+      {
+        "sha": "59dec7d62a0eedb24d4f2991f80df4d2afb5025f",
+        "date": "2025-10-22T12:32:27Z",
+        "title": "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱",
+        "published_at": "2025-10-20T22:57:56Z",
+        "days_after": 1,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/59dec7d62a0eedb24d4f2991f80df4d2afb5025f/hot_episodes.json",
+        "source_blob": "9615f651759ac4e1dc0e45a285b21ae505814aec",
+        "total_rows": 648,
+        "entries": [
+          {
+            "title": "183 起底吉利收购沃尔沃：汽车的资本之魂 对话嘉宾：Benny，陆风鸣",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68ec3ebc8bc215dc6ee59b68",
+            "playCount": 3374,
+            "commentCount": 31,
+            "subscription": 15147,
+            "duration": 104,
+            "postTime": "2025-10-12T23:20:06.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 355,
+            "openRate": 0.22275037961312472,
+            "lastReleaseDateDayCount": 8.840562581018519
+          }
+        ]
+      },
+      {
+        "sha": "1d41bb6570cc6e0894d3cc76790dfea200065562",
+        "date": "2025-10-24T12:32:17Z",
+        "title": "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱",
+        "published_at": "2025-10-20T22:57:56Z",
+        "days_after": 3,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/1d41bb6570cc6e0894d3cc76790dfea200065562/hot_episodes.json",
+        "source_blob": "e354f61021ef163e5e2b314a0502e65c004e9682",
+        "total_rows": 646,
+        "entries": [
+          {
+            "title": "183 起底吉利收购沃尔沃：汽车的资本之魂 对话嘉宾：Benny，陆风鸣",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68ec3ebc8bc215dc6ee59b68",
+            "playCount": 3562,
+            "commentCount": 32,
+            "subscription": 15186,
+            "duration": 104,
+            "postTime": "2025-10-12T23:20:06.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 355,
+            "openRate": 0.23455814566047675,
+            "lastReleaseDateDayCount": 10.840560995370371
+          }
+        ]
+      },
+      {
+        "sha": "db1c217b9ccebdbd1723cb05ae8309ac095880f0",
+        "date": "2025-10-26T12:27:56Z",
+        "title": "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱",
+        "published_at": "2025-10-20T22:57:56Z",
+        "days_after": 5,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/db1c217b9ccebdbd1723cb05ae8309ac095880f0/hot_episodes.json",
+        "source_blob": "48e5a0ceb87d549f172335a823b6a3d1841e1bec",
+        "total_rows": 647,
+        "entries": [
+          {
+            "title": "183 起底吉利收购沃尔沃：汽车的资本之魂 对话嘉宾：Benny，陆风鸣",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/68ec3ebc8bc215dc6ee59b68",
+            "playCount": 3700,
+            "commentCount": 32,
+            "subscription": 15207,
+            "duration": 104,
+            "postTime": "2025-10-12T23:20:06.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 355,
+            "openRate": 0.24330900243309003,
+            "lastReleaseDateDayCount": 12.84053920138889
+          }
+        ]
+      },
+      {
+        "sha": "52e8a3997e838361edcb14f546388807007f3627",
+        "date": "2025-08-12T12:32:07Z",
+        "title": "175 系统工程师（4）：专家，你听我说完 对话嘉宾：许新熠，吴科，孙晨露",
+        "published_at": "2025-08-10T22:46:17Z",
+        "days_after": 1,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/52e8a3997e838361edcb14f546388807007f3627/hot_episodes.json",
+        "source_blob": "9ec3c8cd07ec0e68274aff6b558846056c8d0847",
+        "total_rows": 631,
+        "entries": []
+      },
+      {
+        "sha": "33178cbbfb5603cbb8ab85c38e590e71f00397b7",
+        "date": "2025-08-14T12:33:22Z",
+        "title": "175 系统工程师（4）：专家，你听我说完 对话嘉宾：许新熠，吴科，孙晨露",
+        "published_at": "2025-08-10T22:46:17Z",
+        "days_after": 3,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/33178cbbfb5603cbb8ab85c38e590e71f00397b7/hot_episodes.json",
+        "source_blob": "0d24d38df4e38e95fe32f5b498298ff5d1161b4d",
+        "total_rows": 620,
+        "entries": [
+          {
+            "title": "174 系统工程师（3）：如果我啥都会，我早当CTO了 对话嘉宾：许新熠，吴科，孙晨露",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/688fd77a458c6086efb58530",
+            "playCount": 1014,
+            "commentCount": 10,
+            "subscription": 14175,
+            "duration": 78,
+            "postTime": "2025-08-03T21:17:50.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 335,
+            "openRate": 0.07153439153439153,
+            "lastReleaseDateDayCount": 9.925495856481481
+          }
+        ]
+      },
+      {
+        "sha": "f00889344895e14a4f9565c6ea9bf4879d733ceb",
+        "date": "2025-08-16T12:28:37Z",
+        "title": "175 系统工程师（4）：专家，你听我说完 对话嘉宾：许新熠，吴科，孙晨露",
+        "published_at": "2025-08-10T22:46:17Z",
+        "days_after": 5,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/f00889344895e14a4f9565c6ea9bf4879d733ceb/hot_episodes.json",
+        "source_blob": "807b66e9412c8a232d76f8d0a4660a174ea0d445",
+        "total_rows": 627,
+        "entries": [
+          {
+            "title": "174 系统工程师（3）：如果我啥都会，我早当CTO了 对话嘉宾：许新熠，吴科，孙晨露",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/688fd77a458c6086efb58530",
+            "playCount": 1068,
+            "commentCount": 10,
+            "subscription": 14175,
+            "duration": 78,
+            "postTime": "2025-08-03T21:17:50.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 335,
+            "openRate": 0.07534391534391534,
+            "lastReleaseDateDayCount": 11.925444652777777
+          }
+        ]
+      },
+      {
+        "sha": "e676c035c1284f1409d933df0175c53ffb64e992",
+        "date": "2025-07-17T12:32:49Z",
+        "title": "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄",
+        "published_at": "2025-07-14T21:38:47Z",
+        "days_after": 1,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/e676c035c1284f1409d933df0175c53ffb64e992/hot_episodes.json",
+        "source_blob": "babcc4f7608c1c15c0302dc048085caa17233317",
+        "total_rows": 603,
+        "entries": [
+          {
+            "title": "170 美国汽车的至暗时刻（下）：一手好牌打个稀烂 对话嘉宾：陆风鸣，罗新雨，陈萌",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/686b0155c6d8bdf04b511e98",
+            "playCount": 2270,
+            "commentCount": 40,
+            "subscription": 13550,
+            "duration": 92,
+            "postTime": "2025-07-06T22:34:20.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 317,
+            "openRate": 0.16752767527675277,
+            "lastReleaseDateDayCount": 9.87307181712963
+          }
+        ]
+      },
+      {
+        "sha": "4af018ca2500cf16e79b1b2081234d735a5871b1",
+        "date": "2025-07-18T12:32:48Z",
+        "title": "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄",
+        "published_at": "2025-07-14T21:38:47Z",
+        "days_after": 3,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/4af018ca2500cf16e79b1b2081234d735a5871b1/hot_episodes.json",
+        "source_blob": "172ff6a8eb7f0e479205894569f8bf791b2fddc2",
+        "total_rows": 609,
+        "entries": [
+          {
+            "title": "170 美国汽车的至暗时刻（下）：一手好牌打个稀烂 对话嘉宾：陆风鸣，罗新雨，陈萌",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/686b0155c6d8bdf04b511e98",
+            "playCount": 2342,
+            "commentCount": 41,
+            "subscription": 13550,
+            "duration": 92,
+            "postTime": "2025-07-06T22:34:20.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 317,
+            "openRate": 0.17284132841328415,
+            "lastReleaseDateDayCount": 10.872433819444444
+          }
+        ]
+      },
+      {
+        "sha": "8ddce3fa981f3b05ae0b83745b2afbd2d7095cbf",
+        "date": "2025-07-20T12:29:56Z",
+        "title": "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄",
+        "published_at": "2025-07-14T21:38:47Z",
+        "days_after": 5,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/8ddce3fa981f3b05ae0b83745b2afbd2d7095cbf/hot_episodes.json",
+        "source_blob": "8fd2c09ca6d8f16f64ecef7639b3c47fa81fa45b",
+        "total_rows": 624,
+        "entries": [
+          {
+            "title": "170 美国汽车的至暗时刻（下）：一手好牌打个稀烂 对话嘉宾：陆风鸣，罗新雨，陈萌",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/686b0155c6d8bdf04b511e98",
+            "playCount": 2455,
+            "commentCount": 48,
+            "subscription": 13550,
+            "duration": 92,
+            "postTime": "2025-07-06T22:34:20.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 317,
+            "openRate": 0.18118081180811807,
+            "lastReleaseDateDayCount": 12.872418564814815
+          }
+        ]
+      },
+      {
+        "sha": "9e2cab7ee257dc04a3e3707aaabe606677fcf1be",
+        "date": "2025-06-10T12:31:33Z",
+        "title": "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青",
+        "published_at": "2025-06-08T22:52:10Z",
+        "days_after": 1,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/9e2cab7ee257dc04a3e3707aaabe606677fcf1be/hot_episodes.json",
+        "source_blob": "df1b826f1ef2268337091ebc00feac2ec022661d",
+        "total_rows": 643,
+        "entries": [
+          {
+            "title": "165 快充困境：800V的车，400V的速度 对话嘉宾：冯金钊，韩毅，唐华寅",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/6834f2cdf6aeb113a1569bb8",
+            "playCount": 2912,
+            "commentCount": 15,
+            "subscription": 13550,
+            "duration": 110,
+            "postTime": "2025-05-26T22:27:12.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 317,
+            "openRate": 0.21490774907749077,
+            "lastReleaseDateDayCount": 13.877316064814815
+          }
+        ]
+      },
+      {
+        "sha": "def76d7a07a7ad4dcae7f0091ea68ea488e9aae2",
+        "date": "2025-06-12T12:30:41Z",
+        "title": "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青",
+        "published_at": "2025-06-08T22:52:10Z",
+        "days_after": 3,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/def76d7a07a7ad4dcae7f0091ea68ea488e9aae2/hot_episodes.json",
+        "source_blob": "5c20bef48f70dba2dedefcb162da0a550640690e",
+        "total_rows": 626,
+        "entries": [
+          {
+            "title": "166 波兰汽车业（上）：资深菲亚特海外工厂 对话嘉宾：陆风鸣，付梓耘，高处青",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/683cd61d45e320580febb0cd",
+            "playCount": 1446,
+            "commentCount": 9,
+            "subscription": 13550,
+            "duration": 83,
+            "postTime": "2025-06-01T22:02:44.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 317,
+            "openRate": 0.10671586715867158,
+            "lastReleaseDateDayCount": 9.894313668981482
+          }
+        ]
+      },
+      {
+        "sha": "5d4bb6cf997b2fb936991b3e035f9da115386a10",
+        "date": "2025-06-14T12:27:39Z",
+        "title": "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青",
+        "published_at": "2025-06-08T22:52:10Z",
+        "days_after": 5,
+        "source_url": "https://github.com/cellinlab/xyzrank/blob/5d4bb6cf997b2fb936991b3e035f9da115386a10/hot_episodes.json",
+        "source_blob": "8ad4297de22895e6c9e168a3f30dcca28ac7e2a9",
+        "total_rows": 629,
+        "entries": [
+          {
+            "title": "166 波兰汽车业（上）：资深菲亚特海外工厂 对话嘉宾：陆风鸣，付梓耘，高处青",
+            "podcastID": "ce73f13758b8092765d6bf17eb8e45a4",
+            "podcastName": "孤岛车谈",
+            "logoURL": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/6d/4a/7c/6d4a7c69-99cb-ce5c-8335-88a7ff57a339/mza_9007919537969269482.jpeg/100x100bb.jpg",
+            "link": "https://www.xiaoyuzhoufm.com/episode/683cd61d45e320580febb0cd",
+            "playCount": 1560,
+            "commentCount": 9,
+            "subscription": 13550,
+            "duration": 83,
+            "postTime": "2025-06-01T22:02:44.000Z",
+            "primaryGenreName": "科技新闻",
+            "totalEpisodesCount": 317,
+            "openRate": 0.11512915129151291,
+            "lastReleaseDateDayCount": 11.894317743055556
+          }
+        ]
+      }
+    ]
   }
 }

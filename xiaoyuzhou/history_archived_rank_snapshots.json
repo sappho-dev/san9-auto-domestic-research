@@ -1,0 +1,539 @@
+{
+  "checked_at": "2026-10-19T12:11:08Z",
+  "scope": "37 public archived hot-episode JSON snapshots, 2022–2025; rank samples rather than complete channel histories. Episode066 was found independently here and subsequently in EarsOnMe.",
+  "snapshots": [
+    {
+      "source_url": "https://web.archive.org/web/20220816204359id_/https://xyzrank.com/assets/hot-episodes.b22e8dc08f81b37a5b149766a1295d38.json",
+      "status": 200,
+      "sha256": "730d3ad2f4de2d031c11522457bb094bfcb217dc7d4afc9d94da0b94f829bd4e",
+      "bytes": 128757,
+      "episode_row_count": 209,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20220908142859id_/https://xyzrank.com/assets/hot-episodes.9781ad5c34cae96413fa45fe5fd19421.json",
+      "status": 200,
+      "sha256": "49152e259cd937975c4a91a1065aad7d086b6a2644524cf2e747ead23acf048f",
+      "bytes": 141638,
+      "episode_row_count": 230,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20220923234707id_/https://xyzrank.com/assets/hot-episodes.16a4f686ba1f5568f31f913f088930b1.json",
+      "status": 200,
+      "sha256": "7b12e55fd944d5ea5849ea72f61756f48ba4057d3b29c52257e211100211509c",
+      "bytes": 137181,
+      "episode_row_count": 222,
+      "matches": [
+        {
+          "id": "6328627a171b463f9a2e1dcd",
+          "title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6328627a171b463f9a2e1dcd",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2022-09-19T12:01:21.000Z",
+          "source_duration": 57,
+          "discovery_source_url": "https://web.archive.org/web/20220923234707id_/https://xyzrank.com/assets/hot-episodes.16a4f686ba1f5568f31f913f088930b1.json",
+          "discovery_source_sha256": "7b12e55fd944d5ea5849ea72f61756f48ba4057d3b29c52257e211100211509c",
+          "known": false
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20220930081052id_/https://xyzrank.com/assets/hot-episodes.a705c5ce19506972ccc3c39eb38d8fde.json",
+      "status": 200,
+      "sha256": "a036d197d37dc25139b2e16c8dbb116928e108699b92c2c1957f9bbcdca76e36",
+      "bytes": 131202,
+      "episode_row_count": 212,
+      "matches": [
+        {
+          "id": "6328627a171b463f9a2e1dcd",
+          "title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6328627a171b463f9a2e1dcd",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2022-09-19T12:01:21.000Z",
+          "source_duration": 57,
+          "discovery_source_url": "https://web.archive.org/web/20220930081052id_/https://xyzrank.com/assets/hot-episodes.a705c5ce19506972ccc3c39eb38d8fde.json",
+          "discovery_source_sha256": "a036d197d37dc25139b2e16c8dbb116928e108699b92c2c1957f9bbcdca76e36",
+          "known": false
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20221001231548id_/https://xyzrank.com/assets/hot-episodes.d0a1f1e23b7e194c4c4e08998392f094.json",
+      "status": 200,
+      "sha256": "6239c0064e6027a3e76facd20cb5ff6d857c58834336ae72bb08753918c4b3c4",
+      "bytes": 131707,
+      "episode_row_count": 213,
+      "matches": [
+        {
+          "id": "6328627a171b463f9a2e1dcd",
+          "title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6328627a171b463f9a2e1dcd",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2022-09-19T12:01:21.000Z",
+          "source_duration": 57,
+          "discovery_source_url": "https://web.archive.org/web/20221001231548id_/https://xyzrank.com/assets/hot-episodes.d0a1f1e23b7e194c4c4e08998392f094.json",
+          "discovery_source_sha256": "6239c0064e6027a3e76facd20cb5ff6d857c58834336ae72bb08753918c4b3c4",
+          "known": false
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20221008081832id_/https://xyzrank.com/assets/hot-episodes.611e212af71bf64817c65d031b2032bd.json",
+      "status": 200,
+      "sha256": "f0dfae89ccddb2b4018c914386482d26e0e4fde8098133a4c073ded36e6c4ec3",
+      "bytes": 123710,
+      "episode_row_count": 200,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20221016160113id_/https://xyzrank.com/assets/hot-episodes.aab1c22d997fc69d9702e86e5c919d50.json",
+      "status": 200,
+      "sha256": "5a3254cf22616a61588f3dd237eb1dd2d7dc7cd910f29dbdfb1479dab53221f4",
+      "bytes": 128349,
+      "episode_row_count": 208,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20221025112743id_/https://xyzrank.com/assets/hot-episodes.a32050a1b1a3e218ba1da7dcb8831aad.json",
+      "status": 200,
+      "sha256": "8ce4a3d591f19a5b80aff5ddaae6421b9db8d74fe6d027f90f73e1318ed3bc72",
+      "bytes": 136504,
+      "episode_row_count": 221,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20221113112252id_/https://xyzrank.com/assets/hot-episodes.3f7a8ad0923afe7af784088bc4bb4f97.json",
+      "status": 200,
+      "sha256": "b83f81a684e2484adb2861ca60ca3d8ad993ca8a75c0b034f1903ca8655b03ed",
+      "bytes": 142251,
+      "episode_row_count": 231,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20221227060612id_/https://xyzrank.com/assets/hot-episodes.442d4c869d1aef86d452d788680e07e7.json",
+      "status": 200,
+      "sha256": "f8a950343d5ff3f868ec968602d6fecc3bed66594583736ced015ac9a8ad2eae",
+      "bytes": 131150,
+      "episode_row_count": 212,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20221230032820id_/https://xyzrank.com/assets/hot-episodes.0ecf403b49ba36b0cdaa6f7e640127e4.json",
+      "status": 200,
+      "sha256": "72a9eaa6dc9b7adac802054601df0ec4b9bf7801e8d19577f718fac68ec1827f",
+      "bytes": 134736,
+      "episode_row_count": 218,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230110094840id_/https://xyzrank.com/assets/hot-episodes.7f54b4423670ab2eb84992e44bc7f584.json",
+      "status": 200,
+      "sha256": "011c25f6aab6fca89c6162bcd548d8861d93df640985523d1c23af93036a5b2d",
+      "bytes": 138758,
+      "episode_row_count": 225,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230112045940id_/https://xyzrank.com/assets/hot-episodes.592b17d7cc0bb8ef891afbbc586e0490.json",
+      "status": 200,
+      "sha256": "7c32413ff37c7124f7a73bf63bdfcb2732109a2d5c6938d635c53aa523c7a38c",
+      "bytes": 143551,
+      "episode_row_count": 233,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230116090724id_/https://xyzrank.com/assets/hot-episodes.d91d79001a8bcbc7eb4958871f5af4e9.json",
+      "status": 200,
+      "sha256": "725552618801bd3c3dfee975637053cd83b14d5414455ac04bb78ba74ed9c0f3",
+      "bytes": 132455,
+      "episode_row_count": 215,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230210065933id_/https://xyzrank.com/assets/hot-episodes.e6e605e699d0678437dad69dfb2ed237.json",
+      "status": 200,
+      "sha256": "b1b4a4391508da40b905a37f939ff1fb7524f421a3d59c5ec0242f4c80988803",
+      "bytes": 141908,
+      "episode_row_count": 230,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230220032806id_/https://xyzrank.com/assets/hot-episodes.176cf522ad1b91f73d179f55e6eaa52f.json",
+      "status": 200,
+      "sha256": "e691d70b53d85851adb1e2da10097281f478f4e0b08d4f44acb5935735663b60",
+      "bytes": 156733,
+      "episode_row_count": 254,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230223101321id_/https://xyzrank.com/assets/hot-episodes.3e387ccf3d130e24802f9ec086d425af.json",
+      "status": 200,
+      "sha256": "dc48160e5c8600420f4f4a1ca3593889b2c1fab76408c4f95fada94a8a1eba34",
+      "bytes": 157501,
+      "episode_row_count": 256,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230317071748id_/https://xyzrank.com/assets/hot-episodes.7633b059431ddeb9718559531894d7a1.json",
+      "status": 200,
+      "sha256": "1fce075b9c8677845fb9a8b6be327b39481ee742554b4a6952fd1877ed635622",
+      "bytes": 167294,
+      "episode_row_count": 272,
+      "matches": [
+        {
+          "id": "6405326e178037e42fe557c2",
+          "title": "076 见所未见的保时捷 对话嘉宾：李温如，丁伯骏",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6405326e178037e42fe557c2",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2023-03-05T23:48:42.000Z",
+          "source_duration": 65,
+          "discovery_source_url": "https://web.archive.org/web/20230317071748id_/https://xyzrank.com/assets/hot-episodes.7633b059431ddeb9718559531894d7a1.json",
+          "discovery_source_sha256": "1fce075b9c8677845fb9a8b6be327b39481ee742554b4a6952fd1877ed635622",
+          "known": true
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230328033627id_/https://xyzrank.com/assets/hot-episodes.616f48da1dbb696d060f3760cd41f50b.json",
+      "status": 200,
+      "sha256": "7e79cc5fe73069ef3ef240bb585329a5ddc504df85a61794c3c0ebfa97fa4d75",
+      "bytes": 175345,
+      "episode_row_count": 284,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230401030725id_/https://xyzrank.com/assets/hot-episodes.b8dc42b5d2eaf1a8e359b36a2c8e36ff.json",
+      "status": 200,
+      "sha256": "63cedce15b0dd5e7bce559c17cabb259b313108278bc19bdb46f38b807222523",
+      "bytes": 173997,
+      "episode_row_count": 269,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230503054342id_/https://xyzrank.com/assets/hot-episodes.1b79b6d78b71ee9584e87e66ab83bc4f.json",
+      "status": 200,
+      "sha256": "c82e079b5a4724dc904fa1215bdb5332234d47d4ea1d12e46a406b1f679d9a9c",
+      "bytes": 165441,
+      "episode_row_count": 267,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230514091144id_/https://xyzrank.com/assets/hot-episodes.b229a0bc4414c10b3a7f57a7684038bc.json",
+      "status": 200,
+      "sha256": "a6e2ac3737dab2956dd9a32d218d393924a677d8c1803437317c3520a061ce69",
+      "bytes": 151446,
+      "episode_row_count": 245,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230828211419id_/https://xyzrank.com/assets/hot-episodes.fccd6284100ea7d06c3789d89df1c7c9.json",
+      "status": 200,
+      "sha256": "f9d4c14647651a5a4601903502777c0cad53014a82a00c9550adcad774e028ed",
+      "bytes": 218078,
+      "episode_row_count": 351,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20231203115752id_/https://xyzrank.com/assets/hot-episodes.111c2cee70e898cdd79b319d67b1c93a.json",
+      "status": 200,
+      "sha256": "b8d8c9cd6e3d0e0b064ac2b4b8a0ec99862c835ae76e848ea4ff3731595a84ff",
+      "bytes": 260720,
+      "episode_row_count": 421,
+      "matches": [
+        {
+          "id": "655d49791a9c63a9fd348ba2",
+          "title": "100 德国车的祖传秘方45欧元一本 对话嘉宾：Elaine滕磊，李青",
+          "url": "https://www.xiaoyuzhoufm.com/episode/655d49791a9c63a9fd348ba2",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2023-11-21T22:14:06.000Z",
+          "source_duration": 63,
+          "discovery_source_url": "https://web.archive.org/web/20231203115752id_/https://xyzrank.com/assets/hot-episodes.111c2cee70e898cdd79b319d67b1c93a.json",
+          "discovery_source_sha256": "b8d8c9cd6e3d0e0b064ac2b4b8a0ec99862c835ae76e848ea4ff3731595a84ff",
+          "known": true
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20231204202227id_/https://xyzrank.com/assets/hot-episodes.3a7ef9f3b1efa66ded1115127731a013.json",
+      "status": 200,
+      "sha256": "27f5c1be841cbca9407dda9ac88725860829c6cf535174e17e835c4fed888ff6",
+      "bytes": 261376,
+      "episode_row_count": 422,
+      "matches": [
+        {
+          "id": "655d49791a9c63a9fd348ba2",
+          "title": "100 德国车的祖传秘方45欧元一本 对话嘉宾：Elaine滕磊，李青",
+          "url": "https://www.xiaoyuzhoufm.com/episode/655d49791a9c63a9fd348ba2",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2023-11-21T22:14:06.000Z",
+          "source_duration": 63,
+          "discovery_source_url": "https://web.archive.org/web/20231204202227id_/https://xyzrank.com/assets/hot-episodes.3a7ef9f3b1efa66ded1115127731a013.json",
+          "discovery_source_sha256": "27f5c1be841cbca9407dda9ac88725860829c6cf535174e17e835c4fed888ff6",
+          "known": true
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20240120031942id_/https://xyzrank.com/assets/hot-episodes.c61462f2c00e15ccce940e8eefac9a27.json",
+      "status": 200,
+      "sha256": "8ce8ed2edb0c7eef3aa7bb76ad4701c9c33857dea5c4f274301c67f48c365848",
+      "bytes": 266099,
+      "episode_row_count": 431,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20240503210537id_/https://xyzrank.com/assets/hot-episodes.76b55d4d62feb33e2ec566f9f72f5c67.json",
+      "status": 200,
+      "sha256": "677bc71b66751c36b90da800652affbdd17049a07893f458096c3a60881ef70a",
+      "bytes": 288963,
+      "episode_row_count": 467,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20240715035023id_/https://xyzrank.com/assets/hot-episodes.70d96e00b79fb6e8dbda7931caf13ac1.json",
+      "status": 200,
+      "sha256": "41f0ade4301b5008e6239e5cf7f87647e1fa56d38c9e1c376951555df0821cbc",
+      "bytes": 305549,
+      "episode_row_count": 493,
+      "matches": [
+        {
+          "id": "6681d4f1356e08442206f0cd",
+          "title": "125 比亚迪DM五代：46%是真的 对话嘉宾：张文川，林工",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6681d4f1356e08442206f0cd",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2024-06-30T21:34:36.000Z",
+          "source_duration": 87,
+          "discovery_source_url": "https://web.archive.org/web/20240715035023id_/https://xyzrank.com/assets/hot-episodes.70d96e00b79fb6e8dbda7931caf13ac1.json",
+          "discovery_source_sha256": "41f0ade4301b5008e6239e5cf7f87647e1fa56d38c9e1c376951555df0821cbc",
+          "known": true
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20241213152651id_/https://xyzrank.com/assets/hot-episodes.b769a6708ce7619dc8dae0473517e0fc.json",
+      "status": 200,
+      "sha256": "555e7edfae7248c123bddf6fe7771c8794dc794eacbfb46413cdf2873533d14e",
+      "bytes": 330963,
+      "episode_row_count": 540,
+      "matches": [
+        {
+          "id": "6755056540888233d6b4ac0f",
+          "title": "144 大众小鹏一周年 德国亡国进行时 对话嘉宾：陆风鸣，李青，冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6755056540888233d6b4ac0f",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2024-12-08T02:06:26.000Z",
+          "source_duration": 82,
+          "discovery_source_url": "https://web.archive.org/web/20241213152651id_/https://xyzrank.com/assets/hot-episodes.b769a6708ce7619dc8dae0473517e0fc.json",
+          "discovery_source_sha256": "555e7edfae7248c123bddf6fe7771c8794dc794eacbfb46413cdf2873533d14e",
+          "known": true
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20241218092007id_/https://xyzrank.com/assets/hot-episodes.2ab5bdd662543ec3dd54d1059d566598.json",
+      "status": 200,
+      "sha256": "496a0536ab694178bbdb185a746fa4d1e38f6345d5a4cb3c18f9524a2cb6b01e",
+      "bytes": 370476,
+      "episode_row_count": 606,
+      "matches": [
+        {
+          "id": "6755056540888233d6b4ac0f",
+          "title": "144 大众小鹏一周年 德国亡国进行时 对话嘉宾：陆风鸣，李青，冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6755056540888233d6b4ac0f",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2024-12-08T02:06:26.000Z",
+          "source_duration": 82,
+          "discovery_source_url": "https://web.archive.org/web/20241218092007id_/https://xyzrank.com/assets/hot-episodes.2ab5bdd662543ec3dd54d1059d566598.json",
+          "discovery_source_sha256": "496a0536ab694178bbdb185a746fa4d1e38f6345d5a4cb3c18f9524a2cb6b01e",
+          "known": true
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20241221034914id_/https://xyzrank.com/assets/hot-episodes.bce7731e30dd907e2310bf04684b40b9.json",
+      "status": 200,
+      "sha256": "7bd1484d808643fe6a7e4a7fc7824556ca7d989db9f504c45cc9d1cf26eb5f29",
+      "bytes": 368473,
+      "episode_row_count": 603,
+      "matches": [
+        {
+          "id": "6755056540888233d6b4ac0f",
+          "title": "144 大众小鹏一周年 德国亡国进行时 对话嘉宾：陆风鸣，李青，冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6755056540888233d6b4ac0f",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2024-12-08T02:06:26.000Z",
+          "source_duration": 82,
+          "discovery_source_url": "https://web.archive.org/web/20241221034914id_/https://xyzrank.com/assets/hot-episodes.bce7731e30dd907e2310bf04684b40b9.json",
+          "discovery_source_sha256": "7bd1484d808643fe6a7e4a7fc7824556ca7d989db9f504c45cc9d1cf26eb5f29",
+          "known": true
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20250118152430id_/https://xyzrank.com/assets/hot-episodes.e40d78317391c5d3fa376a023792982e.json",
+      "status": 200,
+      "sha256": "c0fb8188171f831f339ca3ccb66eb5928dc39b4c7031f7ba552ead591e918bf3",
+      "bytes": 337802,
+      "episode_row_count": 553,
+      "matches": [
+        {
+          "id": "677b091f529ffe9e31b1d4ee",
+          "title": "147 中国车出海（3）：在欧洲如何卖车？ 对话嘉宾：Jason，俞波",
+          "url": "https://www.xiaoyuzhoufm.com/episode/677b091f529ffe9e31b1d4ee",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2025-01-05T21:45:54.000Z",
+          "source_duration": 83,
+          "discovery_source_url": "https://web.archive.org/web/20250118152430id_/https://xyzrank.com/assets/hot-episodes.e40d78317391c5d3fa376a023792982e.json",
+          "discovery_source_sha256": "c0fb8188171f831f339ca3ccb66eb5928dc39b4c7031f7ba552ead591e918bf3",
+          "known": true
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20250401080754id_/https://xyzrank.com/assets/hot-episodes.5e0d1abf83bb1e36cb8b1cb446a35e8d.json",
+      "status": 200,
+      "sha256": "6517a45b902cf1ad3a2e82cabafd9d57a3562ed9820df4007e0cc5059caba535",
+      "bytes": 367969,
+      "episode_row_count": 601,
+      "matches": []
+    },
+    {
+      "source_url": "https://web.archive.org/web/20250609063026id_/https://xyzrank.com/assets/hot-episodes.a807739dda880bed1747b36e9327e7ef.json",
+      "status": 200,
+      "sha256": "109cf167395886a3999bba393330c61888d218d5cfcbd95d7f651b55ffddf6c6",
+      "bytes": 398184,
+      "episode_row_count": 653,
+      "matches": [
+        {
+          "id": "6834f2cdf6aeb113a1569bb8",
+          "title": "165 快充困境：800V的车，400V的速度 对话嘉宾：冯金钊，韩毅，唐华寅",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6834f2cdf6aeb113a1569bb8",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2025-05-26T22:27:12.000Z",
+          "source_duration": 110,
+          "discovery_source_url": "https://web.archive.org/web/20250609063026id_/https://xyzrank.com/assets/hot-episodes.a807739dda880bed1747b36e9327e7ef.json",
+          "discovery_source_sha256": "109cf167395886a3999bba393330c61888d218d5cfcbd95d7f651b55ffddf6c6",
+          "known": true
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20250704093411id_/https://xyzrank.com/assets/hot-episodes.20706fbf6eb1feba8f6f529c79aa37df.json",
+      "status": 200,
+      "sha256": "f49263db8bbca5f4e80b9d540141c73f7aa6eeaa650810d5fb6d9f0f9d8e2809",
+      "bytes": 375158,
+      "episode_row_count": 618,
+      "matches": [
+        {
+          "id": "6861c3dcbabafa8df299fd52",
+          "title": "169 美国汽车的至暗时刻（上）：川建国立功了 对话嘉宾：陆风鸣，罗新雨，陈萌",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6861c3dcbabafa8df299fd52",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2025-06-29T22:21:25.000Z",
+          "source_duration": 77,
+          "discovery_source_url": "https://web.archive.org/web/20250704093411id_/https://xyzrank.com/assets/hot-episodes.20706fbf6eb1feba8f6f529c79aa37df.json",
+          "discovery_source_sha256": "f49263db8bbca5f4e80b9d540141c73f7aa6eeaa650810d5fb6d9f0f9d8e2809",
+          "known": true
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20250804131207id_/https://xyzrank.com/assets/hot-episodes.19dfb373af9c1ae63c6414c891e3c7cb.json",
+      "status": 200,
+      "sha256": "f075f1b4e03b494bf209809d3cc6dd08873c932e0e8e099818fb3b27ce1aa806",
+      "bytes": 379887,
+      "episode_row_count": 623,
+      "matches": [
+        {
+          "id": "6886a659492b618a8ec71c44",
+          "title": "173 日产坠落：合并本田失败、e-Power和经产省 对话嘉宾：陆风鸣，杨昌龙",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6886a659492b618a8ec71c44",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2025-07-27T21:58:04.000Z",
+          "source_duration": 89,
+          "discovery_source_url": "https://web.archive.org/web/20250804131207id_/https://xyzrank.com/assets/hot-episodes.19dfb373af9c1ae63c6414c891e3c7cb.json",
+          "discovery_source_sha256": "f075f1b4e03b494bf209809d3cc6dd08873c932e0e8e099818fb3b27ce1aa806",
+          "known": true
+        }
+      ]
+    },
+    {
+      "source_url": "https://web.archive.org/web/20250907091958id_/https://xyzrank.com/assets/hot-episodes.bb381e41d2ea8eed8bec3bd8ce08bd2f.json",
+      "status": 200,
+      "sha256": "0300bb4278b3be3aee8631a88bece1f0a3e11f4a37501c9b16410fb9529ded1c",
+      "bytes": 384053,
+      "episode_row_count": 632,
+      "matches": [
+        {
+          "id": "68acd74b17c8c11bfbe0aa13",
+          "title": "177 懂车智炼场ADAS测试（上）：一档无与伦比的综艺节目 对话嘉宾：许新熠，薛岳",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68acd74b17c8c11bfbe0aa13",
+          "expected_channel_id": "615a4035c8c1d14e83366946",
+          "source_podcast_name": "孤岛车谈",
+          "source_podcast_id": "ce73f13758b8092765d6bf17eb8e45a4",
+          "source_post_time": "2025-08-25T21:13:03.000Z",
+          "source_duration": 65,
+          "discovery_source_url": "https://web.archive.org/web/20250907091958id_/https://xyzrank.com/assets/hot-episodes.bb381e41d2ea8eed8bec3bd8ce08bd2f.json",
+          "discovery_source_sha256": "0300bb4278b3be3aee8631a88bece1f0a3e11f4a37501c9b16410fb9529ded1c",
+          "known": false
+        }
+      ]
+    }
+  ],
+  "independent_066_official_proof": [
+    {
+      "checked_at": "2026-10-19T11:55:40.420621+00:00",
+      "expected_channel_id": "615a4035c8c1d14e83366946",
+      "id": "6328627a171b463f9a2e1dcd",
+      "url": "https://www.xiaoyuzhoufm.com/episode/6328627a171b463f9a2e1dcd",
+      "discovery_source_url": "https://web.archive.org/web/20220923234707id_/https://xyzrank.com/assets/hot-episodes.16a4f686ba1f5568f31f913f088930b1.json",
+      "discovery_source_sha256": "7b12e55fd944d5ea5849ea72f61756f48ba4057d3b29c52257e211100211509c",
+      "discovery_route": "Internet Archive immutable XYZRank public hot-episode JSON snapshot",
+      "historical_source_title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+      "observed": {
+        "http_status": 200,
+        "final_url": "https://www.xiaoyuzhoufm.com/episode/6328627a171b463f9a2e1dcd",
+        "page_sha256": "95dc25e8b4d2ebb45418dfd1470a913c69257ca04ea1b54967331c3fb1fa50b5",
+        "id": "6328627a171b463f9a2e1dcd",
+        "channel_id": "615a4035c8c1d14e83366946",
+        "channel_title": "孤岛车谈",
+        "title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+        "published_at": "2022-09-19T12:01:21.000Z",
+        "duration_seconds": 3448,
+        "linked_episode_ids": []
+      },
+      "expected_title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+      "matches_unresolved_archive_title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+      "status": "verified"
+    }
+  ]
+}

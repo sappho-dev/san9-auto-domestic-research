@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "checked_at": "2026-10-19T11:51:51Z",
-  "status": "research_reopened",
+  "checked_at": "2026-10-19T12:11:08Z",
+  "status": "official_verification_in_progress",
   "total_official_channel_count": 646,
-  "verified_catalog_total": 560,
-  "unconfirmed_total": 86,
+  "verified_catalog_total": 590,
+  "unconfirmed_total": 56,
   "limits": [
     "Search results are incomplete indexes; no absence/nonexistence claim is made.",
     "Only public HTML and its embedded metadata/comments were inspected; app-only pagination was not accessed.",
     "403 and unavailable public routes were recorded without attempting access-control or anti-bot bypass.",
     "No audio files, private accounts, credentials, or paid services were used."
   ],
-  "resume_when": "Active work: historical snapshot datasets, missing date windows and additional public sources.",
+  "resume_when": "Continue the already discovered actual source-link batches.",
   "phase_one_scope_correction": "The earlier examined-routes-exhausted wording was too broad: only latest rank JSON had been inspected, whereas immutable Git history yields additional official links. Historical channel summaries below describe phase one only.",
   "phase_one_channels": {
     "5e280faf418a84a0461fbd39": {
@@ -143,10 +143,10 @@
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "archive_target": 212,
-      "catalog_count": 126,
-      "official_pages_verified": 126,
+      "catalog_count": 156,
+      "official_pages_verified": 156,
       "pending_existing_audit": 0,
-      "archive_remaining": 86
+      "archive_remaining": 56
     },
     "5e280faf418a84a0461fbd39": {
       "title": "疯投圈",
@@ -165,5 +165,11 @@
       "archive_remaining": 0
     }
   },
-  "active_route": "history_rank_snapshots.json"
+  "active_routes": [
+    "history_earsonme.json",
+    "history_public_metadata_sources.json",
+    "history_wayback_snapshots.json",
+    "history_rank_snapshots.json",
+    "history_archived_rank_snapshots.json"
+  ]
 }

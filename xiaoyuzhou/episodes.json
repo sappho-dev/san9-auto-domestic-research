@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T11:51:51Z",
+  "updated_at": "2026-10-19T12:11:08Z",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "id": "615a4035c8c1d14e83366946",
@@ -195,6 +195,13 @@
           "published_at": "2025-10-26T23:31:18.000Z"
         },
         {
+          "id": "68f6c63e49540bd15c333fed",
+          "title": "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68f6c63e49540bd15c333fed",
+          "duration_seconds": 5062,
+          "published_at": "2025-10-20T22:57:56.000Z"
+        },
+        {
           "id": "68ec3ebc8bc215dc6ee59b68",
           "title": "183 起底吉利收购沃尔沃：汽车的资本之魂 对话嘉宾：Benny，陆风鸣",
           "url": "https://www.xiaoyuzhoufm.com/episode/68ec3ebc8bc215dc6ee59b68",
@@ -251,6 +258,13 @@
           "duration_seconds": 5346
         },
         {
+          "id": "68992784f73cd0924eeb1b82",
+          "title": "175 系统工程师（4）：专家，你听我说完 对话嘉宾：许新熠，吴科，孙晨露",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68992784f73cd0924eeb1b82",
+          "duration_seconds": 4835,
+          "published_at": "2025-08-10T22:46:17.000Z"
+        },
+        {
           "id": "688fd77a458c6086efb58530",
           "title": "174 系统工程师（3）：如果我啥都会，我早当CTO了 对话嘉宾：许新熠，吴科，孙晨露",
           "url": "https://www.xiaoyuzhoufm.com/episode/688fd77a458c6086efb58530",
@@ -272,6 +286,13 @@
           "published_at": "2025-07-20T18:22:00.000Z"
         },
         {
+          "id": "68758054b37c018d1817b225",
+          "title": "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68758054b37c018d1817b225",
+          "duration_seconds": 5154,
+          "published_at": "2025-07-14T21:38:47.000Z"
+        },
+        {
           "id": "686b0155c6d8bdf04b511e98",
           "title": "170 美国汽车的至暗时刻（下）：一手好牌打个稀烂 对话嘉宾：陆风鸣，罗新雨，陈萌",
           "url": "https://www.xiaoyuzhoufm.com/episode/686b0155c6d8bdf04b511e98",
@@ -291,6 +312,13 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/68509cd2c5706adba79679d5",
           "duration_seconds": 4311,
           "published_at": "2025-06-16T22:16:31.000Z"
+        },
+        {
+          "id": "684617f1cdecf72d4c40c20a",
+          "title": "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青",
+          "url": "https://www.xiaoyuzhoufm.com/episode/684617f1cdecf72d4c40c20a",
+          "duration_seconds": 3646,
+          "published_at": "2025-06-08T22:52:10.000Z"
         },
         {
           "id": "683cd61d45e320580febb0cd",
@@ -517,6 +545,20 @@
           "duration_seconds": 3750
         },
         {
+          "id": "66f08abc546940251d05f8c9",
+          "title": "134 中国车出海（2）：不卖车，卖技术 对话嘉宾：舒宁，朱珂，俞波",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66f08abc546940251d05f8c9",
+          "duration_seconds": 3448,
+          "published_at": "2024-09-22T20:54:42.000Z"
+        },
+        {
+          "id": "66e89c5c79de2cd4168318cb",
+          "title": "133 中国车出海（1）：去泰国开厂共需几步？对话嘉宾：舒宁，朱珂，俞波",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66e89c5c79de2cd4168318cb",
+          "duration_seconds": 3456,
+          "published_at": "2024-09-16T20:42:56.000Z"
+        },
+        {
           "id": "66dd748679de2cd41697b340",
           "title": "132 蔚来自研智驾芯片（下）：无尽L2 对话嘉宾：章翔，Roy",
           "url": "https://www.xiaoyuzhoufm.com/episode/66dd748679de2cd41697b340",
@@ -720,6 +762,27 @@
           "published_at": "2023-12-14T23:31:30.000Z"
         },
         {
+          "id": "6572df175a15db7f5a8b44c8",
+          "title": "103 欧洲车企的350kW快充封印 对话嘉宾：韩毅，唐华寅",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6572df175a15db7f5a8b44c8",
+          "duration_seconds": 2886,
+          "published_at": "2023-12-08T08:56:36.000Z"
+        },
+        {
+          "id": "656a7bfdff4af26fdb355ce3",
+          "title": "102 为什么即插即充能这么难？对话嘉宾：韩毅，唐华寅",
+          "url": "https://www.xiaoyuzhoufm.com/episode/656a7bfdff4af26fdb355ce3",
+          "duration_seconds": 3602,
+          "published_at": "2023-12-01T22:09:48.000Z"
+        },
+        {
+          "id": "656348833b3f1cde50d99a29",
+          "title": "101 当德国汽车没了祖传秘方 对话嘉宾：Elaine滕磊，李青",
+          "url": "https://www.xiaoyuzhoufm.com/episode/656348833b3f1cde50d99a29",
+          "duration_seconds": 2168,
+          "published_at": "2023-11-26T13:11:02.000Z"
+        },
+        {
           "id": "655d49791a9c63a9fd348ba2",
           "title": "100 德国车的祖传秘方45欧元一本 对话嘉宾：Elaine滕磊，李青",
           "url": "https://www.xiaoyuzhoufm.com/episode/655d49791a9c63a9fd348ba2",
@@ -762,6 +825,13 @@
           "duration_seconds": 2630
         },
         {
+          "id": "650a28e5721383b392524566",
+          "title": "094 红色的阿罗能拥有绿色的未来？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/650a28e5721383b392524566",
+          "duration_seconds": 1120,
+          "published_at": "2023-09-19T22:29:22.000Z"
+        },
+        {
           "id": "64fb5e5750676b0e9fd16fa8",
           "title": "093 合作小鹏，大众押宝合肥 对话嘉宾：陆风鸣，李青，冯金钊",
           "url": "https://www.xiaoyuzhoufm.com/episode/64fb5e5750676b0e9fd16fa8",
@@ -774,6 +844,20 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/64e9341dc512a31a66770c66",
           "published_at": "2023-08-25T22:14:28Z",
           "duration_seconds": 2660
+        },
+        {
+          "id": "64dea115f0c8a9303defba08",
+          "title": "091 为什么满街眯眯眼车灯？对话嘉宾：Jorbin，SanC",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64dea115f0c8a9303defba08",
+          "duration_seconds": 3581,
+          "published_at": "2023-08-17T22:18:15.000Z"
+        },
+        {
+          "id": "64cf999652e1bd19ee573175",
+          "title": "090 为什么总觉得车灯不够亮？对话嘉宾：Jorbin，SanC",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64cf999652e1bd19ee573175",
+          "duration_seconds": 4675,
+          "published_at": "2023-08-06T12:40:02.000Z"
         },
         {
           "id": "64bf0853a5a7840d2fa20a89",
@@ -790,11 +874,25 @@
           "duration_seconds": 2575
         },
         {
+          "id": "64a492a8ca4b0bfbae3412ab",
+          "title": "087 比亚迪到底能不能用常压油箱？ 对话嘉宾：栾工，冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64a492a8ca4b0bfbae3412ab",
+          "duration_seconds": 3033,
+          "published_at": "2023-07-04T21:16:01.000Z"
+        },
+        {
           "id": "6494756cb971bb75bb39e91d",
           "title": "086 保时捷无中生“油”，efuel能减碳么？ 对话嘉宾：Alice，陆巍",
           "url": "https://www.xiaoyuzhoufm.com/episode/6494756cb971bb75bb39e91d",
           "published_at": "2023-06-22T16:01:52Z",
           "duration_seconds": 4030
+        },
+        {
+          "id": "648667184bc158b926506599",
+          "title": "085 电动化完成前，我想留一台油车 对话嘉宾：Vouney，Down哥",
+          "url": "https://www.xiaoyuzhoufm.com/episode/648667184bc158b926506599",
+          "duration_seconds": 3665,
+          "published_at": "2023-06-11T23:00:02.000Z"
         },
         {
           "id": "647e703b8f7d9d4a7f827d54",
@@ -825,6 +923,34 @@
           "duration_seconds": 2836
         },
         {
+          "id": "645058d904bec0a10fac9b0a",
+          "title": "080 2035年欧洲需要640GWh的动力电池，它搞的来么？对话嘉宾：刘子达",
+          "url": "https://www.xiaoyuzhoufm.com/episode/645058d904bec0a10fac9b0a",
+          "duration_seconds": 4377,
+          "published_at": "2023-05-01T22:31:23.000Z"
+        },
+        {
+          "id": "642a112833abe7f365206214",
+          "title": "079 以用户体验出发，聊聊电动车和车机 对话嘉宾：Vouney，张冠男",
+          "url": "https://www.xiaoyuzhoufm.com/episode/642a112833abe7f365206214",
+          "duration_seconds": 2136,
+          "published_at": "2023-04-02T22:23:04.000Z"
+        },
+        {
+          "id": "6420d9b33f943b575b382337",
+          "title": "078 乔布斯说：要先从用户体验开始 对话嘉宾：Vouney，张冠男",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6420d9b33f943b575b382337",
+          "duration_seconds": 3121,
+          "published_at": "2023-03-26T22:51:22.000Z"
+        },
+        {
+          "id": "640fa2113b564ef4f1faf298",
+          "title": "077 电动时代的逆行者日产 对话嘉宾：杨宇，刘工",
+          "url": "https://www.xiaoyuzhoufm.com/episode/640fa2113b564ef4f1faf298",
+          "duration_seconds": 2808,
+          "published_at": "2023-03-13T22:20:00.000Z"
+        },
+        {
           "id": "6405326e178037e42fe557c2",
           "title": "076 见所未见的保时捷 对话嘉宾：李温如，丁伯骏",
           "url": "https://www.xiaoyuzhoufm.com/episode/6405326e178037e42fe557c2",
@@ -832,11 +958,95 @@
           "duration_seconds": 3876
         },
         {
+          "id": "63c485af100157008c3ddbef",
+          "title": "075 雪铁龙DS（下）：让法国总统死里逃生的液气悬挂 对话嘉宾：罗昶，笑语",
+          "url": "https://www.xiaoyuzhoufm.com/episode/63c485af100157008c3ddbef",
+          "duration_seconds": 3571,
+          "published_at": "2023-01-15T22:45:49.000Z"
+        },
+        {
+          "id": "63bb4e780d87411151072160",
+          "title": "074 雪铁龙DS（上）：独步天下二十载的天外来车 对话嘉宾：罗昶，笑语",
+          "url": "https://www.xiaoyuzhoufm.com/episode/63bb4e780d87411151072160",
+          "duration_seconds": 4170,
+          "published_at": "2023-01-08T23:00:44.000Z"
+        },
+        {
+          "id": "638c4e23a6ab012bf468c316",
+          "title": "073 极氪001下地库烧胎上墙事故解读",
+          "url": "https://www.xiaoyuzhoufm.com/episode/638c4e23a6ab012bf468c316",
+          "duration_seconds": 520,
+          "published_at": "2022-12-04T07:23:00.000Z"
+        },
+        {
+          "id": "6383f0abc8b81808083e8709",
+          "title": "072福特Bronco：老旧燃油车也懂用户思维？对话嘉宾：周骏汇Jenway、陈萌",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6383f0abc8b81808083e8709",
+          "duration_seconds": 2455,
+          "published_at": "2022-11-27T22:59:10.000Z"
+        },
+        {
+          "id": "63614cec9d4a12cc8c7a7455",
+          "title": "071造车新势力，薪酬大揭秘：为什么特斯拉不招“蔚小理“的人？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/63614cec9d4a12cc8c7a7455",
+          "duration_seconds": 4177,
+          "published_at": "2022-11-01T16:12:55.000Z"
+        },
+        {
+          "id": "6356317b18757096dfb261f7",
+          "title": "070 工匠派造的小跑车靠谱么？对话嘉宾：唐华寅 陈旭",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6356317b18757096dfb261f7",
+          "duration_seconds": 794,
+          "published_at": "2022-10-24T06:28:00.000Z"
+        },
+        {
           "id": "6343fd5039d890706e7b00f5",
           "title": "069英国汽车工业的罗曼蒂克消亡史，从女王的灵车开始说起",
           "url": "https://www.xiaoyuzhoufm.com/episode/6343fd5039d890706e7b00f5",
           "duration_seconds": 3473,
           "published_at": "2022-10-10T10:43:45.000Z"
+        },
+        {
+          "id": "633a2cad65c6738444385fdd",
+          "title": "068 数字时代还有驾驶乐趣么？对话嘉宾：陆巍，朱博",
+          "url": "https://www.xiaoyuzhoufm.com/episode/633a2cad65c6738444385fdd",
+          "duration_seconds": 1011,
+          "published_at": "2022-10-03T00:17:27.000Z"
+        },
+        {
+          "id": "632f7e38d881b04c17a5eb50",
+          "title": "067 对话秦力洪：蔚来来欧洲不只是卖几台车而已",
+          "url": "https://www.xiaoyuzhoufm.com/episode/632f7e38d881b04c17a5eb50",
+          "duration_seconds": 1002,
+          "published_at": "2022-09-24T21:36:28.000Z"
+        },
+        {
+          "id": "6328627a171b463f9a2e1dcd",
+          "title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6328627a171b463f9a2e1dcd",
+          "duration_seconds": 3448,
+          "published_at": "2022-09-19T12:01:21.000Z"
+        },
+        {
+          "id": "631e72120871199e6d2cb72f",
+          "title": "065 卡车自动驾驶：能回本儿的自动驾驶（推广）对话嘉宾：史院平，黄恺霖",
+          "url": "https://www.xiaoyuzhoufm.com/episode/631e72120871199e6d2cb72f",
+          "duration_seconds": 1682,
+          "published_at": "2022-09-11T23:33:00.000Z"
+        },
+        {
+          "id": "6315ecbf2e9ae0d5c32c4043",
+          "title": "064谁说女人只喜欢粉色车？对话嘉宾：松松和秋秋",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6315ecbf2e9ae0d5c32c4043",
+          "duration_seconds": 2831,
+          "published_at": "2022-09-05T12:19:36.000Z"
+        },
+        {
+          "id": "630e2c12086fd7f2212e9ca2",
+          "title": "063 Stellantis圆桌特辑（下）：那一年，一帮外国工程师在东北擀面，放炮仗",
+          "url": "https://www.xiaoyuzhoufm.com/episode/630e2c12086fd7f2212e9ca2",
+          "duration_seconds": 2689,
+          "published_at": "2022-08-30T14:55:22.000Z"
         },
         {
           "id": "62817528362406f9826a5623",

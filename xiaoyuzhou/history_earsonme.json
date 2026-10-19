@@ -1,0 +1,2839 @@
+{
+  "checked_at": "2026-10-19T12:09:00Z",
+  "source_channel_url": "https://earsonme.com/podcasts/8MZ4OeoY",
+  "source_stated_data_date": "2026-10-02",
+  "source_stated_count": 210,
+  "method": "Normal public cloud-browser UI: follow observed next-page hyperlinks until none remains, then read actual official source anchors from episode detail pages. No login, media playback, API probing or access-control bypass.",
+  "page_count": 18,
+  "listed_titles": 210,
+  "remaining_titles_matched": 86,
+  "candidate_detail_count": 86,
+  "listing_pages": [
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/ACW99U4KVXLz",
+          "title": "210 丰田（2）：一人一款车，打破组织内耗 对话嘉宾：金木，许新熠"
+        },
+        {
+          "href": "https://earsonme.com/episodes/SaaeO3TqSUaB",
+          "title": "209 丰田（1）：先到泰国，再到肯塔基 对话嘉宾：Jason"
+        },
+        {
+          "href": "https://earsonme.com/episodes/WYFM6w6nWx85",
+          "title": "207 专访Gumpert：传奇的人生 对话嘉宾：Roland Rumpert，down哥"
+        },
+        {
+          "href": "https://earsonme.com/episodes/5jEqP8cI8jam",
+          "title": "206 法拉利Luce：是错误的尝试还是伟大的突破 对话嘉宾：温如"
+        },
+        {
+          "href": "https://earsonme.com/episodes/dakut7NgUhAM",
+          "title": "205 比亚迪闪充：不止于快 对话嘉宾：弗雷刘，付梓耘，章翔"
+        },
+        {
+          "href": "https://earsonme.com/episodes/349qUMJqRM5y",
+          "title": "204 起亚EV5：电动车的二元世界 对话嘉宾：侯社长，王涵"
+        },
+        {
+          "href": "https://earsonme.com/episodes/BrlxFpVj5Vd8",
+          "title": "203 机油：在纯电化彻底完成前绕不开的伙伴 对话嘉宾：Adam，Sam"
+        },
+        {
+          "href": "https://earsonme.com/episodes/vsDDdc311r39",
+          "title": "202 车将不车：中国汽车的生态化反 对话嘉宾：冯金钊，王以琳，许新熠"
+        },
+        {
+          "href": "https://earsonme.com/episodes/ZI8VttHPucUc",
+          "title": "201 2026特斯拉低息贷款：从价格战到金融战 对话嘉宾：Benny，Jason"
+        },
+        {
+          "href": "https://earsonme.com/episodes/J51b1i873tOZ",
+          "title": "200 福特为什么要让李沁来帮忙造皮卡 对话嘉宾：李沁，徐桑"
+        },
+        {
+          "href": "https://earsonme.com/episodes/PvrzDd4YfsIG",
+          "title": "199 PLM：汽车研发流水线 对话嘉宾：Simon，down哥，胡雯婷，孙晨露"
+        },
+        {
+          "href": "https://earsonme.com/episodes/pjRXpuNhDOTE",
+          "title": "198 本田2025EV战略崩盘：本田的今天，就是日本的明天 对话嘉宾：金木，白东升"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI2LTAzLTE1IDIyOjMxOjUzIiwiZXBpc29kZXMuaWQiOjQ5NjEzMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/xhvwBqoUyb3d",
+          "title": "197 小鹏汇天陆地航母：如果你有200万，你该不该买它？ 对话嘉宾：许新熠，佳佳"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Sn5hFdverkrW",
+          "title": "196 雷诺安培解散：开也成功，关也成功 对话嘉宾：王涵，Eric"
+        },
+        {
+          "href": "https://earsonme.com/episodes/e7kKzoJT0vcj",
+          "title": "195 卡车HMI：有谁能懂卡车司机的需求？ 对话嘉宾：高峰，June，侯依萱"
+        },
+        {
+          "href": "https://earsonme.com/episodes/uCEgdjA4o0vo",
+          "title": "194 中式豪华：干死BBA共需几步？ 对话嘉宾：管仲窥豹、蒋晨"
+        },
+        {
+          "href": "https://earsonme.com/episodes/rs8d5xNvS0BH",
+          "title": "193 地效时代F1：这四年算不算成功？对话嘉宾：周浩然、邓烨明"
+        },
+        {
+          "href": "https://earsonme.com/episodes/yA9A2C5jQdCi",
+          "title": "192 比亚迪海狮06：插混前驱VS纯电后驱 对话嘉宾：冯金钊、Toto文翰"
+        },
+        {
+          "href": "https://earsonme.com/episodes/6Xg5Rj5SakKr",
+          "title": "191 奔驰转型：左手顶奢，右手纯电 对话嘉宾：冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Idh6x0DtwTKU",
+          "title": "190 理想MEGA爆燃：这次居然是冷却液 对话嘉宾：王炎，章翔"
+        },
+        {
+          "href": "https://earsonme.com/episodes/oYUMUsN5J7nw",
+          "title": "189 中国车出海（4）：再聊澳大利亚汽车 对话嘉宾：陈萌，丁伯骏"
+        },
+        {
+          "href": "https://earsonme.com/episodes/FDb5YAfQ4V3T",
+          "title": "188 汽车屏幕：如何做到车规级 对话嘉宾：宏达，吴科"
+        },
+        {
+          "href": "https://earsonme.com/episodes/3IoOw8AhtFZE",
+          "title": "187 比亚迪英国销量起飞：闷声发大财的基本逻辑 对话嘉宾：舒宁，Jason"
+        },
+        {
+          "href": "https://earsonme.com/episodes/XtWBNJsTlEtV",
+          "title": "186 敏捷开发：一个悲伤的故事 对话嘉宾：苏源，吴科，孙晨露"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI2LTAzLTA5IDA4OjE4OjA5IiwiZXBpc29kZXMuaWQiOjQ5NjEzMywiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTExLTA5IDIwOjQyOjA1IiwiZXBpc29kZXMuaWQiOjQ1MzMzNiwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI2LTAzLTE1IDIyOjMxOjUzIiwiZXBpc29kZXMuaWQiOjQ5NjEzMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/V0oPu7p0kEuc",
+          "title": "185 大众小鹏两周年 大众软硬皆失，内外兼虚 对话嘉宾：陆风鸣，李青，冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/FON8rrCmSmNI",
+          "title": "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱"
+        },
+        {
+          "href": "https://earsonme.com/episodes/N7gaNI0JSIsv",
+          "title": "183 起底吉利收购沃尔沃：汽车的资本之魂 对话嘉宾：Benny，陆风鸣"
+        },
+        {
+          "href": "https://earsonme.com/episodes/pb4BJFv2mVRG",
+          "title": "182 常州：波士顿电池、中航锂电和理想汽车 对话嘉宾：陆风鸣，唐华寅"
+        },
+        {
+          "href": "https://earsonme.com/episodes/2xfWQUeCAVVv",
+          "title": "181 来吉利走一遭：吉利是如何（反）内卷的 对话嘉宾：胡洸久，陈圣夫"
+        },
+        {
+          "href": "https://earsonme.com/episodes/4hvoe2yPQUvd",
+          "title": "180 沃尔沃（下）：SPA2的失败，锅谁背？ 对话嘉宾：苏源，陆风鸣"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Eau9cI884zRs",
+          "title": "179 沃尔沃（上）：外交家CEO PG和他的沃尔沃帝国 对话嘉宾：苏源，陆风鸣"
+        },
+        {
+          "href": "https://earsonme.com/episodes/khp5PTKmjOOI",
+          "title": "178 懂车智炼场ADAS测试（下）：需要智能化的不只有车 对话嘉宾：许新熠，薛岳"
+        },
+        {
+          "href": "https://earsonme.com/episodes/cxuc6wJBaykW",
+          "title": "177 懂车智炼场ADAS测试（上）：一档无与伦比的综艺节目 对话嘉宾：许新熠，薛岳"
+        },
+        {
+          "href": "https://earsonme.com/episodes/OOJ5Z2huAAOO",
+          "title": "176 汽车空调：一个有温度的shy tech 对话嘉宾：Alex，唐华寅"
+        },
+        {
+          "href": "https://earsonme.com/episodes/DJcjQVnKfo2q",
+          "title": "175 系统工程师（4）：专家，你听我说完 对话嘉宾：许新熠，吴科，孙晨露"
+        },
+        {
+          "href": "https://earsonme.com/episodes/p7bUcWJjckei",
+          "title": "174 系统工程师（3）：如果我啥都会，我早当CTO了 对话嘉宾：许新熠，吴科，孙晨露"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTEwLTI3IDA3OjMxOjE4IiwiZXBpc29kZXMuaWQiOjQ1MTA3MCwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTA4LTA0IDA1OjE3OjUwIiwiZXBpc29kZXMuaWQiOjEyNjEwLCJfcG9pbnRzVG9OZXh0SXRlbXMiOnRydWV9",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTExLTA5IDIwOjQyOjA1IiwiZXBpc29kZXMuaWQiOjQ1MzMzNiwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/WigC19YHXB8o",
+          "title": "173 日产坠落：合并本田失败、e-Power和经产省 对话嘉宾：陆风鸣，杨昌龙"
+        },
+        {
+          "href": "https://earsonme.com/episodes/HSqjJMhCRMzO",
+          "title": "172 古德伍德速度节2025：消失的电动街和贝勒爷的小米SU7 对话嘉宾：down哥，贝勒爷"
+        },
+        {
+          "href": "https://earsonme.com/episodes/U7P384w7OEUq",
+          "title": "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄"
+        },
+        {
+          "href": "https://earsonme.com/episodes/EiU2Bl9kSoPl",
+          "title": "170 美国汽车的至暗时刻（下）：一手好牌打个稀烂 对话嘉宾：陆风鸣，罗新雨，陈萌"
+        },
+        {
+          "href": "https://earsonme.com/episodes/tmS20HYQW2JS",
+          "title": "169 美国汽车的至暗时刻（上）：川建国立功了 对话嘉宾：陆风鸣，罗新雨，陈萌"
+        },
+        {
+          "href": "https://earsonme.com/episodes/AK1KI3PapD1Z",
+          "title": "168 GB38031-2025：电车从今天开始，不许玩儿火 对话嘉宾：弗雷刘，刘子达"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Q8xX6ocJOaTn",
+          "title": "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青"
+        },
+        {
+          "href": "https://earsonme.com/episodes/POo5dfwbQC16",
+          "title": "166 波兰汽车业（上）：资深菲亚特海外工厂 对话嘉宾：陆风鸣，付梓耘，高处青"
+        },
+        {
+          "href": "https://earsonme.com/episodes/f6BMINQw86gl",
+          "title": "165 快充困境：800V的车，400V的速度 对话嘉宾：冯金钊，韩毅，唐华寅"
+        },
+        {
+          "href": "https://earsonme.com/episodes/X2XdBosSCBsA",
+          "title": "164 工程师选车（下）：细数车评人测不出的坑 对话嘉宾：高处青，陈圣夫，冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/zK3EggGmAIQM",
+          "title": "163 工程师选车（上）：选车该有执念么？ 对话嘉宾：高处青，陈圣夫，冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Cl20Kj9Zp75C",
+          "title": "162 中国电动重卡（3）：风景中国独好 对话嘉宾：亦达，晨露，文婷"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTA3LTI4IDA1OjU4OjA0IiwiZXBpc29kZXMuaWQiOjEyNjExLCJfcG9pbnRzVG9OZXh0SXRlbXMiOmZhbHNlfQ",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTA1LTA1IDE5OjI2OjE4IiwiZXBpc29kZXMuaWQiOjE5MjYzNywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTA4LTA0IDA1OjE3OjUwIiwiZXBpc29kZXMuaWQiOjEyNjEwLCJfcG9pbnRzVG9OZXh0SXRlbXMiOnRydWV9"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/GgLh30BQWWNd",
+          "title": "161 中国电动重卡（2）：薪资、补贴和电车推广 对话嘉宾：亦达，晨露，文婷"
+        },
+        {
+          "href": "https://earsonme.com/episodes/dBBUWPrGneJB",
+          "title": "160 中国电动重卡（1）：运营、回本和TCO 对话嘉宾：亦达，晨露，文婷"
+        },
+        {
+          "href": "https://earsonme.com/episodes/UncQ5ItBXxop",
+          "title": "159 端到端（下）：多安全才是真安全？ 对话嘉宾：薛越，杨继峰，章翔"
+        },
+        {
+          "href": "https://earsonme.com/episodes/XWv0ZMAq2sAU",
+          "title": "158 端到端（上）：自动驾驶不是功能，而是能力 对话嘉宾：薛越，杨继峰，章翔"
+        },
+        {
+          "href": "https://earsonme.com/episodes/d0e6LRjzBN3I",
+          "title": "157 车机界面设计：蒙眼狂奔，AI上车 对话嘉宾：张冠男，许可，侯依萱"
+        },
+        {
+          "href": "https://earsonme.com/episodes/AVW0qnRJ6enh",
+          "title": "156 MBSE（下）：德味儿流程，行业护城河 对话嘉宾：许新熠，高处青"
+        },
+        {
+          "href": "https://earsonme.com/episodes/yY89jGCebdss",
+          "title": "155 MBSE（上）：大象放冰箱的问题终于有解了 对话嘉宾：许新熠，高处青"
+        },
+        {
+          "href": "https://earsonme.com/episodes/UEta3ymBYr3S",
+          "title": "154 驾驶模式：软件定义汽车的局限 对话嘉宾：刘亦然，戴政"
+        },
+        {
+          "href": "https://earsonme.com/episodes/O8kMNrVoLtVG",
+          "title": "153 解读蔚来EP Mode：纯软件定义的性能车有意思么？ 对话嘉宾：刘亦然，戴政"
+        },
+        {
+          "href": "https://earsonme.com/episodes/EaQvwBWmCQUQ",
+          "title": "152 比亚迪的《工程师之魂》（3）：船大好掉头 对话嘉宾：陆风鸣，李赫瑄"
+        },
+        {
+          "href": "https://earsonme.com/episodes/X2X2e77Zv2nT",
+          "title": "151 比亚迪的《工程师之魂》（2）：命悬一线到一飞冲天 对话嘉宾：陆风鸣，李赫瑄"
+        },
+        {
+          "href": "https://earsonme.com/episodes/e9HueakfAOQi",
+          "title": "150 比亚迪的《工程师之魂》（1）：250万、秦川和巴菲特 对话嘉宾：陆风鸣"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTA0LTI4IDA2OjU1OjAxIiwiZXBpc29kZXMuaWQiOjE5MjYzOCwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTAxLTI3IDA3OjE0OjE5IiwiZXBpc29kZXMuaWQiOjE5MjY0OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTA1LTA1IDE5OjI2OjE4IiwiZXBpc29kZXMuaWQiOjE5MjYzNywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/IpGVV5ABIwHV",
+          "title": "149 系统工程师（2）：千人千面，无边无沿 对话嘉宾：许新熠，岳凯"
+        },
+        {
+          "href": "https://earsonme.com/episodes/SF72QIGPbaxY",
+          "title": "148 系统工程师（1）：无所不知却又无所知 对话嘉宾：许新熠，岳凯"
+        },
+        {
+          "href": "https://earsonme.com/episodes/JAKBg6pgfwlp",
+          "title": "147 中国车出海（3）：在欧洲如何卖车？ 对话嘉宾：Jason，俞波"
+        },
+        {
+          "href": "https://earsonme.com/episodes/FbXTPdz1cTja",
+          "title": "146 懂车帝碰撞测试（下）：新闻梦想有错么？对话嘉宾：许新熠，王路，G桑，章翔"
+        },
+        {
+          "href": "https://earsonme.com/episodes/4XrMjQT4pF5Y",
+          "title": "145 懂车帝碰撞测试（上）：车太高也是错？对话嘉宾：许新熠，王路，章翔"
+        },
+        {
+          "href": "https://earsonme.com/episodes/6wKDEtJjJ3D6",
+          "title": "144 大众小鹏一周年 德国亡国进行时 对话嘉宾：陆风鸣，李青，冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/p4nKinKQVN5k",
+          "title": "143 2024巴黎车展(4)：车展还有多大意义？对话嘉宾：耿源，丁伯骏"
+        },
+        {
+          "href": "https://earsonme.com/episodes/q9p9jcO6EY0L",
+          "title": "142 2024巴黎车展(3)：欧洲人如何消费汽车？对话嘉宾：钟添悦"
+        },
+        {
+          "href": "https://earsonme.com/episodes/WR6C6Ceig9RK",
+          "title": "141 Northvolt倒闭：初创造电池，环保当饭吃 对话嘉宾：严杰，胡雯婷，陆风鸣"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Hu8xviymSQ79",
+          "title": "140 2024巴黎车展(2)：惩罚关税下，哪家车企还在勇闯欧洲？对话嘉宾：冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/tHZqzaAT7oFR",
+          "title": "139 吉利雷诺合资Horse：法国人跟中国人学造内燃机 对话嘉宾：陈圣夫，陆风鸣，胡博峰"
+        },
+        {
+          "href": "https://earsonme.com/episodes/mX4PxnnmppZc",
+          "title": "138 上海通用和泛亚（3）：2027后，上海通用还会不会存在？ 对话嘉宾：陆风鸣，侯社"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTAxLTIwIDA3OjAzOjMxIiwiZXBpc29kZXMuaWQiOjE5MjY1MCwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTEwLTI4IDA0OjA4OjA4IiwiZXBpc29kZXMuaWQiOjE5MjY2MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTAxLTI3IDA3OjE0OjE5IiwiZXBpc29kZXMuaWQiOjE5MjY0OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/vD4V4KssAGv4",
+          "title": "137 2024巴黎车展(1)：雷诺真是极星该有的样子"
+        },
+        {
+          "href": "https://earsonme.com/episodes/LUTjYk2wR1YG",
+          "title": "136 上海通用和泛亚（2）：南方MPV到胖头鱼 对话嘉宾：陆风鸣，侯社"
+        },
+        {
+          "href": "https://earsonme.com/episodes/GC0Il5RFOAtS",
+          "title": "135 上海通用和杨雪兰（1）：影响整个中国汽车界的合资故事 对话嘉宾：陆风鸣"
+        },
+        {
+          "href": "https://earsonme.com/episodes/bpGO6RHbSKxt",
+          "title": "134 中国车出海（2）：不卖车，卖技术 对话嘉宾：舒宁，朱珂，俞波"
+        },
+        {
+          "href": "https://earsonme.com/episodes/iUUYTJLzQ321",
+          "title": "133 中国车出海（1）：去泰国开厂共需几步？对话嘉宾：舒宁，朱珂，俞波"
+        },
+        {
+          "href": "https://earsonme.com/episodes/gW2fxRy3jUN3",
+          "title": "132 蔚来自研智驾芯片（下）：无尽L2 对话嘉宾：章翔，Roy"
+        },
+        {
+          "href": "https://earsonme.com/episodes/9q8LT3rmKNOa",
+          "title": "131 蔚来自研智驾芯片（上）：意义在哪里？对话嘉宾：章翔，Roy"
+        },
+        {
+          "href": "https://earsonme.com/episodes/4BrXIhWqdC4t",
+          "title": "130 大电池插混在欧洲 对话嘉宾：林纯兴，唐华寅"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Vhyz2cKJwVye",
+          "title": "129 2024古德伍德速度节（下）：风扇车，Shadow和Joest 对话嘉宾：林纯兴，down哥"
+        },
+        {
+          "href": "https://earsonme.com/episodes/sqozYN8Y2kmj",
+          "title": "128 2024古德伍德速度节（上）：MG、仰望和RB17 对话嘉宾：林纯兴，down哥"
+        },
+        {
+          "href": "https://earsonme.com/episodes/wfgfrI7SRgzG",
+          "title": "127 F1传奇工程师纽维（下）：躺着开F1和双层扩散器 对话嘉宾：徐桑，邓工"
+        },
+        {
+          "href": "https://earsonme.com/episodes/bnw7YEAlAH8p",
+          "title": "126 F1传奇工程师纽维（上）：辍学、March、威廉姆斯 对话嘉宾：徐桑，邓工"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTEwLTIyIDA3OjEzOjE5IiwiZXBpc29kZXMuaWQiOjE5MjY2MiwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTA3LTA4IDA1OjMyOjMzIiwiZXBpc29kZXMuaWQiOjE5MjY3MywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTEwLTI4IDA0OjA4OjA4IiwiZXBpc29kZXMuaWQiOjE5MjY2MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/4ltqzXMDj7Mr",
+          "title": "125 比亚迪DM五代：46%是真的 对话嘉宾：张文川，林工"
+        },
+        {
+          "href": "https://earsonme.com/episodes/CAo0iD272H4B",
+          "title": "124 汽车教父皮耶希（2）：布加迪、平台化、XL1 对话嘉宾：down哥，冯金钊，陆风鸣"
+        },
+        {
+          "href": "https://earsonme.com/episodes/hh9UX4xubqtf",
+          "title": "123 汽车教父皮耶希（1）：保时捷917、五缸、四驱 对话嘉宾：down哥，冯金钊，陆风鸣"
+        },
+        {
+          "href": "https://earsonme.com/episodes/SBDmT3ycqIjt",
+          "title": "122 Tusimple（下）：梦醒2024 对话嘉宾：许新熠，陆风鸣"
+        },
+        {
+          "href": "https://earsonme.com/episodes/CD1mYPvt8dGq",
+          "title": "121 Tusimple（上）：Tucson，梦开始的地方 对话嘉宾：许新熠，陆风鸣"
+        },
+        {
+          "href": "https://earsonme.com/episodes/DfChYytSznOL",
+          "title": "120 阿斯顿马丁（下）：贵族品牌的生存之道 对话嘉宾：Jenway，崔安东"
+        },
+        {
+          "href": "https://earsonme.com/episodes/glxTvzdgo6T2",
+          "title": "119 阿斯顿马丁（上）：越破产越高端 对话嘉宾：Jenway，崔安东"
+        },
+        {
+          "href": "https://earsonme.com/episodes/8kyktB1Q1Hwx",
+          "title": "118 狂野的AEB白名单 对话嘉宾：老印，薛越"
+        },
+        {
+          "href": "https://earsonme.com/episodes/GCNO0aUj9TZ2",
+          "title": "117 到底该怎么测AEB？ 对话嘉宾：老印，薛越"
+        },
+        {
+          "href": "https://earsonme.com/episodes/XwdbVVYHHR1h",
+          "title": "116 考驾照圆桌（下）：日本金色驾照 对话嘉宾：杨昌龙，红工，胡洸久，岳凯"
+        },
+        {
+          "href": "https://earsonme.com/episodes/woCPOYjO8i5F",
+          "title": "115 考驾照圆桌(上)： 中日意英美，哪国最难考 对话嘉宾:杨昌龙,红工,胡洸久,岳凯"
+        },
+        {
+          "href": "https://earsonme.com/episodes/pK9RUXI57cLt",
+          "title": "114 汽车数据隐私：越智能越裸奔 对话嘉宾：郭庆，郭工"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTA3LTAxIDA1OjM0OjM2IiwiZXBpc29kZXMuaWQiOjE5MjY3NCwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTAzLTA4IDE5OjA0OjU3IiwiZXBpc29kZXMuaWQiOjE5MjY4NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTA3LTA4IDA1OjMyOjMzIiwiZXBpc29kZXMuaWQiOjE5MjY3MywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/x4o9iIRwvUvQ",
+          "title": "113 电动卡车（下）：冰箱微波炉耽误回本儿 对话嘉宾：孙晨露，许新熠，胡雯婷"
+        },
+        {
+          "href": "https://earsonme.com/episodes/x200uGSzxgZ0",
+          "title": "112 电动卡车（上）：拉货回本指南 对话嘉宾：孙晨露，许新熠，胡雯婷"
+        },
+        {
+          "href": "https://earsonme.com/episodes/MRZ0asZ5IEp6",
+          "title": "111 延期交付有解么？对话嘉宾：Elaine滕磊，唐华寅"
+        },
+        {
+          "href": "https://earsonme.com/episodes/s2HCFDit2DYd",
+          "title": "110 特斯拉Cybertruck（下）：透过钢板看韭菜 对话嘉宾：王路，许新熠，老印"
+        },
+        {
+          "href": "https://earsonme.com/episodes/fwQCVlsURXdU",
+          "title": "109 特斯拉Cybertruck（上）老美皮卡指南 对话嘉宾：许新熠，老印"
+        },
+        {
+          "href": "https://earsonme.com/episodes/rGoBi7RZqLP7",
+          "title": "108 先裁CEO，奥迪F1计划风雨飘摇 对话嘉宾：徐桑，村长托马斯，117"
+        },
+        {
+          "href": "https://earsonme.com/episodes/7EmNCx3WZfD7",
+          "title": "107 奥迪：F1我来了 对话嘉宾：徐桑，村长托马斯，117"
+        },
+        {
+          "href": "https://earsonme.com/episodes/KzKkq8gYPmnm",
+          "title": "106 Stellantis和零跑合资，谁输了谁赢了？对话嘉宾：王博，冯金钊，俞翔"
+        },
+        {
+          "href": "https://earsonme.com/episodes/i93dfxq7vUoX",
+          "title": "105 纯电超跑是不是就不该存在？对话嘉宾：段金雨、朱博、戴政"
+        },
+        {
+          "href": "https://earsonme.com/episodes/pFaIfbK2OSy1",
+          "title": "104 2000马力也没用？电动Rimac刷纽北说明什么？对话嘉宾：段金雨、朱博、戴政"
+        },
+        {
+          "href": "https://earsonme.com/episodes/yGnxRQNqWKKQ",
+          "title": "103 欧洲车企的350kW快充封印 对话嘉宾：韩毅，唐华寅"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Ag1ubOxljTAC",
+          "title": "102 为什么即插即充能这么难？对话嘉宾：韩毅，唐华寅"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTAyLTI0IDA2OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5MjY4NiwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTEyLTAyIDA2OjA5OjQ4IiwiZXBpc29kZXMuaWQiOjE5MjY5NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTAzLTA4IDE5OjA0OjU3IiwiZXBpc29kZXMuaWQiOjE5MjY4NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/k3hd6oIrWY2W",
+          "title": "101 当德国汽车没了祖传秘方 对话嘉宾：Elaine滕磊，李青"
+        },
+        {
+          "href": "https://earsonme.com/episodes/NzZpW4LWne2C",
+          "title": "100 德国车的祖传秘方45欧元一本 对话嘉宾：Elaine滕磊，李青"
+        },
+        {
+          "href": "https://earsonme.com/episodes/bX5wlDEJja6J",
+          "title": "099 一汽大众和李文波，一次让皮耶希难忘的engine swap 对话嘉宾：陆风鸣，范文廷"
+        },
+        {
+          "href": "https://earsonme.com/episodes/jtaamzipwMrj",
+          "title": "098 上海大众和李文波，来之不易的桑塔纳 对话嘉宾：陆风鸣，范文廷"
+        },
+        {
+          "href": "https://earsonme.com/episodes/eIKVHTVFgBTy",
+          "title": "097 大众历史：没有研发部，盈利靠返祖 对话嘉宾：陆风鸣，范文廷"
+        },
+        {
+          "href": "https://earsonme.com/episodes/qyMBhPGgvlJE",
+          "title": "096 汽车座椅：不只是沙发 对话嘉宾：郭鹏飞，冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/ZgE0OnsBFCv8",
+          "title": "095 F1新加坡站为什么终结了红牛连胜？对话嘉宾：黄恺霖，唐潇睿"
+        },
+        {
+          "href": "https://earsonme.com/episodes/qD8koF3qRxbS",
+          "title": "094 红色的阿罗能拥有绿色的未来？"
+        },
+        {
+          "href": "https://earsonme.com/episodes/yKAgZgXbVRSL",
+          "title": "093 合作小鹏，大众押宝合肥 对话嘉宾：陆风鸣，李青，冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/T8pggdIe3nJi",
+          "title": "092 大众汽车：德国特色社会主义汽车厂 对话嘉宾：陆风鸣，李青，冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/AJwC7kD2oV5r",
+          "title": "091 为什么满街眯眯眼车灯？对话嘉宾：Jorbin，SanC"
+        },
+        {
+          "href": "https://earsonme.com/episodes/VmfETP8TkTbB",
+          "title": "090 为什么总觉得车灯不够亮？对话嘉宾：Jorbin，SanC"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTExLTI2IDIxOjExOjAyIiwiZXBpc29kZXMuaWQiOjE5MjY5OCwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTA4LTA2IDIwOjQwOjAyIiwiZXBpc29kZXMuaWQiOjE5MjcwOSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTEyLTAyIDA2OjA5OjQ4IiwiZXBpc29kZXMuaWQiOjE5MjY5NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/Mq1zz0BwJn6j",
+          "title": "089 中国不需要ET5 Touring，但蔚来需要 对话嘉宾：陆风鸣、苏源、冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/ec4lCxTFkbtS",
+          "title": "088 wagon是客货两用车还是时尚先锋？ 对话嘉宾：陆风鸣教授"
+        },
+        {
+          "href": "https://earsonme.com/episodes/3VGwIPsyFucG",
+          "title": "087 比亚迪到底能不能用常压油箱？ 对话嘉宾：栾工，冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/D5zvYHhfTNpY",
+          "title": "086 保时捷无中生“油”，efuel能减碳么？ 对话嘉宾：Alice，陆巍"
+        },
+        {
+          "href": "https://earsonme.com/episodes/gD5UGKPAVMK9",
+          "title": "085 电动化完成前，我想留一台油车 对话嘉宾：Vouney，Down哥"
+        },
+        {
+          "href": "https://earsonme.com/episodes/cQQQlFc5MWGZ",
+          "title": "084 要智能，要低碳，还是要皮卡？电动世界车在哪里？对话嘉宾：侯社长，冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/kkLLfPrfKTOI",
+          "title": "083 裂开的世界和绝迹的世界车 对话嘉宾：侯社长，冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/1WLqfgbrhg1M",
+          "title": "082 电动车时代，中国赛车也能弯道超个车？ 对话嘉宾：王佳伟，Patrick"
+        },
+        {
+          "href": "https://earsonme.com/episodes/En8PoIoVVdBc",
+          "title": "081 拯救中国赛车，从培养车迷开始 对话嘉宾：王佳伟，Patrick"
+        },
+        {
+          "href": "https://earsonme.com/episodes/5eO6UbuDM9bz",
+          "title": "080 2035年欧洲需要640GWh的动力电池，它搞的来么？对话嘉宾：刘子达"
+        },
+        {
+          "href": "https://earsonme.com/episodes/qENI5gDzMV9n",
+          "title": "079 以用户体验出发，聊聊电动车和车机 对话嘉宾：Vouney，张冠男"
+        },
+        {
+          "href": "https://earsonme.com/episodes/l9hHA7kgQIVM",
+          "title": "078 乔布斯说：要先从用户体验开始 对话嘉宾：Vouney，张冠男"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTA3LTI1IDA2OjQ4OjA1IiwiZXBpc29kZXMuaWQiOjE5MjcxMCwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTA4LTA2IDIwOjQwOjAyIiwiZXBpc29kZXMuaWQiOjE5MjcwOSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/sCD0qOvcluuc",
+          "title": "077 电动时代的逆行者日产 对话嘉宾：杨宇，刘工"
+        },
+        {
+          "href": "https://earsonme.com/episodes/SYc3TJe2dmPC",
+          "title": "076 见所未见的保时捷 对话嘉宾：李温如，丁伯骏"
+        },
+        {
+          "href": "https://earsonme.com/episodes/5qFTEkr2qCVC",
+          "title": "075 雪铁龙DS（下）：让法国总统死里逃生的液气悬挂 对话嘉宾：罗昶，笑语"
+        },
+        {
+          "href": "https://earsonme.com/episodes/WpEY7i9k2hHD",
+          "title": "074 雪铁龙DS（上）：独步天下二十载的天外来车 对话嘉宾：罗昶，笑语"
+        },
+        {
+          "href": "https://earsonme.com/episodes/WPwJzECs37hq",
+          "title": "073 极氪001下地库烧胎上墙事故解读"
+        },
+        {
+          "href": "https://earsonme.com/episodes/ANqBryorhdkO",
+          "title": "072福特Bronco：老旧燃油车也懂用户思维？对话嘉宾：周骏汇Jenway、陈萌"
+        },
+        {
+          "href": "https://earsonme.com/episodes/N1cW81R9gsgv",
+          "title": "071造车新势力，薪酬大揭秘：为什么特斯拉不招“蔚小理“的人？"
+        },
+        {
+          "href": "https://earsonme.com/episodes/3HBrSppn84OX",
+          "title": "070 工匠派造的小跑车靠谱么？对话嘉宾：唐华寅 陈旭"
+        },
+        {
+          "href": "https://earsonme.com/episodes/WvHoVOpejhiw",
+          "title": "069英国汽车工业的罗曼蒂克消亡史，从女王的灵车开始说起"
+        },
+        {
+          "href": "https://earsonme.com/episodes/ut594p9dfZE0",
+          "title": "068 数字时代还有驾驶乐趣么？对话嘉宾：陆巍，朱博"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Dxvpw6PnuUtc",
+          "title": "067 对话秦力洪：蔚来来欧洲不只是卖几台车而已"
+        },
+        {
+          "href": "https://earsonme.com/episodes/oReTg7gEtZ7s",
+          "title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTE0IDA2OjIwOjAwIiwiZXBpc29kZXMuaWQiOjE5MjcyMiwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/1W0yz1CDuGcQ",
+          "title": "065 卡车自动驾驶：能回本儿的自动驾驶（推广）对话嘉宾：史院平，黄恺霖"
+        },
+        {
+          "href": "https://earsonme.com/episodes/ZJPemNbkXbjd",
+          "title": "064谁说女人只喜欢粉色车？对话嘉宾：松松和秋秋"
+        },
+        {
+          "href": "https://earsonme.com/episodes/MxFGwZuuv8gO",
+          "title": "063 Stellantis圆桌特辑（下）：那一年，一帮外国工程师在东北擀面，放炮仗"
+        },
+        {
+          "href": "https://earsonme.com/episodes/x588zNlAFY0u",
+          "title": "062 圆桌特辑（上）：那些年，Stellantis在中国的笑与泪"
+        },
+        {
+          "href": "https://earsonme.com/episodes/JlODv51ilomy",
+          "title": "061 自动驾驶灵魂拷问：算力越大越安全？对话嘉宾：章翔，侯俊杰"
+        },
+        {
+          "href": "https://earsonme.com/episodes/8ngcGMS29OZ6",
+          "title": "060 高算力芯片+程序员炼丹，软件就能定义汽车了？对话嘉宾：Sean，张盟"
+        },
+        {
+          "href": "https://earsonme.com/episodes/F34EcDRbnUdZ",
+          "title": "059 F1还是FE，车企该站谁？对话嘉宾：杨洋，周浩然"
+        },
+        {
+          "href": "https://earsonme.com/episodes/DrChGVmuYeQ7",
+          "title": "058 七秒刚刚好，自动驾驶接管时长背后的科学道理 对话嘉宾：杨榆程，张博，侯依萱"
+        },
+        {
+          "href": "https://earsonme.com/episodes/9qMv1MC4HfNL",
+          "title": "057 如果车能自动驾驶，谁来买保险？ 对话嘉宾：徐之炯，李铀"
+        },
+        {
+          "href": "https://earsonme.com/episodes/HQQzLwOYZ4YF",
+          "title": "056 仿真模拟开发，此处无车胜有车 对话嘉宾：杨昌龙，范昌易"
+        },
+        {
+          "href": "https://earsonme.com/episodes/n8I38xNU97PH",
+          "title": "055 原来轮辋制造主要拼的是水力发电 对话嘉宾：李祺，冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Djhy4VMSaWFx",
+          "title": "054 Stellantis特辑：美国通用到法国PSA，欧宝自问我是谁？ 对话嘉宾：康定伟，李文超"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTEyIDA3OjMzOjAwIiwiZXBpc29kZXMuaWQiOjE5MjczNCwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/YnORk3zmnefq",
+          "title": "053 Stellantis特辑：百年美资历史，纯粹德国制造 对话嘉宾：康定伟，李文超"
+        },
+        {
+          "href": "https://earsonme.com/episodes/r6PSUFZrGAcO",
+          "title": "052 Stellantis特辑：浸润在德意文化里的纯粹美国味 对话嘉宾：蒋晨、张昊龙、毕海默"
+        },
+        {
+          "href": "https://earsonme.com/episodes/0GYE0fFHC6VS",
+          "title": "051 Stellantis特辑：百折不挠的老三 克莱斯勒 对话嘉宾：蒋晨"
+        },
+        {
+          "href": "https://earsonme.com/episodes/pjYSlFCa6uZt",
+          "title": "050 如果有一天，中日韩结盟 对话嘉宾：贾钊，王昕"
+        },
+        {
+          "href": "https://earsonme.com/episodes/0PU79DZ3TYLd",
+          "title": "049 现代汽车关停发动机研发意味着什么？ 对话嘉宾： 贾钊、王昕"
+        },
+        {
+          "href": "https://earsonme.com/episodes/nbhWy5GOyzjv",
+          "title": "048 Stellantis特辑：保守的家族企业标致 对话嘉宾：罗昶，张睿钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/uYNKJP1RdjYw",
+          "title": "047 Stellantis特辑：底盘先锋雪铁龙 对话嘉宾：罗昶，张睿钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/t27RsYBbiuXi",
+          "title": "046 Stellantis特辑：菲亚特不卖汽车卖产线 对话嘉宾：崔安东，谢伟彬"
+        },
+        {
+          "href": "https://earsonme.com/episodes/mRpU6Yc3NAZK",
+          "title": "045 Stellantis特辑：菲亚特宇宙到底有多大 对话嘉宾：崔安东，谢伟彬"
+        },
+        {
+          "href": "https://earsonme.com/episodes/WuCPreUa8Enl",
+          "title": "044 无所不能的变速箱油：传动、控制、润滑、冷却 对话嘉宾：张烽、王崇明"
+        },
+        {
+          "href": "https://earsonme.com/episodes/coUuyVq5JlNY",
+          "title": "043宋诗如：别担心，做好标定工程师一点也不难"
+        },
+        {
+          "href": "https://earsonme.com/episodes/HyQMwFQCrO87",
+          "title": "042 刘诗卉：这位美妆up主在迈凯伦做研发"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA1LTMwIDA1OjE2OjM2IiwiZXBpc29kZXMuaWQiOjE5Mjc0NiwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/7oGeAMtNcmdy",
+          "title": "041 Jojo：从波许（Bosch）公司走出来的女技术开发总监"
+        },
+        {
+          "href": "https://earsonme.com/episodes/kWyEecObbDeI",
+          "title": "040听说造轮胎和蒸包子没啥区别？对话嘉宾：冯金钊"
+        },
+        {
+          "href": "https://earsonme.com/episodes/e47aI30zAWFo",
+          "title": "039 于月仙的车顶碎了到底赖谁？对话嘉宾：章翔、王路"
+        },
+        {
+          "href": "https://earsonme.com/episodes/WyH7y25ZTbZB",
+          "title": "038电动车该搞到1000公里续航么？ 对话嘉宾：罗昶，唐华寅"
+        },
+        {
+          "href": "https://earsonme.com/episodes/ZznkmISsCAlF",
+          "title": "037 Robotaxi还是Ultra Cruise，自动驾驶该怎么走？ 对话嘉宾：薛越，陈萌"
+        },
+        {
+          "href": "https://earsonme.com/episodes/XjaP1MPgZaKS",
+          "title": "036不聊工程聊资本 对话嘉宾：杨斯博，章翔"
+        },
+        {
+          "href": "https://earsonme.com/episodes/ZWUOPztmXWaw",
+          "title": "035和周冠宇的师哥聊聊中国赛车的差距 对话嘉宾： 谢欣哲，李沁"
+        },
+        {
+          "href": "https://earsonme.com/episodes/6gUtX8meZMVy",
+          "title": "034来自F1的那一把火：玛莎拉蒂Nettuno发动机的预燃烧室技术 对话嘉宾 刘恺年，朱枫"
+        },
+        {
+          "href": "https://earsonme.com/episodes/SFJ8LmF80nSE",
+          "title": "033溯源汽车电气化之鼻祖——12V电池 对话嘉宾：谢仁浩，李青"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Nslz7bb3Iapv",
+          "title": "032把元宇宙放进汽车的座舱共需几步？对话人工智能学者高庆一"
+        },
+        {
+          "href": "https://earsonme.com/episodes/LKB7akCq4kY0",
+          "title": "031都2021年了，固态电池咋还不来？对话嘉宾王昕、王崇明"
+        },
+        {
+          "href": "https://earsonme.com/episodes/oJRN8ZAdXQhG",
+          "title": "030汽车人变身！汽车工程师该如何转型？对话嘉宾：陆巍、冯金钊"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTA3IDA2OjA0OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc1OCwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTIwIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc2OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/UVOJqBrIEXTM",
+          "title": "029车企不参与WRC赛事就是技术不行？ 对话嘉宾：朱博、down哥"
+        },
+        {
+          "href": "https://earsonme.com/episodes/RSF0xnHZ5Tnu",
+          "title": "028通聊澳洲汽车工业（下）：霍顿“关门弟子”亲历关厂始末 对话嘉宾： 丁伯骏，陈萌"
+        },
+        {
+          "href": "https://earsonme.com/episodes/ZSKjFCnL4U8Z",
+          "title": "027通聊澳洲汽车工业（上）：从马鞍公司到巴顿（贴牌）计划 对话嘉宾： 丁伯骏，陈萌"
+        },
+        {
+          "href": "https://earsonme.com/episodes/cejC2KR4qChZ",
+          "title": "026和DJ聊赛车（下）：卡丁车是最接近F1的赛车！ 对话嘉宾：DJ，杨洋"
+        },
+        {
+          "href": "https://earsonme.com/episodes/pGrUeGHZi07c",
+          "title": "025和DJ聊赛车（上）：如何（从学美术专业）成长为赛车工程师 对话嘉宾： DJ，杨洋"
+        },
+        {
+          "href": "https://earsonme.com/episodes/llLPLUJ7DKoc",
+          "title": "024对话李沁：一不小心当上了F1工程师"
+        },
+        {
+          "href": "https://earsonme.com/episodes/1uaU5oGZbTB8",
+          "title": "023氢能社会（下）：氢燃料电池车比汽油车还安全！ 对话嘉宾：胡静文 韩峰"
+        },
+        {
+          "href": "https://earsonme.com/episodes/WZ1ScrKcWoLS",
+          "title": "022氢能社会（上）：氢能和电能是互补而非竞争 对话嘉宾：胡静文 韩峰"
+        },
+        {
+          "href": "https://earsonme.com/episodes/6cP61Jp3rnGp",
+          "title": "021对话陆巍：我是动力域控制器软件的爸爸"
+        },
+        {
+          "href": "https://earsonme.com/episodes/voITeJakByPB",
+          "title": "020路特斯要搞自动驾驶赛车？有戏么？对话嘉宾：前FSAEer黄恺霖、自动驾驶工程师薛越"
+        },
+        {
+          "href": "https://earsonme.com/episodes/xEsAwKWcpnkH",
+          "title": "019电动未来下德国车企的转型 对话嘉宾：冯金钊 胡静文"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Nx6tUK6hdUTi",
+          "title": "018 ADAS 功能安全：没认真读过产品手册，还敢上路吗？ 对话嘉宾：唐华寅 张永艺 闫冰"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTEzIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc3MCwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTIwIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc2OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/0bOpHUuzTjJG",
+          "title": "017中国车能不能做到世界级的NVH？对话嘉宾 NVH专家郑康 仿真专家胡静文"
+        },
+        {
+          "href": "https://earsonme.com/episodes/pYkKIOc70lUB",
+          "title": "016造车=搭乐高？电动底盘的未来 对话嘉宾 唐华寅 纪洪超"
+        },
+        {
+          "href": "https://earsonme.com/episodes/VhJ7khsP7UQg",
+          "title": "015如何（防止）黑一辆车：车辆信息安全【推广】对话嘉宾：钟严军 唐华寅"
+        },
+        {
+          "href": "https://earsonme.com/episodes/iKI8UJEaj1Bt",
+          "title": "014一代枭雄卡洛斯戈恩 对话嘉宾 周锦程 陈德馨"
+        },
+        {
+          "href": "https://earsonme.com/episodes/9d4MmVovfOzl",
+          "title": "013和38号聊聊国产混动车 嘉宾：38号，刘亦然"
+        },
+        {
+          "href": "https://earsonme.com/episodes/csgcrOIjeL2V",
+          "title": "012穿越日记：纵贯巴西的两台摩托和穿越欧亚大陆的2CV，嘉宾：林林，罗昶"
+        },
+        {
+          "href": "https://earsonme.com/episodes/mXWY8JSCju5B",
+          "title": "011特斯拉压铸：偷工减料还是大胆创新？嘉宾王路，肖兆非"
+        },
+        {
+          "href": "https://earsonme.com/episodes/m9a6cjyqNDvi",
+          "title": "010底盘电子工程师王以琳：圈内人眼中的ADAS"
+        },
+        {
+          "href": "https://earsonme.com/episodes/l9YGbGJSqHeR",
+          "title": "009宝马工程师杨洋：从卡丁车冠军到宝马底盘工程师"
+        },
+        {
+          "href": "https://earsonme.com/episodes/zIibmkS8Jvoq",
+          "title": "008碳纤维博士后肖兆非：超跑背后的复合材料技术"
+        },
+        {
+          "href": "https://earsonme.com/episodes/3jQ1SdmEbYMl",
+          "title": "007对话吴颉远：剑桥/MIT双料高材生算不清特斯拉股价？"
+        },
+        {
+          "href": "https://earsonme.com/episodes/Kn74fSpcWiOs",
+          "title": "006前保时捷GT2/GT3/918发动机仿真专家胡静文：德英美汽车工程人才培养大横评"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTE3IDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc4MiwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        },
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA3LTAyIDE1OjI4OjUwIiwiZXBpc29kZXMuaWQiOjE5Mjc5MywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+          "text": "下一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    },
+    {
+      "links": [
+        {
+          "href": "https://earsonme.com/episodes/9n2RUGXDDIAc",
+          "title": "005资深车身工程师王路：谁说工程师不能是艺术家"
+        },
+        {
+          "href": "https://earsonme.com/episodes/3p0YoEd8lpWU",
+          "title": "004首席工程师唐华寅：好奇心和电驱动"
+        },
+        {
+          "href": "https://earsonme.com/episodes/eRDqzBjLZBRr",
+          "title": "003聊聊EDR和行驶数据采集 对话嘉宾：安全气囊专家章翔、自动驾驶专家周轶"
+        },
+        {
+          "href": "https://earsonme.com/episodes/JNpPWdgSdEP7",
+          "title": "002功能安全工程师章翔：中国汽车的“引进来、走出去”"
+        },
+        {
+          "href": "https://earsonme.com/episodes/YQKZPlncC3Tp",
+          "title": "001首席工程师罗昶：从自研双电机奥拓到系统工程"
+        },
+        {
+          "href": "https://earsonme.com/episodes/wgMI8bai78Uc",
+          "title": "000《孤岛车谈》是什么？"
+        }
+      ],
+      "pagination": [
+        {
+          "href": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA2LTI1IDE4OjQ3OjQwIiwiZXBpc29kZXMuaWQiOjE5Mjc5NCwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+          "text": "上一页"
+        }
+      ],
+      "url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA3LTAyIDE1OjI4OjUwIiwiZXBpc29kZXMuaWQiOjE5Mjc5MywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+    }
+  ],
+  "candidate_details": [
+    {
+      "href": "https://earsonme.com/episodes/FON8rrCmSmNI",
+      "title": "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTExLTA5IDIwOjQyOjA1IiwiZXBpc29kZXMuaWQiOjQ1MzMzNiwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/68f6c63e49540bd15c333fed"
+        ],
+        "title": "184 仪表字体设计：做减法真难 对话嘉宾：June，侯依萱",
+        "url": "https://earsonme.com/episodes/FON8rrCmSmNI"
+      },
+      "checked_at": "2026-10-19T12:05:55.789Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/DJcjQVnKfo2q",
+      "title": "175 系统工程师（4）：专家，你听我说完 对话嘉宾：许新熠，吴科，孙晨露",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTExLTA5IDIwOjQyOjA1IiwiZXBpc29kZXMuaWQiOjQ1MzMzNiwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "175 系统工程师（4）：专家，你听我说完 对话嘉宾：许新熠，吴科，孙晨露",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/68992784f73cd0924eeb1b82"
+        ],
+        "title": "175 系统工程师（4）：专家，你听我说完 对话嘉宾：许新熠，吴科，孙晨露",
+        "url": "https://earsonme.com/episodes/DJcjQVnKfo2q"
+      },
+      "checked_at": "2026-10-19T12:05:56.537Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/U7P384w7OEUq",
+      "title": "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTA4LTA0IDA1OjE3OjUwIiwiZXBpc29kZXMuaWQiOjEyNjEwLCJfcG9pbnRzVG9OZXh0SXRlbXMiOnRydWV9",
+      "expected_title": "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/68758054b37c018d1817b225"
+        ],
+        "title": "171 ADAS仿真测试：重复的艺术 对话嘉宾：李赫瑄",
+        "url": "https://earsonme.com/episodes/U7P384w7OEUq"
+      },
+      "checked_at": "2026-10-19T12:05:57.305Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/Q8xX6ocJOaTn",
+      "title": "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI1LTA4LTA0IDA1OjE3OjUwIiwiZXBpc29kZXMuaWQiOjEyNjEwLCJfcG9pbnRzVG9OZXh0SXRlbXMiOnRydWV9",
+      "expected_title": "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/684617f1cdecf72d4c40c20a"
+        ],
+        "title": "167 波兰汽车业（下）：波罗乃兹、126p和菲亚特500 对话嘉宾：陆风鸣，付梓耘，高处青",
+        "url": "https://earsonme.com/episodes/Q8xX6ocJOaTn"
+      },
+      "checked_at": "2026-10-19T12:05:57.974Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/bpGO6RHbSKxt",
+      "title": "134 中国车出海（2）：不卖车，卖技术 对话嘉宾：舒宁，朱珂，俞波",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTEwLTI4IDA0OjA4OjA4IiwiZXBpc29kZXMuaWQiOjE5MjY2MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "134 中国车出海（2）：不卖车，卖技术 对话嘉宾：舒宁，朱珂，俞波",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/66f08abc546940251d05f8c9"
+        ],
+        "title": "134 中国车出海（2）：不卖车，卖技术 对话嘉宾：舒宁，朱珂，俞波",
+        "url": "https://earsonme.com/episodes/bpGO6RHbSKxt"
+      },
+      "checked_at": "2026-10-19T12:05:58.614Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/iUUYTJLzQ321",
+      "title": "133 中国车出海（1）：去泰国开厂共需几步？对话嘉宾：舒宁，朱珂，俞波",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTEwLTI4IDA0OjA4OjA4IiwiZXBpc29kZXMuaWQiOjE5MjY2MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "133 中国车出海（1）：去泰国开厂共需几步？对话嘉宾：舒宁，朱珂，俞波",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/66e89c5c79de2cd4168318cb"
+        ],
+        "title": "133 中国车出海（1）：去泰国开厂共需几步？对话嘉宾：舒宁，朱珂，俞波",
+        "url": "https://earsonme.com/episodes/iUUYTJLzQ321"
+      },
+      "checked_at": "2026-10-19T12:06:14.213Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/yGnxRQNqWKKQ",
+      "title": "103 欧洲车企的350kW快充封印 对话嘉宾：韩毅，唐华寅",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTAzLTA4IDE5OjA0OjU3IiwiZXBpc29kZXMuaWQiOjE5MjY4NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "103 欧洲车企的350kW快充封印 对话嘉宾：韩毅，唐华寅",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6572df175a15db7f5a8b44c8"
+        ],
+        "title": "103 欧洲车企的350kW快充封印 对话嘉宾：韩毅，唐华寅",
+        "url": "https://earsonme.com/episodes/yGnxRQNqWKKQ"
+      },
+      "checked_at": "2026-10-19T12:06:14.882Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/Ag1ubOxljTAC",
+      "title": "102 为什么即插即充能这么难？对话嘉宾：韩毅，唐华寅",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDI0LTAzLTA4IDE5OjA0OjU3IiwiZXBpc29kZXMuaWQiOjE5MjY4NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "102 为什么即插即充能这么难？对话嘉宾：韩毅，唐华寅",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/656a7bfdff4af26fdb355ce3"
+        ],
+        "title": "102 为什么即插即充能这么难？对话嘉宾：韩毅，唐华寅",
+        "url": "https://earsonme.com/episodes/Ag1ubOxljTAC"
+      },
+      "checked_at": "2026-10-19T12:06:15.518Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/k3hd6oIrWY2W",
+      "title": "101 当德国汽车没了祖传秘方 对话嘉宾：Elaine滕磊，李青",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTEyLTAyIDA2OjA5OjQ4IiwiZXBpc29kZXMuaWQiOjE5MjY5NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "101 当德国汽车没了祖传秘方 对话嘉宾：Elaine滕磊，李青",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/656348833b3f1cde50d99a29"
+        ],
+        "title": "101 当德国汽车没了祖传秘方 对话嘉宾：Elaine滕磊，李青",
+        "url": "https://earsonme.com/episodes/k3hd6oIrWY2W"
+      },
+      "checked_at": "2026-10-19T12:06:16.125Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/qD8koF3qRxbS",
+      "title": "094 红色的阿罗能拥有绿色的未来？",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTEyLTAyIDA2OjA5OjQ4IiwiZXBpc29kZXMuaWQiOjE5MjY5NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "094 红色的阿罗能拥有绿色的未来？",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/650a28e5721383b392524566"
+        ],
+        "title": "094 红色的阿罗能拥有绿色的未来？",
+        "url": "https://earsonme.com/episodes/qD8koF3qRxbS"
+      },
+      "checked_at": "2026-10-19T12:06:16.780Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/AJwC7kD2oV5r",
+      "title": "091 为什么满街眯眯眼车灯？对话嘉宾：Jorbin，SanC",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTEyLTAyIDA2OjA5OjQ4IiwiZXBpc29kZXMuaWQiOjE5MjY5NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "091 为什么满街眯眯眼车灯？对话嘉宾：Jorbin，SanC",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/64dea115f0c8a9303defba08"
+        ],
+        "title": "091 为什么满街眯眯眼车灯？对话嘉宾：Jorbin，SanC",
+        "url": "https://earsonme.com/episodes/AJwC7kD2oV5r"
+      },
+      "checked_at": "2026-10-19T12:06:17.433Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/VmfETP8TkTbB",
+      "title": "090 为什么总觉得车灯不够亮？对话嘉宾：Jorbin，SanC",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTEyLTAyIDA2OjA5OjQ4IiwiZXBpc29kZXMuaWQiOjE5MjY5NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "090 为什么总觉得车灯不够亮？对话嘉宾：Jorbin，SanC",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/64cf999652e1bd19ee573175"
+        ],
+        "title": "090 为什么总觉得车灯不够亮？对话嘉宾：Jorbin，SanC",
+        "url": "https://earsonme.com/episodes/VmfETP8TkTbB"
+      },
+      "checked_at": "2026-10-19T12:06:18.056Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/3VGwIPsyFucG",
+      "title": "087 比亚迪到底能不能用常压油箱？ 对话嘉宾：栾工，冯金钊",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTA4LTA2IDIwOjQwOjAyIiwiZXBpc29kZXMuaWQiOjE5MjcwOSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "087 比亚迪到底能不能用常压油箱？ 对话嘉宾：栾工，冯金钊",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/64a492a8ca4b0bfbae3412ab"
+        ],
+        "title": "087 比亚迪到底能不能用常压油箱？ 对话嘉宾：栾工，冯金钊",
+        "url": "https://earsonme.com/episodes/3VGwIPsyFucG"
+      },
+      "checked_at": "2026-10-19T12:06:18.697Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/gD5UGKPAVMK9",
+      "title": "085 电动化完成前，我想留一台油车 对话嘉宾：Vouney，Down哥",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTA4LTA2IDIwOjQwOjAyIiwiZXBpc29kZXMuaWQiOjE5MjcwOSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "085 电动化完成前，我想留一台油车 对话嘉宾：Vouney，Down哥",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/648667184bc158b926506599"
+        ],
+        "title": "085 电动化完成前，我想留一台油车 对话嘉宾：Vouney，Down哥",
+        "url": "https://earsonme.com/episodes/gD5UGKPAVMK9"
+      },
+      "checked_at": "2026-10-19T12:06:19.304Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/5eO6UbuDM9bz",
+      "title": "080 2035年欧洲需要640GWh的动力电池，它搞的来么？对话嘉宾：刘子达",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTA4LTA2IDIwOjQwOjAyIiwiZXBpc29kZXMuaWQiOjE5MjcwOSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "080 2035年欧洲需要640GWh的动力电池，它搞的来么？对话嘉宾：刘子达",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/645058d904bec0a10fac9b0a"
+        ],
+        "title": "080 2035年欧洲需要640GWh的动力电池，它搞的来么？对话嘉宾：刘子达",
+        "url": "https://earsonme.com/episodes/5eO6UbuDM9bz"
+      },
+      "checked_at": "2026-10-19T12:06:19.950Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/qENI5gDzMV9n",
+      "title": "079 以用户体验出发，聊聊电动车和车机 对话嘉宾：Vouney，张冠男",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTA4LTA2IDIwOjQwOjAyIiwiZXBpc29kZXMuaWQiOjE5MjcwOSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "079 以用户体验出发，聊聊电动车和车机 对话嘉宾：Vouney，张冠男",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/642a112833abe7f365206214"
+        ],
+        "title": "079 以用户体验出发，聊聊电动车和车机 对话嘉宾：Vouney，张冠男",
+        "url": "https://earsonme.com/episodes/qENI5gDzMV9n"
+      },
+      "checked_at": "2026-10-19T12:06:49.077Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/l9hHA7kgQIVM",
+      "title": "078 乔布斯说：要先从用户体验开始 对话嘉宾：Vouney，张冠男",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTA4LTA2IDIwOjQwOjAyIiwiZXBpc29kZXMuaWQiOjE5MjcwOSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "078 乔布斯说：要先从用户体验开始 对话嘉宾：Vouney，张冠男",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6420d9b33f943b575b382337"
+        ],
+        "title": "078 乔布斯说：要先从用户体验开始 对话嘉宾：Vouney，张冠男",
+        "url": "https://earsonme.com/episodes/l9hHA7kgQIVM"
+      },
+      "checked_at": "2026-10-19T12:06:49.730Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/sCD0qOvcluuc",
+      "title": "077 电动时代的逆行者日产 对话嘉宾：杨宇，刘工",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "077 电动时代的逆行者日产 对话嘉宾：杨宇，刘工",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/640fa2113b564ef4f1faf298"
+        ],
+        "title": "077 电动时代的逆行者日产 对话嘉宾：杨宇，刘工",
+        "url": "https://earsonme.com/episodes/sCD0qOvcluuc"
+      },
+      "checked_at": "2026-10-19T12:06:50.348Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/5qFTEkr2qCVC",
+      "title": "075 雪铁龙DS（下）：让法国总统死里逃生的液气悬挂 对话嘉宾：罗昶，笑语",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "075 雪铁龙DS（下）：让法国总统死里逃生的液气悬挂 对话嘉宾：罗昶，笑语",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/63c485af100157008c3ddbef"
+        ],
+        "title": "075 雪铁龙DS（下）：让法国总统死里逃生的液气悬挂 对话嘉宾：罗昶，笑语",
+        "url": "https://earsonme.com/episodes/5qFTEkr2qCVC"
+      },
+      "checked_at": "2026-10-19T12:06:51.108Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/WpEY7i9k2hHD",
+      "title": "074 雪铁龙DS（上）：独步天下二十载的天外来车 对话嘉宾：罗昶，笑语",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "074 雪铁龙DS（上）：独步天下二十载的天外来车 对话嘉宾：罗昶，笑语",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/63bb4e780d87411151072160"
+        ],
+        "title": "074 雪铁龙DS（上）：独步天下二十载的天外来车 对话嘉宾：罗昶，笑语",
+        "url": "https://earsonme.com/episodes/WpEY7i9k2hHD"
+      },
+      "checked_at": "2026-10-19T12:06:51.801Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/WPwJzECs37hq",
+      "title": "073 极氪001下地库烧胎上墙事故解读",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "073 极氪001下地库烧胎上墙事故解读",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/638c4e23a6ab012bf468c316"
+        ],
+        "title": "073 极氪001下地库烧胎上墙事故解读",
+        "url": "https://earsonme.com/episodes/WPwJzECs37hq"
+      },
+      "checked_at": "2026-10-19T12:06:52.471Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/ANqBryorhdkO",
+      "title": "072福特Bronco：老旧燃油车也懂用户思维？对话嘉宾：周骏汇Jenway、陈萌",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "072福特Bronco：老旧燃油车也懂用户思维？对话嘉宾：周骏汇Jenway、陈萌",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6383f0abc8b81808083e8709"
+        ],
+        "title": "072福特Bronco：老旧燃油车也懂用户思维？对话嘉宾：周骏汇Jenway、陈萌",
+        "url": "https://earsonme.com/episodes/ANqBryorhdkO"
+      },
+      "checked_at": "2026-10-19T12:06:53.077Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/N1cW81R9gsgv",
+      "title": "071造车新势力，薪酬大揭秘：为什么特斯拉不招“蔚小理“的人？",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "071造车新势力，薪酬大揭秘：为什么特斯拉不招“蔚小理“的人？",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/63614cec9d4a12cc8c7a7455"
+        ],
+        "title": "071造车新势力，薪酬大揭秘：为什么特斯拉不招“蔚小理“的人？",
+        "url": "https://earsonme.com/episodes/N1cW81R9gsgv"
+      },
+      "checked_at": "2026-10-19T12:06:53.719Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/3HBrSppn84OX",
+      "title": "070 工匠派造的小跑车靠谱么？对话嘉宾：唐华寅 陈旭",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "070 工匠派造的小跑车靠谱么？对话嘉宾：唐华寅 陈旭",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6356317b18757096dfb261f7"
+        ],
+        "title": "070 工匠派造的小跑车靠谱么？对话嘉宾：唐华寅 陈旭",
+        "url": "https://earsonme.com/episodes/3HBrSppn84OX"
+      },
+      "checked_at": "2026-10-19T12:06:54.348Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/ut594p9dfZE0",
+      "title": "068 数字时代还有驾驶乐趣么？对话嘉宾：陆巍，朱博",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "068 数字时代还有驾驶乐趣么？对话嘉宾：陆巍，朱博",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/633a2cad65c6738444385fdd"
+        ],
+        "title": "068 数字时代还有驾驶乐趣么？对话嘉宾：陆巍，朱博",
+        "url": "https://earsonme.com/episodes/ut594p9dfZE0"
+      },
+      "checked_at": "2026-10-19T12:06:55.380Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/Dxvpw6PnuUtc",
+      "title": "067 对话秦力洪：蔚来来欧洲不只是卖几台车而已",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "067 对话秦力洪：蔚来来欧洲不只是卖几台车而已",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/632f7e38d881b04c17a5eb50"
+        ],
+        "title": "067 对话秦力洪：蔚来来欧洲不只是卖几台车而已",
+        "url": "https://earsonme.com/episodes/Dxvpw6PnuUtc"
+      },
+      "checked_at": "2026-10-19T12:06:56.035Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/oReTg7gEtZ7s",
+      "title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIzLTAzLTI3IDA2OjUxOjIyIiwiZXBpc29kZXMuaWQiOjE5MjcyMSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6328627a171b463f9a2e1dcd"
+        ],
+        "title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
+        "url": "https://earsonme.com/episodes/oReTg7gEtZ7s"
+      },
+      "checked_at": "2026-10-19T12:06:56.974Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/1W0yz1CDuGcQ",
+      "title": "065 卡车自动驾驶：能回本儿的自动驾驶（推广）对话嘉宾：史院平，黄恺霖",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "065 卡车自动驾驶：能回本儿的自动驾驶（推广）对话嘉宾：史院平，黄恺霖",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/631e72120871199e6d2cb72f"
+        ],
+        "title": "065 卡车自动驾驶：能回本儿的自动驾驶（推广）对话嘉宾：史院平，黄恺霖",
+        "url": "https://earsonme.com/episodes/1W0yz1CDuGcQ"
+      },
+      "checked_at": "2026-10-19T12:06:57.618Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/ZJPemNbkXbjd",
+      "title": "064谁说女人只喜欢粉色车？对话嘉宾：松松和秋秋",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "064谁说女人只喜欢粉色车？对话嘉宾：松松和秋秋",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6315ecbf2e9ae0d5c32c4043"
+        ],
+        "title": "064谁说女人只喜欢粉色车？对话嘉宾：松松和秋秋",
+        "url": "https://earsonme.com/episodes/ZJPemNbkXbjd"
+      },
+      "checked_at": "2026-10-19T12:06:58.242Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/MxFGwZuuv8gO",
+      "title": "063 Stellantis圆桌特辑（下）：那一年，一帮外国工程师在东北擀面，放炮仗",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "063 Stellantis圆桌特辑（下）：那一年，一帮外国工程师在东北擀面，放炮仗",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/630e2c12086fd7f2212e9ca2"
+        ],
+        "title": "063 Stellantis圆桌特辑（下）：那一年，一帮外国工程师在东北擀面，放炮仗",
+        "url": "https://earsonme.com/episodes/MxFGwZuuv8gO"
+      },
+      "checked_at": "2026-10-19T12:06:58.828Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/x588zNlAFY0u",
+      "title": "062 圆桌特辑（上）：那些年，Stellantis在中国的笑与泪",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "062 圆桌特辑（上）：那些年，Stellantis在中国的笑与泪",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/630367659b12c5cb5a91f0db"
+        ],
+        "title": "062 圆桌特辑（上）：那些年，Stellantis在中国的笑与泪",
+        "url": "https://earsonme.com/episodes/x588zNlAFY0u"
+      },
+      "checked_at": "2026-10-19T12:07:21.012Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/JlODv51ilomy",
+      "title": "061 自动驾驶灵魂拷问：算力越大越安全？对话嘉宾：章翔，侯俊杰",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "061 自动驾驶灵魂拷问：算力越大越安全？对话嘉宾：章翔，侯俊杰",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/62fa7dbd1627d0ffaac2ec76"
+        ],
+        "title": "061 自动驾驶灵魂拷问：算力越大越安全？对话嘉宾：章翔，侯俊杰",
+        "url": "https://earsonme.com/episodes/JlODv51ilomy"
+      },
+      "checked_at": "2026-10-19T12:07:21.680Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/8ngcGMS29OZ6",
+      "title": "060 高算力芯片+程序员炼丹，软件就能定义汽车了？对话嘉宾：Sean，张盟",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "060 高算力芯片+程序员炼丹，软件就能定义汽车了？对话嘉宾：Sean，张盟",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/62f0f876f5799d1345640224"
+        ],
+        "title": "060 高算力芯片+程序员炼丹，软件就能定义汽车了？对话嘉宾：Sean，张盟",
+        "url": "https://earsonme.com/episodes/8ngcGMS29OZ6"
+      },
+      "checked_at": "2026-10-19T12:07:22.289Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/F34EcDRbnUdZ",
+      "title": "059 F1还是FE，车企该站谁？对话嘉宾：杨洋，周浩然",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "059 F1还是FE，车企该站谁？对话嘉宾：杨洋，周浩然",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/62e7d03b0c99dbdd1aa325d1"
+        ],
+        "title": "059 F1还是FE，车企该站谁？对话嘉宾：杨洋，周浩然",
+        "url": "https://earsonme.com/episodes/F34EcDRbnUdZ"
+      },
+      "checked_at": "2026-10-19T12:07:22.928Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/DrChGVmuYeQ7",
+      "title": "058 七秒刚刚好，自动驾驶接管时长背后的科学道理 对话嘉宾：杨榆程，张博，侯依萱",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "058 七秒刚刚好，自动驾驶接管时长背后的科学道理 对话嘉宾：杨榆程，张博，侯依萱",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/62dd15db83b2b478ce31ef25"
+        ],
+        "title": "058 七秒刚刚好，自动驾驶接管时长背后的科学道理 对话嘉宾：杨榆程，张博，侯依萱",
+        "url": "https://earsonme.com/episodes/DrChGVmuYeQ7"
+      },
+      "checked_at": "2026-10-19T12:07:23.542Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/9qMv1MC4HfNL",
+      "title": "057 如果车能自动驾驶，谁来买保险？ 对话嘉宾：徐之炯，李铀",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "057 如果车能自动驾驶，谁来买保险？ 对话嘉宾：徐之炯，李铀",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/62b8e669704fa195d96a35c6"
+        ],
+        "title": "057 如果车能自动驾驶，谁来买保险？ 对话嘉宾：徐之炯，李铀",
+        "url": "https://earsonme.com/episodes/9qMv1MC4HfNL"
+      },
+      "checked_at": "2026-10-19T12:07:24.198Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/HQQzLwOYZ4YF",
+      "title": "056 仿真模拟开发，此处无车胜有车 对话嘉宾：杨昌龙，范昌易",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "056 仿真模拟开发，此处无车胜有车 对话嘉宾：杨昌龙，范昌易",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/62af9781ba5434fc2d65f3cb"
+        ],
+        "title": "056 仿真模拟开发，此处无车胜有车 对话嘉宾：杨昌龙，范昌易",
+        "url": "https://earsonme.com/episodes/HQQzLwOYZ4YF"
+      },
+      "checked_at": "2026-10-19T12:07:24.877Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/n8I38xNU97PH",
+      "title": "055 原来轮辋制造主要拼的是水力发电 对话嘉宾：李祺，冯金钊",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "055 原来轮辋制造主要拼的是水力发电 对话嘉宾：李祺，冯金钊",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/62a680e8491e0b04ff0eb775"
+        ],
+        "title": "055 原来轮辋制造主要拼的是水力发电 对话嘉宾：李祺，冯金钊",
+        "url": "https://earsonme.com/episodes/n8I38xNU97PH"
+      },
+      "checked_at": "2026-10-19T12:07:25.560Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/Djhy4VMSaWFx",
+      "title": "054 Stellantis特辑：美国通用到法国PSA，欧宝自问我是谁？ 对话嘉宾：康定伟，李文超",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA5LTE5IDIwOjAxOjIxIiwiZXBpc29kZXMuaWQiOjE5MjczMywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "054 Stellantis特辑：美国通用到法国PSA，欧宝自问我是谁？ 对话嘉宾：康定伟，李文超",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/629e66a49670852dace80fa4"
+        ],
+        "title": "054 Stellantis特辑：美国通用到法国PSA，欧宝自问我是谁？ 对话嘉宾：康定伟，李文超",
+        "url": "https://earsonme.com/episodes/Djhy4VMSaWFx"
+      },
+      "checked_at": "2026-10-19T12:07:26.209Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/YnORk3zmnefq",
+      "title": "053 Stellantis特辑：百年美资历史，纯粹德国制造 对话嘉宾：康定伟，李文超",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "053 Stellantis特辑：百年美资历史，纯粹德国制造 对话嘉宾：康定伟，李文超",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6293e8b1a3a94755cd088972"
+        ],
+        "title": "053 Stellantis特辑：百年美资历史，纯粹德国制造 对话嘉宾：康定伟，李文超",
+        "url": "https://earsonme.com/episodes/YnORk3zmnefq"
+      },
+      "checked_at": "2026-10-19T12:07:26.939Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/r6PSUFZrGAcO",
+      "title": "052 Stellantis特辑：浸润在德意文化里的纯粹美国味 对话嘉宾：蒋晨、张昊龙、毕海默",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "052 Stellantis特辑：浸润在德意文化里的纯粹美国味 对话嘉宾：蒋晨、张昊龙、毕海默",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/628ab48ce2faf1d02a81c2ea"
+        ],
+        "title": "052 Stellantis特辑：浸润在德意文化里的纯粹美国味 对话嘉宾：蒋晨、张昊龙、毕海默",
+        "url": "https://earsonme.com/episodes/r6PSUFZrGAcO"
+      },
+      "checked_at": "2026-10-19T12:07:27.614Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/pjYSlFCa6uZt",
+      "title": "050 如果有一天，中日韩结盟 对话嘉宾：贾钊，王昕",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "050 如果有一天，中日韩结盟 对话嘉宾：贾钊，王昕",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/62782614384f4ba14aa858b9"
+        ],
+        "title": "050 如果有一天，中日韩结盟 对话嘉宾：贾钊，王昕",
+        "url": "https://earsonme.com/episodes/pjYSlFCa6uZt"
+      },
+      "checked_at": "2026-10-19T12:07:28.277Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/0PU79DZ3TYLd",
+      "title": "049 现代汽车关停发动机研发意味着什么？ 对话嘉宾： 贾钊、王昕",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "049 现代汽车关停发动机研发意味着什么？ 对话嘉宾： 贾钊、王昕",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/626ee748f1add8a5975e6fe0"
+        ],
+        "title": "049 现代汽车关停发动机研发意味着什么？ 对话嘉宾： 贾钊、王昕",
+        "url": "https://earsonme.com/episodes/0PU79DZ3TYLd"
+      },
+      "checked_at": "2026-10-19T12:07:28.966Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/nbhWy5GOyzjv",
+      "title": "048 Stellantis特辑：保守的家族企业标致 对话嘉宾：罗昶，张睿钊",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "048 Stellantis特辑：保守的家族企业标致 对话嘉宾：罗昶，张睿钊",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6265eba9863e391d2cdb97e1"
+        ],
+        "title": "048 Stellantis特辑：保守的家族企业标致 对话嘉宾：罗昶，张睿钊",
+        "url": "https://earsonme.com/episodes/nbhWy5GOyzjv"
+      },
+      "checked_at": "2026-10-19T12:07:29.634Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/uYNKJP1RdjYw",
+      "title": "047 Stellantis特辑：底盘先锋雪铁龙 对话嘉宾：罗昶，张睿钊",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "047 Stellantis特辑：底盘先锋雪铁龙 对话嘉宾：罗昶，张睿钊",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/625c767a516bcf8772ee7eb3"
+        ],
+        "title": "047 Stellantis特辑：底盘先锋雪铁龙 对话嘉宾：罗昶，张睿钊",
+        "url": "https://earsonme.com/episodes/uYNKJP1RdjYw"
+      },
+      "checked_at": "2026-10-19T12:07:30.284Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/t27RsYBbiuXi",
+      "title": "046 Stellantis特辑：菲亚特不卖汽车卖产线 对话嘉宾：崔安东，谢伟彬",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "046 Stellantis特辑：菲亚特不卖汽车卖产线 对话嘉宾：崔安东，谢伟彬",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/62534abb75c3d710976fa7b3"
+        ],
+        "title": "046 Stellantis特辑：菲亚特不卖汽车卖产线 对话嘉宾：崔安东，谢伟彬",
+        "url": "https://earsonme.com/episodes/t27RsYBbiuXi"
+      },
+      "checked_at": "2026-10-19T12:08:00.060Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/mRpU6Yc3NAZK",
+      "title": "045 Stellantis特辑：菲亚特宇宙到底有多大 对话嘉宾：崔安东，谢伟彬",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "045 Stellantis特辑：菲亚特宇宙到底有多大 对话嘉宾：崔安东，谢伟彬",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6249f8660bc1b8e68a1db31d"
+        ],
+        "title": "045 Stellantis特辑：菲亚特宇宙到底有多大 对话嘉宾：崔安东，谢伟彬",
+        "url": "https://earsonme.com/episodes/mRpU6Yc3NAZK"
+      },
+      "checked_at": "2026-10-19T12:08:00.781Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/WuCPreUa8Enl",
+      "title": "044 无所不能的变速箱油：传动、控制、润滑、冷却 对话嘉宾：张烽、王崇明",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "044 无所不能的变速箱油：传动、控制、润滑、冷却 对话嘉宾：张烽、王崇明",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6240c9cc0de79263b93b8c97"
+        ],
+        "title": "044 无所不能的变速箱油：传动、控制、润滑、冷却 对话嘉宾：张烽、王崇明",
+        "url": "https://earsonme.com/episodes/WuCPreUa8Enl"
+      },
+      "checked_at": "2026-10-19T12:08:01.414Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/coUuyVq5JlNY",
+      "title": "043宋诗如：别担心，做好标定工程师一点也不难",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "043宋诗如：别担心，做好标定工程师一点也不难",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6237a8617972f457dfda9d90"
+        ],
+        "title": "043宋诗如：别担心，做好标定工程师一点也不难",
+        "url": "https://earsonme.com/episodes/coUuyVq5JlNY"
+      },
+      "checked_at": "2026-10-19T12:08:02.043Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/HyQMwFQCrO87",
+      "title": "042 刘诗卉：这位美妆up主在迈凯伦做研发",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTA2LTA3IDA0OjE5OjM3IiwiZXBpc29kZXMuaWQiOjE5Mjc0NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "042 刘诗卉：这位美妆up主在迈凯伦做研发",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/622e8af40932915f221aa363"
+        ],
+        "title": "042 刘诗卉：这位美妆up主在迈凯伦做研发",
+        "url": "https://earsonme.com/episodes/HyQMwFQCrO87"
+      },
+      "checked_at": "2026-10-19T12:08:02.772Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/7oGeAMtNcmdy",
+      "title": "041 Jojo：从波许（Bosch）公司走出来的女技术开发总监",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "041 Jojo：从波许（Bosch）公司走出来的女技术开发总监",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6225348d5c5931a3a048d9ec"
+        ],
+        "title": "041 Jojo：从波许（Bosch）公司走出来的女技术开发总监",
+        "url": "https://earsonme.com/episodes/7oGeAMtNcmdy"
+      },
+      "checked_at": "2026-10-19T12:08:03.698Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/kWyEecObbDeI",
+      "title": "040听说造轮胎和蒸包子没啥区别？对话嘉宾：冯金钊",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "040听说造轮胎和蒸包子没啥区别？对话嘉宾：冯金钊",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/621bfce59a3519b71827d86b"
+        ],
+        "title": "040听说造轮胎和蒸包子没啥区别？对话嘉宾：冯金钊",
+        "url": "https://earsonme.com/episodes/kWyEecObbDeI"
+      },
+      "checked_at": "2026-10-19T12:08:04.299Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/e47aI30zAWFo",
+      "title": "039 于月仙的车顶碎了到底赖谁？对话嘉宾：章翔、王路",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "039 于月仙的车顶碎了到底赖谁？对话嘉宾：章翔、王路",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6212c8bb6a1d4ec075b0699a"
+        ],
+        "title": "039 于月仙的车顶碎了到底赖谁？对话嘉宾：章翔、王路",
+        "url": "https://earsonme.com/episodes/e47aI30zAWFo"
+      },
+      "checked_at": "2026-10-19T12:08:04.983Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/WyH7y25ZTbZB",
+      "title": "038电动车该搞到1000公里续航么？ 对话嘉宾：罗昶，唐华寅",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "038电动车该搞到1000公里续航么？ 对话嘉宾：罗昶，唐华寅",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/620a1adb59a3135f621da9f3"
+        ],
+        "title": "038电动车该搞到1000公里续航么？ 对话嘉宾：罗昶，唐华寅",
+        "url": "https://earsonme.com/episodes/WyH7y25ZTbZB"
+      },
+      "checked_at": "2026-10-19T12:08:05.626Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/ZznkmISsCAlF",
+      "title": "037 Robotaxi还是Ultra Cruise，自动驾驶该怎么走？ 对话嘉宾：薛越，陈萌",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "037 Robotaxi还是Ultra Cruise，自动驾驶该怎么走？ 对话嘉宾：薛越，陈萌",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/6200e08a3ac8492cb2e26ce0"
+        ],
+        "title": "037 Robotaxi还是Ultra Cruise，自动驾驶该怎么走？ 对话嘉宾：薛越，陈萌",
+        "url": "https://earsonme.com/episodes/ZznkmISsCAlF"
+      },
+      "checked_at": "2026-10-19T12:08:06.240Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/XjaP1MPgZaKS",
+      "title": "036不聊工程聊资本 对话嘉宾：杨斯博，章翔",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "036不聊工程聊资本 对话嘉宾：杨斯博，章翔",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/61f7a9e080651919bbdecf02"
+        ],
+        "title": "036不聊工程聊资本 对话嘉宾：杨斯博，章翔",
+        "url": "https://earsonme.com/episodes/XjaP1MPgZaKS"
+      },
+      "checked_at": "2026-10-19T12:08:06.836Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/ZWUOPztmXWaw",
+      "title": "035和周冠宇的师哥聊聊中国赛车的差距 对话嘉宾： 谢欣哲，李沁",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "035和周冠宇的师哥聊聊中国赛车的差距 对话嘉宾： 谢欣哲，李沁",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/61ee6e650a4b952e22831d40"
+        ],
+        "title": "035和周冠宇的师哥聊聊中国赛车的差距 对话嘉宾： 谢欣哲，李沁",
+        "url": "https://earsonme.com/episodes/ZWUOPztmXWaw"
+      },
+      "checked_at": "2026-10-19T12:08:07.443Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/6gUtX8meZMVy",
+      "title": "034来自F1的那一把火：玛莎拉蒂Nettuno发动机的预燃烧室技术 对话嘉宾 刘恺年，朱枫",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "034来自F1的那一把火：玛莎拉蒂Nettuno发动机的预燃烧室技术 对话嘉宾 刘恺年，朱枫",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/61e4b60e349a5d36efc83a2e"
+        ],
+        "title": "034来自F1的那一把火：玛莎拉蒂Nettuno发动机的预燃烧室技术 对话嘉宾 刘恺年，朱枫",
+        "url": "https://earsonme.com/episodes/6gUtX8meZMVy"
+      },
+      "checked_at": "2026-10-19T12:08:08.067Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/SFJ8LmF80nSE",
+      "title": "033溯源汽车电气化之鼻祖——12V电池 对话嘉宾：谢仁浩，李青",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "033溯源汽车电气化之鼻祖——12V电池 对话嘉宾：谢仁浩，李青",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/61dbf5e22c4f5801faea0ecc"
+        ],
+        "title": "033溯源汽车电气化之鼻祖——12V电池 对话嘉宾：谢仁浩，李青",
+        "url": "https://earsonme.com/episodes/SFJ8LmF80nSE"
+      },
+      "checked_at": "2026-10-19T12:08:08.776Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/Nslz7bb3Iapv",
+      "title": "032把元宇宙放进汽车的座舱共需几步？对话人工智能学者高庆一",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "032把元宇宙放进汽车的座舱共需几步？对话人工智能学者高庆一",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/61d2be720eef504c04856dfd"
+        ],
+        "title": "032把元宇宙放进汽车的座舱共需几步？对话人工智能学者高庆一",
+        "url": "https://earsonme.com/episodes/Nslz7bb3Iapv"
+      },
+      "checked_at": "2026-10-19T12:08:09.382Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/LKB7akCq4kY0",
+      "title": "031都2021年了，固态电池咋还不来？对话嘉宾王昕、王崇明",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "031都2021年了，固态电池咋还不来？对话嘉宾王昕、王崇明",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/61c9821ef97e12e3059c0dbf"
+        ],
+        "title": "031都2021年了，固态电池咋还不来？对话嘉宾王昕、王崇明",
+        "url": "https://earsonme.com/episodes/LKB7akCq4kY0"
+      },
+      "checked_at": "2026-10-19T12:08:29.161Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/oJRN8ZAdXQhG",
+      "title": "030汽车人变身！汽车工程师该如何转型？对话嘉宾：陆巍、冯金钊",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIyLTAzLTE0IDA3OjM2OjM1IiwiZXBpc29kZXMuaWQiOjE5Mjc1NywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "030汽车人变身！汽车工程师该如何转型？对话嘉宾：陆巍、冯金钊",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/61c04ad6874a732463bf6cd4"
+        ],
+        "title": "030汽车人变身！汽车工程师该如何转型？对话嘉宾：陆巍、冯金钊",
+        "url": "https://earsonme.com/episodes/oJRN8ZAdXQhG"
+      },
+      "checked_at": "2026-10-19T12:08:29.813Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/UVOJqBrIEXTM",
+      "title": "029车企不参与WRC赛事就是技术不行？ 对话嘉宾：朱博、down哥",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTIwIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc2OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "029车企不参与WRC赛事就是技术不行？ 对话嘉宾：朱博、down哥",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/61b70d4416c87ea6b0850577"
+        ],
+        "title": "029车企不参与WRC赛事就是技术不行？ 对话嘉宾：朱博、down哥",
+        "url": "https://earsonme.com/episodes/UVOJqBrIEXTM"
+      },
+      "checked_at": "2026-10-19T12:08:30.402Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/RSF0xnHZ5Tnu",
+      "title": "028通聊澳洲汽车工业（下）：霍顿“关门弟子”亲历关厂始末 对话嘉宾： 丁伯骏，陈萌",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTIwIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc2OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "028通聊澳洲汽车工业（下）：霍顿“关门弟子”亲历关厂始末 对话嘉宾： 丁伯骏，陈萌",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/61add3bab4052b591cc21a4f"
+        ],
+        "title": "028通聊澳洲汽车工业（下）：霍顿“关门弟子”亲历关厂始末 对话嘉宾： 丁伯骏，陈萌",
+        "url": "https://earsonme.com/episodes/RSF0xnHZ5Tnu"
+      },
+      "checked_at": "2026-10-19T12:08:31.099Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/ZSKjFCnL4U8Z",
+      "title": "027通聊澳洲汽车工业（上）：从马鞍公司到巴顿（贴牌）计划 对话嘉宾： 丁伯骏，陈萌",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTIwIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc2OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "027通聊澳洲汽车工业（上）：从马鞍公司到巴顿（贴牌）计划 对话嘉宾： 丁伯骏，陈萌",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/61a49b8fd9233589b596f966"
+        ],
+        "title": "027通聊澳洲汽车工业（上）：从马鞍公司到巴顿（贴牌）计划 对话嘉宾： 丁伯骏，陈萌",
+        "url": "https://earsonme.com/episodes/ZSKjFCnL4U8Z"
+      },
+      "checked_at": "2026-10-19T12:08:31.691Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/cejC2KR4qChZ",
+      "title": "026和DJ聊赛车（下）：卡丁车是最接近F1的赛车！ 对话嘉宾：DJ，杨洋",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTIwIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc2OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "026和DJ聊赛车（下）：卡丁车是最接近F1的赛车！ 对话嘉宾：DJ，杨洋",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/619b5dd6821afa6779292219"
+        ],
+        "title": "026和DJ聊赛车（下）：卡丁车是最接近F1的赛车！ 对话嘉宾：DJ，杨洋",
+        "url": "https://earsonme.com/episodes/cejC2KR4qChZ"
+      },
+      "checked_at": "2026-10-19T12:08:32.352Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/pGrUeGHZi07c",
+      "title": "025和DJ聊赛车（上）：如何（从学美术专业）成长为赛车工程师 对话嘉宾： DJ，杨洋",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTIwIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc2OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "025和DJ聊赛车（上）：如何（从学美术专业）成长为赛车工程师 对话嘉宾： DJ，杨洋",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/619221a8994f927bd76e2cd8"
+        ],
+        "title": "025和DJ聊赛车（上）：如何（从学美术专业）成长为赛车工程师 对话嘉宾： DJ，杨洋",
+        "url": "https://earsonme.com/episodes/pGrUeGHZi07c"
+      },
+      "checked_at": "2026-10-19T12:08:32.971Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/6cP61Jp3rnGp",
+      "title": "021对话陆巍：我是动力域控制器软件的爸爸",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTIwIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc2OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "021对话陆巍：我是动力域控制器软件的爸爸",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/616d3a6f188be71662a96b0f"
+        ],
+        "title": "021对话陆巍：我是动力域控制器软件的爸爸",
+        "url": "https://earsonme.com/episodes/6cP61Jp3rnGp"
+      },
+      "checked_at": "2026-10-19T12:08:33.608Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/voITeJakByPB",
+      "title": "020路特斯要搞自动驾驶赛车？有戏么？对话嘉宾：前FSAEer黄恺霖、自动驾驶工程师薛越",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTIwIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc2OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "020路特斯要搞自动驾驶赛车？有戏么？对话嘉宾：前FSAEer黄恺霖、自动驾驶工程师薛越",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/616400b06001cdcd4236b2bc"
+        ],
+        "title": "020路特斯要搞自动驾驶赛车？有戏么？对话嘉宾：前FSAEer黄恺霖、自动驾驶工程师薛越",
+        "url": "https://earsonme.com/episodes/voITeJakByPB"
+      },
+      "checked_at": "2026-10-19T12:08:34.226Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/xEsAwKWcpnkH",
+      "title": "019电动未来下德国车企的转型 对话嘉宾：冯金钊 胡静文",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTIwIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc2OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "019电动未来下德国车企的转型 对话嘉宾：冯金钊 胡静文",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615ac5af5c5d3aaf1d5ba671"
+        ],
+        "title": "019电动未来下德国车企的转型 对话嘉宾：冯金钊 胡静文",
+        "url": "https://earsonme.com/episodes/xEsAwKWcpnkH"
+      },
+      "checked_at": "2026-10-19T12:08:35.129Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/Nx6tUK6hdUTi",
+      "title": "018 ADAS 功能安全：没认真读过产品手册，还敢上路吗？ 对话嘉宾：唐华寅 张永艺 闫冰",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTEyLTIwIDE3OjAwOjAwIiwiZXBpc29kZXMuaWQiOjE5Mjc2OSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "018 ADAS 功能安全：没认真读过产品手册，还敢上路吗？ 对话嘉宾：唐华寅 张永艺 闫冰",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366947"
+        ],
+        "title": "018 ADAS 功能安全：没认真读过产品手册，还敢上路吗？ 对话嘉宾：唐华寅 张永艺 闫冰",
+        "url": "https://earsonme.com/episodes/Nx6tUK6hdUTi"
+      },
+      "checked_at": "2026-10-19T12:08:35.866Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/pYkKIOc70lUB",
+      "title": "016造车=搭乐高？电动底盘的未来 对话嘉宾 唐华寅 纪洪超",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "016造车=搭乐高？电动底盘的未来 对话嘉宾 唐华寅 纪洪超",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366949"
+        ],
+        "title": "016造车=搭乐高？电动底盘的未来 对话嘉宾 唐华寅 纪洪超",
+        "url": "https://earsonme.com/episodes/pYkKIOc70lUB"
+      },
+      "checked_at": "2026-10-19T12:08:36.632Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/VhJ7khsP7UQg",
+      "title": "015如何（防止）黑一辆车：车辆信息安全【推广】对话嘉宾：钟严军 唐华寅",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "015如何（防止）黑一辆车：车辆信息安全【推广】对话嘉宾：钟严军 唐华寅",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694a"
+        ],
+        "title": "015如何（防止）黑一辆车：车辆信息安全【推广】对话嘉宾：钟严军 唐华寅",
+        "url": "https://earsonme.com/episodes/VhJ7khsP7UQg"
+      },
+      "checked_at": "2026-10-19T12:08:37.243Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/iKI8UJEaj1Bt",
+      "title": "014一代枭雄卡洛斯戈恩 对话嘉宾 周锦程 陈德馨",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "014一代枭雄卡洛斯戈恩 对话嘉宾 周锦程 陈德馨",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694b"
+        ],
+        "title": "014一代枭雄卡洛斯戈恩 对话嘉宾 周锦程 陈德馨",
+        "url": "https://earsonme.com/episodes/iKI8UJEaj1Bt"
+      },
+      "checked_at": "2026-10-19T12:08:37.897Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/9d4MmVovfOzl",
+      "title": "013和38号聊聊国产混动车 嘉宾：38号，刘亦然",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "013和38号聊聊国产混动车 嘉宾：38号，刘亦然",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694c"
+        ],
+        "title": "013和38号聊聊国产混动车 嘉宾：38号，刘亦然",
+        "url": "https://earsonme.com/episodes/9d4MmVovfOzl"
+      },
+      "checked_at": "2026-10-19T12:08:38.659Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/csgcrOIjeL2V",
+      "title": "012穿越日记：纵贯巴西的两台摩托和穿越欧亚大陆的2CV，嘉宾：林林，罗昶",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "012穿越日记：纵贯巴西的两台摩托和穿越欧亚大陆的2CV，嘉宾：林林，罗昶",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694d"
+        ],
+        "title": "012穿越日记：纵贯巴西的两台摩托和穿越欧亚大陆的2CV，嘉宾：林林，罗昶",
+        "url": "https://earsonme.com/episodes/csgcrOIjeL2V"
+      },
+      "checked_at": "2026-10-19T12:08:52.910Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/mXWY8JSCju5B",
+      "title": "011特斯拉压铸：偷工减料还是大胆创新？嘉宾王路，肖兆非",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "011特斯拉压铸：偷工减料还是大胆创新？嘉宾王路，肖兆非",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694e"
+        ],
+        "title": "011特斯拉压铸：偷工减料还是大胆创新？嘉宾王路，肖兆非",
+        "url": "https://earsonme.com/episodes/mXWY8JSCju5B"
+      },
+      "checked_at": "2026-10-19T12:08:53.591Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/m9a6cjyqNDvi",
+      "title": "010底盘电子工程师王以琳：圈内人眼中的ADAS",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "010底盘电子工程师王以琳：圈内人眼中的ADAS",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694f"
+        ],
+        "title": "010底盘电子工程师王以琳：圈内人眼中的ADAS",
+        "url": "https://earsonme.com/episodes/m9a6cjyqNDvi"
+      },
+      "checked_at": "2026-10-19T12:08:54.286Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/zIibmkS8Jvoq",
+      "title": "008碳纤维博士后肖兆非：超跑背后的复合材料技术",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "008碳纤维博士后肖兆非：超跑背后的复合材料技术",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366951"
+        ],
+        "title": "008碳纤维博士后肖兆非：超跑背后的复合材料技术",
+        "url": "https://earsonme.com/episodes/zIibmkS8Jvoq"
+      },
+      "checked_at": "2026-10-19T12:08:54.899Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/3jQ1SdmEbYMl",
+      "title": "007对话吴颉远：剑桥/MIT双料高材生算不清特斯拉股价？",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "007对话吴颉远：剑桥/MIT双料高材生算不清特斯拉股价？",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366952"
+        ],
+        "title": "007对话吴颉远：剑桥/MIT双料高材生算不清特斯拉股价？",
+        "url": "https://earsonme.com/episodes/3jQ1SdmEbYMl"
+      },
+      "checked_at": "2026-10-19T12:08:55.767Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/Kn74fSpcWiOs",
+      "title": "006前保时捷GT2/GT3/918发动机仿真专家胡静文：德英美汽车工程人才培养大横评",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA5LTI3IDEzOjMzOjQ1IiwiZXBpc29kZXMuaWQiOjE5Mjc4MSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "006前保时捷GT2/GT3/918发动机仿真专家胡静文：德英美汽车工程人才培养大横评",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366953"
+        ],
+        "title": "006前保时捷GT2/GT3/918发动机仿真专家胡静文：德英美汽车工程人才培养大横评",
+        "url": "https://earsonme.com/episodes/Kn74fSpcWiOs"
+      },
+      "checked_at": "2026-10-19T12:08:56.338Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/9n2RUGXDDIAc",
+      "title": "005资深车身工程师王路：谁说工程师不能是艺术家",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA3LTAyIDE1OjI4OjUwIiwiZXBpc29kZXMuaWQiOjE5Mjc5MywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "005资深车身工程师王路：谁说工程师不能是艺术家",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366954"
+        ],
+        "title": "005资深车身工程师王路：谁说工程师不能是艺术家",
+        "url": "https://earsonme.com/episodes/9n2RUGXDDIAc"
+      },
+      "checked_at": "2026-10-19T12:08:57.008Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/3p0YoEd8lpWU",
+      "title": "004首席工程师唐华寅：好奇心和电驱动",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA3LTAyIDE1OjI4OjUwIiwiZXBpc29kZXMuaWQiOjE5Mjc5MywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "004首席工程师唐华寅：好奇心和电驱动",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366955"
+        ],
+        "title": "004首席工程师唐华寅：好奇心和电驱动",
+        "url": "https://earsonme.com/episodes/3p0YoEd8lpWU"
+      },
+      "checked_at": "2026-10-19T12:08:57.627Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/eRDqzBjLZBRr",
+      "title": "003聊聊EDR和行驶数据采集 对话嘉宾：安全气囊专家章翔、自动驾驶专家周轶",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA3LTAyIDE1OjI4OjUwIiwiZXBpc29kZXMuaWQiOjE5Mjc5MywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "003聊聊EDR和行驶数据采集 对话嘉宾：安全气囊专家章翔、自动驾驶专家周轶",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366956"
+        ],
+        "title": "003聊聊EDR和行驶数据采集 对话嘉宾：安全气囊专家章翔、自动驾驶专家周轶",
+        "url": "https://earsonme.com/episodes/eRDqzBjLZBRr"
+      },
+      "checked_at": "2026-10-19T12:08:58.343Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/JNpPWdgSdEP7",
+      "title": "002功能安全工程师章翔：中国汽车的“引进来、走出去”",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA3LTAyIDE1OjI4OjUwIiwiZXBpc29kZXMuaWQiOjE5Mjc5MywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "002功能安全工程师章翔：中国汽车的“引进来、走出去”",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366957"
+        ],
+        "title": "002功能安全工程师章翔：中国汽车的“引进来、走出去”",
+        "url": "https://earsonme.com/episodes/JNpPWdgSdEP7"
+      },
+      "checked_at": "2026-10-19T12:08:58.943Z"
+    },
+    {
+      "href": "https://earsonme.com/episodes/YQKZPlncC3Tp",
+      "title": "001首席工程师罗昶：从自研双电机奥拓到系统工程",
+      "list_page_url": "https://earsonme.com/podcasts/8MZ4OeoY/episodes?cursor=eyJwdWJsaXNoZWRfYXQiOiIyMDIxLTA3LTAyIDE1OjI4OjUwIiwiZXBpc29kZXMuaWQiOjE5Mjc5MywiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+      "expected_title": "001首席工程师罗昶：从自研双电机奥拓到系统工程",
+      "detail": {
+        "channel_links": [
+          {
+            "title": "孤岛车谈",
+            "url": "https://earsonme.com/podcasts/8MZ4OeoY"
+          }
+        ],
+        "official_links": [
+          "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366958"
+        ],
+        "title": "001首席工程师罗昶：从自研双电机奥拓到系统工程",
+        "url": "https://earsonme.com/episodes/YQKZPlncC3Tp"
+      },
+      "checked_at": "2026-10-19T12:08:59.555Z"
+    }
+  ],
+  "official_verification_ledger": "history_verification.jsonl",
+  "caution": "These third-party links are discovery evidence only; inclusion is gated on independent current official-page title and channel verification."
+}

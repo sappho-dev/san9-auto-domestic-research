@@ -6,7 +6,7 @@
     "repository": "hsiangyuHuang/Podcast2RSS",
     "current_source": "https://github.com/hsiangyuHuang/Podcast2RSS/blob/0b8a83ff6916055d3fefe10431f0b49e6ade2dfe/data/episodes/5e280faf418a84a0461fbd39.json",
     "historical_source": "https://github.com/hsiangyuHuang/Podcast2RSS/blob/c98da37b0d843039d1895b3d344fd6c93ccb86d2/data/episodes/5e280faf418a84a0461fbd39.json",
-    "finding": "Currentmetadata60episodes, earliest2025-01-19snapshot108episodes(number1–108), union149. Exactly42unseenIDs matchall42unresolvedarchivetitles and passofficialHTTP200title/pid/channel/date/duration/hash checks.90 transcript-directory filenames were inspectedforIDdiscovery but no transcriptcontents fetched. No islandpid in12oldest or117current metadatafilenames."
+    "finding": "The current public metadata has 60 episodes; its 2025-01-19 snapshot has 108. Their union covers all149 current titles. All42 previously unseen IDs were independently checked on official pages. Transcript-directory filenames supplied candidate IDs only; no transcript contents were retrieved."
   },
   "official_verification_ledger": "history_verification.jsonl",
   "provenance_caution": "Third-party archives are candidate discovery only; every included link has independent official-page proof."

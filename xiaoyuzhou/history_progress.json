@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "issue": "https://github.com/sappho-dev/san9-auto-domestic-research/issues/11",
-  "updated_at": "2026-10-19T11:51:51Z",
+  "updated_at": "2026-10-19T12:11:08Z",
   "status": "in_progress",
-  "stage": "reopened_public_snapshot_discovery",
+  "stage": "earsonme_official_verification_batches",
   "baseline_commit": "e4c62c1e5a2fa78f9e1c89367fb4721343e6bce0",
   "baseline_counts": {
     "615a4035c8c1d14e83366946": 63,
@@ -14,10 +14,10 @@
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "archive_target": 212,
-      "catalog_count": 126,
-      "official_pages_verified": 126,
+      "catalog_count": 156,
+      "official_pages_verified": 156,
       "pending_existing_audit": 0,
-      "archive_remaining": 86
+      "archive_remaining": 56
     },
     "5e280faf418a84a0461fbd39": {
       "title": "疯投圈",
@@ -37,7 +37,7 @@
     }
   },
   "batch_changes": {
-    "added": 28,
+    "added": 30,
     "updated": 0
   },
   "validation": {
@@ -45,7 +45,7 @@
     "catalog_schema": 1,
     "no_deleted_ids": true,
     "protected_paths_unchanged": true,
-    "official_page_verification_passed": 560,
+    "official_page_verification_passed": 590,
     "catalog_quality_pass": true,
     "cross_channel_duplicate_ids": 0,
     "duplicate_normalized_titles": 0,
@@ -60,16 +60,16 @@
     "xiaoyuzhou/channels.json": "4fe9c54813db435ea518fb79a26179760f6e5259"
   },
   "method": "Discover actual links via public search or published cross-links; GET official episode page; check eid, pid, channel title, full title, publication date and duration; preserve evidence; merge fresh remote catalog by ID with branch-head lease. Never guess IDs or request audio.",
-  "next_action": "Continue older and URL-variant public web archives plus public datasets for the remaining Island episodes; verify every actual official link before the next additive SHA-aware batch.",
+  "next_action": "Finish the remaining official-page proof batches from actual EarsOnMe source links.",
   "target_total": 646,
-  "catalog_total": 560,
-  "official_pages_verified_total": 560,
-  "unconfirmed_total": 86,
+  "catalog_total": 590,
+  "official_pages_verified_total": 590,
+  "unconfirmed_total": 56,
   "session_changes": {
-    "added": 122,
+    "added": 152,
     "corrected_existing": 1,
     "removed": 0
   },
-  "completion_note": "Reopened: historical public datasets have produced further verified links. Prior broad source-exhaustion wording was premature.",
-  "base_commit_for_final_batch": "7723ffa57534b72c565e9f63e0358ec2727c96bf"
+  "completion_note": "Public EarsOnMe browser pagination covers all remaining titles; final official checks and batches continue.",
+  "base_commit_for_final_batch": "b0e8291e9a8c201acbcfe21b7e500b1959880946"
 }

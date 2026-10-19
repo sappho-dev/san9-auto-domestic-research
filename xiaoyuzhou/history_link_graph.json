@@ -2124,5 +2124,52 @@
         }
       ]
     }
+  },
+  "reopened_incremental_checks": {
+    "checked_at": "2026-10-19T11:56:08.719011+00:00",
+    "incremental_page_count": 90,
+    "already_known_or_checked_ids": 9,
+    "new_checks": [
+      {
+        "id": "671b2648eb46cd66559c214e",
+        "checked_at": "2026-10-19T11:55:56.284940+00:00",
+        "referral_urls": [
+          "https://www.xiaoyuzhoufm.com/episode/68ec3ebc8bc215dc6ee59b68"
+        ],
+        "observed": {
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/671b2648eb46cd66559c214e",
+          "page_sha256": "f88b0be060bbcfcaf333c6ff93c58e9f3163a48f2beec415fbc75ae1e604fa52",
+          "id": "671b2648eb46cd66559c214e",
+          "channel_id": "5ece95fa418a84a046b9db3b",
+          "channel_title": "中间地带",
+          "title": "Ep.102 华晨牵手宝马，吉利致敬波音：90年代造车对照组｜造车四十年03",
+          "published_at": "2024-10-25T05:02:00.615Z",
+          "duration_seconds": 4994,
+          "linked_episode_ids": []
+        },
+        "outcome": "other_channel"
+      },
+      {
+        "id": "65e02eb1cfdcad8d2c34c7ff",
+        "checked_at": "2026-10-19T11:56:08.718957+00:00",
+        "referral_urls": [
+          "https://www.xiaoyuzhoufm.com/episode/663e9707b1cf4ab203b1845e"
+        ],
+        "observed": {
+          "http_status": 200,
+          "final_url": "https://www.xiaoyuzhoufm.com/episode/65e02eb1cfdcad8d2c34c7ff",
+          "page_sha256": "ff044f4bbb2b4b0ad453b4345f6a446409696cfe61a04fa2177da0227dc036ca",
+          "id": "65e02eb1cfdcad8d2c34c7ff",
+          "channel_id": "65c49e4577470a095be99713",
+          "channel_title": "闪光点",
+          "title": "滴灌通——从运动员到裁判员",
+          "published_at": "2024-02-29T07:13:53.319Z",
+          "duration_seconds": 2026,
+          "linked_episode_ids": []
+        },
+        "outcome": "other_channel"
+      }
+    ]
   }
 }

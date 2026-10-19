@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T11:51:51Z",
+  "updated_at": "2026-10-19T12:11:08Z",
   "note": "External public RSS metadata archive. This file is not read by the unchanged local HTML. Missing Xiaoyuzhou episode IDs are deliberately left null.",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "source_rss": "https://www.ximalaya.com/album/49896353.xml",
       "count": 212,
-      "linked_to_native_count": 126,
+      "linked_to_native_count": 156,
       "episodes": [
         {
           "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
@@ -203,7 +203,7 @@
           "published_at": "2025-10-20T22:57:56Z",
           "duration_seconds": 5062,
           "source_url": "https://www.ximalaya.com/sound/923156815",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "68f6c63e49540bd15c333fed"
         },
         {
           "title": "183 起底吉利收购沃尔沃：汽车的资本之魂 对话嘉宾：Benny，陆风鸣",
@@ -266,7 +266,7 @@
           "published_at": "2025-08-10T22:46:17Z",
           "duration_seconds": 4835,
           "source_url": "https://www.ximalaya.com/sound/898040320",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "68992784f73cd0924eeb1b82"
         },
         {
           "title": "174 系统工程师（3）：如果我啥都会，我早当CTO了 对话嘉宾：许新熠，吴科，孙晨露",
@@ -294,7 +294,7 @@
           "published_at": "2025-07-14T21:38:47Z",
           "duration_seconds": 5154,
           "source_url": "https://www.ximalaya.com/sound/887770640",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "68758054b37c018d1817b225"
         },
         {
           "title": "170 美国汽车的至暗时刻（下）：一手好牌打个稀烂 对话嘉宾：陆风鸣，罗新雨，陈萌",
@@ -322,7 +322,7 @@
           "published_at": "2025-06-08T22:52:10Z",
           "duration_seconds": 3646,
           "source_url": "https://www.ximalaya.com/sound/866312352",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "684617f1cdecf72d4c40c20a"
         },
         {
           "title": "166 波兰汽车业（上）：资深菲亚特海外工厂 对话嘉宾：陆风鸣，付梓耘，高处青",
@@ -553,14 +553,14 @@
           "published_at": "2024-09-22T20:54:42Z",
           "duration_seconds": 3448,
           "source_url": "https://www.ximalaya.com/sound/759012475",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "66f08abc546940251d05f8c9"
         },
         {
           "title": "133 中国车出海（1）：去泰国开厂共需几步？对话嘉宾：舒宁，朱珂，俞波",
           "published_at": "2024-09-16T20:42:56Z",
           "duration_seconds": 3456,
           "source_url": "https://www.ximalaya.com/sound/757259280",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "66e89c5c79de2cd4168318cb"
         },
         {
           "title": "132 蔚来自研智驾芯片（下）：无尽L2 对话嘉宾：章翔，Roy",
@@ -770,21 +770,21 @@
           "published_at": "2023-12-08T08:56:36Z",
           "duration_seconds": 2886,
           "source_url": "https://www.ximalaya.com/sound/691618251",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6572df175a15db7f5a8b44c8"
         },
         {
           "title": "102 为什么即插即充能这么难？对话嘉宾：韩毅，唐华寅",
           "published_at": "2023-12-01T22:09:48Z",
           "duration_seconds": 3602,
           "source_url": "https://www.ximalaya.com/sound/689903519",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "656a7bfdff4af26fdb355ce3"
         },
         {
           "title": "101 当德国汽车没了祖传秘方 对话嘉宾：Elaine滕磊，李青",
           "published_at": "2023-11-26T13:11:02Z",
           "duration_seconds": 2168,
           "source_url": "https://www.ximalaya.com/sound/688167717",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "656348833b3f1cde50d99a29"
         },
         {
           "title": "100 德国车的祖传秘方45欧元一本 对话嘉宾：Elaine滕磊，李青",
@@ -833,7 +833,7 @@
           "published_at": "2023-09-19T22:29:22Z",
           "duration_seconds": 1120,
           "source_url": "https://www.ximalaya.com/sound/667100976",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "650a28e5721383b392524566"
         },
         {
           "title": "093 合作小鹏，大众押宝合肥 对话嘉宾：陆风鸣，李青，冯金钊",
@@ -854,14 +854,14 @@
           "published_at": "2023-08-17T22:18:15Z",
           "duration_seconds": 3581,
           "source_url": "https://www.ximalaya.com/sound/657570555",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "64dea115f0c8a9303defba08"
         },
         {
           "title": "090 为什么总觉得车灯不够亮？对话嘉宾：Jorbin，SanC",
           "published_at": "2023-08-06T12:40:02Z",
           "duration_seconds": 4675,
           "source_url": "https://www.ximalaya.com/sound/654523157",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "64cf999652e1bd19ee573175"
         },
         {
           "title": "089 中国不需要ET5 Touring，但蔚来需要 对话嘉宾：陆风鸣、苏源、冯金钊",
@@ -882,7 +882,7 @@
           "published_at": "2023-07-04T21:16:01Z",
           "duration_seconds": 3033,
           "source_url": "https://www.ximalaya.com/sound/646158746",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "64a492a8ca4b0bfbae3412ab"
         },
         {
           "title": "086 保时捷无中生“油”，efuel能减碳么？ 对话嘉宾：Alice，陆巍",
@@ -896,7 +896,7 @@
           "published_at": "2023-06-11T23:00:02Z",
           "duration_seconds": 3665,
           "source_url": "https://www.ximalaya.com/sound/640849310",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "648667184bc158b926506599"
         },
         {
           "title": "084 要智能，要低碳，还是要皮卡？电动世界车在哪里？对话嘉宾：侯社长，冯金钊",
@@ -931,28 +931,28 @@
           "published_at": "2023-05-01T22:31:23Z",
           "duration_seconds": 4377,
           "source_url": "https://www.ximalaya.com/sound/630529995",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "645058d904bec0a10fac9b0a"
         },
         {
           "title": "079 以用户体验出发，聊聊电动车和车机 对话嘉宾：Vouney，张冠男",
           "published_at": "2023-04-02T22:23:04Z",
           "duration_seconds": 2136,
           "source_url": "https://www.ximalaya.com/sound/623166248",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "642a112833abe7f365206214"
         },
         {
           "title": "078 乔布斯说：要先从用户体验开始 对话嘉宾：Vouney，张冠男",
           "published_at": "2023-03-26T22:51:22Z",
           "duration_seconds": 3121,
           "source_url": "https://www.ximalaya.com/sound/621323379",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6420d9b33f943b575b382337"
         },
         {
           "title": "077 电动时代的逆行者日产 对话嘉宾：杨宇，刘工",
           "published_at": "2023-03-13T22:20:00Z",
           "duration_seconds": 2808,
           "source_url": "https://www.ximalaya.com/sound/617918837",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "640fa2113b564ef4f1faf298"
         },
         {
           "title": "076 见所未见的保时捷 对话嘉宾：李温如，丁伯骏",
@@ -966,42 +966,42 @@
           "published_at": "2023-01-15T22:45:49Z",
           "duration_seconds": 3571,
           "source_url": "https://www.ximalaya.com/sound/604773007",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "63c485af100157008c3ddbef"
         },
         {
           "title": "074 雪铁龙DS（上）：独步天下二十载的天外来车 对话嘉宾：罗昶，笑语",
           "published_at": "2023-01-08T23:00:44Z",
           "duration_seconds": 4170,
           "source_url": "https://www.ximalaya.com/sound/602909582",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "63bb4e780d87411151072160"
         },
         {
           "title": "073 极氪001下地库烧胎上墙事故解读",
           "published_at": "2022-12-04T07:23:00Z",
           "duration_seconds": 520,
           "source_url": "https://www.ximalaya.com/sound/593475252",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "638c4e23a6ab012bf468c316"
         },
         {
           "title": "072福特Bronco：老旧燃油车也懂用户思维？对话嘉宾：周骏汇Jenway、陈萌",
           "published_at": "2022-11-27T22:59:10Z",
           "duration_seconds": 2455,
           "source_url": "https://www.ximalaya.com/sound/591810083",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6383f0abc8b81808083e8709"
         },
         {
           "title": "071造车新势力，薪酬大揭秘：为什么特斯拉不招“蔚小理“的人？",
           "published_at": "2022-11-01T16:12:55Z",
           "duration_seconds": 4177,
           "source_url": "https://www.ximalaya.com/sound/582373750",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "63614cec9d4a12cc8c7a7455"
         },
         {
           "title": "070 工匠派造的小跑车靠谱么？对话嘉宾：唐华寅 陈旭",
           "published_at": "2022-10-24T06:28:00Z",
           "duration_seconds": 794,
           "source_url": "https://www.ximalaya.com/sound/579459441",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6356317b18757096dfb261f7"
         },
         {
           "title": "069英国汽车工业的罗曼蒂克消亡史，从女王的灵车开始说起",
@@ -1015,42 +1015,42 @@
           "published_at": "2022-10-03T00:17:27Z",
           "duration_seconds": 1011,
           "source_url": "https://www.ximalaya.com/sound/573944824",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "633a2cad65c6738444385fdd"
         },
         {
           "title": "067 对话秦力洪：蔚来来欧洲不只是卖几台车而已",
           "published_at": "2022-09-24T21:36:28Z",
           "duration_seconds": 1002,
           "source_url": "https://www.ximalaya.com/sound/571935248",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "632f7e38d881b04c17a5eb50"
         },
         {
           "title": "066为什么每个商场里都在卖电动车，而特斯拉却又总在撤店？",
           "published_at": "2022-09-19T12:01:21Z",
           "duration_seconds": 3448,
           "source_url": "https://www.ximalaya.com/sound/570521491",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6328627a171b463f9a2e1dcd"
         },
         {
           "title": "065 卡车自动驾驶：能回本儿的自动驾驶（推广）对话嘉宾：史院平，黄恺霖",
           "published_at": "2022-09-11T23:33:00Z",
           "duration_seconds": 1682,
           "source_url": "https://www.ximalaya.com/sound/568484200",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "631e72120871199e6d2cb72f"
         },
         {
           "title": "064谁说女人只喜欢粉色车？对话嘉宾：松松和秋秋",
           "published_at": "2022-09-05T12:19:36Z",
           "duration_seconds": 2831,
           "source_url": "https://www.ximalaya.com/sound/566873469",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6315ecbf2e9ae0d5c32c4043"
         },
         {
           "title": "063 Stellantis圆桌特辑（下）：那一年，一帮外国工程师在东北擀面，放炮仗",
           "published_at": "2022-08-30T14:55:22Z",
           "duration_seconds": 2689,
           "source_url": "https://www.ximalaya.com/sound/565383801",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "630e2c12086fd7f2212e9ca2"
         },
         {
           "title": "062 圆桌特辑（上）：那些年，Stellantis在中国的笑与泪",
