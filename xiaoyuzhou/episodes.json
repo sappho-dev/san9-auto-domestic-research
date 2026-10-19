@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T10:02:24Z",
+  "updated_at": "2026-10-19T10:09:49Z",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "id": "615a4035c8c1d14e83366946",
@@ -116,6 +116,90 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/69a4be6959a3b70a1a1b17a1",
           "published_at": "2026-03-01T22:06:36Z",
           "duration_seconds": 4035
+        },
+        {
+          "id": "69764fbb187d74d6a8a611f4",
+          "title": "194 中式豪华：干死BBA共需几步？ 对话嘉宾：管仲窥豹、蒋晨",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69764fbb187d74d6a8a611f4",
+          "published_at": "2026-01-25T16:42:57Z",
+          "duration_seconds": 5437
+        },
+        {
+          "id": "6964387471f03dcb489ae310",
+          "title": "192 比亚迪海狮06：插混前驱VS纯电后驱 对话嘉宾：冯金钊、Toto文翰",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6964387471f03dcb489ae310",
+          "published_at": "2026-01-11T23:18:57Z",
+          "duration_seconds": 5530
+        },
+        {
+          "id": "6959b2bbdf9d06670bdfdc63",
+          "title": "191 奔驰转型：左手顶奢，右手纯电 对话嘉宾：冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6959b2bbdf9d06670bdfdc63",
+          "published_at": "2026-01-03T23:48:08Z",
+          "duration_seconds": 4892
+        },
+        {
+          "id": "6951ac2dbdaf89a61f4215bd",
+          "title": "190 理想MEGA爆燃：这次居然是冷却液 对话嘉宾：王炎，章翔",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6951ac2dbdaf89a61f4215bd",
+          "published_at": "2025-12-28T21:50:42Z",
+          "duration_seconds": 3824
+        },
+        {
+          "id": "691094cfa0cdc0cf98917ecd",
+          "title": "186 敏捷开发：一个悲伤的故事 对话嘉宾：苏源，吴科，孙晨露",
+          "url": "https://www.xiaoyuzhoufm.com/episode/691094cfa0cdc0cf98917ecd",
+          "published_at": "2025-11-09T12:42:05Z",
+          "duration_seconds": 6221
+        },
+        {
+          "id": "68db09daac8b7214b72d5fea",
+          "title": "182 常州：波士顿电池、中航锂电和理想汽车 对话嘉宾：陆风鸣，唐华寅",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68db09daac8b7214b72d5fea",
+          "published_at": "2025-09-29T22:05:11Z",
+          "duration_seconds": 5442
+        },
+        {
+          "id": "68cfeea5a646c97a3e8946b0",
+          "title": "181 来吉利走一遭：吉利是如何（反）内卷的 对话嘉宾：胡洸久，陈圣夫",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68cfeea5a646c97a3e8946b0",
+          "published_at": "2025-09-21T11:53:11Z",
+          "duration_seconds": 5255
+        },
+        {
+          "id": "68b4afe05c6cd10b1778b1ba",
+          "title": "178 懂车智炼场ADAS测试（下）：需要智能化的不只有车 对话嘉宾：许新熠，薛岳",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68b4afe05c6cd10b1778b1ba",
+          "published_at": "2025-08-31T19:56:34Z",
+          "duration_seconds": 4666
+        },
+        {
+          "id": "68a253ba063a7fc3bfd628f2",
+          "title": "176 汽车空调：一个有温度的shy tech 对话嘉宾：Alex，唐华寅",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68a253ba063a7fc3bfd628f2",
+          "published_at": "2025-08-17T21:45:27Z",
+          "duration_seconds": 5346
+        },
+        {
+          "id": "67e9acb1a6a24ce40f80b5b8",
+          "title": "157 车机界面设计：蒙眼狂奔，AI上车 对话嘉宾：张冠男，许可，侯依萱",
+          "url": "https://www.xiaoyuzhoufm.com/episode/67e9acb1a6a24ce40f80b5b8",
+          "published_at": "2025-03-30T20:28:00Z",
+          "duration_seconds": 2836
+        },
+        {
+          "id": "67bbafb952a6af799cf1a22d",
+          "title": "153 解读蔚来EP Mode：纯软件定义的性能车有意思么？ 对话嘉宾：刘亦然，戴政",
+          "url": "https://www.xiaoyuzhoufm.com/episode/67bbafb952a6af799cf1a22d",
+          "published_at": "2025-02-23T23:07:11Z",
+          "duration_seconds": 3437
+        },
+        {
+          "id": "67a94730389d720d16a9e3f8",
+          "title": "151 比亚迪的《工程师之魂》（2）：命悬一线到一飞冲天 对话嘉宾：陆风鸣，李赫瑄",
+          "url": "https://www.xiaoyuzhoufm.com/episode/67a94730389d720d16a9e3f8",
+          "published_at": "2025-02-10T00:04:08Z",
+          "duration_seconds": 3320
         },
         {
           "id": "6796c797e92894e7bf495b40",
@@ -270,6 +354,27 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/69c5a1e521b3b2db217b38d9",
           "published_at": "2026-03-27T00:00:00.000Z",
           "duration_seconds": 4418
+        },
+        {
+          "id": "69bc3f4b719b26db81ae938a",
+          "title": "134 ✪ G2格局下的全球投资",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69bc3f4b719b26db81ae938a",
+          "published_at": "2026-03-20T00:00:00Z",
+          "duration_seconds": 4337
+        },
+        {
+          "id": "66a16144c8295bd902cb4883",
+          "title": "99 ✪ 中式快餐如何超越麦当劳？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66a16144c8295bd902cb4883",
+          "published_at": "2024-07-25T00:00:00Z",
+          "duration_seconds": 4466
+        },
+        {
+          "id": "5e280faf418a84a0461fbfd7",
+          "title": "40 ✪ 疯投圈的未来",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfd7",
+          "published_at": "2019-12-31T15:00:00Z",
+          "duration_seconds": 4485
         }
       ],
       "enabled": true,
