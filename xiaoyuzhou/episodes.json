@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T10:09:49Z",
+  "updated_at": "2026-10-19T10:13:57Z",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "id": "615a4035c8c1d14e83366946",
@@ -209,11 +209,137 @@
           "duration_seconds": 4388
         },
         {
+          "id": "677b091f529ffe9e31b1d4ee",
+          "title": "147 中国车出海（3）：在欧洲如何卖车？ 对话嘉宾：Jason，俞波",
+          "url": "https://www.xiaoyuzhoufm.com/episode/677b091f529ffe9e31b1d4ee",
+          "published_at": "2025-01-05T21:45:54Z",
+          "duration_seconds": 4997
+        },
+        {
+          "id": "67689b6e9e0c2b849cfc4ee2",
+          "title": "145 懂车帝碰撞测试（上）：车太高也是错？对话嘉宾：许新熠，王路，章翔",
+          "url": "https://www.xiaoyuzhoufm.com/episode/67689b6e9e0c2b849cfc4ee2",
+          "published_at": "2024-12-22T22:46:40Z",
+          "duration_seconds": 4008
+        },
+        {
+          "id": "6755056540888233d6b4ac0f",
+          "title": "144 大众小鹏一周年 德国亡国进行时 对话嘉宾：陆风鸣，李青，冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6755056540888233d6b4ac0f",
+          "published_at": "2024-12-08T02:06:26Z",
+          "duration_seconds": 4903
+        },
+        {
+          "id": "67367850547b11f66291f5b7",
+          "title": "141 Northvolt倒闭：初创造电池，环保当饭吃 对话嘉宾：严杰，胡雯婷，陆风鸣",
+          "url": "https://www.xiaoyuzhoufm.com/episode/67367850547b11f66291f5b7",
+          "published_at": "2024-11-14T21:58:57Z",
+          "duration_seconds": 3940
+        },
+        {
+          "id": "672562f4284a1314eb32b118",
+          "title": "139 吉利雷诺合资Horse：法国人跟中国人学造内燃机 对话嘉宾：陈圣夫，陆风鸣，胡博峰",
+          "url": "https://www.xiaoyuzhoufm.com/episode/672562f4284a1314eb32b118",
+          "published_at": "2024-11-01T22:50:53Z",
+          "duration_seconds": 5615
+        },
+        {
+          "id": "6702ed7352eb4e0caf1d724c",
+          "title": "135 上海通用和杨雪兰（1）：影响整个中国汽车界的合资故事 对话嘉宾：陆风鸣",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6702ed7352eb4e0caf1d724c",
+          "published_at": "2024-10-06T20:00:00Z",
+          "duration_seconds": 3750
+        },
+        {
+          "id": "66dd748679de2cd41697b340",
+          "title": "132 蔚来自研智驾芯片（下）：无尽L2 对话嘉宾：章翔，Roy",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66dd748679de2cd41697b340",
+          "published_at": "2024-09-08T09:38:15Z",
+          "duration_seconds": 2871
+        },
+        {
+          "id": "66ccf09b42dab1535b136ffc",
+          "title": "130 大电池插混在欧洲 对话嘉宾：林纯兴，唐华寅",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66ccf09b42dab1535b136ffc",
+          "published_at": "2024-08-26T20:38:42Z",
+          "duration_seconds": 5097
+        },
+        {
+          "id": "66c25bb0ccf2fa8175722b36",
+          "title": "129 2024古德伍德速度节（下）：风扇车，Shadow和Joest 对话嘉宾：林纯兴，down哥",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66c25bb0ccf2fa8175722b36",
+          "published_at": "2024-08-18T20:15:16Z",
+          "duration_seconds": 4430
+        },
+        {
+          "id": "66b92836e632361c3642b207",
+          "title": "128 2024古德伍德速度节（上）：MG、仰望和RB17 对话嘉宾：林纯兴，down哥",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66b92836e632361c3642b207",
+          "published_at": "2024-08-11T20:44:54Z",
+          "duration_seconds": 3736
+        },
+        {
           "id": "6681d4f1356e08442206f0cd",
           "title": "125 比亚迪DM五代：46%是真的 对话嘉宾：张文川，林工",
           "url": "https://www.xiaoyuzhoufm.com/episode/6681d4f1356e08442206f0cd",
           "published_at": "2024-06-30T21:34:36Z",
           "duration_seconds": 5224
+        },
+        {
+          "id": "665cdb46fbf7c6232f28069c",
+          "title": "122 Tusimple（下）：梦醒2024 对话嘉宾：许新熠，陆风鸣",
+          "url": "https://www.xiaoyuzhoufm.com/episode/665cdb46fbf7c6232f28069c",
+          "published_at": "2024-06-02T20:39:49Z",
+          "duration_seconds": 2440
+        },
+        {
+          "id": "66488fe2fbc01d7f363c0f28",
+          "title": "120 阿斯顿马丁（下）：贵族品牌的生存之道 对话嘉宾：Jenway，崔安东",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66488fe2fbc01d7f363c0f28",
+          "published_at": "2024-05-18T11:02:58Z",
+          "duration_seconds": 3985
+        },
+        {
+          "id": "65d9165f9173e9003f9ba299",
+          "title": "113 电动卡车（下）：冰箱微波炉耽误回本儿 对话嘉宾：孙晨露，许新熠，胡雯婷",
+          "url": "https://www.xiaoyuzhoufm.com/episode/65d9165f9173e9003f9ba299",
+          "published_at": "2024-02-23T22:00:00Z",
+          "duration_seconds": 2808
+        },
+        {
+          "id": "65ce8b871623877b6a83da92",
+          "title": "112 电动卡车（上）：拉货回本指南 对话嘉宾：孙晨露，许新熠，胡雯婷",
+          "url": "https://www.xiaoyuzhoufm.com/episode/65ce8b871623877b6a83da92",
+          "published_at": "2024-02-15T21:40:34Z",
+          "duration_seconds": 3877
+        },
+        {
+          "id": "65bbeb294a4579776504cac9",
+          "title": "111 延期交付有解么？对话嘉宾：Elaine滕磊，唐华寅",
+          "url": "https://www.xiaoyuzhoufm.com/episode/65bbeb294a4579776504cac9",
+          "published_at": "2024-02-01T18:20:03Z",
+          "duration_seconds": 4890
+        },
+        {
+          "id": "6597b524abacfc25d7305919",
+          "title": "107 奥迪：F1我来了 对话嘉宾：徐桑，村长托马斯，117",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6597b524abacfc25d7305919",
+          "published_at": "2024-01-05T07:27:49Z",
+          "duration_seconds": 2759
+        },
+        {
+          "id": "658e1266c964bcb107861fc6",
+          "title": "106 Stellantis和零跑合资，谁输了谁赢了？对话嘉宾：王博，冯金钊，俞翔",
+          "url": "https://www.xiaoyuzhoufm.com/episode/658e1266c964bcb107861fc6",
+          "published_at": "2023-12-28T22:57:17Z",
+          "duration_seconds": 3870
+        },
+        {
+          "id": "6584d7a5eb219fa789cd8879",
+          "title": "105 纯电超跑是不是就不该存在？对话嘉宾：段金雨、朱博、戴政",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6584d7a5eb219fa789cd8879",
+          "published_at": "2023-12-21T21:42:02Z",
+          "duration_seconds": 3743
         },
         {
           "id": "655d49791a9c63a9fd348ba2",
@@ -228,6 +354,90 @@
           "url": "https://www.xiaoyuzhoufm.com/episode/654831ece905a845c26376cb",
           "published_at": "2023-11-05T23:25:01Z",
           "duration_seconds": 3961
+        },
+        {
+          "id": "653eb609d99f8338bb0e616f",
+          "title": "098 上海大众和李文波，来之不易的桑塔纳 对话嘉宾：陆风鸣，范文廷",
+          "url": "https://www.xiaoyuzhoufm.com/episode/653eb609d99f8338bb0e616f",
+          "published_at": "2023-10-29T18:53:40Z",
+          "duration_seconds": 3650
+        },
+        {
+          "id": "653840bcbf3c757d200a6ee9",
+          "title": "097 大众历史：没有研发部，盈利靠返祖 对话嘉宾：陆风鸣，范文廷",
+          "url": "https://www.xiaoyuzhoufm.com/episode/653840bcbf3c757d200a6ee9",
+          "published_at": "2023-10-24T20:47:42Z",
+          "duration_seconds": 3636
+        },
+        {
+          "id": "652885f448466cc55cbe588e",
+          "title": "096 汽车座椅：不只是沙发 对话嘉宾：郭鹏飞，冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/652885f448466cc55cbe588e",
+          "published_at": "2023-10-12T22:30:17Z",
+          "duration_seconds": 4486
+        },
+        {
+          "id": "6519ee424a1021b53edfbe5b",
+          "title": "095 F1新加坡站为什么终结了红牛连胜？对话嘉宾：黄恺霖，唐潇睿",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6519ee424a1021b53edfbe5b",
+          "published_at": "2023-10-01T21:53:50Z",
+          "duration_seconds": 2630
+        },
+        {
+          "id": "64e9341dc512a31a66770c66",
+          "title": "092 大众汽车：德国特色社会主义汽车厂 对话嘉宾：陆风鸣，李青，冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64e9341dc512a31a66770c66",
+          "published_at": "2023-08-25T22:14:28Z",
+          "duration_seconds": 2660
+        },
+        {
+          "id": "64bf0853a5a7840d2fa20a89",
+          "title": "089 中国不需要ET5 Touring，但蔚来需要 对话嘉宾：陆风鸣、苏源、冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64bf0853a5a7840d2fa20a89",
+          "published_at": "2023-07-24T22:48:05Z",
+          "duration_seconds": 3261
+        },
+        {
+          "id": "64b48bba3bedd7b325f1beb7",
+          "title": "088 wagon是客货两用车还是时尚先锋？ 对话嘉宾：陆风鸣教授",
+          "url": "https://www.xiaoyuzhoufm.com/episode/64b48bba3bedd7b325f1beb7",
+          "published_at": "2023-07-16T22:05:45Z",
+          "duration_seconds": 2575
+        },
+        {
+          "id": "6494756cb971bb75bb39e91d",
+          "title": "086 保时捷无中生“油”，efuel能减碳么？ 对话嘉宾：Alice，陆巍",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6494756cb971bb75bb39e91d",
+          "published_at": "2023-06-22T16:01:52Z",
+          "duration_seconds": 4030
+        },
+        {
+          "id": "647e703b8f7d9d4a7f827d54",
+          "title": "084 要智能，要低碳，还是要皮卡？电动世界车在哪里？对话嘉宾：侯社长，冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/647e703b8f7d9d4a7f827d54",
+          "published_at": "2023-06-05T22:33:43Z",
+          "duration_seconds": 2486
+        },
+        {
+          "id": "6466c528b70fe00c5699c19d",
+          "title": "082 电动车时代，中国赛车也能弯道超个车？ 对话嘉宾：王佳伟，Patrick",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6466c528b70fe00c5699c19d",
+          "published_at": "2023-05-18T22:45:39Z",
+          "duration_seconds": 2756
+        },
+        {
+          "id": "645ad290a280a045fec88ac6",
+          "title": "081 拯救中国赛车，从培养车迷开始 对话嘉宾：王佳伟，Patrick",
+          "url": "https://www.xiaoyuzhoufm.com/episode/645ad290a280a045fec88ac6",
+          "published_at": "2023-05-09T22:12:10Z",
+          "duration_seconds": 2836
+        },
+        {
+          "id": "6405326e178037e42fe557c2",
+          "title": "076 见所未见的保时捷 对话嘉宾：李温如，丁伯骏",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6405326e178037e42fe557c2",
+          "published_at": "2023-03-05T23:48:42Z",
+          "duration_seconds": 3876
         },
         {
           "id": "615a4035c8c1d14e83366959",
@@ -363,6 +573,146 @@
           "duration_seconds": 4337
         },
         {
+          "id": "69a8646dee0e57ed606a3cb6",
+          "title": "133 ✪ 圈层化与试图破圈的lululemon",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69a8646dee0e57ed606a3cb6",
+          "published_at": "2026-03-05T00:00:00Z",
+          "duration_seconds": 4348
+        },
+        {
+          "id": "698a234498b7f324e1082615",
+          "title": "132 ✪ 🍦雪糕江湖",
+          "url": "https://www.xiaoyuzhoufm.com/episode/698a234498b7f324e1082615",
+          "published_at": "2026-02-10T00:00:00Z",
+          "duration_seconds": 4643
+        },
+        {
+          "id": "697ba1591729de5bda0b69cf",
+          "title": "131 ✪ 对话野人先生：野蛮生长的中国冰淇淋",
+          "url": "https://www.xiaoyuzhoufm.com/episode/697ba1591729de5bda0b69cf",
+          "published_at": "2026-01-30T00:00:00Z",
+          "duration_seconds": 3311
+        },
+        {
+          "id": "693c9d52b1ea64ff19f232a8",
+          "title": "129 ✪ 体验化增长：Peet's、亚朵、源氏木语",
+          "url": "https://www.xiaoyuzhoufm.com/episode/693c9d52b1ea64ff19f232a8",
+          "published_at": "2025-12-13T00:00:00Z",
+          "duration_seconds": 4948
+        },
+        {
+          "id": "693099df60d9170fe8dc4b9d",
+          "title": "128 ✪ 个人投资的风险管理",
+          "url": "https://www.xiaoyuzhoufm.com/episode/693099df60d9170fe8dc4b9d",
+          "published_at": "2025-12-04T00:00:00Z",
+          "duration_seconds": 3924
+        },
+        {
+          "id": "69202663991a009c0d356267",
+          "title": "127 ✪ 全球化之路：出海其实也挺难",
+          "url": "https://www.xiaoyuzhoufm.com/episode/69202663991a009c0d356267",
+          "published_at": "2025-11-21T09:00:00Z",
+          "duration_seconds": 3929
+        },
+        {
+          "id": "6914e26a995f074535473845",
+          "title": "126 ✪ 银发新势力：被低估的消费觉醒",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6914e26a995f074535473845",
+          "published_at": "2025-11-13T00:00:00Z",
+          "duration_seconds": 3844
+        },
+        {
+          "id": "690775bf6e241a8dee08136b",
+          "title": "125 ✪ 名创优品「偷师」泡泡玛特、卡游上市遇挫",
+          "url": "https://www.xiaoyuzhoufm.com/episode/690775bf6e241a8dee08136b",
+          "published_at": "2025-11-02T15:00:00Z",
+          "duration_seconds": 4157
+        },
+        {
+          "id": "68e2a9f852f01d1dd20b8957",
+          "title": "124 ✪ 二线城市的商机",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68e2a9f852f01d1dd20b8957",
+          "published_at": "2025-10-06T00:00:00Z",
+          "duration_seconds": 3531
+        },
+        {
+          "id": "68dade09ac8b7214b728722c",
+          "title": "123 ✪ 掘金东南亚的机遇与挑战",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68dade09ac8b7214b728722c",
+          "published_at": "2025-09-30T00:00:00Z",
+          "duration_seconds": 4722
+        },
+        {
+          "id": "68b83a0b17c8c11bfbe116fd",
+          "title": "122 ✪ 山姆中国还能火多久？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68b83a0b17c8c11bfbe116fd",
+          "published_at": "2025-09-03T13:00:00Z",
+          "duration_seconds": 3787
+        },
+        {
+          "id": "68932a4131a0c364c96ece8b",
+          "title": "120 ✪ 💸个人资产如何配置才能睡得着？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/68932a4131a0c364c96ece8b",
+          "published_at": "2025-08-06T10:00:00Z",
+          "duration_seconds": 4245
+        },
+        {
+          "id": "686d7fd6ff03a76aa94f9d38",
+          "title": "118 ✪ 🦘🐶🐱即时零售三国杀",
+          "url": "https://www.xiaoyuzhoufm.com/episode/686d7fd6ff03a76aa94f9d38",
+          "published_at": "2025-07-09T00:00:00Z",
+          "duration_seconds": 4646
+        },
+        {
+          "id": "685da93fe5dce229141edc95",
+          "title": "117 ✪ 👨‍🦳那些朝气蓬勃的老年人",
+          "url": "https://www.xiaoyuzhoufm.com/episode/685da93fe5dce229141edc95",
+          "published_at": "2025-06-27T00:00:00Z",
+          "duration_seconds": 4079
+        },
+        {
+          "id": "6840a0ef7dd7cf65661fe754",
+          "title": "116 ✪ 关税冲突下中国品牌的全球化之路",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6840a0ef7dd7cf65661fe754",
+          "published_at": "2025-06-05T00:00:00Z",
+          "duration_seconds": 4598
+        },
+        {
+          "id": "682610c33c9f9b72f4a926d6",
+          "title": "115 ✪ ☕️咖啡战争2025",
+          "url": "https://www.xiaoyuzhoufm.com/episode/682610c33c9f9b72f4a926d6",
+          "published_at": "2025-05-16T00:00:00Z",
+          "duration_seconds": 5052
+        },
+        {
+          "id": "67fd4396004ef840a8c07f67",
+          "title": "113 ✪ 疯投圈×无界有声：在AI时代重思教育",
+          "url": "https://www.xiaoyuzhoufm.com/episode/67fd4396004ef840a8c07f67",
+          "published_at": "2025-04-15T00:00:00Z",
+          "duration_seconds": 3290
+        },
+        {
+          "id": "67cf27a952a6af799cd91ca9",
+          "title": "111 ✪ 上市一年股价十倍，老铺黄金凭什么",
+          "url": "https://www.xiaoyuzhoufm.com/episode/67cf27a952a6af799cd91ca9",
+          "published_at": "2025-03-11T00:00:00Z",
+          "duration_seconds": 4841
+        },
+        {
+          "id": "6716b28cedb5ad730b169a3a",
+          "title": "104 ✪ 内卷与反内卷：拼多多的商家、卖枕头的亚朵",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6716b28cedb5ad730b169a3a",
+          "published_at": "2024-10-22T00:00:00Z",
+          "duration_seconds": 4130
+        },
+        {
+          "id": "66e94e9a79de2cd416ac32d6",
+          "title": "102 ✪ 视频号有何商机？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/66e94e9a79de2cd416ac32d6",
+          "published_at": "2024-09-17T10:00:00Z",
+          "duration_seconds": 5667
+        },
+        {
           "id": "66a16144c8295bd902cb4883",
           "title": "99 ✪ 中式快餐如何超越麦当劳？",
           "url": "https://www.xiaoyuzhoufm.com/episode/66a16144c8295bd902cb4883",
@@ -370,11 +720,32 @@
           "duration_seconds": 4466
         },
         {
+          "id": "65dbab139173e9003f8c1690",
+          "title": "91 ✪ 日本游学考察见闻录",
+          "url": "https://www.xiaoyuzhoufm.com/episode/65dbab139173e9003f8c1690",
+          "published_at": "2024-02-26T00:00:00Z",
+          "duration_seconds": 4080
+        },
+        {
+          "id": "63f477bc3976a061622f9d57",
+          "title": "74 ✪ 新消费背后的真趋势",
+          "url": "https://www.xiaoyuzhoufm.com/episode/63f477bc3976a061622f9d57",
+          "published_at": "2023-02-21T08:00:00Z",
+          "duration_seconds": 5076
+        },
+        {
           "id": "5e280faf418a84a0461fbfd7",
           "title": "40 ✪ 疯投圈的未来",
           "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfd7",
           "published_at": "2019-12-31T15:00:00Z",
           "duration_seconds": 4485
+        },
+        {
+          "id": "5e280faf418a84a0461fbfe3",
+          "title": "33 ✪ 过载时代的信息修养",
+          "url": "https://www.xiaoyuzhoufm.com/episode/5e280faf418a84a0461fbfe3",
+          "published_at": "2019-05-12T00:00:00Z",
+          "duration_seconds": 4447
         }
       ],
       "enabled": true,
