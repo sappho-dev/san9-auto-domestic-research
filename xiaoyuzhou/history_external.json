@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T11:48:31Z",
+  "updated_at": "2026-10-19T11:51:51Z",
   "note": "External public RSS metadata archive. This file is not read by the unchanged local HTML. Missing Xiaoyuzhou episode IDs are deliberately left null.",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "source_rss": "https://www.ximalaya.com/album/49896353.xml",
       "count": 212,
-      "linked_to_native_count": 98,
+      "linked_to_native_count": 126,
       "episodes": [
         {
           "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
@@ -126,7 +126,7 @@
           "published_at": "2026-02-15T23:03:33Z",
           "duration_seconds": 7634,
           "source_url": "https://www.ximalaya.com/sound/957283836",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "69925b7b601ad1d31cef8f46"
         },
         {
           "title": "194 中式豪华：干死BBA共需几步？ 对话嘉宾：管仲窥豹、蒋晨",
@@ -140,7 +140,7 @@
           "published_at": "2026-01-18T21:58:15Z",
           "duration_seconds": 6324,
           "source_url": "https://www.ximalaya.com/sound/950242768",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "696d610ea989d3510f23ef17"
         },
         {
           "title": "192 比亚迪海狮06：插混前驱VS纯电后驱 对话嘉宾：冯金钊、Toto文翰",
@@ -357,14 +357,14 @@
           "published_at": "2025-05-05T11:26:18Z",
           "duration_seconds": 2785,
           "source_url": "https://www.ximalaya.com/sound/847071816",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6818a493af4074aaf97961b7"
         },
         {
           "title": "161 中国电动重卡（2）：薪资、补贴和电车推广 对话嘉宾：亦达，晨露，文婷",
           "published_at": "2025-04-27T22:55:01Z",
           "duration_seconds": 4013,
           "source_url": "https://www.ximalaya.com/sound/843194384",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "680eba055fd1a8497b8bb746"
         },
         {
           "title": "160 中国电动重卡（1）：运营、回本和TCO 对话嘉宾：亦达，晨露，文婷",
@@ -385,7 +385,7 @@
           "published_at": "2025-04-06T22:44:26Z",
           "duration_seconds": 4314,
           "source_url": "https://www.ximalaya.com/sound/832700774",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "67f3096fa9bbde7ed337035f"
         },
         {
           "title": "157 车机界面设计：蒙眼狂奔，AI上车 对话嘉宾：张冠男，许可，侯依萱",
@@ -399,21 +399,21 @@
           "published_at": "2025-03-23T21:00:00Z",
           "duration_seconds": 3804,
           "source_url": "https://www.ximalaya.com/sound/824301598",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "67e076d25b7593e1dd6bd3a9"
         },
         {
           "title": "155 MBSE（上）：大象放冰箱的问题终于有解了 对话嘉宾：许新熠，高处青",
           "published_at": "2025-03-10T09:10:53Z",
           "duration_seconds": 3465,
           "source_url": "https://www.ximalaya.com/sound/818502028",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "67ceb24d7ccfd41092c6263a"
         },
         {
           "title": "154 驾驶模式：软件定义汽车的局限 对话嘉宾：刘亦然，戴政",
           "published_at": "2025-03-02T11:16:16Z",
           "duration_seconds": 2940,
           "source_url": "https://www.ximalaya.com/sound/810864100",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "67c4432cb47e8edbe9999068"
         },
         {
           "title": "153 解读蔚来EP Mode：纯软件定义的性能车有意思么？ 对话嘉宾：刘亦然，戴政",
@@ -427,7 +427,7 @@
           "published_at": "2025-02-16T23:46:14Z",
           "duration_seconds": 4163,
           "source_url": "https://www.ximalaya.com/sound/806093448",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "67b27d8d5a4f597f2e3f251a"
         },
         {
           "title": "151 比亚迪的《工程师之魂》（2）：命悬一线到一飞冲天 对话嘉宾：陆风鸣，李赫瑄",
@@ -448,14 +448,14 @@
           "published_at": "2025-01-19T23:03:31Z",
           "duration_seconds": 3216,
           "source_url": "https://www.ximalaya.com/sound/797869309",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "678d8a538d7ef7b6b0862227"
         },
         {
           "title": "148 系统工程师（1）：无所不知却又无所知 对话嘉宾：许新熠，岳凯",
           "published_at": "2025-01-12T21:30:00Z",
           "duration_seconds": 3419,
           "source_url": "https://www.ximalaya.com/sound/794580797",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "678435593e8fd0e155c695d3"
         },
         {
           "title": "147 中国车出海（3）：在欧洲如何卖车？ 对话嘉宾：Jason，俞波",
@@ -469,7 +469,7 @@
           "published_at": "2024-12-28T13:06:36Z",
           "duration_seconds": 3502,
           "source_url": "https://www.ximalaya.com/sound/788354628",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "676ffbcacbe56424ca33b43f"
         },
         {
           "title": "145 懂车帝碰撞测试（上）：车太高也是错？对话嘉宾：许新熠，王路，章翔",
@@ -490,7 +490,7 @@
           "published_at": "2024-12-01T14:13:23Z",
           "duration_seconds": 4260,
           "source_url": "https://www.ximalaya.com/sound/780039820",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "674c7523ba0f58ee8d50be9c"
         },
         {
           "title": "142 2024巴黎车展(3)：欧洲人如何消费汽车？对话嘉宾：钟添悦",
@@ -511,7 +511,7 @@
           "published_at": "2024-11-07T22:36:00Z",
           "duration_seconds": 4411,
           "source_url": "https://www.ximalaya.com/sound/772601621",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "672d42f708b3005279caf0c9"
         },
         {
           "title": "139 吉利雷诺合资Horse：法国人跟中国人学造内燃机 对话嘉宾：陈圣夫，陆风鸣，胡博峰",
@@ -532,7 +532,7 @@
           "published_at": "2024-10-21T23:13:19Z",
           "duration_seconds": 3834,
           "source_url": "https://www.ximalaya.com/sound/767424403",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6716e719277e46e58951a05a"
         },
         {
           "title": "136 上海通用和泛亚（2）：南方MPV到胖头鱼 对话嘉宾：陆风鸣，侯社",
@@ -574,7 +574,7 @@
           "published_at": "2024-09-02T22:10:34Z",
           "duration_seconds": 3859,
           "source_url": "https://www.ximalaya.com/sound/753638872",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "66d63de679de2cd4169efb1f"
         },
         {
           "title": "130 大电池插混在欧洲 对话嘉宾：林纯兴，唐华寅",
@@ -602,14 +602,14 @@
           "published_at": "2024-07-21T18:32:50Z",
           "duration_seconds": 2768,
           "source_url": "https://www.ximalaya.com/sound/742934276",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "669d595a959f9215057599c8"
         },
         {
           "title": "126 F1传奇工程师纽维（上）：辍学、March、威廉姆斯 对话嘉宾：徐桑，邓工",
           "published_at": "2024-07-07T21:32:33Z",
           "duration_seconds": 4196,
           "source_url": "https://www.ximalaya.com/sound/739776692",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "668b1038cfe6449e7cc8347f"
         },
         {
           "title": "125 比亚迪DM五代：46%是真的 对话嘉宾：张文川，林工",
@@ -658,42 +658,42 @@
           "published_at": "2024-05-11T21:02:43Z",
           "duration_seconds": 4419,
           "source_url": "https://www.ximalaya.com/sound/728251603",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "663fe23c4ae471ecdb59c563"
         },
         {
           "title": "118 狂野的AEB白名单 对话嘉宾：老印，薛越",
           "published_at": "2024-04-12T00:08:00Z",
           "duration_seconds": 2610,
           "source_url": "https://www.ximalaya.com/sound/721792510",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "66187e441e5f5e28461ac745"
         },
         {
           "title": "117 到底该怎么测AEB？ 对话嘉宾：老印，薛越",
           "published_at": "2024-03-30T10:20:34Z",
           "duration_seconds": 3926,
           "source_url": "https://www.ximalaya.com/sound/719080165",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "6607eee17417b84f216eeac1"
         },
         {
           "title": "116 考驾照圆桌（下）：日本金色驾照 对话嘉宾：杨昌龙，红工，胡洸久，岳凯",
           "published_at": "2024-03-21T21:34:42Z",
           "duration_seconds": 4630,
           "source_url": "https://www.ximalaya.com/sound/716480646",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "65fcaed626881d3e61cdeb4c"
         },
         {
           "title": "115 考驾照圆桌(上)： 中日意英美，哪国最难考 对话嘉宾:杨昌龙,红工,胡洸久,岳凯",
           "published_at": "2024-03-14T22:50:43Z",
           "duration_seconds": 4713,
           "source_url": "https://www.ximalaya.com/sound/714328294",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "65f385361a2508d89b7424cb"
         },
         {
           "title": "114 汽车数据隐私：越智能越裸奔 对话嘉宾：郭庆，郭工",
           "published_at": "2024-03-08T11:04:57Z",
           "duration_seconds": 5413,
           "source_url": "https://www.ximalaya.com/sound/712321928",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "65eaf86679f1b490bf678ac8"
         },
         {
           "title": "113 电动卡车（下）：冰箱微波炉耽误回本儿 对话嘉宾：孙晨露，许新熠，胡雯婷",
@@ -721,21 +721,21 @@
           "published_at": "2024-01-25T22:13:59Z",
           "duration_seconds": 4558,
           "source_url": "https://www.ximalaya.com/sound/702075275",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "65b2e3479341365b1455a260"
         },
         {
           "title": "109 特斯拉Cybertruck（上）老美皮卡指南 对话嘉宾：许新熠，老印",
           "published_at": "2024-01-19T10:11:25Z",
           "duration_seconds": 3287,
           "source_url": "https://www.ximalaya.com/sound/700814583",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "65aa518bbf2b87f8bc56156e"
         },
         {
           "title": "108 先裁CEO，奥迪F1计划风雨飘摇 对话嘉宾：徐桑，村长托马斯，117",
           "published_at": "2024-01-12T08:58:18Z",
           "duration_seconds": 2564,
           "source_url": "https://www.ximalaya.com/sound/699400977",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "65a106a15f715b036238f6e6"
         },
         {
           "title": "107 奥迪：F1我来了 对话嘉宾：徐桑，村长托马斯，117",
@@ -763,7 +763,7 @@
           "published_at": "2023-12-14T23:31:30Z",
           "duration_seconds": 3797,
           "source_url": "https://www.ximalaya.com/sound/693308193",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "657b9d62c6df566c13416e99"
         },
         {
           "title": "103 欧洲车企的350kW快充封印 对话嘉宾：韩毅，唐华寅",

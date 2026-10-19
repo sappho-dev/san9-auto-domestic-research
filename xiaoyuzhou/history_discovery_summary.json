@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checked_at": "2026-10-19T11:48:31Z",
+  "checked_at": "2026-10-19T11:51:51Z",
   "status": "research_reopened",
   "total_official_channel_count": 646,
-  "verified_catalog_total": 532,
-  "unconfirmed_total": 114,
+  "verified_catalog_total": 560,
+  "unconfirmed_total": 86,
   "limits": [
     "Search results are incomplete indexes; no absence/nonexistence claim is made.",
     "Only public HTML and its embedded metadata/comments were inspected; app-only pagination was not accessed.",
@@ -143,10 +143,10 @@
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "archive_target": 212,
-      "catalog_count": 98,
-      "official_pages_verified": 98,
+      "catalog_count": 126,
+      "official_pages_verified": 126,
       "pending_existing_audit": 0,
-      "archive_remaining": 114
+      "archive_remaining": 86
     },
     "5e280faf418a84a0461fbd39": {
       "title": "疯投圈",
