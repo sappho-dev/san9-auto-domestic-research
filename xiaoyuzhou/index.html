@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>小宇宙 · 我的播客</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f7f8fa;color:#23262a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif}main{max-width:960px;margin:0 auto;padding:48px 24px}h1{font-size:29px;font-weight:650;letter-spacing:-.6px;margin:0 0 8px}h2{font-size:14px;margin:0 0 12px}.sub,.small{font-size:12px;color:#8c9098}.sub{margin:0 0 35px}.panel{background:white;border:1px solid #eaecef;border-radius:17px;padding:23px 25px;margin:0 0 18px}.row{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.space{justify-content:space-between}.field{font:inherit;font-size:14px;flex:1;min-width:200px;border:1px solid #e3e5e9;border-radius:10px;padding:11px 13px}button{font:inherit;font-size:13px;cursor:pointer;border:none;background:#25282d;color:white;border-radius:10px;padding:11px 16px}button.light{background:#eef0f3;color:#555960}button.active{background:#25282d;color:white}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.card{background:white;border:1px solid #e9eaed;border-bottom:0;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}.card:first-child{border-radius:15px 15px 0 0}.card:last-child{border-radius:0 0 15px 15px;border-bottom:1px solid #e9eaed}.card:only-child{border-radius:15px;border-bottom:1px solid #e9eaed}.name{font-size:12px;color:#898d95;margin:0 0 7px}.title{color:#262a30;font-size:15px;text-decoration:none;font-weight:550;line-height:1.6}.title:hover{color:#385bd7}.date{font-size:12px;color:#aaaeb5;margin-top:7px}.open{font-size:12px;color:#6b6d72;text-decoration:none;white-space:nowrap}.empty{padding:52px 25px;text-align:center;color:#858993;font-size:14px}.foot{margin-top:24px;line-height:1.8}.error{color:#bd5757}.badge{font-size:11px;color:#40805b;background:#e6f3e9;border-radius:5px;padding:3px 6px;margin-left:7px}@media(max-width:600px){main{padding:28px 15px}.panel{padding:20px 17px}.card{padding:16px}.open{display:none}}
+</style>
+</head>
+<body><main>
+<h1>小宇宙 <span style="color:#a6a9b0;font-size:20px;font-weight:400">/ 我的播客</span></h1>
+<p class="sub">本地网页 · GitHub 自动追更 · 不登录小宇宙</p>
+<section class="panel"><h2>收藏新的频道</h2><div class="row"><input class="field" id="url" placeholder="粘贴小宇宙频道主页链接"><button id="add">加入收藏</button></div><p id="hint" class="small">跳转 GitHub 创建预填收藏请求，确认提交后自动收录。</p></section>
+<section class="panel"><div class="row space"><b id="summary">正在载入…</b><button class="light" id="refresh">刷新</button></div><p id="status" class="small"></p><div id="chips" class="chips"></div></section>
+<div class="row space" style="margin:24px 0 15px"><input id="q" class="field" placeholder="搜索节目标题或频道名称"><span class="small" id="count"></span></div>
+<div id="items"><div class="empty">正在读取 GitHub 公开单集目录…</div></div>
+<p class="small foot">GitHub Actions 每天日本时间18:00尝试检查更新；新增收藏后也会执行。只保存公开的节目元数据与小宇宙官方单集链接，不采集音频、不使用登录凭据。若采集失败，已收录历史不会删除。</p>
+</main>
+<script>
+(function(){
+'use strict';
+var repo='sappho-dev/san9-auto-domestic-research';
+var jsonUrl='https://raw.githubusercontent.com/'+repo+'/main/xiaoyuzhou/episodes.json';
+var defaults=[{id:'615a4035c8c1d14e83366946',title:'孤岛车谈'},{id:'5e280faf418a84a0461fbd39',title:'疯投圈'}];
+var data={channels:{}},chosen='all',networkError='';
+function el(id){return document.getElementById(id)}
+function node(tag,cls,text){var n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n}
+function valid(id){return /^[a-f0-9]{24}$/.test(id)}
+function date(s){var d=new Date(s||'');return isNaN(d.getTime())?'日期未知':d.toLocaleDateString('zh-CN')}
+function render(){
+ var sources=Object.keys(data.channels||{}).filter(function(id){return valid(id)&&data.channels[id].enabled!==false}).map(function(id){return {id:id,meta:data.channels[id]}});
+ if(!sources.length)sources=defaults.map(function(x){return {id:x.id,meta:{title:x.title,episodes:[]}}});
+ var total=sources.reduce(function(n,x){return n+(x.meta.episodes||[]).length},0);
+ el('summary').textContent=sources.length+' 个频道 · 已收录 '+total+' 期';
+ el('status').textContent=networkError||(data.updated_at?'最近同步：'+new Date(data.updated_at).toLocaleString('zh-CN'):'等待 GitHub 首次采集');
+ var errors=sources.filter(function(x){return !!x.meta.last_error}).length;
+ if(errors)el('status').textContent+=' · '+errors+' 个频道采集异常';
+ var chips=el('chips');chips.replaceChildren();
+ [{id:'all',title:'全部频道'}].concat(sources.map(function(x){return {id:x.id,title:x.meta.title||x.id}})).forEach(function(x){
+  var b=node('button','light'+(chosen===x.id?' active':''),x.title);b.addEventListener('click',function(){chosen=x.id;render()});chips.appendChild(b);
+ });
+ var query=el('q').value.trim().toLowerCase();var episodes=[];
+ sources.forEach(function(x){if(chosen!=='all'&&chosen!==x.id)return;(x.meta.episodes||[]).forEach(function(e){if(e&&valid(e.id))episodes.push({ep:e,channel:x.meta.title||x.id})})});
+ episodes=episodes.filter(function(x){return !query||(x.ep.title+' '+x.channel).toLowerCase().includes(query)}).sort(function(a,b){return String(b.ep.published_at||'').localeCompare(String(a.ep.published_at||''))});
+ el('count').textContent=episodes.length+' 条结果';var container=el('items');container.replaceChildren();
+ if(!episodes.length){container.appendChild(node('div','empty',query?'没有找到匹配的节目':(total?'这里暂时没有可展示的节目':'首次采集成功后，单集会自动出现')));return}
+ episodes.forEach(function(x){
+  var ep=x.ep,art=node('article','card'),content=node('div');
+  content.appendChild(node('p','name',x.channel));
+  var a=node('a','title',ep.title||'未命名单集');a.href='https://www.xiaoyuzhoufm.com/episode/'+ep.id;a.target='_blank';a.rel='noopener noreferrer';content.appendChild(a);
+  var published=Date.parse(ep.published_at);if(!isNaN(published)&&published<=Date.now()&&Date.now()-published<604800000)content.appendChild(node('span','badge','近7天'));
+  content.appendChild(node('div','date',date(ep.published_at)));art.appendChild(content);
+  var open=node('a','open','打开 ↗');open.href=a.href;open.target='_blank';open.rel='noopener noreferrer';art.appendChild(open);container.appendChild(art);
+ });
+}
+async function load(){
+ el('refresh').disabled=true;
+ try{
+  var response=await fetch(jsonUrl+'?t='+Date.now(),{cache:'no-store'});
+  if(!response.ok)throw Error('HTTP '+response.status);
+  var result=await response.json();
+  if(result.schema!==1||!result.channels||typeof result.channels!=='object')throw Error('数据格式不正确');
+  data=result;networkError='';try{localStorage.setItem('xy-cache-v1',JSON.stringify(result))}catch(e){}
+ }catch(e){
+  networkError='在线数据读取失败，正在展示缓存（'+e.message+'）';
+  try{var cached=localStorage.getItem('xy-cache-v1');if(cached)data=JSON.parse(cached)}catch(x){}
+ }finally{el('refresh').disabled=false;render()}
+}
+el('add').addEventListener('click',function(){
+ var raw=el('url').value.trim(),u,m;
+ try{u=new URL(raw)}catch(e){el('hint').textContent='请粘贴完整的 https:// 网址';return}
+ m=/^\/podcast\/([a-f0-9]{24})\/?$/.exec(u.pathname);
+ if(u.protocol!=='https:'||['www.xiaoyuzhoufm.com','xiaoyuzhoufm.com'].indexOf(u.hostname)<0||!m){el('hint').textContent='仅接受小宇宙公开频道主页网址';return}
+ var url='https://www.xiaoyuzhoufm.com/podcast/'+m[1];
+ var target='https://github.com/'+repo+'/issues/new?title='+encodeURIComponent('[小宇宙收藏] '+m[1])+'&body='+encodeURIComponent('请收藏小宇宙频道：\n\n'+url);
+ var w=window.open(target,'_blank');if(w)w.opener=null;else window.location.href=target;
+ el('hint').textContent='请在新打开的 GitHub 页面点击 Submit new issue，即可提交收藏。';
+});
+el('q').addEventListener('input',render);el('refresh').addEventListener('click',load);load();
+})();
+</script>
+</body>
+</html>
