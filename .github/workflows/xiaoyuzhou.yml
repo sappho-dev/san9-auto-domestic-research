@@ -33,15 +33,9 @@ jobs:
           python-version: '3.12'
       - name: Update from public Xiaoyuzhou pages
         run: python xiaoyuzhou/update.py
-      - name: Probe public history sources
-        if: github.event_name == 'issues' && startsWith(github.event.issue.title, '[小宇宙历史回填]')
-        run: python xiaoyuzhou/history_probe.py
       - name: Backfill verified official historical episode links
         if: github.event_name == 'issues' && startsWith(github.event.issue.title, '[小宇宙历史回填]')
         run: python xiaoyuzhou/history_backfill.py
-      - name: Test public search index for historical links
-        if: github.event_name == 'issues' && startsWith(github.event.issue.title, '[小宇宙历史回填]')
-        run: python xiaoyuzhou/search_probe.py
       - name: Archive external RSS history without modifying webpage
         if: github.event_name == 'issues' && startsWith(github.event.issue.title, '[小宇宙历史回填]')
         run: python xiaoyuzhou/history_archive.py
@@ -49,9 +43,7 @@ jobs:
         if: always()
         run: |
           git add xiaoyuzhou/episodes.json xiaoyuzhou/channels.json
-          if [ -f xiaoyuzhou/history_probe.json ]; then git add xiaoyuzhou/history_probe.json; fi
           if [ -f xiaoyuzhou/history_backfill_result.json ]; then git add xiaoyuzhou/history_backfill_result.json; fi
-          if [ -f xiaoyuzhou/search_probe.json ]; then git add xiaoyuzhou/search_probe.json; fi
           if [ -f xiaoyuzhou/history_external.json ]; then git add xiaoyuzhou/history_external.json; fi
           if git diff --cached --quiet; then
             echo "No changes"
