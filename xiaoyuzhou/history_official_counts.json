@@ -1,26 +1,38 @@
 {
-  "checked_on": "2026-10-19",
+  "checked_on": "2026-10-19T12:18:00Z",
   "channels": [
     {
+      "checked_at": "2026-10-19T12:17:53Z",
       "url": "https://www.xiaoyuzhoufm.com/podcast/615a4035c8c1d14e83366946",
+      "final_url": "https://www.xiaoyuzhoufm.com/podcast/615a4035c8c1d14e83366946",
+      "http_status": 200,
       "pid": "615a4035c8c1d14e83366946",
       "title": "孤岛车谈",
       "official_episode_count": 212,
-      "embedded_recent_count": 15
+      "embedded_recent_count": 15,
+      "page_sha256": "fe5e956a6c1c8a200b9e309d7fcde73b9310a76e4f75eb21428b650bdda7eebf"
     },
     {
+      "checked_at": "2026-10-19T12:17:57Z",
       "url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
+      "final_url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
+      "http_status": 200,
       "pid": "5e280faf418a84a0461fbd39",
       "title": "疯投圈",
       "official_episode_count": 149,
-      "embedded_recent_count": 15
+      "embedded_recent_count": 15,
+      "page_sha256": "0f6b82b7ccb5da37034e3ca4e1e5ca2d55d52520236627b091163d43c31d0026"
     },
     {
+      "checked_at": "2026-10-19T12:18:00Z",
       "url": "https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2",
+      "final_url": "https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2",
+      "http_status": 200,
       "pid": "61358d971c5d56efe5bcb5d2",
       "title": "乱翻书",
       "official_episode_count": 285,
-      "embedded_recent_count": 15
+      "embedded_recent_count": 15,
+      "page_sha256": "855f6cf7a6c96af4b00c73ffdae7a7eb1449f5ae8f05fb52ba88ff9955338983"
     }
   ]
 }

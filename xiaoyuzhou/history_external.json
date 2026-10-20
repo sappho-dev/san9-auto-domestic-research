@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T12:15:00Z",
+  "updated_at": "2026-10-19T12:17:53Z",
   "note": "External public RSS metadata archive. This file is not read by the unchanged local HTML. Missing Xiaoyuzhou episode IDs are deliberately left null.",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "source_rss": "https://www.ximalaya.com/album/49896353.xml",
       "count": 212,
-      "linked_to_native_count": 186,
+      "linked_to_native_count": 212,
       "episodes": [
         {
           "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
@@ -1274,49 +1274,49 @@
           "published_at": "2021-12-27T09:01:00Z",
           "duration_seconds": 2706,
           "source_url": "https://www.ximalaya.com/sound/486519981",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "61c9821ef97e12e3059c0dbf"
         },
         {
           "title": "030汽车人变身！汽车工程师该如何转型？对话嘉宾：陆巍、冯金钊",
           "published_at": "2021-12-20T09:00:00Z",
           "duration_seconds": 2903,
           "source_url": "https://www.ximalaya.com/sound/484276344",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "61c04ad6874a732463bf6cd4"
         },
         {
           "title": "029车企不参与WRC赛事就是技术不行？ 对话嘉宾：朱博、down哥",
           "published_at": "2021-12-13T09:00:00Z",
           "duration_seconds": 3151,
           "source_url": "https://www.ximalaya.com/sound/481874945",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "61b70d4416c87ea6b0850577"
         },
         {
           "title": "028通聊澳洲汽车工业（下）：霍顿“关门弟子”亲历关厂始末 对话嘉宾： 丁伯骏，陈萌",
           "published_at": "2021-12-06T09:00:00Z",
           "duration_seconds": 1531,
           "source_url": "https://www.ximalaya.com/sound/479481134",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "61add3bab4052b591cc21a4f"
         },
         {
           "title": "027通聊澳洲汽车工业（上）：从马鞍公司到巴顿（贴牌）计划 对话嘉宾： 丁伯骏，陈萌",
           "published_at": "2021-11-29T09:00:00Z",
           "duration_seconds": 2030,
           "source_url": "https://www.ximalaya.com/sound/477143748",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "61a49b8fd9233589b596f966"
         },
         {
           "title": "026和DJ聊赛车（下）：卡丁车是最接近F1的赛车！ 对话嘉宾：DJ，杨洋",
           "published_at": "2021-11-22T09:00:00Z",
           "duration_seconds": 2404,
           "source_url": "https://www.ximalaya.com/sound/474772898",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "619b5dd6821afa6779292219"
         },
         {
           "title": "025和DJ聊赛车（上）：如何（从学美术专业）成长为赛车工程师 对话嘉宾： DJ，杨洋",
           "published_at": "2021-11-15T09:00:00Z",
           "duration_seconds": 1419,
           "source_url": "https://www.ximalaya.com/sound/472428073",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "619221a8994f927bd76e2cd8"
         },
         {
           "title": "024对话李沁：一不小心当上了F1工程师",
@@ -1344,28 +1344,28 @@
           "published_at": "2021-10-18T09:00:00Z",
           "duration_seconds": 2878,
           "source_url": "https://www.ximalaya.com/sound/463338487",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "616d3a6f188be71662a96b0f"
         },
         {
           "title": "020路特斯要搞自动驾驶赛车？有戏么？对话嘉宾：前FSAEer黄恺霖、自动驾驶工程师薛越",
           "published_at": "2021-10-11T09:00:00Z",
           "duration_seconds": 2761,
           "source_url": "https://www.ximalaya.com/sound/461174547",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "616400b06001cdcd4236b2bc"
         },
         {
           "title": "019电动未来下德国车企的转型 对话嘉宾：冯金钊 胡静文",
           "published_at": "2021-10-04T09:00:00Z",
           "duration_seconds": 3385,
           "source_url": "https://www.ximalaya.com/sound/459020745",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615ac5af5c5d3aaf1d5ba671"
         },
         {
           "title": "018 ADAS 功能安全：没认真读过产品手册，还敢上路吗？ 对话嘉宾：唐华寅 张永艺 闫冰",
           "published_at": "2021-09-27T05:33:45Z",
           "duration_seconds": 4788,
           "source_url": "https://www.ximalaya.com/sound/457237739",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366947"
         },
         {
           "title": "017中国车能不能做到世界级的NVH？对话嘉宾 NVH专家郑康 仿真专家胡静文",
@@ -1379,49 +1379,49 @@
           "published_at": "2021-09-10T09:00:00Z",
           "duration_seconds": 3437,
           "source_url": "https://www.ximalaya.com/sound/452102834",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366949"
         },
         {
           "title": "015如何（防止）黑一辆车：车辆信息安全【推广】对话嘉宾：钟严军 唐华寅",
           "published_at": "2021-09-03T09:00:00Z",
           "duration_seconds": 2280,
           "source_url": "https://www.ximalaya.com/sound/449940417",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e8336694a"
         },
         {
           "title": "014一代枭雄卡洛斯戈恩 对话嘉宾 周锦程 陈德馨",
           "published_at": "2021-08-27T09:02:00Z",
           "duration_seconds": 2891,
           "source_url": "https://www.ximalaya.com/sound/447846217",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e8336694b"
         },
         {
           "title": "013和38号聊聊国产混动车 嘉宾：38号，刘亦然",
           "published_at": "2021-08-20T07:59:23Z",
           "duration_seconds": 2946,
           "source_url": "https://www.ximalaya.com/sound/445657317",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e8336694c"
         },
         {
           "title": "012穿越日记：纵贯巴西的两台摩托和穿越欧亚大陆的2CV，嘉宾：林林，罗昶",
           "published_at": "2021-08-13T10:56:58Z",
           "duration_seconds": 4018,
           "source_url": "https://www.ximalaya.com/sound/443274691",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e8336694d"
         },
         {
           "title": "011特斯拉压铸：偷工减料还是大胆创新？嘉宾王路，肖兆非",
           "published_at": "2021-08-06T09:34:19Z",
           "duration_seconds": 2618,
           "source_url": "https://www.ximalaya.com/sound/440811401",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e8336694e"
         },
         {
           "title": "010底盘电子工程师王以琳：圈内人眼中的ADAS",
           "published_at": "2021-07-30T09:34:32Z",
           "duration_seconds": 2952,
           "source_url": "https://www.ximalaya.com/sound/438588180",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e8336694f"
         },
         {
           "title": "009宝马工程师杨洋：从卡丁车冠军到宝马底盘工程师",
@@ -1435,56 +1435,56 @@
           "published_at": "2021-07-16T09:32:08Z",
           "duration_seconds": 2431,
           "source_url": "https://www.ximalaya.com/sound/434240012",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366951"
         },
         {
           "title": "007对话吴颉远：剑桥/MIT双料高材生算不清特斯拉股价？",
           "published_at": "2021-07-09T06:37:44Z",
           "duration_seconds": 2774,
           "source_url": "https://www.ximalaya.com/sound/431931854",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366952"
         },
         {
           "title": "006前保时捷GT2/GT3/918发动机仿真专家胡静文：德英美汽车工程人才培养大横评",
           "published_at": "2021-07-02T07:28:50Z",
           "duration_seconds": 3987,
           "source_url": "https://www.ximalaya.com/sound/429781141",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366953"
         },
         {
           "title": "005资深车身工程师王路：谁说工程师不能是艺术家",
           "published_at": "2021-06-25T10:47:40Z",
           "duration_seconds": 2351,
           "source_url": "https://www.ximalaya.com/sound/427806705",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366954"
         },
         {
           "title": "004首席工程师唐华寅：好奇心和电驱动",
           "published_at": "2021-06-18T09:20:27Z",
           "duration_seconds": 2157,
           "source_url": "https://www.ximalaya.com/sound/425758276",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366955"
         },
         {
           "title": "003聊聊EDR和行驶数据采集 对话嘉宾：安全气囊专家章翔、自动驾驶专家周轶",
           "published_at": "2021-06-11T08:45:44Z",
           "duration_seconds": 2071,
           "source_url": "https://www.ximalaya.com/sound/423748107",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366956"
         },
         {
           "title": "002功能安全工程师章翔：中国汽车的“引进来、走出去”",
           "published_at": "2021-06-04T11:14:39Z",
           "duration_seconds": 2635,
           "source_url": "https://www.ximalaya.com/sound/421640380",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366957"
         },
         {
           "title": "001首席工程师罗昶：从自研双电机奥拓到系统工程",
           "published_at": "2021-05-28T11:39:07Z",
           "duration_seconds": 2464,
           "source_url": "https://www.ximalaya.com/sound/419519959",
-          "xiaoyuzhou_eid": null
+          "xiaoyuzhou_eid": "615a4035c8c1d14e83366958"
         },
         {
           "title": "000《孤岛车谈》是什么？",

@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "issue": "https://github.com/sappho-dev/san9-auto-domestic-research/issues/11",
-  "updated_at": "2026-10-19T12:15:00Z",
-  "status": "in_progress",
-  "stage": "earsonme_official_verification_batches",
+  "updated_at": "2026-10-20T10:09:08Z",
+  "status": "completed_current_catalog",
+  "stage": "current_target_fully_verified",
   "baseline_commit": "e4c62c1e5a2fa78f9e1c89367fb4721343e6bce0",
   "baseline_counts": {
     "615a4035c8c1d14e83366946": 63,
@@ -14,10 +14,10 @@
     "615a4035c8c1d14e83366946": {
       "title": "孤岛车谈",
       "archive_target": 212,
-      "catalog_count": 186,
-      "official_pages_verified": 186,
+      "catalog_count": 212,
+      "official_pages_verified": 212,
       "pending_existing_audit": 0,
-      "archive_remaining": 26
+      "archive_remaining": 0
     },
     "5e280faf418a84a0461fbd39": {
       "title": "疯投圈",
@@ -37,21 +37,23 @@
     }
   },
   "batch_changes": {
-    "added": 30,
+    "added": 26,
     "updated": 0
   },
   "validation": {
-    "unit_tests_passed": 14,
+    "unit_tests_passed": 17,
     "catalog_schema": 1,
     "no_deleted_ids": true,
     "protected_paths_unchanged": true,
-    "official_page_verification_passed": 620,
+    "official_page_verification_passed": 646,
     "catalog_quality_pass": true,
     "cross_channel_duplicate_ids": 0,
     "duplicate_normalized_titles": 0,
     "recent_public_sync_channels_passed": 3,
     "required_ci_checks": [],
-    "ci_note": "Workflow has schedule/issues/workflow_dispatch triggers, not push; no new Actions execution claimed."
+    "ci_note": "Workflow has schedule/issues/workflow_dispatch triggers, not push; no new Actions execution claimed.",
+    "recovery_tests_passed": 17,
+    "remote_existing_entries_unchanged": 620
   },
   "protected_paths": {
     ".github/workflows/xiaoyuzhou.yml": "478730cdf79980074cd7a361c44cbe28ec1979e5",
@@ -60,16 +62,18 @@
     "xiaoyuzhou/channels.json": "4fe9c54813db435ea518fb79a26179760f6e5259"
   },
   "method": "Discover actual links via public search or published cross-links; GET official episode page; check eid, pid, channel title, full title, publication date and duration; preserve evidence; merge fresh remote catalog by ID with branch-head lease. Never guess IDs or request audio.",
-  "next_action": "Finish the remaining official-page proof batches from actual EarsOnMe source links.",
+  "next_action": "Maintain the existing daily sync. Re-audit any future new historical additions separately.",
   "target_total": 646,
-  "catalog_total": 620,
-  "official_pages_verified_total": 620,
-  "unconfirmed_total": 26,
+  "catalog_total": 646,
+  "official_pages_verified_total": 646,
+  "unconfirmed_total": 0,
   "session_changes": {
-    "added": 182,
+    "added": 208,
     "corrected_existing": 1,
     "removed": 0
   },
-  "completion_note": "Public EarsOnMe browser pagination covers all remaining titles; final official checks and batches continue.",
-  "base_commit_for_final_batch": "3a319dc33cd178b3548cc516aa2427e8d39b1497"
+  "completion_note": "All 646 current target entries have independently verified official links.",
+  "base_commit_for_final_batch": "da5874766a41850a296dbcb3df23ecc274fb4ac4",
+  "recovered_at": "2026-10-20T10:09:08Z",
+  "recent_sync_checked_at": "2026-10-20T10:09:35Z"
 }

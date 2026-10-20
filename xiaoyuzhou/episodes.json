@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T16:12:40Z",
+  "updated_at": "2026-10-20T10:09:08Z",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "id": "615a4035c8c1d14e83366946",
@@ -1266,6 +1266,55 @@
           "published_at": "2022-01-03T09:00:21.000Z"
         },
         {
+          "id": "61c9821ef97e12e3059c0dbf",
+          "title": "031都2021年了，固态电池咋还不来？对话嘉宾王昕、王崇明",
+          "url": "https://www.xiaoyuzhoufm.com/episode/61c9821ef97e12e3059c0dbf",
+          "duration_seconds": 2706,
+          "published_at": "2021-12-27T09:01:00.000Z"
+        },
+        {
+          "id": "61c04ad6874a732463bf6cd4",
+          "title": "030汽车人变身！汽车工程师该如何转型？对话嘉宾：陆巍、冯金钊",
+          "url": "https://www.xiaoyuzhoufm.com/episode/61c04ad6874a732463bf6cd4",
+          "duration_seconds": 2903,
+          "published_at": "2021-12-20T09:00:00.000Z"
+        },
+        {
+          "id": "61b70d4416c87ea6b0850577",
+          "title": "029车企不参与WRC赛事就是技术不行？ 对话嘉宾：朱博、down哥",
+          "url": "https://www.xiaoyuzhoufm.com/episode/61b70d4416c87ea6b0850577",
+          "duration_seconds": 3151,
+          "published_at": "2021-12-13T09:00:00.000Z"
+        },
+        {
+          "id": "61add3bab4052b591cc21a4f",
+          "title": "028通聊澳洲汽车工业（下）：霍顿“关门弟子”亲历关厂始末 对话嘉宾： 丁伯骏，陈萌",
+          "url": "https://www.xiaoyuzhoufm.com/episode/61add3bab4052b591cc21a4f",
+          "duration_seconds": 1531,
+          "published_at": "2021-12-06T09:00:00.000Z"
+        },
+        {
+          "id": "61a49b8fd9233589b596f966",
+          "title": "027通聊澳洲汽车工业（上）：从马鞍公司到巴顿（贴牌）计划 对话嘉宾： 丁伯骏，陈萌",
+          "url": "https://www.xiaoyuzhoufm.com/episode/61a49b8fd9233589b596f966",
+          "duration_seconds": 2030,
+          "published_at": "2021-11-29T09:00:00.000Z"
+        },
+        {
+          "id": "619b5dd6821afa6779292219",
+          "title": "026和DJ聊赛车（下）：卡丁车是最接近F1的赛车！ 对话嘉宾：DJ，杨洋",
+          "url": "https://www.xiaoyuzhoufm.com/episode/619b5dd6821afa6779292219",
+          "duration_seconds": 2404,
+          "published_at": "2021-11-22T09:00:00.000Z"
+        },
+        {
+          "id": "619221a8994f927bd76e2cd8",
+          "title": "025和DJ聊赛车（上）：如何（从学美术专业）成长为赛车工程师 对话嘉宾： DJ，杨洋",
+          "url": "https://www.xiaoyuzhoufm.com/episode/619221a8994f927bd76e2cd8",
+          "duration_seconds": 1419,
+          "published_at": "2021-11-15T09:00:00.000Z"
+        },
+        {
           "id": "6188eb9dba55044c911040ab",
           "title": "024对话李沁：一不小心当上了F1工程师",
           "url": "https://www.xiaoyuzhoufm.com/episode/6188eb9dba55044c911040ab",
@@ -1287,6 +1336,34 @@
           "published_at": "2021-10-25T09:00:03.000Z"
         },
         {
+          "id": "616d3a6f188be71662a96b0f",
+          "title": "021对话陆巍：我是动力域控制器软件的爸爸",
+          "url": "https://www.xiaoyuzhoufm.com/episode/616d3a6f188be71662a96b0f",
+          "duration_seconds": 2878,
+          "published_at": "2021-10-18T09:00:00.000Z"
+        },
+        {
+          "id": "616400b06001cdcd4236b2bc",
+          "title": "020路特斯要搞自动驾驶赛车？有戏么？对话嘉宾：前FSAEer黄恺霖、自动驾驶工程师薛越",
+          "url": "https://www.xiaoyuzhoufm.com/episode/616400b06001cdcd4236b2bc",
+          "duration_seconds": 2761,
+          "published_at": "2021-10-11T09:00:00.000Z"
+        },
+        {
+          "id": "615ac5af5c5d3aaf1d5ba671",
+          "title": "019电动未来下德国车企的转型 对话嘉宾：冯金钊 胡静文",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615ac5af5c5d3aaf1d5ba671",
+          "duration_seconds": 3385,
+          "published_at": "2021-10-04T09:00:00.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e83366947",
+          "title": "018 ADAS 功能安全：没认真读过产品手册，还敢上路吗？ 对话嘉宾：唐华寅 张永艺 闫冰",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366947",
+          "duration_seconds": 4788,
+          "published_at": "2021-09-27T05:33:45.000Z"
+        },
+        {
           "id": "615a4035c8c1d14e83366948",
           "title": "017中国车能不能做到世界级的NVH？对话嘉宾 NVH专家郑康 仿真专家胡静文",
           "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366948",
@@ -1294,11 +1371,116 @@
           "published_at": "2021-09-17T09:00:00.000Z"
         },
         {
+          "id": "615a4035c8c1d14e83366949",
+          "title": "016造车=搭乐高？电动底盘的未来 对话嘉宾 唐华寅 纪洪超",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366949",
+          "duration_seconds": 3437,
+          "published_at": "2021-09-10T09:00:00.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e8336694a",
+          "title": "015如何（防止）黑一辆车：车辆信息安全【推广】对话嘉宾：钟严军 唐华寅",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694a",
+          "duration_seconds": 2280,
+          "published_at": "2021-09-03T09:00:00.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e8336694b",
+          "title": "014一代枭雄卡洛斯戈恩 对话嘉宾 周锦程 陈德馨",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694b",
+          "duration_seconds": 2891,
+          "published_at": "2021-08-27T09:02:00.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e8336694c",
+          "title": "013和38号聊聊国产混动车 嘉宾：38号，刘亦然",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694c",
+          "duration_seconds": 2946,
+          "published_at": "2021-08-20T07:59:23.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e8336694d",
+          "title": "012穿越日记：纵贯巴西的两台摩托和穿越欧亚大陆的2CV，嘉宾：林林，罗昶",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694d",
+          "duration_seconds": 4018,
+          "published_at": "2021-08-13T10:56:58.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e8336694e",
+          "title": "011特斯拉压铸：偷工减料还是大胆创新？嘉宾王路，肖兆非",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694e",
+          "duration_seconds": 2618,
+          "published_at": "2021-08-06T09:34:19.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e8336694f",
+          "title": "010底盘电子工程师王以琳：圈内人眼中的ADAS",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e8336694f",
+          "duration_seconds": 2952,
+          "published_at": "2021-07-30T09:34:32.000Z"
+        },
+        {
           "id": "615a4035c8c1d14e83366950",
           "title": "009宝马工程师杨洋：从卡丁车冠军到宝马底盘工程师",
           "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366950",
           "duration_seconds": 3114,
           "published_at": "2021-07-23T07:07:45.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e83366951",
+          "title": "008碳纤维博士后肖兆非：超跑背后的复合材料技术",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366951",
+          "duration_seconds": 2431,
+          "published_at": "2021-07-16T09:32:08.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e83366952",
+          "title": "007对话吴颉远：剑桥/MIT双料高材生算不清特斯拉股价？",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366952",
+          "duration_seconds": 2774,
+          "published_at": "2021-07-09T06:37:44.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e83366953",
+          "title": "006前保时捷GT2/GT3/918发动机仿真专家胡静文：德英美汽车工程人才培养大横评",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366953",
+          "duration_seconds": 3987,
+          "published_at": "2021-07-02T07:28:50.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e83366954",
+          "title": "005资深车身工程师王路：谁说工程师不能是艺术家",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366954",
+          "duration_seconds": 2351,
+          "published_at": "2021-06-25T10:47:40.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e83366955",
+          "title": "004首席工程师唐华寅：好奇心和电驱动",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366955",
+          "duration_seconds": 2157,
+          "published_at": "2021-06-18T09:20:27.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e83366956",
+          "title": "003聊聊EDR和行驶数据采集 对话嘉宾：安全气囊专家章翔、自动驾驶专家周轶",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366956",
+          "duration_seconds": 2071,
+          "published_at": "2021-06-11T08:45:44.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e83366957",
+          "title": "002功能安全工程师章翔：中国汽车的“引进来、走出去”",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366957",
+          "duration_seconds": 2635,
+          "published_at": "2021-06-04T11:14:39.000Z"
+        },
+        {
+          "id": "615a4035c8c1d14e83366958",
+          "title": "001首席工程师罗昶：从自研双电机奥拓到系统工程",
+          "url": "https://www.xiaoyuzhoufm.com/episode/615a4035c8c1d14e83366958",
+          "duration_seconds": 2464,
+          "published_at": "2021-05-28T11:39:07.000Z"
         },
         {
           "id": "615a4035c8c1d14e83366959",
