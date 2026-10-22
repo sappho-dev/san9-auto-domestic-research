@@ -1,0 +1,73 @@
+name: Publish S8 candidate verification record
+
+on:
+  push:
+    tags:
+      - s8-candidate-latest
+
+permissions:
+  actions: read
+  contents: read
+  pull-requests: write
+
+jobs:
+  publish-record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Resolve candidate artifact and annotation
+        id: candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          COMMIT: ${{ github.sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          artifact_json="$(gh api "/repos/$REPO/actions/artifacts?per_page=100" \
+            --jq '.artifacts | map(select(.expired == false and (.name | contains("San9-S8-cross-step-candidate-'"$COMMIT"'")))) | sort_by(.created_at) | reverse | .[0]')"
+          if [[ "$artifact_json" == null || -z "$artifact_json" ]]; then
+            echo "No candidate artifact found for commit $COMMIT" >&2
+            exit 1
+          fi
+          artifact_name="$(jq -r '.name' <<<"$artifact_json")"
+          run_id="$(jq -r '.workflow_run.id' <<<"$artifact_json")"
+          annotation="$(git ls-remote --tags "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" refs/tags/s8-candidate-latest >/dev/null; gh api "/repos/$REPO/git/ref/tags/s8-candidate-latest" --jq '.object.sha')"
+          tag_message="$(gh api "/repos/$REPO/git/tags/$annotation" --jq '.message')"
+          candidate_sha="$(sed -n 's/.*sha256=\([0-9a-fA-F]\{64\}\).*/\1/p' <<<"$tag_message" | head -n1 | tr 'A-F' 'a-f')"
+          if [[ -z "$candidate_sha" ]]; then
+            echo "Candidate SHA-256 missing from annotated tag" >&2
+            exit 1
+          fi
+          echo "artifact_name=$artifact_name" >> "$GITHUB_OUTPUT"
+          echo "run_id=$run_id" >> "$GITHUB_OUTPUT"
+          echo "candidate_sha=$candidate_sha" >> "$GITHUB_OUTPUT"
+
+      - name: Comment exact verification record on draft PR 3
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          COMMIT: ${{ github.sha }}
+          ARTIFACT: ${{ steps.candidate.outputs.artifact_name }}
+          RUN_ID: ${{ steps.candidate.outputs.run_id }}
+          CANDIDATE_SHA: ${{ steps.candidate.outputs.candidate_sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          body="$(cat <<EOF
+          ## S8 候选包已完成自动验证
+
+          - 分支：\`fix/s8-cross-step-bound-city\`
+          - 精确提交：\`$COMMIT\`
+          - 恢复基线：\`1549d62\`
+          - Actions 产物：\`$ARTIFACT\`
+          - 候选 ZIP SHA-256：\`$CANDIDATE_SHA\`
+          - 原生构建与离线测试：通过
+          - 产品构建与回归测试：通过
+          - bound reader A/B × Controller/Bridge 路径矩阵：通过
+          - main：未修改
+
+          **唯一剩余人工门：使用该候选包完成一次“巡察→商业”实机验证。**
+          EOF
+          )"
+          gh pr comment 3 --repo "$REPO" --body "$body"

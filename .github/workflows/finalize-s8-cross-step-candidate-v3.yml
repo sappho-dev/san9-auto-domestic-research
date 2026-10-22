@@ -1,0 +1,140 @@
+name: Finalize S8 cross-step candidate v3
+
+on:
+  push:
+    branches:
+      - fix/s8-cross-step-bound-city
+    paths:
+      - .github/workflows/finalize-s8-cross-step-candidate-v3.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalize-s8-cross-step-candidate
+  cancel-in-progress: false
+
+jobs:
+  build-audit-package:
+    runs-on: windows-2025
+    timeout-minutes: 90
+    env:
+      REPAIR_BRANCH: fix/s8-cross-step-bound-city
+    steps:
+      - name: Disable Windows checkout newline rewriting
+        shell: pwsh
+        run: |
+          git config --global core.autrlf false
+          git config --global core.autocrlf false
+          git config --global core.eol lf
+
+      - name: Checkout repair branch with complete history
+        uses: actions/checkout@v4
+        with:
+          ref: fix/s8-cross-step-bound-city
+          fetch-depth: 0
+          clean: true
+
+      - name: Install pinned Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.0'
+          architecture: x64
+
+      - name: Install pinned Zig
+        uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+
+      - name: Install exact Python audit dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --disable-pip-version-check pefile==2024.8.26 capstone==5.0.7
+          $python = (Get-Command python.exe -ErrorAction Stop).Source
+          $zig = (Get-Command zig.exe -ErrorAction Stop).Source
+          Write-Host "python=$python sha256=$((Get-FileHash -Algorithm SHA256 -LiteralPath $python).Hash)"
+          Write-Host "zig=$zig sha256=$((Get-FileHash -Algorithm SHA256 -LiteralPath $zig).Hash)"
+
+      - name: Build, audit, test, and package candidate
+        shell: pwsh
+        run: |
+          & .\.github\scripts\finalize_s8_candidate.ps1 -Phase Build *>&1 |
+            Tee-Object -FilePath (Join-Path $env:RUNNER_TEMP 's8-finalize.log')
+          if ($LASTEXITCODE -ne 0) {
+            throw "S8 finalization script exited with $LASTEXITCODE"
+          }
+
+      - name: Upload candidate package
+        uses: actions/upload-artifact@v4
+        with:
+          name: San9-S8-cross-step-candidate-${{ github.run_id }}
+          path: ${{ env.CANDIDATE_ZIP }}
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Commit verified repair to repair branch only
+        shell: pwsh
+        run: |
+          & .\.github\scripts\finalize_s8_candidate.ps1 -Phase Commit
+          if ($LASTEXITCODE -ne 0) {
+            throw "S8 verified commit phase exited with $LASTEXITCODE"
+          }
+
+      - name: Persist failure diagnostics
+        if: failure()
+        shell: pwsh
+        continue-on-error: true
+        run: |
+          $report = New-Object System.Collections.Generic.List[string]
+          $report.Add('# S8 candidate pipeline failure')
+          $report.Add('')
+          $report.Add("- Workflow run: $env:GITHUB_RUN_ID")
+          $report.Add("- Commit: $env:GITHUB_SHA")
+          $report.Add("- UTC: $([DateTime]::UtcNow.ToString('o'))")
+          $report.Add('')
+          $report.Add('## Git status')
+          $report.Add('```text')
+          $report.AddRange([string[]](git status --short))
+          $report.Add('```')
+
+          foreach ($name in @(
+            's8-finalize.log',
+            'prepare-s8.log',
+            'native-bootstrap.log',
+            'native-final.log',
+            'offline-explicit.log',
+            'root-build.log'
+          )) {
+            $path = Join-Path $env:RUNNER_TEMP $name
+            if (Test-Path -LiteralPath $path -PathType Leaf) {
+              $report.Add('')
+              $report.Add("## $name — tail")
+              $report.Add('```text')
+              $report.AddRange([string[]](Get-Content -LiteralPath $path -Tail 320))
+              $report.Add('```')
+            }
+          }
+
+          $failurePath = Join-Path $PWD 'S8_PIPELINE_FAILURE.md'
+          [IO.File]::WriteAllLines($failurePath, $report, [Text.UTF8Encoding]::new($false))
+          git add -- S8_PIPELINE_FAILURE.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "chore: record S8 pipeline failure $env:GITHUB_RUN_ID [skip ci]"
+          git push origin HEAD:$env:REPAIR_BRANCH
+
+      - name: Upload failure logs
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S8-failure-logs-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/s8-finalize.log
+            ${{ runner.temp }}/prepare-s8.log
+            ${{ runner.temp }}/native-bootstrap.log
+            ${{ runner.temp }}/native-final.log
+            ${{ runner.temp }}/offline-explicit.log
+            ${{ runner.temp }}/root-build.log
+          if-no-files-found: ignore
+          retention-days: 14
