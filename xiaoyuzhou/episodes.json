@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-29T15:51:53Z",
+  "updated_at": "2026-10-30T15:33:31Z",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "id": "615a4035c8c1d14e83366946",
@@ -1495,8 +1495,8 @@
       "title": "孤岛车谈",
       "author": "孤岛车谈",
       "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9iYWUxLWF1ZGlvZnJlZWhpZ2hxcHMvM0UvRkQvQ01Db09TUUZIX284QUFHN0VBRGxXblMtLmpwZWc=.jpeg@small",
-      "last_checked_at": "2026-10-29T15:51:53Z",
-      "last_success_at": "2026-10-29T15:51:53Z",
+      "last_checked_at": "2026-10-30T15:33:31Z",
+      "last_success_at": "2026-10-30T15:33:31Z",
       "last_error": null,
       "consecutive_failures": 0
     },
@@ -2559,8 +2559,8 @@
       "title": "疯投圈",
       "author": "黄海、Rio",
       "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9jcmF6eS5jYXBpdGFsL2Fzc2V0cy9pY29uLXNxdWFyZS1ub3JtYWwtZGFyay1jbkA0eC5wbmc=.png@small",
-      "last_checked_at": "2026-10-29T15:51:53Z",
-      "last_success_at": "2026-10-29T15:51:53Z",
+      "last_checked_at": "2026-10-30T15:33:31Z",
+      "last_success_at": "2026-10-30T15:33:31Z",
       "last_error": null,
       "consecutive_failures": 0
     },
@@ -4568,8 +4568,8 @@
       "title": "乱翻书",
       "author": "乱局",
       "image": "https://image.xyzcdn.net/FqqQkG2Api63iYHz38DWlnFdR-1y.jpg@small",
-      "last_checked_at": "2026-10-29T15:51:53Z",
-      "last_success_at": "2026-10-29T15:51:53Z",
+      "last_checked_at": "2026-10-30T15:33:31Z",
+      "last_success_at": "2026-10-30T15:33:31Z",
       "last_error": null,
       "consecutive_failures": 0
     }
