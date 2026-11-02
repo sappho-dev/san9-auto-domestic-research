@@ -1,10 +1,17 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-01T15:45:52Z",
+  "updated_at": "2026-11-02T19:12:21Z",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "id": "615a4035c8c1d14e83366946",
       "episodes": [
+        {
+          "id": "6ae78c00e9f449d465d57c85",
+          "title": "213 极星：我的极星死在2026 对话嘉宾：苏源，潘永胜",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6ae78c00e9f449d465d57c85",
+          "published_at": "2026-11-01T18:31:23.000Z",
+          "duration_seconds": 5180
+        },
         {
           "id": "6ad4f1079554aaac00a10ca4",
           "title": "212 召回：用血、谎言和罚单堆出来的安全底线 对话嘉宾：林纯兴，杨洋",
@@ -1495,8 +1502,8 @@
       "title": "孤岛车谈",
       "author": "孤岛车谈",
       "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9iYWUxLWF1ZGlvZnJlZWhpZ2hxcHMvM0UvRkQvQ01Db09TUUZIX284QUFHN0VBRGxXblMtLmpwZWc=.jpeg@small",
-      "last_checked_at": "2026-11-01T15:45:52Z",
-      "last_success_at": "2026-11-01T15:45:52Z",
+      "last_checked_at": "2026-11-02T19:12:21Z",
+      "last_success_at": "2026-11-02T19:12:21Z",
       "last_error": null,
       "consecutive_failures": 0
     },
@@ -2559,8 +2566,8 @@
       "title": "疯投圈",
       "author": "黄海、Rio",
       "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9jcmF6eS5jYXBpdGFsL2Fzc2V0cy9pY29uLXNxdWFyZS1ub3JtYWwtZGFyay1jbkA0eC5wbmc=.png@small",
-      "last_checked_at": "2026-11-01T15:45:52Z",
-      "last_success_at": "2026-11-01T15:45:52Z",
+      "last_checked_at": "2026-11-02T19:12:21Z",
+      "last_success_at": "2026-11-02T19:12:21Z",
       "last_error": null,
       "consecutive_failures": 0
     },
@@ -4568,8 +4575,8 @@
       "title": "乱翻书",
       "author": "乱局",
       "image": "https://image.xyzcdn.net/FqqQkG2Api63iYHz38DWlnFdR-1y.jpg@small",
-      "last_checked_at": "2026-11-01T15:45:52Z",
-      "last_success_at": "2026-11-01T15:45:52Z",
+      "last_checked_at": "2026-11-02T19:12:21Z",
+      "last_success_at": "2026-11-02T19:12:21Z",
       "last_error": null,
       "consecutive_failures": 0
     }
