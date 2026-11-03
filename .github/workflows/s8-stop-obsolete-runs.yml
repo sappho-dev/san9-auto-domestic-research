@@ -1,0 +1,82 @@
+name: Stop obsolete S8 repair runs
+
+on:
+  push:
+    branches:
+      - fix/s8-cross-step-bound-city
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: write
+
+concurrency:
+  group: s8-stop-obsolete-runs
+  cancel-in-progress: true
+
+jobs:
+  stop-and-clean:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Cancel obsolete queued and running S8 workflows
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          BRANCH: fix/s8-cross-step-bound-city
+          SELF_RUN: ${{ github.run_id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          encoded="$(python -c 'import os, urllib.parse; print(urllib.parse.quote(os.environ["BRANCH"], safe=""))')"
+          gh api --paginate "/repos/$REPO/actions/runs?branch=$encoded&per_page=100" --jq '.workflow_runs[] | [.id,.status,.path] | @tsv' |
+          while IFS=$'\t' read -r id status path; do
+            [[ "$id" == "$SELF_RUN" ]] && continue
+            [[ "$status" == queued || "$status" == in_progress || "$status" == waiting || "$status" == pending ]] || continue
+            case "$path" in
+              .github/workflows/s8-verify-and-package-v7.yml|.github/workflows/s8-candidate-published.yml)
+                continue
+                ;;
+              .github/workflows/*s8*|.github/workflows/materialize-s8-*|.github/workflows/apply-s8-fix.yml|.github/workflows/decode-s8-patcher.yml|.github/workflows/recover-s8-plaintext.yml)
+                echo "Cancelling obsolete run $id path=$path status=$status"
+                gh api -X POST "/repos/$REPO/actions/runs/$id/cancel" >/dev/null || true
+                ;;
+            esac
+          done
+
+      - name: Delete obsolete workflow definitions from repair branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: fix/s8-cross-step-bound-city
+
+      - name: Commit workflow cleanup without retriggering CI
+        shell: bash
+        run: |
+          set -euo pipefail
+          git rm -f --ignore-unmatch -- \
+            .github/workflows/decode-s8-patcher.yml \
+            .github/workflows/recover-s8-plaintext.yml \
+            .github/workflows/apply-s8-fix.yml \
+            .github/workflows/materialize-s8-source.yml \
+            .github/workflows/materialize-s8-source-v2.yml \
+            .github/workflows/materialize-s8-source-v3.yml \
+            .github/workflows/materialize-s8-source-v4.yml \
+            .github/workflows/s8-verify-and-package.yml \
+            .github/workflows/s8-verify-and-package-v2.yml \
+            .github/workflows/s8-verify-and-package-v3.yml \
+            .github/workflows/s8-verify-and-package-v4.yml \
+            .github/workflows/s8-verify-and-package-v5.yml \
+            .github/workflows/s8-verify-and-package-v6.yml \
+            .github/workflows/s8-monitor-latest.yml \
+            .github/workflows/s8-monitor-v3.yml \
+            .github/workflows/s8-monitor-v4.yml \
+            .github/workflows/s8-monitor-v6.yml \
+            .github/workflows/s8-source-diagnostic.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: remove obsolete S8 repair workflows [skip ci]'
+            git pull --rebase origin fix/s8-cross-step-bound-city
+            git push origin HEAD:fix/s8-cross-step-bound-city
+          fi
