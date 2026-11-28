@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T18:41:33Z",
+  "updated_at": "2026-11-28T17:22:35Z",
   "channels": {
     "615a4035c8c1d14e83366946": {
       "id": "615a4035c8c1d14e83366946",
@@ -1502,14 +1502,21 @@
       "title": "孤岛车谈",
       "author": "孤岛车谈",
       "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9iYWUxLWF1ZGlvZnJlZWhpZ2hxcHMvM0UvRkQvQ01Db09TUUZIX284QUFHN0VBRGxXblMtLmpwZWc=.jpeg@small",
-      "last_checked_at": "2026-11-27T18:41:33Z",
-      "last_success_at": "2026-11-27T18:41:33Z",
+      "last_checked_at": "2026-11-28T17:22:35Z",
+      "last_success_at": "2026-11-28T17:22:35Z",
       "last_error": null,
       "consecutive_failures": 0
     },
     "5e280faf418a84a0461fbd39": {
       "id": "5e280faf418a84a0461fbd39",
       "episodes": [
+        {
+          "id": "6b09c38d490afb36cf55c6c9",
+          "title": "153 ✪ 从互联网到线下连锁：一家上市公司的二次创业——用信任破局复杂服务",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6b09c38d490afb36cf55c6c9",
+          "published_at": "2026-11-27T22:00:00.000Z",
+          "duration_seconds": 5990
+        },
         {
           "id": "6afc9e63e8584be108cf6635",
           "title": "152 ✪ 韩国考察回顾：文化乘数赋能消费品牌",
@@ -2580,8 +2587,8 @@
       "title": "疯投圈",
       "author": "黄海、Rio",
       "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9jcmF6eS5jYXBpdGFsL2Fzc2V0cy9pY29uLXNxdWFyZS1ub3JtYWwtZGFyay1jbkA0eC5wbmc=.png@small",
-      "last_checked_at": "2026-11-27T18:41:33Z",
-      "last_success_at": "2026-11-27T18:41:33Z",
+      "last_checked_at": "2026-11-28T17:22:35Z",
+      "last_success_at": "2026-11-28T17:22:35Z",
       "last_error": null,
       "consecutive_failures": 0
     },
@@ -4596,8 +4603,8 @@
       "title": "乱翻书",
       "author": "乱局",
       "image": "https://image.xyzcdn.net/FqqQkG2Api63iYHz38DWlnFdR-1y.jpg@small",
-      "last_checked_at": "2026-11-27T18:41:33Z",
-      "last_success_at": "2026-11-27T18:41:33Z",
+      "last_checked_at": "2026-11-28T17:22:35Z",
+      "last_success_at": "2026-11-28T17:22:35Z",
       "last_error": null,
       "consecutive_failures": 0
     }
